@@ -1,12 +1,13 @@
 require 'infoboxer'
 require 'geo/coord'
+require 'intem'
 
 class WhatIs
   AMBIGOUS_CATEGORY = 'Category:All disambiguation pages'.freeze
 
   class ThisIs
     EXTRACTORS = {
-      canonical: ->(page) { page.title },
+      title: ->(page) { page.title },
       coordinates: ->(page) {
         coord = page.source['coordinates']&.first or return nil
         Geo::Coord.from_h(coord)
@@ -22,9 +23,13 @@ class WhatIs
     class NotFound
       attr_reader :title
 
-      def initialize(infoboxer, title)
-        @infoboxer = infoboxer
+      def initialize(owner, title)
+        @owner = owner
         @title = title
+      end
+
+      def search(limit = 5)
+        @owner.search(title, limit)
       end
 
       def inspect
@@ -32,45 +37,65 @@ class WhatIs
       end
     end
 
-    class Ambigous
-      attr_reader :title, :page
+    class Ambigous < ThisIs
+      attr_reader :page
 
-      def initialize(infoboxer, title, page)
-        @infoboxer = infoboxer
-        @title = title
-        @page = page
-      end
+      #def initialize(infoboxer, title, page)
+        #@infoboxer = infoboxer
+        #@title = title
+        #@page = page
+      #end
 
-      def inspect
-        "#<ThisIs::Ambigous #{page.title}>"
-      end
+      #def inspect
+        #"#<ThisIs::Ambigous #{page.title}>"
+      #end
     end
 
-    def self.create(infoboxer, title, page)
+    def self.create(owner, title, page)
       case
       when page.nil?
-        NotFound.new(infoboxer, title)
+        NotFound.new(owner, title)
       when Array(page.source['categories']).any? { |c| c['title'] == AMBIGOUS_CATEGORY }
-        Ambigous.new(infoboxer, title, page)
+        Ambigous.new(owner, page)
       else
-        new(infoboxer, title, page)
+        new(owner, page)
       end
     end
 
-    attr_reader :title, :page
+    attr_reader :page
 
-    def initialize(infoboxer, title, page)
-      @infoboxer = infoboxer
-      @title, @page = title, page
+    def initialize(owner, page)
+      @owner = owner
+      @page = page
       @data = EXTRACTORS.map { |sym, proc| [sym, proc.call(page)] }.to_h
     end
 
+    INSPECT = InTem.parse('#<{class_name} {title}{coordinates | not nil? | prepend " (" | append ")"}>').freeze
+
     def inspect
-      "#<ThisIs #{canonical} #{coordinates}>"
+      INSPECT.render(@data.merge(class_name: self.class.name.sub('WhatIs::', '')))
     end
 
     EXTRACTORS.keys.each { |title| define_method(title) { @data[title] } }
   end
+
+  class << self
+    def [](lang)
+      all[lang]
+    end
+
+    def this(*titles, **options)
+      self[:en].this(*titles, **options)
+    end
+
+    private
+
+    def all
+      @all = Hash.new { |h, lang| h[lang] = WhatIs.new(lang) }
+    end
+  end
+
+  attr_reader :infoboxer
 
   def initialize(language = :en)
     @infoboxer = Infoboxer.wikipedia(language)
@@ -79,7 +104,12 @@ class WhatIs
   def this(*titles, **options)
     @infoboxer
       .get_h(*titles) { |req| setup_request(req, **options) }
-      .map { |title, page| ThisIs.create(@infoboxer, title, page) }
+      .map { |title, page| [title, ThisIs.create(self, title, page)] }.to_h
+  end
+
+  def search(title, limit = 5)
+    infoboxer.search(title, limit: limit, &method(:setup_request))
+          .map { |page| ThisIs.create(@owner, page.title, page) }
   end
 
   private
@@ -90,7 +120,7 @@ class WhatIs
     request = request.categories(AMBIGOUS_CATEGORY) unless categories
     if languages
       request = request.prop(:langlinks)
-      request = request.lang(*languages) unless languages == true
+      request = request.lang(languages) unless languages == true
     end
     request
   end
