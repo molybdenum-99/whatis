@@ -5,80 +5,6 @@ require 'intem'
 class WhatIs
   AMBIGOUS_CATEGORY = 'Category:All disambiguation pages'.freeze
 
-  class ThisIs
-    EXTRACTORS = {
-      title: ->(page) { page.title },
-      coordinates: ->(page) {
-        coord = page.source['coordinates']&.first or return nil
-        Geo::Coord.from_h(coord)
-      },
-      categories: ->(page) {
-        Array(page.source['categories']).map { |c| c['title'].split(':', 2).last }
-      },
-      languages: ->(page) {
-        Array(page.source['langlinks']).map { |l| [l['lang'], l['*']] }.to_h
-      }
-    }.freeze
-
-    class NotFound
-      attr_reader :title
-
-      def initialize(owner, title)
-        @owner = owner
-        @title = title
-      end
-
-      def search(limit = 5)
-        @owner.search(title, limit)
-      end
-
-      def inspect
-        "#<ThisIs::NotFound #{title}>"
-      end
-    end
-
-    class Ambigous < ThisIs
-      attr_reader :page
-
-      #def initialize(infoboxer, title, page)
-        #@infoboxer = infoboxer
-        #@title = title
-        #@page = page
-      #end
-
-      #def inspect
-        #"#<ThisIs::Ambigous #{page.title}>"
-      #end
-    end
-
-    def self.create(owner, title, page)
-      case
-      when page.nil?
-        NotFound.new(owner, title)
-      when Array(page.source['categories']).any? { |c| c['title'] == AMBIGOUS_CATEGORY }
-        Ambigous.new(owner, page)
-      else
-        new(owner, page)
-      end
-    end
-
-    attr_reader :page
-
-    def initialize(owner, page)
-      @owner = owner
-      @page = page
-      @data = EXTRACTORS.map { |sym, proc| [sym, proc.call(page)] }.to_h
-    end
-
-    INSPECT = InTem.parse('#<{class_name} {title}{coordinates | not nil? | prepend " (" | append ")"}>').freeze
-
-    def inspect
-      INSPECT.render(@data.merge(class_name: self.class.name.sub('WhatIs::', '')))
-    end
-
-    EXTRACTORS.keys.each { |title| define_method(title) { @data[title] } }
-  end
-
   class << self
     def [](lang)
       all[lang]
@@ -115,7 +41,7 @@ class WhatIs
   private
 
   def setup_request(request, categories: false, languages: false, **options)
-    request = request.prop(:coordinates, :categories)
+    request = request.prop(:coordinates, :categories).prop(:hidden)
     # We fetch just "disambig" category if not requested otherwise
     request = request.categories(AMBIGOUS_CATEGORY) unless categories
     if languages
@@ -125,3 +51,5 @@ class WhatIs
     request
   end
 end
+
+require_relative 'whatis/thisis'

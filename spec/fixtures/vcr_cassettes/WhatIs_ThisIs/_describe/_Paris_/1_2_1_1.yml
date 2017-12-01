@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&format=json&inprop=url&lllang=uk&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 30 Nov 2017 20:29:06 GMT
+      - Fri, 01 Dec 2017 23:27:00 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1234.eqiad.wmnet
+      - mw1200.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=71313 t=1512073746578890
+      - D=87878 t=1512170820545994
       X-Varnish:
-      - 461443722, 946406601, 958148743
+      - 592987660, 80792355, 320674450
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,24 +54,24 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1068 pass, cp3030 pass, cp3033 pass
+      - cp1054 pass, cp3042 pass, cp3043 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=30-Nov-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Mon,
-        01 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=30-Nov-2017;Path=/;HttpOnly;secure;Expires=Mon, 01 Jan 2018
+      - WMF-Last-Access-Global=01-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=01-Dec-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.61.146
+      - 94.179.63.32
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"redirects":[{"from":"Paris, France","to":"Paris"}],"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","revisions":[{"timestamp":"2017-11-30T13:59:06Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
+      string: '{"batchcomplete":"","query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","revisions":[{"timestamp":"2017-12-01T20:07:38Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
         capital of France}}\n{{pp-pc1}}\n{{Good article}}\n{{Use dmy dates|date=February
         2015}}\n{{EngvarB|date=November 2016}}\n{{Infobox French commune\n|name =
         Paris\n|commune status = [[Communes of France|Commune]] and [[Departments
@@ -1099,7 +1099,8 @@ http_interactions:
         web|url=http://www.recensement.insee.fr/chiffresCles.action?codeMessage=5&plusieursReponses=true&zoneSearchField=PARIS&codeZone=75056-COM&idTheme=3&rechercher=Rechercher|title=Commune
         : Paris (75056) \u2013 Th\u00e8me : \u00c9volution et structure de la population|author=[[INSEE|Institut
         National de la Statistique et des \u00c9tudes \u00c9conomiques]]|accessdate=3
-        July 2012|language=fr}}</ref>\n[[File:Paris Historical Population (1801-2008).png|thumb|left|250px|City
+        July 2012|language=fr|deadurl=yes|archiveurl=https://web.archive.org/web/20120829013036/http://www.recensement.insee.fr/chiffresCles.action?codeMessage=5&plusieursReponses=true&zoneSearchField=PARIS&codeZone=75056-COM&idTheme=3&rechercher=Rechercher|archivedate=29
+        August 2012|df=dmy-all}}</ref>\n[[File:Paris Historical Population (1801-2008).png|thumb|left|250px|City
         proper, urban area, and metropolitan area population from 1800 to 2010]]\n\nAccording
         to [[Eurostat]], the EU statistical agency, in 2012 the Commune of Paris was
         the most densely populated city in the European Union, with 21,616 people
@@ -2743,7 +2744,7 @@ http_interactions:
         places established in the 3rd century BC]]\n[[Category:Capitals in Europe]]\n[[Category:Cities
         in France]]\n[[Category:Companions of the Liberation]]\n[[Category:European
         culture]]\n[[Category:French culture]]\n[[Category:Prefectures in France]]\n[[Category:Departments
-        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-30T13:59:06Z","lastrevid":812890650,"length":230083,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"langlinks":[{"lang":"uk","*":"\u041f\u0430\u0440\u0438\u0436"}]}}}}'
+        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T20:07:38Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}]}}}}'
     http_version: 
-  recorded_at: Thu, 30 Nov 2017 20:29:06 GMT
+  recorded_at: Fri, 01 Dec 2017 23:27:00 GMT
 recorded_with: VCR 3.0.3

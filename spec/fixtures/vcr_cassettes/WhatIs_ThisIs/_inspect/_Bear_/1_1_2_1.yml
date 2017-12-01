@@ -1,0 +1,1207 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bear
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Dec 2017 23:26:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - mw1287.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=60689 t=1512170818509026
+      X-Varnish:
+      - 962041142, 356091244, 321296450
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3030 pass, cp3043 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=01-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=01-Dec-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.63.32
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"4400":{"pageid":4400,"ns":0,"title":"Bear","revisions":[{"timestamp":"2017-11-16T08:44:00Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{about|the
+        carnivoran mammals}}\n{{pp-move-indef}}\n{{pp-semi|small=yes}}\n{{good article}}\n{{Automatic
+        taxobox\n| taxon=Ursidae\n| name=Bears\n| fossil_range={{Geological range|38|0}}Late
+        [[Eocene]] \u2013 Recent\n| image=2010-brown-bear.jpg \n| image_upright=0.9\n|
+        image_caption=[[Brown bear]]\n| authority=[[Johann Fischer von Waldheim|G.
+        Fischer de Waldheim]], 1817\n| subdivision_ranks=Subfamilies\n| subdivision
+        =\n\u2020[[Amphicynodontinae]]<br>\n\u2020[[Hemicyonidae|Hemicyoninae]]<br>\n\u2020[[Ursavini|Ursavinae]]<br>\n\u2020[[Agriotheriinae]]<br>\n[[Ailuropodinae]]<br>\n[[Tremarctinae]]<br>\n[[Ursinae]]\n}}\n''''''Bears''''''
+        are [[carnivora]]n [[mammal]]s of the [[family (biology)|family]] ''''''Ursidae''''''.
+        They are classified as [[caniformia|caniforms]], or doglike carnivorans. Although
+        only eight [[species]] of bears are extant, they are widespread, appearing
+        in a wide variety of [[habitat]]s throughout the [[Northern Hemisphere]] and
+        partially in the [[Southern Hemisphere]]. Bears are found on the [[continent]]s
+        of [[North America]], [[South America]], [[Europe]], and [[Asia]]. Common
+        characteristics of modern bears include large bodies with stocky legs, long
+        snouts, small rounded ears, shaggy hair, [[plantigrade]] paws with five nonretractile
+        claws, and short tails.\n\nWhile the [[polar bear]] is mostly [[carnivore|carnivorous]],
+        and the [[giant panda]] feeds almost entirely on [[bamboo]], the remaining
+        six species are [[omnivore|omnivorous]] with varied diets. With the exception
+        of [[courting]] individuals and mothers with their young, bears are typically
+        [[solitary animals]]. They may be [[diurnality|diurnal]] or [[nocturnal]]
+        and have an excellent [[olfaction|sense of smell]]. Despite their heavy build
+        and awkward gait, they are adept runners, climbers, and swimmers.  Bears use
+        shelters, such as caves and logs, as their dens; most species occupy their
+        dens during the winter for a long period of [[hibernation]], up to 100 days.\n\nBears
+        have been hunted since [[prehistoric]] times for [[bear meat|their meat]]
+        and fur; they have been used for [[bear-baiting]] and other forms of entertainment,
+        such as being [[tame bear|made to dance]]. With their powerful physical presence,
+        they play a prominent role in [[the arts]], [[mythology]], and other cultural
+        aspects of various human societies. In modern times, bears have come under
+        pressure through encroachment on their habitats and illegal trade in bear
+        parts, including the Asian [[bile bear]] market. The [[World Conservation
+        Union|IUCN]] lists six bear species as [[vulnerable species|vulnerable]] or
+        [[endangered species|endangered]], and even [[least concern]] species, such
+        as the [[brown bear]], are at risk of [[Local extinction|extirpation]] in
+        certain countries. The poaching and international trade of these most threatened
+        populations are prohibited, but still ongoing.\n\n==Etymology==\nThe English
+        word \"bear\" comes from [[Old English]] ''''{{lang|ang|bera}}'''' and belongs
+        to a family of names for the bear in [[Germanic languages]], such as Swedish
+        ''''{{lang|sv|[[bjorn|bj\u00f6rn]]}}'''', also used as a first name, that
+        originate from an adjective meaning \"brown\".<!--<ref name=\"indo-european1959\">{{cite
+        book |author=Pokorny, Julius |authorlink=Julius Pokorny |title=Indogermanisches
+        etymologisches W\u00f6rterbuch |publisher=Francke |url=http://www.win.tue.nl/~aeb/natlang/ie/pokorny.html
+        |date=1959}}</ref>--><ref>{{cite web |title=bear (n.)|url=http://www.etymonline.com/index.php?term=bear
+        |publisher=Online Etymology Dictionary |accessdate=22 January 2017}}</ref>\n\nBear
+        taxon names such as [[Arctoidea]] and ''''[[Helarctos]]'''' come from the
+        ancient Greek word \u1f04\u03c1\u03ba\u03c4\u03bf\u03c2 (''''arktos''''),
+        meaning bear,<ref>{{cite dictionary |author1=Liddell, Henry George|author2=Scott,
+        Robert |url=http://www.perseus.tufts.edu/cgi-bin/ptext?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3D%2315199
+        |title=Arktos |work=A Greek-English Lexicon |publisher=Perseus Digital Library}}</ref>
+        as do the names \"[[arctic]]\" and \"[[antarctic]]\",  from the [[constellation]]
+        [[Ursa Major]], the \"Great Bear\", prominent in the northern sky.<ref name=UrsaMajor>{{cite
+        web |url=http://www.souledout.org/nightsky/ursamandm/ursamajorandminor.html
+        |title=The Great Bear Constellation Ursa Major |accessdate=12 January 2017
+        | archiveurl= https://web.archive.org/web/20101130031637/http://souledout.org/nightsky/ursamandm/ursamajorandminor.html
+        | archivedate= 30 November 2010 | deadurl= no}}</ref>\n\nBear taxon names
+        such as Ursidae and ''''Ursus'''' come from Latin ''''Ursus/Ursa'''', he-bear/she-bear.<ref
+        name=UrsaMajor/> The female first name \"Ursula\", originally derived from
+        a Christian [[St. Ursula|saint]]''s name, means \"little she-bear\" (diminutive
+        of Latin ''''ursa''''). In Switzerland, the male first name \"Urs\" is especially
+        popular, while the name of the canton and city of [[Bern]] is derived from
+        ''''B\u00e4r'''', [[German language|German]] for bear. The Germanic name [[Bernard]]
+        (including Bernhardt and similar forms) means \"bear-brave\", \"bear-hardy\",
+        or \"bold bear\".<ref>{{cite web |url=http://www.constellationsofwords.com/Constellations/UrsaMajor.html
+        |title=Ursa Major \u2013 the Greater Bear |publisher=constellationsofwords.com
+        |accessdate=11 March 2015}}</ref><ref>{{cite web |url=http://www.ancestry.com/name-origin?surname=bernhard
+        |title=Bernhard Family History |publisher=ancestry.com |accessdate=11 March
+        2015}}</ref> The Old English name [[Beowulf]] is a [[kenning]], \"bee-wolf\",  for
+        bear, in turn meaning a brave warrior.<ref>Sweet, Henry (1884) [https://archive.org/details/anglosaxonreader00sweerich
+        ''''Anglo-Saxon Reader in Prose and Verse'''']. The Clarendon Press, p. 202.</ref>\n\n==Taxonomy
+        and phylogeny==\nThe family Ursidae is one of nine families in the suborder
+        [[Caniformia]], or \"doglike\" carnivorans, within the [[Order (biology)|order]]
+        [[Carnivora]]. Bears'' closest living relatives are the [[pinniped]]s, [[Canidae|canids]],
+        and [[musteloidea|musteloid]]s.<ref name=Hunt2005>{{cite journal | author1=Welsey-Hunt,
+        G. D. | author2=Flynn, J. J. | year=2005 | title=Phylogeny of the Carnivora:
+        basal relationships among the Carnivoramorphans, and assessment of the position
+        of ''Miacoidea'' relative to Carnivora | journal=Journal of Systematic Palaeontology
+        | volume=3 | issue=1 | pages=1\u201328 | doi=10.1017/S1477201904001518}}</ref>
+        Modern bears comprise eight species in three subfamilies: [[Ailuropodinae]]
+        (monotypic with the [[giant panda]]), [[Tremarctinae]] (monotypic with the
+        [[spectacled bear]]), and [[Ursinae]] (containing six species divided into
+        one to three genera, depending on the authority). Nuclear chromosome analysis
+        show that the [[karyotype]] of the six ursine bears is nearly identical, with
+        each having 74 [[chromosome]]s, whereas the giant panda has 42 chromosomes
+        and the spectacled bear 52. These smaller numbers can be explained by the
+        fusing of some chromosomes, and the banding patterns on these match those
+        of the ursine species, but differ from those of procyonids, which supports
+        the inclusion of these two species in Ursidae rather than in [[Procyonidae]],
+        where they had been placed by some earlier authorities.<ref name=Servheen1999>{{cite
+        book| author=Servheen, Christopher |title=Bears: Status Survey and Conservation
+        Action Plan |url=https://books.google.com/books?id=XXQ03uVmCAIC&pg=PA26 |year=1999
+        |publisher=IUCN |isbn=978-2-8317-0462-3 |pages=26\u201330}}</ref>\n\n===Evolution===\n[[File:Plithocyon
+        armagnacensis.JPG|thumb|left|''''[[Plithocyon|Plithocyon armagnacensis]]''''
+        skull, a member of the extinct subfamily Hemicyoninae from the [[Miocene]]]]\n\nThe
+        earliest members of Ursidae belong to the extinct subfamily Amphicynodontinae,
+        including ''''[[Parictis]]'''' (late [[Eocene]] to early middle [[Miocene]],
+        38\u201318 [[Mya (unit)|Mya]]) and the slightly younger ''''Allocyon'''' (early
+        [[Oligocene]], 34\u201330 Mya), both from North America. These animals looked
+        very different from today''s bears, being small and raccoon-like in overall
+        appearance, and diets perhaps more similar to that of a badger. ''''Parictis''''
+        does not appear in Eurasia and Africa until the Miocene.<ref name=Kemp>{{cite
+        book | author=Kemp, T. S. | year=2005 | title=The Origin and Evolution of
+        Mammals | publisher=Oxford University Press | isbn=978-0-19-850760-4 |page=260}}</ref>
+        It is unclear whether late-Eocene ursids were also present in Eurasia, although
+        faunal exchange across the [[Bering land bridge]] may have been possible during
+        a major sea level low stand as early as the late Eocene (about 37 Mya) and
+        continuing into the early Oligocene.<ref name=Wang2>{{cite journal |author1=Banyue,
+        Wang |author2=Zhanxiang, Qiu |year=2005 |title=Notes on Early Oligocene Ursids
+        (Carnivora, Mammalia) from Saint Jacques, Nei Mongol, China |journal=Bulletin
+        of the American Museum of Natural History |issue=279 |pages=116\u2013124 |url=http://digitallibrary.amnh.org/dspace/bitstream/2246/447/22/B279a05.pdf
+        |doi=10.1206/0003-0090(2003)279<0116:C>2.0.CO;2 |volume=279 |archiveurl=https://www.webcitation.org/5lQDJK1oN?url=http://digitallibrary.amnh.org/dspace/bitstream/2246/447/22/B279a05.pdf
+        |archivedate=2009-11-20 |deadurl=no |df= }}</ref> European genera morphologically
+        are very similar to ''''Allocyon'''', and to the much younger American ''''[[Kolponomos]]''''
+        (about 18 Mya),<ref>{{Cite journal | last1=Tedford | first1=R. H. | authorlink=Richard
+        H. Tedford | last2=Barnes | first2=L. G. | last3=Ray | first3=C. E. | title=The
+        early Miocene littoral ursoid carnivoran ''''Kolponomos'''': Systematics and
+        mode of life | year=1994 | journal=Proceedings of the San Diego Society of
+        Natural History | volume=29 | pages=11\u201332 | url=http://www.biodiversitylibrary.org/pdf1/000389400021705.pdf
+        }}{{dead link|date=July 2017 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+        are known from the Oligocene, including ''''Amphicticeps'''' and ''''[[Amphicynodon]]''''.<ref
+        name=Wang2/>\n\nThe raccoon-sized, dog-like ''''[[Cephalogale]]'''' is the
+        oldest-known member of the subfamily [[Hemicyoninae]], which first appeared
+        during the middle Oligocene in Eurasia about 30 Mya.<ref name=Wang2/> The
+        subfamily includes the younger genera ''''[[Phoberocyon]]'''' (20\u201315
+        Mya), and ''''[[Plithocyon]]'''' (15\u20137 Mya). A ''''Cephalogale''''-like
+        species gave rise to the genus ''''[[Ursavus]]'''' during the early Oligocene
+        (30\u201328 Mya); this genus proliferated into many species in Asia and is
+        ancestral to all living bears. Species of ''''Ursavus'''' subsequently entered
+        North America, together with ''''Amphicynodon'''' and ''''Cephalogale'''',
+        during the early Miocene (21\u201318 Mya). Members of the living lineages
+        of bears diverged from ''''Ursavus'''' between 15 and 20 Mya,<ref>{{cite journal
+        |last1=Waits |first1=Lisette |title=Rapid radiation events in the family Ursidae
+        indicated by likelihood phylogenetic estimation from multiple fragments of
+        mtDNA | journal=Molecular Phylogenetics and Evolution|date=1999 |volume=13
+        |pages=82\u201392 |url=http://dobzhanskycenter.bio.spbu.ru/pdf/sjop/MS298_Waits_MolPhylogenetEvol.pdf
+        |doi=10.1006/mpev.1999.0637 |pmid=10508542}}</ref><ref>{{cite journal |last1=P\u00e0ges
+        |first1=Marie |title=Combined analysis of fourteen nuclear genes refines the
+        Ursidae phylogeny | journal=Molecular Phylogenetics and Evolution |date=2008
+        |volume=47 |pages=73\u201383 |doi=10.1016/j.ympev.2007.10.019 |pmid=18328735}}</ref>
+        likely via the species ''''Ursavus elmensis''''. Based on genetic and morphological
+        data, the Ailuropodinae (pandas) were the first to diverge from other living
+        bears about 19 Mya, although no fossils of this group have been found before
+        about 5 Mya.<ref name=\"krause2008\">{{Cite journal | last=Krause | first=J.
+        | author2=Unger, T. | author3=No\u00e7on, A. | author4=Malaspinas, A. | author5=Kolokotronis,
+        S. | author6=Stiller, M. | author7=Soibelzon, L. | author8=Spriggs, H. | author9=Dear,
+        P. H. | author10=Briggs, A. W. | author11=Bray, S. C. E. | author12=O''Brien,
+        S. J. | author13=Rabeder, G. | author14=Matheus, P. | author15=Cooper, A.
+        | author16=Slatkin, M. | author17=P\u00e4\u00e4bo, S. | author18=Hofreiter,
+        M. | title=Mitochondrial genomes reveal an explosive radiation of extinct
+        and extant bears near the Miocene-Pliocene boundary | journal=BMC Evolutionary
+        Biology | volume=8 | issue=220 | page=220 | year=2008 | pmid=18662376 | pmc=2518930|
+        doi=10.1186/1471-2148-8-220}}</ref>\n\nThe New World short-faced bears (Tremarctinae)
+        differentiated from Ursinae following a dispersal event into North America
+        during the mid-Miocene (about 13 Mya).<ref name=krause2008/> They [[Great
+        American Interchange|invaded South America]] (\u22481 Ma) following formation
+        of the [[Isthmus of Panama]].<ref>{{cite journal | last=Soibelzon | first=L.
+        H. | author2=Tonni, E. P. | author3=Bond, M. | title=The fossil record of
+        South American short-faced bears (Ursidae, Tremarctinae) | journal=Journal
+        of South American Earth Sciences | volume=20 | issue=1\u20132 | pages=105\u2013113
+        |year=2005| doi=10.1016/j.jsames.2005.07.005| hdl=10915/5366 }}</ref> Their
+        earliest fossil representative is ''''[[Plionarctos]]'''' in North America
+        (~&nbsp;10\u20132 Ma). This genus is probably the direct ancestor to the [[Short-faced
+        bear|North American short-faced bears]] (genus ''''Arctodus''''), the [[Arctotherium|South
+        American short-faced bears]] (''''Arctotherium''''), and the spectacled bears,
+        ''''Tremarctos'''', represented by both an extinct North American species
+        (''''[[Tremarctos floridanus|T. floridanus]]''''), and the lone surviving
+        representative of the Tremarctinae, the South American spectacled bear (''''T.
+        ornatus'''').<ref name=Wang2/>\n\n[[File:Teufelsh\u00f6hle-H\u00f6hlenb\u00e4r-Dreiviertelprofil.jpg|thumb|Fossil
+        of [[cave bear]] (''''Ursus spelaeus''''), a relative of the brown bear and
+        polar bear from the [[Pleistocene]] of Europe]]\nThe subfamily Ursinae experienced
+        a dramatic proliferation of taxa about 5.3\u20134.5 Mya, coincident with major
+        environmental changes; the first members of the genus ''''[[Ursus (genus)|Ursus]]''''
+        appeared around this time.<ref name=krause2008/> The [[sloth bear]] is a modern
+        survivor of one of the earliest lineages to diverge during this radiation
+        event (5.3 Mya); it took on its peculiar morphology, related to its diet of
+        termites and ants, no later than by the early Pleistocene. By 3\u20134 Mya,
+        the species ''''Ursus minimus'''' appears in the fossil record of Europe;
+        apart from its size, it was nearly identical to today''s [[Asian black bear]].
+        It is likely ancestral to all bears within Ursinae, perhaps aside from the
+        sloth bear. Two lineages evolved from ''''U. minimus'''': the black bears
+        (including the [[sun bear]], the Asian black bear, and the [[American black
+        bear]]); and the brown bears (which includes the [[polar bear]]). Modern [[brown
+        bear]]s evolved from ''''U. minimus'''' via ''''[[Ursus etruscus]]'''', which
+        itself is ancestral to the extinct [[Pleistocene]] [[cave bear]]. Species
+        of Ursinae have migrated repeatedly into North America from Eurasia as early
+        as 4 Mya during the early Pliocene. The polar bear is the most recently evolved
+        species and descended from the brown bear around 400,000 years ago.<ref name=Qiu>{{cite
+        journal |author=Qiu Zhanxiang |year=2003 |title=Dispersals of Neogene Carnivorans
+        between Asia and North America |journal=Bulletin of the American Museum of
+        Natural History |issue=279 |pages=18\u201331 |url=http://digitallibrary.amnh.org/dspace/bitstream/2246/447/25/B279a02.pdf
+        |doi=10.1206/0003-0090(2003)279<0018:C>2.0.CO;2 |volume=279 |archiveurl=https://www.webcitation.org/5lQDJK0Fa?url=http://digitallibrary.amnh.org/dspace/bitstream/2246/447/25/B279a02.pdf
+        |archivedate=20 November 2009 |deadurl=no |df= }}</ref><ref>Ward and Kynaston,
+        pp. 74\u201377</ref><ref name=\"Liu et al 2014\">{{cite journal|last1=Liu|first1=Shiping|last2=Lorenzen|first2=Eline
+        D.|last3=Fumagalli|first3=Matteo|last4=Li|first4=Bo|last5=Harris|first5=Kelley|last6=Xiong|first6=Zijun|last7=Zhou|first7=Long|last8=Korneliussen|first8=Thorfinn
+        Sand|last9=Somel|first9=Mehmet|last10=Babbitt|first10=Courtney|last11=Wray|first11=Greg|last12=Li|first12=Jianwen|last13=He|first13=Weiming|last14=Wang|first14=Zhuo|last15=Fu|first15=Wenjing|last16=Xiang|first16=Xueyan|last17=Morgan|first17=Claire
+        C.|last18=Doherty|first18=Aoife|last19=O''Connell|first19=Mary J.|last20=McInerney|first20=James
+        O.|last21=Born|first21=Erik W.|last22=Dal\u00e9n|first22=Love|last23=Dietz|first23=Rune|last24=Orlando|first24=Ludovic|last25=Sonne|first25=Christian|last26=Zhang|first26=Guojie|last27=Nielsen|first27=Rasmus|last28=Willerslev|first28=Eske|last29=Wang|first29=Jun|title=Population
+        Genomics Reveal Recent Speciation and Rapid Evolutionary Adaptation in Polar
+        Bears|journal=Cell|date=2014|volume=157|issue=4|pages=785\u2013794|doi=10.1016/j.cell.2014.03.054|url=http://www.cell.com/cell/abstract/S0092-8674(14)00488-7|pmid=24813606|pmc=4089990}}</ref>\n\n===Phylogeny===\nThe
+        bears form a [[clade]] within the Carnivora. The [[red panda]] is not a bear
+        but a musteloid. \nThe [[cladogram]] is based on [[molecular phylogeny]] of
+        six genes in Flynn, 2005.<ref name=\"Flynn2005\">{{Cite journal | author1=Flynn,
+        J. J. | author2=Finarelli, J. A. | author3=Zehr, S. | author4=Hsu, J. | author5=Nedbal,
+        M. A. |title=Molecular phylogeny of the Carnivora (Mammalia): Assessing the
+        impact of increased sampling on resolving enigmatic relationships |doi=10.1080/10635150590923326
+        | journal=Systematic Biology |volume=54 |issue=2 |pages=317\u201337 |year=2005
+        |pmid=16012099}}</ref>\n\n{{clade\n|label1=Carnivora\n|1={{clade\n   |1=[[Feliformia]]
+        [[File:Lydekker - Ocelot (white background).JPG|60px|Ocelot]]\n   |label2=&nbsp;&nbsp;&nbsp;[[Caniformia]]&nbsp;&nbsp;&nbsp;\n   |2={{clade\n      |1=[[Canidae]]
+        [[File:Dogs, jackals, wolves, and foxes (Plate XI).jpg|60px|African golden
+        wolf]]\n      |label2=&nbsp;&nbsp;&nbsp;[[Arctoidea]]&nbsp;&nbsp;&nbsp;\n      |2={{clade\n         |label1=&nbsp;&nbsp;&nbsp;\n         |1={{clade\n            |1=[[Hemicyonidae]]\u2020
+        [[File:Hemicyon white background.jpg|50px|Hemicyon sansaniensis]]\n            |2=''''''Ursidae''''''
+        [[File:Ursus arctos - 1700-1880 - Print - Iconographia Zoologica - Special
+        Collections University of Amsterdam - (white background).jpg|50px|Brown bear]]\n            }}\n         |2={{clade\n            |1=[[Pinnipedia]]  [[File:Cambridge
+        Natural History Mammalia Fig 230 white background.jpg|70px|Common seal]]\n            |label2=[[Musteloidea]]\n            |2={{clade\n               |1=[[Ailuridae]],
+        inc. [[red panda]] [[File:RedPandaFullBody white background.JPG|60px|Red panda]]\n               |2=Other
+        musteloids [[File:Fitch white background.png|60px|European polecat]]\n               }}\n            }}\n         }}\n      }}\n   }}\n}}\n\nThe
+        [[Phylogenetic tree|phylogeny]] of extant bear species is shown in a cladogram
+        based on complete [[mitochondrial DNA]] sequences from Yu et al., 2007.<ref>{{cite
+        journal |last1=Yu |first1=Li |last2=Li |first2=Yi-Wei |last3=Ryder |first3=Oliver
+        A. |last4=Zhang |first4=Ya-Ping |title=Analysis of complete mitochondrial
+        genome sequences increases phylogenetic resolution of bears (Ursidae), a mammalian
+        family that experienced rapid speciation| journal=BMC Evolutionary Biology
+        |date=2007 |volume=7 |issue=198 |doi=10.1186/1471-2148-7-198 |url=http://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-7-198}}</ref>
+        The giant panda, followed by the spectacled bear are clearly the oldest species.
+        The relationships of the other species are not very well resolved, though
+        the polar bear and the brown bear form a close grouping.<ref name=Servheen1999/>\n\n{{clade\n   |label1=''''''Ursidae''''''\n   |1={{clade\n     |1={{clade\n        |1={{clade\n           |1={{clade\n              |1={{clade\n                 |1=[[Brown
+        bear]] [[File:Ursus arctos - 1700-1880 - Print - Iconographia Zoologica -
+        Special Collections University of Amsterdam - (white background).jpg|70px]]\n                 |2=[[Polar
+        bear]] [[File:Lossy-page1-2518px-Ursus maritimus - 1700-1880 - Print - Iconographia
+        Zoologica - Special Collections University of Amsterdam - (white background).jpg|70px]]\n                 }}\n              |2={{clade\n                 |1={{clade\n                    |1=[[Asian
+        black bear]] [[File:Ursus thibetanus - 1700-1880 - Print - Iconographia Zoologica
+        - Special Collections University of Amsterdam -(white background).jpg|70px]]\n                    |2=[[American
+        black bear]] [[File:Ursus americanus - 1700-1880 - Print - Iconographia Zoologica
+        - Special Collections University of Amsterdam - (white background).jpg|70px]]\n                    }}\n                 |2=[[Sun
+        bear]] [[File:Ursus malayanus - 1700-1880 - Print - Iconographia Zoologica
+        - Special Collections University of Amsterdam - (white background).jpg|70px]]\n                 }}\n              }}\n           |2=[[Sloth
+        bear]] [[File:Tremarctos ornatus 1824 (flipped).jpg|70px]]\n           }}\n        |2=[[Spectacled
+        bear]] [[File:Spectacled bear (1829).jpg|70px]]\n        }}\n     |2=[[Giant
+        panda]] [[File:Recherches pour servir \u00e0 l''histoire naturelle des mammif\u00e8res
+        (Pl. 50) (white background).jpg|70px]]\n   }}\n}}\n\n===Classification===\n\nExtant
+        species are shown in bold, extinct taxa are marked \u2020.<ref>{{cite journal|last1=Simpson|first1=George
+        Gaylord|title=The principles of classification and a classification of mammals|journal=Bulletin
+        of the AMNH|date=1945|volume=85|pages=111\u2013112|url=http://digitallibrary.amnh.org/handle/2246/1104}}</ref>\n\n*
+        ''''''Family Ursidae''''''\n** [[Ailuropodinae|Subfamily Ailuropodinae]]<ref>{{cite
+        journal |author=Abella, Juan|display-authors=etal|title=''''Kretzoiarctos''''
+        gen. nov., the oldest member of the giant panda clade |journal=PLOS ONE |volume=7
+        |issue=11 |date=2012 |page=e48985 |doi=10.1371/journal.pone.0048985 |pmid=23155439
+        |pmc=3498366}}</ref>\n*** [[Extinction|\u2020]] ''''[[Ailurarctos]]''''\n****
+        \u2020 ''''Ailurarctos lufengensis''''\n**** \u2020 ''''Ailurarctos yuanmouenensis''''\n***
+        ''''[[Ailuropoda]]'''' (pandas) [[File:Kretzoiarctos beatrix lower jaws.png|thumb|''''[[Kretzoiarctos
+        beatrix]]'''' lower jaws, this European species from the Miocene was a relative
+        of the modern giant panda.]]\n**** \u2020 ''''[[Ailuropoda baconi]]''''\n****
+        \u2020 ''''[[Ailuropoda fovealis]]''''\n**** ''''''''''[[Ailuropoda melanoleuca]]''''''''''
+        \u2013 ''''''giant panda''''''\n**** \u2020 ''''[[Ailuropoda microta]]''''\n****
+        \u2020 ''''[[Ailuropoda wulingshanensis]]''''\n*** {{extinct}} ''''[[Kretzoiarctos]]''''  \n**
+        [[Tremarctinae|Subfamily Tremarctinae]]<ref>{{cite journal |author1=Kieren
+        J. Mitchell|author2=Sarah C. Bray|author3=Pere Bover|author4=Leopoldo Soibelzon|author5=Blaine
+        W. Schubert|author6=Francisco Prevosti|author7=Alfredo Prieto|author8=Fabiana
+        Martin|author9=Jeremy J. Austin|author10=Alan Cooper |year=2016 |title=Ancient
+        mitochondrial DNA reveals convergent evolution of giant short-faced bears
+        (Tremarctinae) in North and South America |journal=Biology Letters |volume=12
+        |issue=4 |pages=20160062 |doi=10.1098/rsbl.2016.0062 |pmid=27095265 |pmc=4881349}}</ref>\n***
+        \u2020 ''''[[Plionarctos]]''''\n**** \u2020 ''''Plionarctos edensis''''\n****
+        \u2020 ''''Plionarctos harroldorum''''\n*** ''''[[Tremarctos]]'''' (spectacled
+        bears)\n**** ''''''''''[[Tremarctos ornatus]]'''''''''' \u2013 ''''''spectacled
+        bear''''''\n**** \u2020 ''''[[Tremarctos floridanus]]'''' \u2013 ''''Florida
+        spectacled bear''''\n*** \u2020 ''''[[Arctodus]]''''  [[File:ArctodusSimusSkeleton.jpg|thumb|''''[[Arctodus
+        simus]]'''' of Pleistocene and Early [[Holocene]] North America was the largest
+        known bear.<ref name=\"weight\">{{cite journal|url=http://www.sekj.org/PDF/anzf36/anzf36-093p.pdf
+        |journal=Annales Zoologici Fennici |volume=36 |pages=93\u2013102 |year=1999
+        |title=What size were Arctodus simus and Ursus spelaeus (Carnivora: Ursidae)?
+        |author=Per Christiansen}}</ref>]]\n**** \u2020 ''''Arctodus simus'''' \u2013
+        ''''giant short-faced bear''''\n**** \u2020 ''''Arctodus pristinus''''\n***
+        \u2020 ''''[[Arctotherium]]'''' [[File:Arctotherium.jpg|thumb|Restoration
+        of ''''[[Arctotherium]]'''', a South American Pleistocene genus from a lineage
+        whose only survivor is the [[spectacled bear]]]]\n**** \u2020 ''''Arctotherium
+        angustidens''''\n**** \u2020 ''''Arctotherium bonariense''''\n**** \u2020
+        ''''Arctotherium brasilense''''\n**** \u2020 ''''Arctotherium latidens''''\n****
+        \u2020 ''''Arctotherium tarijense''''\n**** \u2020 ''''Arctotherium vetustum''''\n****
+        \u2020 ''''Arctotherium wingei''''\n** [[Ursinae|Subfamily Ursinae]]\n***
+        \u2020 ''''[[Ursavus]]''''\n**** \u2020 ''''Ursavus brevirhinus''''\n****
+        \u2020 ''''Ursavus depereti''''\n**** \u2020 ''''Ursavus elmensis''''\n****
+        \u2020 ''''Ursavus pawniensis''''\n**** \u2020 ''''Ursavus primaevus''''\n****
+        \u2020 ''''Ursavus tedfordi''''\n*** \u2020 ''''[[Indarctos]]'''' [[File:Indarctos
+        atticus.jpg|thumb|upright|Skull of ''''[[Indarctos|Indarctos atticus]]''''.
+        ''''Indarctos'''' was a [[Miocene]] genus found across the northern hemisphere.<ref>{{cite
+        journal|last1=McLellan|first1=Bruce|last2=Reiner|first2=David C.|title=A Review
+        of Bear Evolution|journal=Int. Conf. Bear Res. and Management|date=1994|volume=9|issue=1|pages=85\u201396|url=http://www.bearbiology.com/fileadmin/tpl/Downloads/URSUS/Vol_9/McLellan_Reiner_Vol_9.pdf|doi=10.2307/3872687}}</ref>]]\n****
+        \u2020 ''''Indarctos anthraciti''''\n**** \u2020 ''''Indarctos arctoides''''\n****
+        \u2020 ''''Indarctos atticus''''\n**** \u2020 ''''Indarctos nevadensis''''\n****
+        \u2020 ''''Indarctos oregonensis''''\n**** \u2020 ''''Indarctos salmontanus''''\n****
+        \u2020 ''''Indarctos vireti''''\n**** \u2020 ''''Indarctos zdanskyi''''\n***
+        \u2020 ''''[[Agriotherium]]'''' [[File:Agriotherium maraghanus mandible.JPG|thumb|''''[[Agriotherium]]''''
+        mandible, this Miocene to Pleistocene genus is the only known ursid to have
+        lived in [[sub-Saharan Africa]].<ref>{{cite journal|author=Howell, F. C.|year=2007|title=Carnivora
+        (Mammalia) From Lemudong\u2019o (Late Miocene: Narok District, Kenya)|journal=Kirtlandia|volume=556|pages=121\u2013139|url=http://ib.berkeley.edu/labs/hlusko/kirt-56-00-121.pdf}}</ref>]]\n****
+        \u2020 ''''Agriotherium inexpetans''''\n**** \u2020 ''''Agriotherium schneideri''''\n****
+        \u2020 ''''Agriotherium sivalensis''''\n*** ''''[[Melursus]]''''\n**** ''''''''''[[Melursus
+        ursinus]]'''''''''' \u2013 ''''''sloth bear''''''\n*** ''''[[Helarctos]]''''\n****
+        ''''''''''[[Helarctos malayanus]]'''''''''' \u2013 ''''''sun bear''''''\n***
+        ''''[[Ursus (genus)|Ursus]]''''\n**** \u2020 ''''[[Ursus rossicus]]''''\n****
+        \u2020 ''''[[Ursus sackdillingensis]]''''\n**** \u2020 ''''[[Ursus minimus]]''''\n****
+        ''''''''''[[Ursus thibetanus]]'''''''''' \u2013 ''''''Asian black bear''''''\n****
+        \u2020 ''''[[Ursus abstrusus]]''''\n**** ''''''''''[[Ursus americanus]]''''''''''
+        \u2013 ''''''American black bear''''''\n**** \u2020 ''''[[Ursus etruscus]]''''\n****
+        ''''''''''[[Ursus arctos]]'''''''''' \u2013 ''''''brown bear''''''\n**** ''''''''''[[Ursus
+        maritimus]]'''''''''' \u2013 ''''''polar bear''''''\n**** \u2020 ''''[[Ursus
+        savini]]''''\n**** \u2020 ''''[[Ursus deningeri]]''''\n**** \u2020 ''''[[Ursus
+        spelaeus]]'''' \u2013 ''''cave bear''''\n**** \u2020 ''''[[Ursus inopinatus]]'''',
+        MacFarlane''s bear ([[cryptid]]; possibly a hybrid)\n** \u2020 ''''[[Kolponomos]]''''\n***
+        \u2020 ''''Kolponomos clallamensis''''\n*** \u2020 ''''Kolponomos newportensis''''\n\n==Physical
+        characteristics==\n===Size===\n{{multiple image\n | direction = horizontal\n
+        | width = 200\n | align = right\n | image1 = Polar Bear AdF.jpg\n | image2
+        = Sepilok Sabah BSBCC-photos-by-Wong-Siew-Te-06.jpg\n | footer = Polar bear
+        (left) and sun bear, the largest and smallest species respectively.<ref name=NatGeogPolar/><ref
+        name=NatGeogSunBear/>\n}}\nBears include the most massive extant terrestrial
+        members of the order Carnivora.{{efn|Treating [[Pinniped]]s<ref name=\"Illiger1811\">{{cite
+        book |author=Illiger, J. K. W. |title=Prodromus Systematis Mammalium et Avium
+        |year=1811 |publisher=Sumptibus C.&nbsp;Salfeld |pages=138\u201339 |url=https://archive.org/stream/caroliilligerida00illi#page/138/mode/2up
+        |language=Latin}}</ref> as [[marine mammal]]s}} Polar bears weigh up to {{convert|1600|lb|kg|abbr=on}}.<ref
+        name=NatGeogPolar/> The smallest are the sun bears of Asia, which weigh up
+        to {{convert|150|lb|kg|abbr=on}}.<ref name=NatGeogSunBear>{{cite web |title=Sun
+        Bear |url=http://animals.nationalgeographic.com/animals/mammals/sun-bear/
+        |publisher=National Geographic |accessdate=22 January 2017}}</ref>\nBody weight
+        varies throughout the year in bears of temperate and arctic climates, as they
+        build up fat reserves in the summer and autumn and lose weight during the
+        winter.<ref name=\"Marshall Cavendish\"/> Head-and-body length can range from
+        {{convert|150|cm|in|abbr=on}} in sun bears<ref name=NatGeogSunBear/> to {{convert|244|cm|in|abbr=on}}
+        in polar bears.<ref name=NatGeogPolar>{{cite web |title=Polar Bear |url=http://www.nationalgeographic.com/animals/mammals/p/polar-bear/
+        |publisher=National Geographic |accessdate=22 January 2017}}</ref>\n\n===Morphology===\n[[File:Bear
+        foot.jpg|thumb|left|upright=1.2|Unlike most other Carnivora, bears have [[plantigrade]]
+        feet. Drawing by [[Richard Owen]], 1866]]\n\nBears are generally bulky and
+        robust animals with short tails. They are [[sexual dimorphism|sexually dimorphic]]
+        with regard to size, with males typically being larger.<ref name=Derocheretal86>{{cite
+        journal|last=Derocher|first=Andrew E.| author2=Andersen, Magnus | author3=Wiig,
+        \u00d8ystein |title=Sexual dimorphism of polar bears | journal=Journal of
+        Mammalogy |year=2005 |volume=86 |issue=5 |pages=895\u2013901 |doi=10.1644/1545-1542(2005)86[895:SDOPB]2.0.CO;2
+        |url=http://cstl-csm.semo.edu/jhrobins/BS107Page/protected/Readings/polarbearssd.pdf}}</ref><ref
+        name=Hunt98>{{Cite book | author=Hunt, R. M. Jr. |year=1998 |chapter=Ursidae
+        |editor1=Janis, Christine M. |editor2=Scott, Kathleen M. |editor3=Jacobs,
+        Louis L. |title=Evolution of Tertiary Mammals of North America, volume 1:
+        Terrestrial carnivores, ungulates, and ungulatelike mammals |location=Cambridge,
+        England |publisher=Cambridge University Press |pages=174\u2013195 |isbn=978-0-521-35519-3}}</ref>
+        Larger species tend to show increased levels of sexual dimorphism in comparison
+        to smaller species.<ref name=Hunt98/> Relying as they do on strength rather
+        than speed, bears have relatively short limbs with thick bones to support
+        their bulk. The [[Scapula|shoulder blades]] and the [[pelvis]] are correspondingly
+        massive. The limbs are much straighter than those of the [[big cat]]s as there
+        is no need for them to flex in the same way due to the differences in their
+        gait. The strong forelimbs are used to catch prey, to excavate dens, to dig
+        out burrowing animals, to turn over rocks and logs to locate prey, and to
+        club large creatures.<ref name=\"Marshall Cavendish\"/>\n\n[[File:Black bear
+        large.jpg|thumb|upright|Despite being [[quadruped]]s, bears can stand and
+        sit as humans do.]]\nUnlike most other land carnivorans, bears are [[plantigrade]].
+        They distribute their weight toward the hind feet, which makes them look lumbering
+        when they walk. They are capable of bursts of speed but soon tire, and as
+        a result mostly rely on ambush rather than the chase. Bears can stand on their
+        hind feet and sit up straight with remarkable balance. Their front paws are
+        flexible enough to grasp fruit and leaves. Bears'' non-retractable claws are
+        used for digging, climbing, tearing, and catching prey. The claws on the front
+        feet are larger than those on the back and may be a hindrance when climbing
+        trees; black bears are the most arboreal of the bears, and have the shortest
+        claws. Pandas are unique in having a bony extension on the wrist of the front
+        feet which acts as a thumb, and is used for gripping [[bamboo]] shoots as
+        the animals feed.<ref name=\"Marshall Cavendish\"/>\n\nMost mammals have [[Agouti
+        (coloration)|agouti]] hair, with each individual hair shaft having bands of
+        colour corresponding to two different types of [[melanin]] pigment. Bears
+        however have a single type of melanin and the hairs have a single colour throughout
+        their length, apart from the tip which is sometimes a different shade. The
+        coat consists of long guard hairs, which form a protective shaggy covering,
+        and short dense hairs which form an insulating layer trapping air close to
+        the skin. The shaggy coat helps maintain body heat during winter hibernation
+        and is shed in the spring leaving a shorter summer coat. Polar bears have
+        hollow, translucent guard hairs which gain heat from the sun and conduct it
+        to the dark-coloured skin below. They have a thick layer of blubber for extra
+        insulation, and the soles of their feet have a dense pad of fur.<ref name=\"Marshall
+        Cavendish\"/> Other than the bold black-and-white pelage of the panda, bears
+        tend to be uniform in colour, although some species may have markings on the
+        chest or face.<ref name=\"Ward124\"/>\n\nBears have small rounded ears so
+        as to minimise heat loss, but neither their hearing or sight are particularly
+        acute. Unlike many other carnivorans they have [[colour vision]], perhaps
+        to help them distinguish ripe nuts and fruits. They are unique among carnivorans
+        in not having touch-sensitive [[whiskers]] on the muzzle; however, they have
+        an excellent [[olfaction|sense of smell]], better than that of the [[dog]],
+        or possibly any other mammal. They use smell for signalling to each other
+        (either to warn off rivals or detect mates) and for finding food. Smell is
+        the principal sense used by bears to locate most of their food, and they have
+        excellent memories which helps them to relocate places where they have found
+        food before.<ref name=\"Marshall Cavendish\"/>\n\n[[File:Melursus skull.jpg|thumb|right|Sloth
+        bear skull]]\n\nThe [[skull]]s of bears are massive, providing anchorage for
+        the powerful [[Masseter muscle|masseter]] and [[temporal muscle|temporal]]
+        jaw muscles. The [[canine tooth|canine teeth]] are large but mostly used for
+        display, and the [[molar (tooth)|molar]] teeth flat and crushing. Unlike most
+        other members of the Carnivora, bears have relatively undeveloped [[carnassial]]
+        teeth, and their teeth are adapted for a diet that includes a significant
+        amount of vegetable matter.<ref name=\"Marshall Cavendish\">{{cite book| author=Anon
+        |title=Mammal Anatomy: An Illustrated Guide |url=https://books.google.com/books?id=mTPI_d9fyLAC&pg=PA104
+        |year=2010 |publisher=Marshall Cavendish |isbn=978-0-7614-7882-9 |pages=104\u2013123}}</ref>
+        Considerable variation occurs in [[dentition|dental formula]] even within
+        a given species. This may indicate bears are still in the process of evolving
+        from a mainly meat-eating diet to a predominantly herbivorous one. Polar bears
+        appear to have secondarily re-evolved carnassial-like cheek teeth, as their
+        diets have switched back towards carnivory.<ref name=EoM>{{cite book |editor=Macdonald,
+        D. | author=Bunnell, Fred |year=1984 |title= The Encyclopedia of Mammals |publisher=Facts
+        on File |page=87 |isbn=978-0-87196-871-5}}</ref> Sloth bears lack lower central
+        incisors and use their protusible lips for sucking up the termites on which
+        they feed.<ref name=\"Marshall Cavendish\"/> The general dental formula for
+        living bears is:\n{{DentalFormula|upper=3.1.2\u20134.2|lower=3.1.2\u20134.3}}.<ref
+        name=\"Marshall Cavendish\"/> The structure of the [[larynx]] of bears appears
+        to be the most [[Basal (phylogenetics)|basal]] of the caniforms.<ref name=\"Ward117\"/>  They
+        possess air pouches connected to the [[pharynx]] which may [[vocal resonance|amplify]]
+        their vocalisations.<ref>{{cite journal| author1=Weissengruber, G. E.|author2=Forstenpointner,
+        G.|author3=K\u00fcbber-Heiss, A.|author4=Riedelberger, K.|author5=Schwammer,
+        H.|author6=Ganzberger, K.|year=2001 |title=Occurrence and structure of epipharyngeal
+        pouches in bears (Ursidae) | journal=Journal of Anatomy |volume=198 |issue=3
+        |pages=309\u201314 |pmid=11322723 |pmc=1468220 |url=http://www.academia.edu/9574577/Occurrence_and_structure_of_epipharyngeal_pouches_in_bears_Ursidae
+        |doi=10.1046/j.1469-7580.2001.19830309.x}}</ref>\n\nBears have a fairly simple
+        digestive system typical for carnivorans, with a single stomach, short undifferentiated
+        intestines and no [[cecum]].<ref>{{cite book |author1=Schwartz, C. C.|author2=Miller,
+        S. D.|author3=Haroldson, M. A. |contribution=Grizzly Bear |title=Wild Mammals
+        of North America; biology, management and conservation |publisher=Johns Hopkins
+        University Press |editor1=Feldhamer, G.|editor2=Thompson, B.|editor3=Chapman,
+        J. |page=562 |isbn=978-0-8018-7416-1|url=https://books.google.com/books?id=-xQalfqP7BcC&printsec=frontcover#v=snippet&q=%22Bear%22&f=false}}</ref><ref
+        name=\"nps\"/> Even the herbivorous giant panda still has the digestive system
+        of a carnivore, as well as carnivore-specific genes. Its ability to digest
+        [[cellulose]] is ascribed to the microbes in its gut.<ref>{{cite journal |
+        author=Ruiqiang Li | title=The sequence and de novo assembly of the giant
+        panda genome | journal=Nature | volume=463 | issue=21 | pages=311\u2013317
+        | year=2010 | pmid=20010809 | pmc=3951497 | doi=10.1038/nature08696 | ref=harv
+        | bibcode=2010Natur.463..311L | first2=Wei | last3=Tian | first3=Geng | last4=Zhu
+        | first4=Hongmei | last5=He | first5=Lin | last6=Cai | first6=Jing | last7=Huang
+        | first7=Quanfei | last8=Cai | first8=Qingle | last9=Li | first9=Bo | last10=Bai
+        | first10=Yinqi | last11=Zhang | first11=Zhihe | last12=Zhang | first12=Yaping
+        | last13=Wang | first13=Wen | last14=Li | first14=Jun | last15=Wei | first15=Fuwen
+        | last16=Li | first16=Heng | last17=Jian | first17=Min | last18=Li | first18=Jianwen
+        | last19=Zhang | first19=Zhaolei | last20=Nielsen | first20=Rasmus | last21=Li
+        | first21=Dawei | last22=Gu | first22=Wanjun | last23=Yang | first23=Zhentao
+        | last24=Xuan | first24=Zhaoling | last25=Ryder | first25=Oliver A. | last26=Leung
+        | first26=Frederick Chi-Ching | last27=Zhou | first27=Yan | last28=Cao | first28=Jianjun
+        | last29=Sun | first29=Xiao | last30=Fu | first30=Yonggui | author2=and others
+        | display-authors=29 }}</ref> Bears must spend much of their time feeding
+        in order to gain enough nutrition from foliage. The panda, in particular,
+        spends 12\u201315 hours a day feeding.<ref name=\"Ward83\"/>\n\n==Distribution
+        and habitat==\n[[File:Spectacled Bear 161 (2).jpg|thumb|right|The [[spectacled
+        bear]] is the only species found in South America.<ref name=\"ServheenForeword\"/>]]\n{{Further|List
+        of carnivorans by population}}\n\nExtant bears are found in sixty countries
+        primarily in the Northern Hemisphere and are concentrated in Asia, North America,
+        and Europe. An exception is the spectacled bear; native to South America,
+        it inhabits the [[Andes|Andean region]].<ref name=\"ServheenForeword\"/> The
+        sun bear''s range extends below the equator in Southeast Asia.<ref>Ward and
+        Kynaston, p.52</ref> The [[Atlas bear]], a subspecies of the brown bear was
+        distributed in North Africa from Morocco to Libya, but it became extinct around
+        the 1870s.<ref>{{cite journal |last=Hamdine |first=Watik |author2=Th\u00e9venot,
+        Michel|author3= Michaux, Jacques |year=1998 |month= |title=Histoire r\u00e9cente
+        de l''ours brun au Maghreb |journal=Comptes Rendus de l''Acad\u00e9mie des
+        Sciences |volume=321 |issue=7 |pages=565\u2013570 |doi=10.1016/S0764-4469(98)80458-7
+        |language=French }}</ref>\n\nThe most widespread species is the brown bear,
+        which occurs from Western Europe eastwards through Asia to the western areas
+        of North America. The American black bear is restricted to North America,
+        and the polar bear is restricted to the Arctic Sea. All the remaining species
+        of bear are Asian.<ref name=\"ServheenForeword\">{{cite book |author=Servheen,
+        Christopher |title=Bears: Status Survey and Conservation Action Plan |url=https://books.google.com/books?id=XXQ03uVmCAIC&pg=PR5
+        |year=1999 |publisher=IUCN |isbn=978-2-8317-0462-3 |pages=5\u201310 |quote=They
+        are opportunistic omnivores whose diet varies from plant foliage, roots, and
+        fruits; insect adults, larvae, and eggs; animal matter from carrion; animal
+        matter from predation; and fish. Their dentition and digestive system reflects
+        this varied diet.}}</ref> They occur in a range of habitats which include
+        tropical lowland rainforest, both coniferous and broadleaf forests, prairies,
+        steppes, montane grassland, alpine scree slopes, Arctic tundra and in the
+        case of the polar bear, [[Drift ice|ice floes]].<ref name=\"ServheenForeword\"/><ref
+        name=Walker/> Bears may dig their dens in hillsides or use caves, hollow logs
+        and dense vegetation for shelter.<ref name=Walker/>\n\n==Behaviour and life
+        history==\n[[File:Bear tracks (5062843250).jpg|thumb|right|American black
+        bear tracks]]\nBrown and American black bears are generally [[diurnality|diurnal]],
+        meaning that they are active for the most part during the day, though they
+        may forage substantially by night.<ref>{{cite journal |last1=Klinka |first1=D.
+        R. |last2=Reimchen |first2=T. E. |title=Nocturnal and diurnal foraging behaviour
+        of brown bears ( Ursus arctos ) on a salmon stream in coastal British Columbia
+        |url=http://web.uvic.ca/~reimlab/noctdibrbear.pdf | journal=Canadian Journal
+        of Zoology |volume=80 |pages=1317\u20131322 |date=2002 |doi=10.1139/Z02-123}}</ref>
+        Other species may be [[nocturnal]], active at night, though female sloth bears
+        with cubs may feed more at daytime to avoid competition from conspecifics
+        and nocturnal predators.<ref>Ward and Kynaston, 99</ref> Bears are overwhelmingly
+        solitary and are considered to be the most asocial of all the Carnivora. The
+        only times bears are encountered in small groups are mothers with young or
+        occasional seasonal bounties of rich food (such as salmon runs).<ref>{{cite
+        book|author=Sandell, M. |year=1989|chapter=The mating tactics and spacing
+        patterns of solitary carnivores|title=Carnivore behavior, ecology, and evolution
+        |pages= 164\u2013182|publisher= Springer |isbn=978-1-4613-0855-3|doi=10.1007/978-1-4613-0855-3_7}}</ref><ref
+        name=\"Stonorov\"/> Fights between males can occur and older individuals may
+        have extensive [[scar]]ring, which suggests that maintaining [[Dominance (ethology)|dominance]]
+        can be intense.<ref>Ward and Kynaston, p. 130</ref> With their acute sense
+        of smell, bears can locate carcasses from several kilometres away. They use
+        [[olfaction]] to locate other foods, encounter mates, avoid rivals and recognise
+        their cubs.<ref name=\"Marshall Cavendish\"/> \n\n===Feeding===\n[[File:Giant
+        Panda Tai Shan.JPG|thumb|left|[[Giant panda]] feeding on [[bamboo]]. This
+        species is almost entirely herbivorous.]]\n\nMost bears are opportunistic
+        [[omnivore]]s and consume more plant than animal matter. They eat anything
+        from leaves, roots, and [[berries]] to [[insect]]s, [[carrion]], fresh meat,
+        and fish, and have digestive systems and teeth adapted to such a diet.<ref
+        name=\"ServheenForeword\"/> At the extremes are the almost entirely herbivorous
+        giant panda and the mostly carnivorous polar bear. However, all bears feed
+        on any food source that becomes seasonally available.<ref name=\"Ward83\">Ward
+        and Kynaston, p. 83</ref> For example, Asiatic black bears in [[Taiwan]] consume
+        large numbers of [[acorn]]s when these are most common, and switch to [[ungulate]]s
+        at other times of the year.<ref name=\"asiablackdiet\">{{cite journal |last=Hwang
+        |first=Mei-Hsiu |year=2002 |title=Diets of Asiatic black bears in Taiwan,
+        with Methodological and Geographical Comparisons |url=http://www.bearbiology.com/fileadmin/tpl/Downloads/URSUS/Vol_13/Hwang_13.pdf
+        | journal=Ursus |volume=13 |pages=111\u2013125}}</ref>\n\nWhen foraging for
+        plants, bears choose to eat them at the stage when they are at their most
+        nutritious and digestible, typically avoiding older [[grass]]es, [[sedge]]s
+        and leaves.<ref name=\"nps\">{{cite web |title=Food Habits of Grizzly Bears
+        and Black Bears in the Yellowstone Ecoystem |url=https://www.nps.gov/yell/learn/nature/bearfoods.htm
+        |publisher=National Park Service |accessdate=18 January 2017}}</ref><ref name=\"Ward83\"/>
+        Hence, in more northern temperate areas, browsing and grazing is more common
+        early in spring and later becomes more restricted.<ref name=\"Mattson\"/>
+        Knowing when plants are ripe for eating is a learned behaviour.<ref name=\"Ward83\"/>
+        Berries may be foraged in bushes or at the tops of trees, and bears try to
+        maximize the number of berries consumed versus foliage.<ref name=\"Mattson\"/>
+        In autumn, some bear species forage large amounts of naturally [[fermentation|fermented]]
+        fruits, which affects their behaviour.<ref name=\"Rue1981\">{{cite book |author=Rue,
+        Leonard Lee |title=Furbearing Animals of North America |url=https://books.google.com/books?id=od4gAQAAIAAJ
+        |year=1981 |publisher=Crown Publishers |isbn=978-0-517-53942-2 |page=129}}</ref>
+        Smaller bears climb trees to obtain [[mast (botany)|mast]] (edible reproductive
+        parts, such as acorns).<ref name=\"diet\">{{cite journal |last=Mattson |first=David
+        J. |year=1998 |title=Diet and Morphology of Extant and Recently Extinct Northern
+        Bears | journal=Ursus, A Selection of Papers from the Tenth International
+        Conference on Bear Research and Management, Fairbanks, Alaska, July 1995,
+        and Mora, Sweden, September 1995 |volume=10 |pages=479\u2013496 | jstor=3873160}}</ref>
+        Such masts can be very important to the diets of these species, and mast failures
+        may result in long-range movements by bears looking for alternative food sources.<ref>{{cite
+        journal |last=Ryan |first=Christopher |year=2007 |title=Influence of mast
+        production on black bear non-hunting mortalities in West Virginia | journal=Ursus
+        |volume=18 |issue=1 |pages=46\u201353 |doi=10.2192/1537-6176(2007)18[46:IOMPOB]2.0.CO;2
+        |last2=Pack |first2=James C. |last3=Igo |first3=William K. |last4=Billings
+        |first4=Anthony}}</ref> Brown bears, with their powerful digging abilities,
+        commonly eat roots.<ref name=\"Mattson\"/> The panda''s diet is over 99% bamboo,<ref>{{cite
+        book |last=Lumpkin |first=Susan |last2=Seidensticker |first2=John |title=Giant
+        Pandas |publisher=Collins |year=2007 |isbn=978-0-06-120578-1 |page=63}}</ref>
+        of 30 different species. Its strong jaws are adapted for crushing the tough
+        stems of these plants, though they prefer to eat the more nutritious leaves.<ref>Ward
+        and Kynaston, pp. 89\u201392</ref><ref>{{cite web |url=http://lrrd.cipav.org.co/lrrd4/2/dolberg.htm
+        |title=Progress in the utilization of urea-ammonia treated crop residues:
+        biological and socio-economic aspects of animal production and application
+        of the technology on small farms |last=Dolberg |first=Frands |date=1 August
+        1992 |publisher=University of Arhus |accessdate=10 August 2010}}</ref> [[Bromeliad]]s
+        can make up to 50% of the diet of the spectacled bear, which also has strong
+        jaws to bite them open.<ref>Ward and Kynaston, p. 87</ref>\n\n[[File:Bear
+        Alaska (3).jpg|thumb|Brown bear feeding on infrequent, but predictable, [[salmon]]
+        migrations]]\n\nThe sloth bear, though not as specialised as polar bears and
+        the panda, has lost several front teeth usually seen in bears, and developed
+        a long, suctioning tongue to feed on the [[ant]]s, [[termite]]s, and other
+        burrowing insects they favour. At certain times of the year, these insects
+        can make up 90% of their diets.<ref>{{cite journal |last=Joshi |first=Anup
+        |year=1997 |title=Seasonal and Habitat-Related Diets of Sloth Bears in Nepal
+        | journal=Journal of Mammalology |volume=1978 |issue=2 |pages=584\u2013597
+        |doi=10.2307/1382910 |last2=Garshelis |first2=David L. |last3=Smith |first3=James
+        L. D.}}</ref> Some species may raid the nests of [[wasp]]s and [[bee]]s for
+        the [[honey]] and immature insects, in spite of stinging from the adults.<ref>{{cite
+        web|title=What do bears like to eat in a beehive?|publisher=North American
+        Bear Center|url=https://www.bear.org/website/bear-pages/black-bear/foraging-a-foods/206-what-do-bears-like-to-eat-in-a-beehive.html|accessdate=5
+        April 2017}}</ref> Sun bears use their long tongues to lick up both insects
+        and honey.<ref>Ward and Kynaston, p. 89</ref> Fish are an important source
+        of food for some species, and brown bears in particular gather in large numbers
+        at [[salmon run]]s. Typically, a bear plunges into the water and seizes a
+        fish with its jaws or front paws. The preferred parts to eat are the brain
+        and eggs. Small burrowing mammals like [[rodent]]s may be dug out and eaten.<ref
+        name=\"Ward193\"/><ref name=\"Mattson\"/>\n\nThe brown bear and both species
+        of black bears sometimes take large ungulates, such as [[deer]] and [[bovid]]s,
+        mostly the young and weak.<ref name=\"asiablackdiet\"/><ref>{{cite journal
+        |last=Zager | first=Peter |last2=Beecham |first2=John |year=2006 |title=The
+        role of American black bears and brown bears as predators on ungulates in
+        North America | journal=Ursus |volume=17 |issue=2 |pages=95\u2013108 |doi=10.2192/1537-6176(2006)17[95:TROABB]2.0.CO;2}}</ref><ref
+        name=\"Ward193\">Ward and Kynaston, pp. 93\u201398</ref> These animals may
+        be taken by a short rush and ambush, though hiding young may be stiffed out
+        and pounced on.<ref name=\"Mattson\">{{cite web|author=Mattson, David|publisher=Southwest
+        Biological Science Center|title=Foraging Behavior of North American Bears
+        |url=http://sbsc.wr.usgs.gov/cprs/research/projects/grizzly/pdf/FORAGINGBEHAVIOROFNORTHAMERICANBEARS.pdf|archive-url=https://web.archive.org/web/20070711074612/http://sbsc.wr.usgs.gov/cprs/research/projects/grizzly/pdf/FORAGINGBEHAVIOROFNORTHAMERICANBEARS.pdf|dead-url=yes|archive-date=11
+        July 2007}}</ref><ref>{{cite web|title=Animal Protein|publisher=North American
+        bear Center|url=https://www.bear.org/website/bear-pages/black-bear/foraging-a-foods/84-animal-protein.html|accessdate=22
+        March 2017}}</ref> The polar bear mainly preys on seals, stalking them from
+        the ice or breaking into their dens. They primarily eat the highly digestible
+        blubber.<ref>Ward and Kynaston, p. 92</ref><ref name=\"Ward193\"/> Large mammalian
+        prey is typically killed by a bite to the head or neck, or (in the case of
+        young) simply pinned down and mauled.<ref name=\"Mattson\"/><ref>{{cite journal
+        | last1=French |first1= S. P. |last2= French |first2=M. G. |title=Predatory
+        behavior of grizzly bears feeding on elk calves in Yellowstone National Park,
+        1986\u20131988 |year= 1990 |journal=International Conf. Bear Res. and Manage
+        | volume= 8|pages= 335\u2013341|url=http://www.bearbiology.com/fileadmin/tpl/Downloads/URSUS/Vol_8/French_French_8.pdf
+        | format = PDF | doi=10.2307/3872937|jstor= 3872937}}</ref> Predatory behaviour
+        in bears is typically taught to the young by the mother.<ref name=\"Ward193\"/>\n\nBears
+        are prolific [[scavenger]]s and [[kleptoparasite]]s, stealing food [[Hoarding
+        (animal behavior)|caches]] from rodents, and carcasses from other predators.<ref
+        name=\"nps\"/><ref>{{cite web |author=COSEWIC. Canadian Wildlife Service |title=Assessment
+        and Update Status Report on the Grizzly Bear (''''Ursus arctos'''') |publisher=[[Environment
+        Canada]] |year=2002 |url=http://dsp-psd.pwgsc.gc.ca/Collection/CW69-14-166-2002E.pdf
+        |accessdate=8 April 2007 }}</ref> For hibernating species, weight gain is
+        important as it provides nourishment during winter dormancy. A brown bear
+        can eat {{convert|41|kg|lb|abbr=on}} of food and gain {{convert|2\u20133|kg|lb|abbr=on}}
+        of fat a day prior to entering its den.<ref>Ward and Kynaston, p. 104</ref>\n\n===Communication===\n[[File:Ursus
+        thibetanus 01.JPG|thumb|left|Asian black bears during aggressive encounter]]\nBears
+        produce a number of vocal and non-vocal sounds. Tongue-clicking, grunting
+        or chuffing many be made in cordial situations, such as between mothers and
+        cubs or courting couples, while moaning, huffing, sorting or blowing air is
+        made when an individual is stressed. Barking is produced during times of alarm,
+        excitement or to give away the animal''s position. Warning sounds include
+        jaw-clicking and lip-popping, while teeth-chatters, bellows, growls, roars
+        and pulsing sounds are made in aggressive encounters. Cubs may squeal, bawl,
+        bleat or scream when in distress and make motor-like humming when comfortable
+        or nursing.<ref>{{cite book|author=Naughton, D.|year=2014|title=The Natural
+        History of Canadian Mammals: Opossums and Carnivores|publisher=University
+        of Toronto Press|pages=218\u2013219, 236, 251\u2013252|isbn=978-1-4426-4483-0}}</ref><ref>{{cite
+        web |title=Vocalizations and Body Language |url=https://www.bear.org/website/bear-pages/black-bear/communication/29-vocalizations-a-body-language.html
+        |publisher=North American Bear Center |accessdate=7 January 2017}}</ref><ref
+        name=\"Ward117\">Ward and Kynaston, pp. 117\u2013121</ref><ref>{{cite book|author=Masterson,
+        Linda|year=2016|title=Living With Bears Handbook: Expanded 2nd Edition|publisher=PixyJack
+        Press|pages=215\u201316|isbn=978-1-936555-61-1}}</ref><ref name=Petersetal2007>{{cite
+        journal | author=Peters, G. | author2=Owen, M. | author3=Rogers, L.  |year=2007
+        |title= Humming in bears: a peculiar sustained mammalian vocalization | journal=Acta
+        Theriologica |volume=52 |issue=4 |pages=379\u2013389 |doi=10.1007/BF03194236
+        |url=https://www.researchgate.net/publication/227146528_Humming_in_bears_a_peculiar_sustained_mammalian_vocalization/file/3deec5187efc99c3fc.pdf}}</ref><ref>{{cite
+        journal|author1=Laurie, A.|author2=Seidensticker, J.|year=1977|title=Behavioural
+        ecology of the Sloth bear (''''Melursus ursinus'''')|journal=Journal of Zoology|volume=182|issue=2|pages=187\u2013204|doi=10.1111/j.1469-7998.1977.tb04155.x|url=https://www.researchgate.net/profile/John_Seidensticker/publication/229976355_Behavioural_ecology_of_the_Sloth_bear_Melursus_ursinus/links/53db8a9e0cf2a76fb667a2d1.pdf}}</ref>\n[[File:Standing
+        Sloth Bear.jpg|thumb|upright|Sloth bear rubbing against tree]]\nBears sometimes
+        communicate with visual displays such as [[bipedalism|standing upright]],
+        which exaggerates the individual''s size. The chest markings of some species
+        may add to this intimidating display. Staring is an aggressive act and the
+        facial markings of spectacled bears and giant pandas may help draw attention
+        to the eyes during [[Agonistic behavior|agonistic]] encounters.<ref name=\"Ward124\">Ward
+        and Kynaston, pp. 124\u2013125</ref> Individuals may approach each other by
+        stiff-legged walking with the head lowered. Dominance between bears is asserted
+        by making a frontal orientation, showing the [[canine teeth]], muzzle twisting
+        and neck stretching.  A subordinate may respond with a lateral orientation,
+        by turning away and dropping the head and by sitting or lying down.<ref>{{cite
+        journal | author=Jordan, R. H. |year=1976 |title=Threat behavior of the black
+        bear (''''Ursus americanus'''') |journal=Bears: Their Biology and Management
+        |volume=40 |pages=57\u201363 |doi=10.2307/3872754}}</ref><ref name=\"Stonorov\">{{cite
+        journal | author1=Stonorov, D.|author2=Stokes, A. W. |year=1972 |title=Social
+        behavior of the Alaska brown bear |publisher=International Association for
+        Bear Research & Management |volume=2 |pages=232\u2013242 |url=http://www.bearbiology.com/fileadmin/tpl/Downloads/URSUS/Vol_2/Stonorov_Stokes.pdf
+        |doi=10.2307/3872587}}</ref> \n\nBears may mark territory by rubbing against
+        trees and other objects which may serve to spread their scent. This is usually
+        accompanied by clawing and biting the object. Bark may be spread around to
+        draw attention to the marking post.<ref>Ward and Kynaston, p. 122</ref> Pandas
+        are known to mark objects with urine and a waxy substance from their anal
+        glands.<ref>{{cite journal | author1=Nie, Y.|author2=Swaisgood, R. R.|author3=Zhang,
+        Z.|author4=Hu, Y.|author5=Ma, Y.|author6=Wei, F. |year=2012 |title=Giant panda
+        scent-marking strategies in the wild: role of season, sex and marking surface
+        | journal=Animal Behaviour |volume=84 |issue=1 |pages=39\u201344 |doi=10.1016/j.anbehav.2012.03.026}}</ref>
+        Polar bears leave behind their scent in their tracks which allow individuals
+        to keep track of one another in the vast Arctic wilderness.<ref>{{cite journal
+        | author1=Owen, M. A.|author2=Swaisgood, R. R.|author3=Slocomb, C.|author4=Amstrup,
+        S. C.|author5=Durner, G. M.|author6=Simac, K.|author7=Pessier, A. P. |year=2014
+        |title=An experimental investigation of chemical communication in the polar
+        bear | journal=Journal of Zoology |volume=295 |issue=1 |pages=36\u201343 |doi=10.1111/jzo.12181}}</ref>\n\n===Reproduction
+        and life cycle{{anchor|Breeding}}===\n[[File:Black Bears mating.jpg|thumb|left|American
+        black bears mating]]\n\nThe mating system of bears has variously been described
+        as a form of [[Polygyny in animals|polygyny]], [[promiscuity]] and [[serial
+        monogamy]].<ref>{{cite web| author1=Eide, S.|author2=Miller, S. |title=Brown
+        Bear |publisher=Alaska Department of Fish and Game |url=https://www.adfg.alaska.gov/static/education/wns/brown_bear.pdf
+        |accessdate=14 January 2016}}</ref><ref name=\"Ward138\"/><ref>{{cite journal
+        | author=Lariviere, S. |year=2001 |title=Ursus americanus |journal=Mammalian
+        Species |volume=647 |pages=1\u201311 |url=http://www.science.smith.edu/msi/pdf/647_Ursus_americanus.pdf
+        |doi=10.1644/1545-1410(2001)647<0001:ua>2.0.co;2}}</ref> During the breeding
+        season, males take notice of females in their vicinity and females become
+        more tolerant of males. A male bear may visit a female continuously over a
+        period of several days or weeks, depending on the species, to test her reproductive
+        state. During this time period, males try to prevent rivals from interacting
+        with their mate. Courtship may be brief, although in some Asian species, courting
+        pairs may engage in wrestling, hugging, mock fighting and vocalising. [[Induced
+        ovulation (animals)|Ovulation is induced by mating]], which can last up to
+        30 minutes depending on the species.<ref name=\"Ward138\">Ward and Kynaston,
+        pp. 138\u2013141</ref>\n\n[[File:Cub polar bear is nursing 2.OGG|thumb|[[Polar
+        bear]] mother nursing her cub]]\n\n[[Gestation]] typically lasts 6\u20139
+        months, including [[delayed implantation]], and litter size numbers up to
+        four cubs.<ref name=\"Ward144\"/> Giant pandas may give birth to twins but
+        they can only suckle one young and the other is left to die.<ref name=\"Panda
+        Facts\">{{cite web |url=http://www.pandasinternational.org/wptemp/education-2/panda-facts/
+        |title=Panda Facts |publisher=Pandas International |accessdate=26 August 2015}}</ref>
+        In northern living species, birth takes place during winter dormancy. Cubs
+        are born blind and helpless with at most a thin layer of hair, relying on
+        their mother for warmth. The milk of the female bear is rich in fat and antibodies
+        and cubs may suckle for up to a year after they are born. By 2\u20133 months,
+        cubs can follow their mother outside the den. They usually follow her on foot,
+        but sloth bear cubs may ride on their mother''s back.<ref name=\"Ward144\">Ward
+        and Kynaston, pp. 144\u2013148</ref><ref name=Walker>{{cite book | author=Nowak,
+        R. M. |year=2005 |title=Walker''s Carnivores of the World |publisher=Johns
+        Hopkins University Press |page=114 |isbn=978-0-8018-8032-2}}</ref> Male bears
+        play no role in raising young. [[Infanticide (zoology)|Infanticide]], where
+        an adult male kills the cubs of another, has been recorded in polar bears,
+        brown bears and American black bears but not in other species.<ref>Ward and
+        Kynaston, p. 132</ref> Males kill young to bring the female into [[oestrus]].<ref
+        name= Bellemain>{{cite journal|doi=10.1111/j.1439-0310.2006.01152.x|title=Mating
+        Strategies in Relation to Sexually Selected Infanticide in a Non-Social Carnivore:
+        The Brown Bear|url=http://bearproject.info/wp-content/uploads/2015/11/2006-A060-Bellemain-Mating-Strategies-in-relation-to-SSI.pdf|journal=Ethology|volume=112|issue=3|pages=238\u2013246|year=2006|last1=Bellemain|first1=Eva|last2=Swenson|first2=Jon
+        E.|last3=Taberlet|first3=Pierre}}</ref> Cubs may flee and the mother defends
+        them even at the cost of her life.<ref>{{cite journal | author1=Bellemain,
+        E.|author2=Zedrosser, A.|author3=Manel, S.|author4=Waits, L. P.|author5=Taberlet,
+        P.|author6=Swenson, J. E. |year=2005 |pmid=16543170 |pmc=1560043 |title=The
+        dilemma of female mate selection in the brown bear, a species with sexually
+        selected infanticide| journal=Proceedings of the Royal Society of London B:
+        Biological Sciences |volume=273 |issue=1584|pages=283\u2013291 |doi=10.1098/rspb.2005.3331}}</ref><ref>{{cite
+        journal| author1=Swenson, J. E.|author2=Dahle, B.|author3=Sandegren, F. |year=2001
+        |title=Intraspecific predation in Scandinavian brown bears older than cubs-of-the-year|
+        journal=Ursus |volume=12 |pages=81\u201391| jstor=3873233 |url=https://www.researchgate.net/publication/237374836_Intraspecific_predation_in_Scandinavian_brown_bears_older_than_cubs-of-year}}</ref><ref
+        name=\"M\u00f6rner\">{{cite journal | author1=M\u00f6rner, T.|author2=Eriksson,
+        H.|author3=Br\u00f6jer, C.|author4=Nilsson, K.|author5=Uhlhorn, H.|author6=\u00c5gren,
+        E.|author7=af Segerstad, C.H.|author8=Jansson, D.S.|author9=Gavier-Wid\u00e9n,
+        D. |year=2005 |title=Diseases and mortality in free-ranging brown bear (''''Ursus
+        arctos''''), gray wolf (''''Canis lupus''''), and wolverine (''''Gulo gulo'''')
+        in Sweden | journal=Journal of wildlife diseases |volume=41 |issue=2 |pages=298\u2013303
+        |pmid=16107663 |doi=10.7589/0090-3558-41.2.298}}</ref> \n\nIn some species,
+        offspring may become independent around the next spring, through some may
+        stay until the female successfully mates again. Bears reach [[sexual maturity]]
+        shortly after they disperse; at around 3\u20136 years depending on the species.
+        Male Alaskan brown bears and polar bears may continue to grow until they are
+        11 years old.<ref name=\"Ward144\"/> Lifespan may also vary between species.
+        The brown bear can live an average of 25 years.<ref>{{cite web|title=Grizzly
+        Bear|publisher=National Geographic.com|accessdate=29 April 2017|url=http://www.nationalgeographic.com/animals/mammals/g/grizzly-bear/}}</ref>\n\n===Hibernation{{anchor|Winter_dormancy}}===\n{{main|Hibernation}}\n\nBears
+        of northern regions, including the [[American black bear#Hibernation|American
+        black bear]] and the [[Grizzly bear#Hibernation|grizzly bear]], hibernate
+        in the winter.<ref name=Science2011>{{cite journal | author=Gerhard Heldmeier
+        | year=2011 | title=Life on low flame in hibernation | journal=Science | volume=331
+        | issue=6019 | pages=866\u2013867 | doi=10.1126/science.1203192 | pmid=21330523}}</ref><ref
+        name=Shimozuru2013>{{cite journal | author=Shimozuru, M. | year=2013 | title=Pregnancy
+        during hibernation in Japanese black bears: effects on body temperature and
+        blood biochemical profiles | journal=Journal of Mammalogy | volume=94 | issue=3
+        | pages=618\u2013627 | doi=10.1644/12-MAMM-A-246.1|display-authors=etal}}</ref>
+        During hibernation, the bear''s metabolism slows down, its body temperature
+        decreases slightly, and its heart rate slows from a normal value of 55 to
+        just 9 beats per minute.<ref name=Toien2011>{{cite journal | author=T\u00f8ien,
+        \u00d8. | year=2011 | title=Hibernation in Black Bears: Independence of Metabolic
+        Suppression from Body Temperature | journal=Science | volume=331 | issue=6019
+        | pages=906\u2013909 | doi=10.1126/science.1199435 | pmid=21330544 |display-authors=etal}}</ref>
+        Bears normally do not wake during their hibernation, and can go the entire
+        period without eating, drinking, urinating, or defecating.<ref name=\"Marshall
+        Cavendish\"/> A [[fecal plug]] is formed in the colon, and is expelled when
+        the bear wakes in the spring.<ref>{{cite web|last1=Biel|first1=M|last2=Gunther|first2=K|title=Denning
+        and Hibernation Behavior|url=https://www.nps.gov/yell/learn/nature/denning.htm|website=Yellowstone
+        National Park|publisher=National Park Service|accessdate=18 November 2016}}</ref>
+        If they have stored enough body fat, their muscles remain in good condition,
+        and their protein maintenance requirements are met from recycling waste [[urea]].<ref
+        name=\"Marshall Cavendish\"/> Female bears give birth during the hibernation
+        period, and are roused when doing so.<ref name=\"Shimozuru2013\"/>\n\n===Predators,
+        parasites and pathogens===\n[[File:Bj\u00f6rnjakt i Dalarna - Nordiska Museet
+        - NMA.0052736.jpg|thumb|right|Hunters with shot bear, Sweden, early 20th century]]\n\nAs
+        animals at the summit of the food chain, bears do not have many predators.
+        The most important are humans, and as they started cultivating crops, they
+        increasingly came in conflict with the bears that raided them. Since the invention
+        of firearms, people have been able to kill bears with greater ease.<ref>{{cite
+        journal | author=McTaggart Cowan, I. |year=1972 |title=The Status and Conservation
+        of Bears (Ursidae) of the World: 1970 | journal=Bears: Their Biology and Management
+        |volume=2 |pages=343\u2013367 |doi=10.2307/3872596 |citeseerx=10.1.1.483.1402
+        }}</ref> The [[tiger]] is the only four-legged predator that regularly preys
+        on adult bears, including brown bears, sloth bears, Asiatic black bears, and
+        sun bears.<ref name=\"Seryodkin_PhD\">{{cite book |url= http://uml.wl.dvgu.ru/rscv.php?id=74
+        |title=The ecology, behavior, management and conservation status of brown
+        bears in Sikhote-Alin (in Russian). | author=Seryodkin, Ivan |year=2006 |publisher=Far
+        Eastern National University, Vladivostok, Russia |pages=1\u2013252}}</ref><ref
+        name=\"Geptner1972\">Geptner, V. G., Sludskii, A. A. (1972). ''''Mlekopitaiu\u0161\u010die
+        Sovetskogo Soiuza.'''' Vys\u0161aia \u0160kola, Moskva. (In Russian; English
+        translation: Heptner, V. G.; Sludskii, A. A.; Bannikov, A. G.; (1992). [https://archive.org/stream/mammalsofsov221992gept#page/94/mode/2up
+        '''' the Soviet Union. Volume II, Part 2: Carnivora (Hyaenas and Cats).'''']
+        Smithsonian Institution and the National Science Foundation, Washington DC).
+        pp. 95\u2013202.</ref><ref name=FBW>{{cite book | author=Frasef, A.| year=2012|
+        title=Feline Behaviour and Welfare| publisher=CABI| pages=72\u201377 |isbn=978-1-84593-926-7}}</ref><ref
+        name=\"amur\">{{cite book |title=Amur tiger | author=David Prynn |publisher=Russian
+        Nature Press |year=2004 |page=115}}</ref><ref name=\"Denning\">{{cite journal
+        |url=http://www.wcsrussia.org/DesktopModules/Bring2mind/DMX/Download.aspx?EntryId=3313&PortalId=32&DownloadMethod=attachment
+        | author=Seryodkin |year=2003 |title=Denning ecology of brown bears and Asiatic
+        black bears in the Russian Far East | journal=Ursus |volume=14 |issue=2 |pages=159
+        |display-authors=etal}}</ref><ref>{{cite journal |author1=Kawanishi, K.|author2=Sunquist,
+        M. E. |date=2004 |title=Conservation status of tigers in a primary rainforest
+        of Peninsular Malaysia |journal=Biological Conservation |volume=120 |pages=329\u2013344
+        |doi=10.1016/j.biocon.2004.03.005}}</ref>\n\nBears are parasitized by eighty
+        species of parasites, including single-celled protozoans and gastro-intestinal
+        worms, and nematodes and flukes in their heart, liver, lungs and bloodstream.
+        Externally they have ticks, fleas and lice. A study of American black bears
+        found seventeen species of endoparasite including the protozoan ''''[[Sarcocystis]]'''',
+        the parasitic worm ''''[[Diphyllobothrium mansonoides]]'''', and the nematodes
+        ''''[[Dirofilaria immitis]]'''', ''''[[Capillaria aerophila]]'''', ''''[[Physaloptera]]''''
+        sp., ''''[[Strongyloides]]'''' sp. and others. Of these, ''''D. mansonoides''''
+        and adult ''''C. aerophila'''' were causing pathological symptoms.<ref name=Crum>{{cite
+        journal | author1=Crum, James M.|author2=Nettles, Victor F.|author3=Davidson,
+        William R. |year=1978 |title=Studies on endoparasites of the black bear (''''Ursus
+        americanus'''') in the southeastern United States | journal=Journal of Wildlife
+        Diseases |volume=14 |issue=2 |pages=178\u2013186 |doi=10.7589/0090-3558-14.2.178
+        }}</ref> By contrast, polar bears have few parasites; many parasitic species
+        need a secondary, usually terrestrial, host, and the polar bear''s life style
+        is such that few alternative hosts exist in their environment. The protozoan
+        ''''[[Toxoplasma gondii]]'''' has been found in polar bears, and the nematode
+        ''''[[Trichinella nativa]]'''' can cause a serious infection and decline in
+        older polar bears.<ref name=Derocher>{{cite book | author=Derocher, Andrew
+        E. |title=Polar Bears: A Complete Guide to Their Biology and Behavior |url=https://books.google.com/books?id=aouJPNt1P4gC&pg=PT212
+        |year=2012 |publisher=JHU Press |isbn=978-1-4214-0305-2 |page=212}}</ref>
+        Bears in North America are sometimes infected by a ''''[[Morbillivirus]]''''
+        similar to the [[Canine distemper|canine distemper virus]].<ref>{{cite book
+        |title=Emergence and Control of Zoonotic Ortho- and Paramyxovirus Diseases
+        |url=https://books.google.com/books?id=U1lIR14667cC&pg=PA167 |publisher=John
+        Libbey Eurotext |isbn=978-2-7420-0392-1 |page=167}}</ref> They are susceptible
+        to [[infectious canine hepatitis]] (CAV-1), with free-living black bears dying
+        rapidly of encephalitis and hepatitis.<ref name=Williams>{{cite book| author1=Williams,
+        Elizabeth S. | author2=Barker, Ian K. |title=Infectious Diseases of Wild Mammals
+        |url=https://books.google.com/books?id=HJDsAU-NWiYC&pg=PA203 |year=2008 |publisher=John
+        Wiley & Sons |isbn=978-0-470-34481-1 |page=203}}</ref>\n\n==Relationship with
+        humans==\n[[File:Bear trap GTNP1.jpg|thumb|right|A barrel trap in [[Grand
+        Teton National Park]], [[Wyoming]] used to relocate bears away from where
+        they might [[bear attack|attack humans]]]]\n\n===Conservation===\n{{main article|Bear
+        conservation}}\n\nIn modern times, bears have come under pressure through
+        encroachment on their habitats<ref name=WWFbrownbear>{{cite web |title=Brown
+        Bear \u2013 Threats Grizzlies: Found in 2% of their former range|url=http://wwf.panda.org/about_our_earth/species/profiles/mammals/brown_bear2/brownbear_threats/
+        |publisher=WWF |accessdate=16 January 2017}}</ref> and illegal trade in bear
+        parts, including the [[Asia]]n [[bile bear]] market, though hunting is now
+        banned, largely replaced by farming.<ref>{{cite web |last1=Bacon |first1=Heather
+        |title=Implications of bear bile farming |url=https://www.vettimes.co.uk/article/implications-of-bear-bile-farming/|publisher=Vet
+        Times |accessdate=16 January 2017 |date=12 May 2008}}</ref> The [[World Conservation
+        Union|IUCN]] lists six bear species as [[vulnerable species|vulnerable]];<ref
+        name=IUCN>{{cite web |title=Keyword search: \"Ursidae\", Exact phrase, The
+        entire database |url=http://www.iucnredlist.org/search |publisher=[[IUCN]]
+        |accessdate=16 January 2017}}</ref> even the two [[least concern]] species,
+        the brown bear and the American black bear,<ref name=IUCN/> are at risk of
+        [[Local extinction|extirpation]] in certain areas. In general these two species
+        inhabit remote areas with little interaction with humans, and the main non-natural
+        causes of mortality are hunting, trapping, road-kill and depredation.<ref>{{cite
+        book |url=https://books.google.com/books?id=XXQ03uVmCAIC&pg=PR144 |title=Chapter
+        8. American Black Bear Conservation Action Plan |author1=Pelton, Michael R.
+        |author2=Coley, Alex B. |author3=Eason, Thomas H. |author4=Doan Martinez |author5=Diana
+        L. |author6=Pederson, Joel A. |author7=van Manen, Frank T. |author8=Weaver,
+        Keith M. |year=1999 |publisher=IUCN |isbn=978-2-8317-0462-3 |pages=144\u2013156}}</ref>\n\nLaws
+        have been passed in many areas of the world [[bear conservation|to protect
+        bears]] from [[habitat destruction]]. Public perception of bears is often
+        positive, as people identify with bears due to their omnivorous diets, their
+        ability to stand on two legs, and their symbolic importance.<ref>{{cite journal
+        |last=Kellert |first=Stephen |title=Public Attitudes toward Bears and Their
+        Conservation | journal=Bears: Their Biology and Management |volume=9 |issue=1
+        |pages=43\u201350 |doi=10.2307/3872683 |year=1994 | jstor=3872683}}</ref>
+        Support for bear protection is widespread, at least in more affluent societies.<ref>{{cite
+        journal |last=Andersone |first=\u017danete |year=2004 |title=Public perception
+        of large carnivores in Latvia | journal=Ursus |volume=15|issue=2 |pages=181\u2013187
+        |doi=10.2192/1537-6176(2004)015<0181:PPOLCI>2.0.CO;2 |last2=Ozolin\u0161 |first2=J\u0101nis}}</ref>
+        Where bears raid crops or attack livestock, they may come into conflict with
+        humans.<ref name=\"livestock\">{{cite journal |last=Goldstein |first=Isaac
+        |year=2006 |title=Andean bear\u2013livestock conflicts: a review | journal=Ursus|volume=17
+        |issue=1 |pages=8\u201315 |doi=10.2192/1537-6176(2006)17[8:ABCAR]2.0.CO;2
+        |last2=Paisley |first2=Susanna |last3=Wallace |first3=Robert |last4=Jorgenson
+        |first4=Jeffrey P. |last5=Cuesta |first5=Francisc o|last6=Castellanos |first6=Armando}}</ref><ref
+        name=\"crops\">{{cite journal|last=Fredriksson |first=Gabriella |year=2005
+        |title=Human\u2013sun bear conflicts in East Kalimantan, Indonesian Borneo
+        | journal=Ursus |volume=16 |issue=1 |pages=130\u2013137 |doi=10.2192/1537-6176(2005)016[0130:HBCIEK]2.0.CO;2}}</ref>
+        In poorer rural regions, attitudes may be more shaped by the dangers posed
+        by bears and the economic costs they cause to farmers and ranchers.<ref name=\"livestock\"/>\n\n===Attacks===\n{{main
+        article|Bear attacks}}\n\nSeveral bear species are [[bear danger|dangerous
+        to humans]], especially in areas where they have become used to people; elsewhere,
+        they generally avoid humans. [[Bear attack|Injuries caused by bears]] are
+        rare, but are widely reported.<ref>{{cite journal |last=Clark |first=Douglas
+        |year=2003 |title=Polar Bear\u2013Human Interactions in Canadian National
+        Parks, 1986\u20132000 |url=http://www.bearbiology.com/fileadmin/tpl/Downloads/URSUS/Vol_14_1/Clark_Douglas_14_1.pdf
+        | journal=Ursus |volume=14 |issue=1 |pages=65\u201371}}</ref> Bears may attack
+        humans in response to being startled, in defense of young or food, or even
+        for predatory reasons.<ref>{{cite web |author=Than, K. |date=2013 |title=Maulings
+        by Bears: What''s Behind the Recent Attacks? |publisher=National Geographic.com
+        |accessdate=16 January 2017 |url=http://news.nationalgeographic.com/news/maulings-by-bears--what-s-behind-the-recent-attacks-/}}</ref>\n\n===Entertainment,
+        hunting, food and folk medicine===\n\n[[File:The dancing bear by William Frederick
+        Witherington.jpg|thumb|left|''''The dancing bear'''' by [[William Frederick
+        Witherington]], 1822]]\n\nBears in captivity have for centuries been used
+        for entertainment. They have been trained to [[dancing bear|dance]],<ref>{{cite
+        book |last=Findeizen |first=Nikolai |title=History of Music in Russia from
+        Antiquity to 1800, Vol. 1: From Antiquity to the Beginning of the Eighteenth
+        Century |url=https://books.google.com/books?id=SZexDAAAQBAJ&pg=PT201 |year=2008
+        |publisher=Indiana University Press |isbn=978-0-253-02637-8 |page=201}}</ref>
+        and were kept for [[Bear-baiting|baiting]] in Europe at least since the 16th
+        century. There were five bear-baiting gardens in [[Southwark]], London at
+        that time; archaeological remains of three of these have survived.<ref>{{cite
+        web |title=Elizabethan Playhouses and Bear Baiting Arenas Given Protection
+        |url=https://historicengland.org.uk/whats-new/news/elizabethan-playhouses-and-bear-baiting-arenas-given-protection
+        |publisher=Historic England |accessdate=4 January 2017 |date=26 September
+        2016}}</ref> Across Europe, [[nomad]]ic [[Romani people|Romani]] bear handlers
+        called [[Ursari]] lived by busking with their bears from the 12th century.<ref
+        name=Fraser>{{cite book | author=Fraser, Angus M. |title=The Gypsies |publisher=Blackwell
+        |year=1995 |pages=45\u201348, 226 |isbn=978-0-631-19605-1}}</ref>\n\n[[File:Theodor
+        Aman - Ursarul.jpg|thumb|A nomadic ''''[[ursar]]'''', a [[Romani people|Romani]]
+        bear-busker. Drawing by [[Theodor Aman]], 1888]]\n[[Bear hunting|Bears have
+        been hunted]] for sport, food, and [[folk medicine]]. Their meat is dark and
+        stringy, like a tough cut of beef. In [[Cantonese cuisine]], bear paws are
+        considered a delicacy. Bear meat should be cooked thoroughly, as it can be
+        infected with the parasite ''''[[Trichinella spiralis]]''''.<ref>{{cite web
+        |url=https://www.cdc.gov/MMWR/preview/mmwrhtml/mm5327a2.htm| accessdate=4
+        October 2006 |title=Trichinellosis Associated with Bear Meat| archiveurl=https://web.archive.org/web/20060930201027/http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5327a2.htm
+        | archivedate=30 September 2006 | deadurl=no}}</ref><ref>{{cite news |url=http://news.bbc.co.uk/1/hi/world/europe/41529.stm
+        | accessdate=4 October 2006 |title=Bear meat poisoning in Siberia |work=BBC
+        News| date=21 December 1997}}</ref>\n\nThe peoples of eastern Asia use bears''
+        body parts and secretions (notably their gallbladders and bile) as part of
+        [[traditional Chinese medicine]]. More than 12,000 bears are thought to be
+        kept on farms in China, Vietnam, and South Korea for the production of bile.
+        Trade in bear products is prohibited under [[CITES]], but bear bile has been
+        detected in shampoos, wine and herbal medicines sold in Canada, the United
+        States and Australia.<ref name=\"BBC\">{{cite news |first=Richard |last=Black
+        |url=http://news.bbc.co.uk/2/hi/science/nature/6742671.stm |title=BBC Test
+        kit targets cruel bear trade |work=BBC News |date=11 June 2007 |accessdate=1
+        January 2010 |archiveurl=https://www.webcitation.org/5uKg09Jgj?url=http://news.bbc.co.uk/2/hi/science/nature/6742671.stm
+        |archivedate=18 November 2010 |deadurl=no |df= }}</ref>\n\n===Literature,
+        art and symbolism===\n{{further|Jean de l''Ours|Berserker|Kalevala}}\n[[File:ShunsenOniguma.jpg|thumb|right|200px|Onikuma,
+        a Japanese demon bear from ''''[[Ehon Hyaku Monogatari]]'''', c. 1841]]\n[[File:Br\u012bv\u012bbas_piemineklis-L\u0101\u010dpl\u0113sis.png|thumb|right|200px|The
+        Latvian legendary hero [[L\u0101\u010dpl\u0113sis]] kills a bear with his
+        bare hands]]\nThere is evidence of prehistoric [[bear worship]], though this
+        is disputed by archaeologists.<ref>{{cite journal | last=Wunn | first=Ina
+        | year=2000 | title=Beginning of Religion | journal=[[Numen (journal)|Numen]]
+        | volume=47 | number=4 | pages=417\u2013452 | doi=10.1163/156852700511612}}</ref>
+        The prehistoric [[Finns]],<ref>{{cite journal |url=https://www.jstor.org/stable/1255969?seq=1#page_scan_tab_contents
+        | author=Bonser, Wilfrid | journal=Folklore |title=The mythology of the Kalevala,
+        with notes on bear-worship among the Finns |volume=39 |issue=4 |year=1928
+        |pages=344\u2013358 | jstor=1255969 | doi=10.1080/0015587x.1928.9716794}}</ref>
+        [[Siberian peoples]]<ref>{{cite book | last=Chaussonnet |first=Valerie | year=1995
+        | title=Native Cultures of Alaska and Siberia | publisher=Arctic Studies Center
+        |location=Washington, D.C. |page=112 | isbn= 978-1-56098-661-4}}</ref> and
+        more recently [[Korean mythology|Koreans]] considered the bear as the spirit
+        of their forefathers.<ref>{{cite book | author=Lee, Jung Young |title=Korean
+        Shamanistic Rituals |publisher=Mouton De Gruyter |date=1981 |isbn=978-90-279-3378-2
+        |pages=14, 20}}</ref> There is evidence of bear worship in early Chinese and
+        [[Ainu religion|Ainu culture]]s.<ref>{{cite journal | title=The Concepts behind
+        the Ainu Bear Festival (Kumamatsuri) | first1=Ky\u014dsuke |last1=Kindaichi
+        | first2=Minori |last2=Yoshida | journal=Southwestern Journal of Anthropology
+        |volume=5 |number=4 | date=Winter 1949 | pages=345\u2013350 | jstor=3628594
+        | doi=10.1086/soutjanth.5.4.3628594}}</ref> In many [[Indigenous peoples of
+        the Americas|Native American]] cultures, the bear is a symbol of rebirth because
+        of its hibernation and re-emergence.<ref>Ward and Kynaston, p. 17</ref> The
+        image of the mother bear was prevalent throughout societies in North America
+        and Eurasia, based on the female''s devotion and protection of her cubs.<ref>Ward
+        and Kynaston, pp. 12\u201313</ref> [[Japanese folklore]] features the [[Onikuma]],
+        a \"demon bear\" that walks upright.<ref>{{cite web |last1=Davisson |first1=Zack
+        |title=Onikuma \u2013 Demon Bear |url=https://hyakumonogatari.com/2013/05/28/onikuma-demon-bear/
+        |website=Hyakumonogatari Kaidankai |accessdate=19 February 2017 |date=28 May
+        2013}}</ref> The [[Ainu people|Ainu]] of northern Japan, a different people
+        from the Japanese, saw the bear instead as sacred; Hirasawa Byozan painted
+        a scene in documentary style of a bear sacrifice in an Ainu temple, complete
+        with offerings to the dead animal''s spirit.<ref>{{cite book |last=Davidson
+        |first=Peter |title=The Idea of North |url=https://books.google.com/books?id=uhSrVwX-QiUC&pg=PA179
+        |year=2005 |publisher=Reaktion Books |isbn=978-1-86189-230-0 |page=179 |quote=in
+        the Meiji period .. handscroll of paintings of Ainu dwellings and customs
+        .. The painter was Hirasawa Byozan and he titled the work ''''Scenes of the
+        Daily Life of the Ezo''''. His paintings are documentary, even anthropological
+        in intent, for all their beauty.}}</ref>\n\nIn [[Korea]]n mythology, a [[Siberian
+        tiger|tiger]] and a bear prayed to [[Hwanung]], the son of the Lord of Heaven,
+        that they might become human. Upon hearing their prayers, Hwanung gave them
+        20 cloves of garlic and a bundle of [[mugwort]], ordering them to eat only
+        this sacred food and remain out of the sunlight for 100 days. The tiger gave
+        up after about twenty days and left the cave. However, the bear persevered
+        and was transformed into a woman. The bear and the tiger are said to represent
+        two tribes that sought the favor of the heavenly prince.<ref>http://www.san-shin.org/Dan-gun_Myth.html</ref>\nThe
+        bear-woman ([[Ungnyeo]]; \uc6c5\ub140/{{lang|ko|\u718a\u5973}}) was grateful
+        and made offerings to Hwanung.  However, she lacked a husband, and soon became
+        sad and prayed beneath a  \"divine [[birch]]\" tree ({{korean|hangul=\uc2e0\ub2e8\uc218|hanja={{lang|ko|\u795e\u6a80\u6a39}}|rr=shindansu}})
+        to be blessed with a child. Hwanung, moved by her prayers, took her for his
+        wife and soon she gave birth to a son named [[Dangun Wanggeom]] - who was
+        the legendary founder of [[Gojoseon]], the first ever [[Korea]]n kingdom.<ref>{{cite
+        book | pages = [https://books.google.com/books?id=BA_QAgAAQBAJ&dq=dangun+built+pyongyang&hl=ko&source=gbs_navlinks_s]
+        | last = Tudor | first = Daniel | authorlink = |author2= | year = 2013 | title
+        = Korea: The Impossible Country: The Impossible Country | publisher = [[Tuttle
+        Publishing]] | isbn = 146291022X }}</ref>\n[[File:Sidney Hall - Urania''s
+        Mirror - Ursa Major.jpg|thumb|left|The [[constellation]] of [[Ursa Major]]
+        as depicted in [[Urania''s Mirror]], c. 1825]]\n\n[[Artio]] (''''Dea Artio''''
+        in the [[Gallo-Roman religion]]) was a [[Celts|Celtic]] bear goddess. Evidence
+        of her worship has notably been found at [[Bern]], itself named for the bear.
+        Her name is derived from the Celtic word for \"bear\", ''''artos''''.<ref>{{cite
+        book |author=Room, Adrian |url=https://books.google.com/books?id=M1JIPAN-eJ4C&dq=
+        |title=Placenames of the World: Origins and Meanings of the Names for 6,600
+        Countries, Cities, Territories, Natural Features, and Historic Sites |publisher=McFarland
+        |date=2006 |page=57}}</ref> In ancient Greece, archaic cult of [[Artemis]]
+        in bear form survived into Classical times at [[Brauron]], where young Athenian
+        girls passed an initiation right as ''''arktai'''' \"she bears\".<ref>Burkert,
+        Walter, ''''Greek Religion'''', 1985:263.</ref> For Artemis and one of her
+        [[nymph]]s as a she-bear, see the myth of [[Callisto (mythology)|Callisto]].\n\nThe
+        constellations of Ursa Major and [[Ursa Minor]], the great and little bears,
+        are named for their supposed resemblance to bears, from the time of [[Ptolemy]].{{efn|Ptolemy
+        named the constellations in Greek, \u1f0c\u03c1\u03ba\u03c4\u03bf\u03c2 \u03bc\u03b5\u03b3\u03ac\u03bb\u03b7
+        (Arktos Megale) and \u1f0c\u03c1\u03ba\u03c4\u03bf\u03c2 \u03bc\u03b9\u03ba\u03c1\u03ac
+        (Arktos Mikra), the great and little bears.<ref name=\"Ridpath\">{{cite web
+        |last1=Ridpath |first1=Ian | authorlink=Ian Ridpath |title=Ptolemy''s Almagest
+        First printed edition, 1515 |url=http://www.ianridpath.com/startales/almagest.htm
+        |accessdate=13 January 2017}}</ref>}}<ref name=UrsaMajor/> The nearby star
+        [[Arcturus]] means \"guardian of the bear\", as if it were watching the two
+        constellations.<ref>{{cite web |url=http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3D*%29arktou%3Dros
+        |title=\u1f08\u03c1\u03ba\u03c4\u03bf\u1fe6\u03c1\u03bf\u03c2 | author1=Liddell,
+        Henry George|author2=Scott, Robert |work=A Greek-English Lexicon |publisher=Perseus
+        |accessdate=23 January 2017}}</ref> Ursa Major has been associated with a
+        bear for as much as 13,000 years since [[Paleolithic]] times, in the widespread
+        [[Cosmic Hunt]] myths. These are found on both sides of the [[Beringia|Bering
+        land bridge]], which was lost to the sea some 11,000 years ago.<ref>{{cite
+        magazine|last=Schaefer|first=Bradley E.|title=The Origin of the Greek Constellations:
+        Was the Great Bear constellation named before hunter nomads first reached
+        the Americas more than 13,000 years ago?|magazine=[[Scientific American]]|date=November
+        2006|postscript=,}} reviewed at {{cite web|last=Brown|first=Miland|url=http://www.worldhistoryblog.com/2006/10/origin-of-greek-constellations.html|title=The
+        Origin of the Greek Constellations|work=World History Blog|date=30 October
+        2006|accessdate=9 April 2017|postscript=;}} {{cite journal|last=Berezkin|first=Yuri|url=http://www.folklore.ee/folklore/vol31/berezkin.pdf|title=The
+        cosmic hunt: variants of a Siberian \u2013 North-American myth|journal=Folklore|volume=31|year=2005|pages=79\u2013100|doi=10.7592/FEJF2005.31.berezkin}}</ref>\n\n[[Pliny
+        the Elder]]''s ''''[[Natural History (Pliny)|Natural History]]'''' (1st century
+        AD) claims that \"when first born, [bears] are shapeless masses of white flesh,
+        a little larger than mice; their claws alone being prominent. The mother then
+        licks them gradually into proper shape.\"<ref>{{cite book |author=Pliny |url=http://data.perseus.org/citations/urn:cts:latinLit:phi0978.phi001.perseus-eng1:8.54
+        |title=Natural History |page=8.4] |editor1=Bostock, John|editor2=Riley, Henry
+        T. |date=1855}}</ref> This belief was echoed by authors of [[bestiary|bestiaries]]
+        throughout the medieval period.<ref>{{cite web |author=Badke, David |url=http://bestiary.ca/beasts/beast171.htm
+        |title=The Medieval Bestiary: Bear |accessdate=23 January 2017}}</ref>\n[[File:The
+        Three Bears - Project Gutenberg eText 17034.jpg|thumb|right|200px|\"The Three
+        Bears\", [[Arthur Rackham]]''s illustration to ''''English Fairy Tales'''',
+        by [[Flora Annie Steel]], 1918]]\nBears are mentioned in the [[Bible]]; the
+        [[Second Book of Kings]] relates the story of the prophet [[Elisha]] calling
+        on them to eat the youths who taunted him.<ref>[[Second Book of Kings]], 2:23\u201325</ref>  Legends
+        of [[saint]]s taming bears are common in the Alpine zone. In the arms of the
+        bishopric of [[Freising]], the bear is the dangerous totem animal tamed by
+        St. [[Corbinian]] and made to carry his civilised baggage over the mountains.
+        Bears similarly feature in the legends of St. [[Romedius]], [[Saint Gall]]
+        and [[Saint Columbanus]]. This recurrent motif was used by the Church as a
+        symbol of the victory of Christianity over paganism.<ref>{{cite book |author=Pastoreau,
+        Michel |date=2007 |title=L''ours. Historie d''un roi d\u00e9chu |publisher=Seuil
+        |language=French |isbn=978-2-02-021542-8}}</ref> In the Norse settlements
+        of northern England during the 10th century, a type of \"hogback\" grave cover
+        of a long narrow block of stone, with a shaped apex like the roof beam of
+        a long house, is carved with a muzzled, thus Christianised, bear clasping
+        each gable end, as in the church at [[Brompton, Hambleton|Brompton, North
+        Yorkshire]] and across the British Isles.<ref>{{cite book | author=Hall, Richard
+        |date=1995 |title=Viking Age Archaeology |pages=43 and fig. 22 |isbn=978-0-7478-0063-7}}</ref>\n[[File:As
+        Between Friends (Punch magazine, 13 December 1911, detail).jpg|thumb|left|200px|The
+        [[Persian Cat]], [[Lion (heraldry)|British Lion]] and [[Russian Bear]] in
+        the [[Anglo-Russian Entente]] of 1907]]\n\n[[L\u0101\u010dpl\u0113sis]], meaning
+        \"Bear-slayer\", is a [[Latvia]]n legendary hero who is said to have killed
+        a bear by ripping its jaws apart with his bare hands. However, as revealed
+        in the end of the long epic describing his life, L\u0101\u010dpl\u0113sis''
+        own mother had been a she-bear, and his superhuman strength resided in his
+        bear ears. The modern Latvian military award [[Order of L\u0101\u010dpl\u0113sis]],
+        called for the hero, is also known as ''''The Order of the Bear-Slayer''''.
+        \n\nBears are popular in children''s stories, including  [[Winnie the Pooh]],<ref>{{cite
+        web |url=http://news.bbc.co.uk/1/hi/entertainment/4552940.stm |title=Pooh
+        celebrates his 80th birthday |publisher=BBC News |date=24 December 2005 |accessdate=23
+        January 2017}}</ref> [[Paddington Bear]],<ref>{{cite web|website=Paddington.com
+        |url=http://www.paddington.com/global/about/timeline/ |title=About |accessdate=19
+        January 2017}}</ref> [[Gentle Ben]]<ref>{{cite web|title=Walt Morey, 84; Author
+        of ''Gentle Ben''|publisher=Associated Press|url=http://articles.latimes.com/1992-01-14/news/mn-245_1_gentle-ben|date=14
+        January 1992|accessdate=6 April 2017}}</ref> and \"[[The Brown Bear of Norway]]\".<ref>{{cite
+        book |editor-last=Kennedy |editor-first=Patrick |chapter=The Brown Bear of
+        Norway |title=Legendary Fictions of the Irish Celts |publisher=Macmillan |date=1866
+        |url=https://books.google.com/books?id=jfdLAAAAcAAJ&pg=PA57 |pages=57\u201367}}</ref>
+        An early version of \"[[Goldilocks and the Three Bears]]\",<ref>{{Cite journal
+        | author=Elms, Alan C. |date=July\u2013September 1977 |title=\"The Three Bears\":
+        Four Interpretations | journal=[[The Journal of American Folklore]] |volume=90
+        |issue=357 | jstor=539519}}</ref> was published as \"The Three Bears\" in
+        1837 by [[Robert Southey]], many times retold, and illustrated in 1918 by
+        [[Arthur Rackham]].<ref>{{cite book |last=Ashliman |first=D. L. |title=Folk
+        and Fairy Tales: A Handbook |url=https://books.google.com/books?id=s_WyX-DD43YC&pg=PA114
+        |year=2004 |publisher=Greenwood Publishing Group |isbn=978-0-313-32810-7 |pages=114\u2013115}}</ref>\nThe
+        [[cartoon]] character [[Yogi Bear]] has appeared in numerous comic books,
+        [[cartoon series|animated television show]]s and films.<ref>{{cite book |author=Mallory,
+        Michael |title=Hanna-Barbera Cartoons |publisher=Hugh Lauter Levin |date=1998
+        |isbn=978-0-88363-108-9 |page=44}}</ref><ref>{{cite book|last1=Browne|first1=Ray
+        B. |last2=Browne |first2=Pat |title=The Guide to United States Popular Culture
+        |url=https://books.google.com/books?id=U3rJxPYT32MC&pg=PA944 |year=2001 |publisher=Popular
+        Press |isbn=978-0-87972-821-2 |page=944}}</ref> The [[Care Bears]] began as
+        greeting cards in 1982, and were featured as toys, on clothing and in film.<ref>{{cite
+        web |author=Holmes, Elizabeth |date=9 February 2007 |title=Care Bears Receive
+        a (Gentle) Makeover |publisher=[[Wall Street Journal]] |url=https://www.wsj.com/articles/SB117097911465002983
+        |accessdate=27 January 2017}}</ref> Around the world, many children\u2014and
+        some adults\u2014have [[teddy bear]]s, [[stuffed toy]]s in the form of bears,
+        named after the American statesman [[Theodore Roosevelt]] when in 1902 he
+        had refused to shoot an American black bear tied to a tree.<ref>{{cite web
+        | authorlink=David Cannadine | author=Cannadine, David |url=http://www.bbc.co.uk/news/magazine-21265701
+        |title=A Point of View: The grownups with teddy bears |date=1 February 2013
+        |publisher=BBC |accessdate=21 January 2017}}</ref>\n \nBears, like other animals,
+        may symbolize nations. In 1911, the British satirical magazine [[Punch magazine|''''Punch'''']]
+        published a cartoon about the [[Anglo-Russian Entente]] by [[Leonard Raven-Hill]]
+        in which the British [[lion]] watches as the Russian bear sits on the tail
+        of the Persian [[cat]].<ref>{{cite journal|last1=Raven-Hill|first1=Leonard|authorlink1=Leonard
+        Raven-Hill|title=As Between Friends|journal=Punch|date=13 December 1911|volume=141|pages=429|url=https://archive.org/stream/punchvol140a141lemouoft#page/n1060/mode/1up|accessdate=19
+        February 2017}}</ref> The [[Russian Bear]] has been a common [[national personification]]
+        for Russia from the 16th century onwards.<ref>{{cite web |url=http://www.telegraph.co.uk/sponsored/rbth/5207026/What-the-West-thinks-about-Russia-is-not-necessarily-true.html
+        |title=What the West thinks about Russia is not necessarily true |publisher=Telegraph
+        |date=23 April 2009 |accessdate=3 January 2017}}</ref>  [[Smokey Bear]] has
+        become a part of American culture since his introduction in 1944, with his
+        message \"Only you can prevent forest fires\".<ref>{{cite web |url=http://www.adcouncil.org/default.aspx?id=129
+        |title=Forest Fire Prevention \u2013 Smokey Bear (1944\u2013Present) |publisher=Ad
+        Council |date=1944-08-09 |accessdate=2010-10-16 |archiveurl=https://www.webcitation.org/5uKg3eCG9?url=http://www.adcouncil.org/default.aspx?id=129
+        |archivedate=2010-11-18 |deadurl=yes |df= }}</ref> In the UK, the bear and
+        staff feature on the heraldic arms of the county of [[Warwickshire]].<ref>{{cite
+        web |url=http://www.civicheraldry.co.uk/warwicks.html|title=Civic Heraldry
+        of England and Wales-Warwickshire}}</ref> Bears appear in the [[canting arms]]
+        of two cities, Bern and [[Berlin]].<ref>{{cite web|title=The first Buddy Bears
+        in Berlin |url=http://www.buddy-baer.com/en/classic-buddy-bears/events-in-cities/berlin.html
+        |publisher=Buddy B\u00e4r Berlin |accessdate=30 January 2014 |year=2008}}</ref>\n\n===Organizations===\n[[File:Baby
+        Pandas.JPG|thumb|right|Juvenile pandas at the [[Chengdu]] Research Base of
+        Giant Panda Breeding]]\n\nThe International Association for Bear Research
+        & Management, also known as the [[International Bear Association]], and the
+        [[Bear Specialist Group]] of the Species Survival Commission, a part of the
+        [[International Union for Conservation of Nature]] focus on the natural history,
+        management, and conservation of bears. Bear Trust International works for
+        wild bears and other wildlife through four core program initiatives, namely
+        Conservation Education, Wild Bear Research, Wild Bear Management, and Habitat
+        Conservation.<ref>{{cite web |url=http://beartrust.org/vision-and-mission
+        |title=Vision and Mission | author=<!--Staff writer(s); no by-line.--> |date=2002\u20132012
+        |website=Bear Trust International |accessdate=8 March 2014}}</ref>\n\nSpecialty
+        organizations for each of the eight species of bears worldwide include:\n*
+        Vital Ground, for the brown bear<ref>{{cite web |url=http://www.vitalground.org
+        |title=Vital Ground }}</ref>\n* Moon Bears, for the Asiatic black bear<ref>{{cite
+        web |url=http://www.moonbears.org/index.html |title=Moon Bears }}</ref>\n*
+        Black Bear Conservation Coalition, for the North American black bear<ref>{{cite
+        web |url=http://www.bbcc.org/ |title=Black Bear Conservation Coalition }}</ref>\n*
+        Polar Bears International, for the polar bear<ref>{{cite web |url=http://www.polarbearsinternational.org/
+        |title=Polar Bears International }}</ref>\n* Bornean Sun Bear Conservation
+        Centre, for the sun bear<ref>{{cite web |url=http://sunbears.wildlifedirect.org/
+        |title=Bornean Sun Bear Conservation Centre }}</ref>\n* Wildlife SOS, for
+        the sloth bear<ref>{{cite web |url=http://www.wildlifesos.org/ |title=Wildlife
+        SOS }}</ref>\n* Andean Bear Conservation Project, for the Andean bear<ref>{{cite
+        web |url=http://www.andeanbear.org/ |title=Andean Bear Conservation Project
+        }}</ref>\n* Chengdu Research Base of Giant Panda Breeding, for the giant panda<ref>{{cite
+        web |url=http://www.panda.org.cn/english/ |title=Chengdu Research Base of
+        Giant Panda Breeding }}</ref>\n\n==See also==\n* [[List of fictional bears]]\n*
+        [[List of individual bears]]\n\n==Notes==\n{{notelist}}\n\n==References==\n{{reflist|30em}}\n\n===Bibliography===\n*{{cite
+        book| author1=Ward, P.|author2=Kynaston, S.|year=1995|title=Wild Bears of
+        the World|publisher=Facts on File, Inc|isbn=978-0-8160-3245-7}}\n\n==Further
+        reading==\n* {{cite book|title=Bears of the World|first=Terry|last=Domico|first2=Mark|last2=Newman|publisher=Facts
+        on File, Inc.|year=1988|isbn=978-0-8160-1536-8}}\n* {{cite book|url=https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aGV2aXJ0dWFsZW5nbGlzaG5vdGVib29rfGd4OjFiYjYyNDA4NTQwZDkyMjc|title=The
+        Bear|authorlink=William Faulkner|first=William|last=Faulkner|year= 1942|publisher=Curley
+        Publishing|isbn=978-0-7927-0537-6}}\n* {{cite book | author=Brunner, Bernd
+        |title=Bears: A Brief History |publisher=Yale University Press |date=2007|isbn=978-0-300-12299-2}}\n\n==External
+        links==\n{{Sister project links|voy=no|display=Bears|b=Dichotomous Key/Ursidae|species=Ursidae}}\n*
+        [http://www.medvede.sk/index1.php The Bears Project \u2013 Information, reports
+        and images of European brown bears and other living species]\n* [http://www.bearinfo.org/
+        Western Wildlife Outreach \u2013 Information on the history, biology, and
+        conservation of North American Grizzly Bears and Black Bears]\n* [http://beartrust.org/the-bear-book-and-curriculum-guide-to-the-bear-book
+        The Bear Book and Curriculum Guide \u2013 a compilation of stories about all
+        eight species of bears worldwide, including STEM lessons rooted in bear research,
+        ecology, and conservation]\n\n{{Carnivora|C.}}\n{{Living things in culture}}\n{{Heraldic
+        creatures}}\n\n{{taxonbar}}\n{{Authority control}}\n\n[[Category:Bears|*]]\n[[Category:Predators]]\n[[Category:Articles
+        containing video clips]]\n[[Category:Extant Eocene first appearances]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T14:08:43Z","lastrevid":810604776,"length":94995,"fullurl":"https://en.wikipedia.org/wiki/Bear","editurl":"https://en.wikipedia.org/w/index.php?title=Bear&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bear"}}}}'
+    http_version: 
+  recorded_at: Fri, 01 Dec 2017 23:26:58 GMT
+recorded_with: VCR 3.0.3

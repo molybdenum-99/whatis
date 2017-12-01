@@ -1,5 +1,3 @@
-require 'whatis'
-
 RSpec.describe WhatIs do
   subject!(:wikipedia) { VCR.use_cassette('en.wikipedia') { described_class.new(:en) } }
 
