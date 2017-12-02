@@ -25,8 +25,8 @@ class WhatIs
         )
       end
 
-      def resolve_all
-        @owner.this(*variants.map(&:title))
+      def resolve_all(**options)
+        @owner.these(*variants.map(&:title), **options)
       end
 
       private

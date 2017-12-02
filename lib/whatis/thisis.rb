@@ -51,6 +51,8 @@ class WhatIs
       @data = EXTRACTORS.map { |sym, proc| [sym, proc.call(page)] }.to_h
     end
 
+    EXTRACTORS.each_key { |title| define_method(title) { @data[title] } }
+
     def inspect # rubocop:disable Metrics/AbcSize
       [
         'ThisIs ',
@@ -72,7 +74,9 @@ class WhatIs
       )
     end
 
-    EXTRACTORS.each_key { |title| define_method(title) { @data[title] } }
+    def what(**options)
+      @owner.this(title, **options)
+    end
 
     private
 

@@ -8,8 +8,8 @@ class WhatIs
         @title = title
       end
 
-      def search(limit = 5)
-        @owner.search(title, limit)
+      def search(limit = 5, **options)
+        @owner.search(title, limit, **options)
       end
 
       def inspect

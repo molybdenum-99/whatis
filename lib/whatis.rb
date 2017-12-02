@@ -35,7 +35,7 @@ class WhatIs
     @infoboxer = Infoboxer.wikipedia(language)
   end
 
-  def this(*titles, **options)
+  def these(*titles, **options)
     titles.any? or
       fail(ArgumentError, "Usage: `this('Title 1', 'Title 2', ..., **options). At least one title is required.")
     @infoboxer
@@ -43,13 +43,13 @@ class WhatIs
       .map { |title, page| [title, ThisIs.create(self, title, page)] }.to_h
   end
 
-  def this_one(title, **options)
-    this(title, **options).values.first
+  def this(title, **options)
+    these(title, **options).values.first
   end
 
-  def search(title, limit = 5)
+  def search(title, limit = 5, **options)
     @infoboxer
-      .search(title, limit: limit, &method(:setup_request))
+      .search(title, limit: limit) { |req| setup_request(req, **options) }
       .map { |page| ThisIs.create(self, page.title, page) }
   end
 
