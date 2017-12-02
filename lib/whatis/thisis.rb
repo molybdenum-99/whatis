@@ -1,4 +1,6 @@
 class WhatIs
+  using Refinements
+
   class ThisIs
     EXTRACTORS = {
       title: ->(page) { page.title },
@@ -50,6 +52,21 @@ class WhatIs
     end
 
     EXTRACTORS.keys.each { |title| define_method(title) { @data[title] } }
+
+    class Link
+      attr_reader :title, :section, :description
+
+      def initialize(owner, title, section: nil, description: nil)
+        @owner = owner
+        @title = title
+        @section = section unless section == ''
+        @description = description
+      end
+
+      def inspect
+        "#<ThisIs::Link #{section&.append('/')}#{title}>"
+      end
+    end
   end
 end
 

@@ -52,4 +52,5 @@ class WhatIs
   end
 end
 
+require_relative 'whatis/refinements'
 require_relative 'whatis/thisis'

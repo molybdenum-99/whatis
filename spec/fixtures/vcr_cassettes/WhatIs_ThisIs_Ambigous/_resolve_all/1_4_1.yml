@@ -1,0 +1,907 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Dec 2017 08:54:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '779'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1282.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=31373 t=1512204856236910
+      X-Varnish:
+      - 677877156, 833767199, 451656595
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.124
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"3459893":{"pageid":3459893,"ns":0,"title":"Bela
+        Crkva","revisions":[{"timestamp":"2017-05-09T23:51:34Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"''''''Bela
+        Crkva'''''' (Cyrillic: \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430,
+        {{IPA-sh|b\u025b\u0302\u02d0la\u02d0 tsr\u0329\u0302\u02d0kv\u031ea|pron}})
+        translates to \"White Church\" in the south Slavic languages in the [[Ekavian]]-accent
+        regions. It may refer to:\n\n* [[Bela Crkva, Banat]], a town in Vojvodina,
+        Serbia\n* [[Bela Crkva, Krivoga\u0161tani]], a village in the Municipality
+        of Krivoga\u0161tani, Macedonia\n* [[Bela Crkva (Krupanj)]], a village in
+        the Ma\u010dva District of Serbia\n* [[Topli\u010dka Bela Crkva]], original
+        name of the city of Kur\u0161umlija, Serbia\n\n==See also==<!--Also of the
+        same origin-->\n* [[Bila Tserkva]] (''''\u0411\u0456\u043b\u0430 \u0426\u0435\u0440\u043a\u0432\u0430''''),
+        a city in the Kiev Oblast of Ukraine\n* [[Byala Cherkva]], a town in the Veliko
+        Turnovo oblast of Bulgaria\n\n{{geodis}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-09-17T01:44:36Z","lastrevid":779619273,"length":706,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva","categories":[{"ns":14,"title":"Category:All
+        disambiguation pages","hidden":""}]}}}}'
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 08:54:16 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Dec 2017 08:54:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - mw1314.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=56461 t=1512204857158572
+      X-Varnish:
+      - 392686631, 257161635, 464160486
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.124
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"redirects":[{"from":"Topli\u010dka Bela
+        Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
+        Crkva, Banat","revisions":[{"timestamp":"2017-11-08T04:07:25Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Infobox
+        settlement\n| name                 = Bela Crkva\n| native_name          =
+        \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430\n| image_skyline        =
+        Bela Crkva, ulice III.jpg\n| imagesize            = 300px\n| image_caption        =
+        Bela Crkva street\n| image_flag           = \n| image_shield         = Blason_de_Bela_Crkva.png\n|
+        image_map            = Municipalities of Serbia Bela Crkva.png\n| mapsize              =
+        \n| map_caption          = Location of Bela Crkva within Serbia\n| settlement_type      =
+        [[List of cities in Serbia|Town]] and [[Municipalities and cities of Serbia|municipality]]\n|
+        subdivision_type        = [[List of sovereign states|Country]]\n| subdivision_name        =
+        {{flag|Serbia}}\n| subdivision_type1       = [[Subdivisions of Serbia|Province]]\n|
+        subdivision_name1       = [[Vojvodina]]\n| subdivision_type2       = [[Districts
+        of Serbia|District]]\n| subdivision_name2       = [[South Banat District|South
+        Banat]]\n| subdivision_type3       = [[Municipalities of Serbia|Municipalities]]\n|
+        subdivision_name3       = \n| leader_title         = Mayor\n| leader_name          =
+        \n| established_title    = \n| established_date     = \n| established_title1   =
+        \n| established_date1    = \n| established_title2   = \n| established_date2    =
+        \n| area_magnitude       = \n| area_total_sq_mi     = \n| population_as_of     =
+        2011\n| population_footnotes =\n| total_type           = Urban\n| population_total     =
+        8868\n| population_density_km2   = \n| population_density_sq_mi = \n| population_metro     =
+        17285\n| population_blank1_title  = [[Demonym]]\n| population_blank2_title  =
+        \n| population_blank2    =\n| timezone             = [[Central European Time|CET]]\n|
+        utc_offset           = +1\n| timezone_DST         = [[Central European Summer
+        Time|CEST]]\n| utc_offset_DST       = +2\n| coordinates          = {{coord|44|53|51|N|21|25|01|E|region:RS|display=inline,title}}\n|
+        elevation_footnotes  =\n| elevation_m          = 78\n| elevation_ft         =
+        \n| postal_code_type     = Postal code\n| postal_code          = 26340\n|
+        area_code            = [[Telephone numbers in Serbia|+381(0)13]]\n| website              =
+        www.belacrkva.rs\n| blank_name           = [[Vehicle registration plates of
+        Serbia|Car plates]]\n| blank_info           = V\u0160\n}} <!-- Infobox ends
+        -->\n[[File:Bela crkva mun.png|right|thumb|280px|Map of Bela Crkva municipality]]\n''''''Bela
+        Crkva'''''' ({{lang-sr-cyr|\u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430}}
+        [{{IPA-sh|b\u025b\u0302\u02d0la\u02d0 tsr\u0329\u0302\u02d0kv\u031ea|pron}}],
+        {{lang-de|Wei\u00dfkirchen}}, {{lang-hu|Feh\u00e9rtemplom}}, {{lang-ro|Biserica
+        Alb\u0103}}) is a town and municipality located in the [[South Banat District]]
+        of the autonomous province of [[Vojvodina]], Serbia. The town has a population
+        of 8,868, while the Bela Crkva municipality has 17,285 inhabitants.\n\n[[Bela
+        Crkva lakes]] at the outskirts of the town are a popular summer tourist destination.\n\n==Name==\nThe
+        name of the town ''''Bela Crkva'''' means \"white church\" in [[Serbian language|Serbian]].
+        In [[Romanian language|Romanian]], the town is known as ''''Biserica Alb\u0103''''
+        (formerly Albe\u0219ti), in [[German language|German]] as ''''Wei\u00dfkirchen'''',
+        in [[Hungarian language|Hungarian]] as ''''Feh\u00e9rtemplom'''' (formerly
+        Fej\u00e9regyh\u00e1z<ref name=\"Apor2014\">{{cite book|author=Apor|title=Metamorphosis
+        Transylvaniae|url=https://books.google.com/books?id=ZktpAwAAQBAJ&pg=PR20|date=23
+        April 2014|publisher=Routledge|isbn=978-1-317-85664-1|pages=20\u2013}}</ref>),
+        and in [[Turkish language|Turkish]] as ''''Aktabya''''.\n\n==History==\nNeolithic
+        findings of ceramics and burial with Greek-style pots dating to late 5th century
+        BC are founded in the area.<ref>The Illyrians-John Wilkes</ref>\n\nThe town
+        was founded in 1717 when this region was included into the [[Habsburg Monarchy]].
+        It was part of the [[Banat Krajina|Banatian Military Frontier]] of the Monarchy
+        and, since 1774, was a seat of the Illyrian (Serbian) section of the Banatian
+        Frontier. Briefly, in 1787-1788, the town was controlled by the Ottomans.
+        In 1848-1849, the town was part of autonomous [[Serbian Vojvodina]], but in
+        1849 it was again placed under military administration. With the abolishment
+        of the Military Frontier, the town was included into [[Temes County|Temes]]
+        county of the [[Kingdom of Hungary]], one of two autonomous parts of [[Austria-Hungary]].
+        The town was also a seat of the district since 1867.\n\nAccording to the 1910
+        census, the town itself was mainly populated by [[Germans]], but its surrounding
+        municipal area was mainly populated by [[Serbs]]. Census recorded 11,524 citizens
+        in the town, of whom 6,062 spoke German language, 1,994 Serbian, 1,806 Romanian,
+        and 1,213 Hungarian. The municipal area numbered 36,831 inhabitants, of whom
+        20,987 spoke Serbian, 8,234 Romanian, and 4,791 German. The total population
+        of the town and its municipal area counted together was 48,355, of whom 22,981
+        spoke Serbian, 10,853 German, 10,040 Romanian, and 2,122 Hungarian.<ref>http://www.talmamedia.com/php/district/district.php?county=Temes  {{webarchive
+        |url=https://web.archive.org/web/20060309202200/http://www.talmamedia.com/php/district/district.php?county=Temes
+        |date=March 9, 2006 }}</ref>\n\nSince 1918, Bela Crkva was part of the [[Kingdom
+        of Serbs, Croats and Slovenes]] and subsequent [[South Slavs|South Slavic]]
+        states. In the 1920s it was a center of Russian emigration in Yugoslavia.\n\n==Inhabited
+        places==\nBela Crkva municipality includes the town of Bela Crkva and the
+        following villages:\n* [[Banatska Palanka]]\n* [[Banatska Subotica]]\n* [[Vra\u010dev
+        Gaj]]\n* [[Grebenac]]\n* [[Dobri\u010devo]]\n* [[Dupljaja]]\n* [[Jasenovo,
+        Bela Crkva|Jasenovo]]\n* [[Kajtasovo]]\n* [[Kalu\u0111erovo]]\n* [[Kru\u0161\u010dica
+        (Bela Crkva)|Kru\u0161\u010dica]]\n* [[Kusi\u0107, Bela Crkva|Kusi\u0107]]\n*
+        [[Crvena Crkva]]\n* [[\u010ce\u0161ko Selo]]\n\n==Demographics==\n{{Historical
+        populations\n| type = \n| percentages = pagr\n|1948|25179 |1953|25774 |1961|26276
+        |1971|25450 |1981|25690 |1991|23707 |2002|20367 |2011|17367\n| source = <ref>{{cite
+        web|title=2011 Census of Population, Households and Dwellings in the Republic
+        of Serbia|url=http://pod2.stat.gov.rs/ObjavljenePublikacije/Popis2011/Knjiga20.pdf|website=stat.gov.rs|publisher=Statistical
+        Office of the Republic of Serbia|accessdate=20 October 2017}}</ref>\n}}\n\nAccording
+        to the 2011 census results, the municipality of Bela Crkva has 17,367 inhabitants.\n\n===Ethnic
+        groups===\n{{Update|type=section|date=January 2012}}\nThe ethnic composition
+        of the Bela Crkva municipality according to the 2002 census:\n* [[Serbs]]
+        (76.85%)\n* [[Romanians]] (5.4%)\n* [[Czechs]] (3.99%)\n* [[Romani people|Romani]]
+        (3.03%)\n* [[Magyars|Hungarians]] (2.25%)\n* [[Yugoslavs]] (1.38%)\n\nSettlements
+        with Serb ethnic majority are: Bela Crkva, [[Banatska Palanka]], [[Banatska
+        Subotica]], [[Vra\u010dev Gaj]], [[Dupljaja]], [[Jasenovo, Bela Crkva|Jasenovo]],
+        [[Kajtasovo]], [[Kalu\u0111erovo]], [[Kru\u0161\u010dica (Bela Crkva)|Kru\u0161\u010dica]],
+        [[Kusi\u0107, Bela Crkva|Kusi\u0107]], and [[Crvena Crkva]]. The settlement
+        with Romanian ethnic majority is [[Grebenac]]. The settlement with Hungarian
+        ethnic majority is [[Dobri\u010devo]]. The settlement with Czech ethnic majority
+        is [[\u010ce\u0161ko Selo]].\n\n==Gallery==\n<gallery>\nFile:Bela Crkva, pam\u00e1tn\u00edk
+        rudoarm\u011bjc\u016f.jpg|Bela Crkva monument dedicated to fallen Red Army
+        Soviet soldiers \nFile:Bela Crkva, rusk\u00fd chr\u00e1m.jpg|The Russian church\nFile:Bela
+        Crkva, Orthodox Church.jpg|The Romanian Orthodox church\nFile:Bela_Crkva,_Catholic_church,_retouched.jpg|The
+        St. Ana Catholic Church\nFile:Bela Crkva, ulice II.jpg|Bela Crkva street\nFile:Bela
+        Crkva, ulice, pohled ke katolick\u00e9mu kostelu.jpg|Bela Crkva street\nFile:Bela
+        Crkva (Vojvodina).jpg|A typical sight in Bela Crkva, Vojvodina\nFile:Lake
+        of Bela Crkva.jpg|One of the lakes of Bela Crkva\n</gallery>\n\n==See also==\n*
+        [[List of places in Serbia]]\n* [[List of cities, towns and villages in Vojvodina]]\n*
+        [[Bila Tserkva]]\n\n== References ==\n\n{{reflist}}\n\n==External links==\n*
+        [http://www.belacrkva.eu/ www.belacrkva.eu]\n* [http://www.belacrkva.rs/ www.belacrkva.rs]\n*
+        [http://www.belacrkva.co.rs/ www.belacrkva.co.rs]\n* [http://www.bela-crkva.net/
+        www.bela-crkva.net]\n\n{{South Banat District}}\n{{Municipalities of Serbia}}\n\n{{Authority
+        control}}\n\n[[Category:Bela Crkva, Banat| ]]\n[[Category:Populated places
+        in Serbian Banat]]\n[[Category:Populated places in South Banat District]]\n[[Category:Municipalities
+        and cities of Vojvodina]]\n[[Category:Towns in Serbia]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-26T16:16:42Z","lastrevid":809277977,"length":8256,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva,_Banat","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva,_Banat&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva,_Banat","coordinates":[{"lat":44.8975,"lon":21.41694444,"primary":"","globe":"earth"}]},"47100534":{"pageid":47100534,"ns":0,"title":"Bela
+        Crkva, Krivoga\u0161tani","revisions":[{"timestamp":"2016-10-13T17:40:57Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Other
+        places|Bela Crkva (disambiguation){{!}}Bela Crkva}}\n{{Unreferenced stub|auto=yes|date=December
+        2009}}\n{{Infobox settlement\n<!-- See Template:Infobox settlement for additional
+        fields and descriptions -->\n| name                    = Bela Crkva\n| native_name             =
+        \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430\n| native_name_lang        =
+        mk\n| settlement_type         = Village\n| image_skyline           = \n| image_alt               =
+        \n| image_caption           = \n| image_flag              = \n| flag_alt                =
+        \n| image_seal              = \n| seal_alt                = \n| image_shield            =
+        \n| shield_alt              = \n| nickname                = \n| motto                   =
+        \n| image_map               = \n| map_alt                 = \n| map_caption             =
+        \n| pushpin_map             = \n| pushpin_label_position  = \n| pushpin_map_alt         =
+        \n| pushpin_map_caption     = \n| latd  =  |latm  =  |lats  =  |latNS  = \n|
+        longd =  |longm =  |longs =  |longEW = \n| coor_pinpoint           = \n| coordinates_type        =
+        \n| coordinates_display     = inline,title\n| coordinates_footnotes   = \n|
+        subdivision_type        = Country\n| subdivision_name        = Republic of
+        Macedonia\n| subdivision_type1       = Municipality\n| subdivision_name1       =
+        [[Municipality of Krivoga\u0161tani|Krivoga\u0161tani]]\n| subdivision_type2       =
+        \n| subdivision_name2       = \n| subdivision_type3       = \n| subdivision_name3       =
+        \n| established_title       = \n| established_date        = \n| founder                 =
+        \n| seat_type               = \n| seat                    = \n| government_footnotes    =
+        \n| leader_party            = \n| leader_title            = \n| leader_name             =
+        \n| unit_pref               = Metric<!-- or US or UK -->\n| area_footnotes          =
+        \n| area_total_km2          = \n| area_land_km2           = \n| area_water_km2          =
+        \n| area_water_percent      = \n| area_note               = \n| elevation_footnotes     =
+        \n| elevation_m             = 572\n| population_footnotes    = \n| population_total        =
+        498\n| population_as_of        = 2002\n| population_density_km2  = auto\n|
+        population_demonym      = \n| population_note         = \n| timezone1               =
+        [[Central European Time|CET]]\n| utc_offset1             = +1\n| timezone1_DST           =
+        \n| utc_offset1_DST         = \n| postal_code_type        = \n| postal_code             =
+        \n| area_code_type          = \n| area_code               = +38948\n| iso_code                =
+        \n| website                 = <!-- {{URL|example.com}} -->\n| footnotes               =
+        \n}}\n\n''''''Bela Crkva'''''' ([[Macedonian Cyrillic]]: \u0411\u0435\u043b\u0430
+        \u0426\u0440\u043a\u0432\u0430; meaning ''''White Church'''') is a village
+        in the [[Municipality of Krivoga\u0161tani]], [[Prilep]] [[Oblast]], [[Republic
+        of Macedonia]]. It is situated along the main road between [[Krivoga\u0161tani]]
+        and [[Demir Hisar (town)|Demir Hisar]], and has a population consisting of
+        [[Macedonians (ethnic group)|Macedonians]], Turks, and Albanians. The number
+        of inhabitants according to the 2002 national census was 498. \n\nBela Crkva
+        is divided into ''''''Dolna Bela Crkva'''''' (\u0414\u043e\u043b\u043d\u0430
+        \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430) and ''''''Gorna Bela
+        Crkva'''''' (\u0413\u043e\u0440\u043d\u0430 \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430).  The
+        Word ''''Dolna'''' translates to ''''Lower'''', and this region is inhabited
+        primarily by Macedonians. ''''Gorna'''' translates to ''''Upper'''', and in
+        this part live mainly [[Turkish people|Turks]] and [[Albanians]].\n\n{{coord|41|16|51|N|21|20|43|E|region:MK_type:city_source:kolossus-frwiki|display=title}}\n\n{{DEFAULTSORT:Bela
+        Crkva, Krivogastani}}\n[[Category:Villages in Krivoga\u0161tani Municipality]]\n\n{{Inhabited
+        places in Municipality of Krivoga\u0161tani}}\n\n\n{{RMacedonia-geo-stub}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-10-22T13:35:10Z","lastrevid":744189159,"length":3630,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva,_Krivoga%C5%A1tani","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva,_Krivoga%C5%A1tani&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva,_Krivoga%C5%A1tani","coordinates":[{"lat":41.28083333,"lon":21.34527778,"primary":"","globe":"earth"}]},"19854784":{"pageid":19854784,"ns":0,"title":"Bela
+        Crkva (Krupanj)","revisions":[{"timestamp":"2017-05-28T21:33:35Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Expand
+        Serbian|\u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430 (\u041a\u0440\u0443\u043f\u0430\u045a)|date=June
+        2016}}\n{{Other places|Bela Crkva (disambiguation){{!}}Bela Crkva}}\n[[File:Bela
+        Crkva.jpg|250px|thumb|right|A church in Bela Crkva]]\n[[Image:Serbia Krupanj.png|250px|thumb|right|Location
+        of the Krupanj municipality in [[Serbia]]]]\n''''''Bela Crkva'''''' (\u0411\u0435\u043b\u0430
+        \u0426\u0440\u043a\u0432\u0430, {{IPA-sh|b\u025b\u0302\u02d0la\u02d0 tsr\u0329\u0302\u02d0kv\u031ea|pron}})
+        is a [[village]] in [[Serbia]]. It is situated in the [[Krupanj]] [[municipality]],
+        in the [[Ma\u010dva District]] of [[Central Serbia]]. The village had a [[Serb]]
+        ethnic majority and a population of 755 in 2002.  \n\n==Historical population==\n\n*1948:
+        1,053 (mainly native Serbs)\n*1953: 1,080\n*1961: 998\n*1971: 926\n*1981:
+        888\n*1991: 866\n*2002: 755<ref>''''In [[Serbian Language|Serbian]]'''' \u041a\u045a\u0438\u0433\u0430
+        9, ''''\u0421\u0442\u0430\u043d\u043e\u0432\u043d\u0438\u0448\u0442\u0432\u043e,
+        \u0443\u043f\u043e\u0440\u0435\u0434\u043d\u0438 \u043f\u0440\u0435\u0433\u043b\u0435\u0434
+        \u0431\u0440\u043e\u0458\u0430 \u0441\u0442\u0430\u043d\u043e\u0432\u043d\u0438\u043a\u0430
+        1948, 1953, 1961, 1971, 1981, 1991, 2002, \u043f\u043e\u0434\u0430\u0446\u0438
+        \u043f\u043e \u043d\u0430\u0441\u0435\u0459\u0438\u043c\u0430'''', \u0420\u0435\u043f\u0443\u0431\u043b\u0438\u0447\u043a\u0438
+        \u0437\u0430\u0432\u043e\u0434 \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0443,
+        \u0411\u0435\u043e\u0433\u0440\u0430\u0434, \u043c\u0430\u0458 2004, {{ISBN|86-84433-14-9}}</ref>\n\n==References==\n<references/>\n\n==See
+        also==\n*[[List of places in Serbia]]\n\n{{coord|44|23|42.00|N|19|28|45.84|E|type:mountain_source:frwiki|display=title}}\n\n*\n\n[[Category:Populated
+        places in Ma\u010dva District]]\n\n{{Ma\u010dvaRS-geo-stub}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-10-17T04:31:23Z","lastrevid":782735828,"length":1291,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva_(Krupanj)","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva_(Krupanj)&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva_(Krupanj)","coordinates":[{"lat":44.395,"lon":19.4794,"primary":"","globe":"earth"}]},"1091514":{"pageid":1091514,"ns":0,"title":"Bila
+        Tserkva","revisions":[{"timestamp":"2017-12-01T19:35:04Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Use
+        dmy dates|date=June 2013}}\n{{Infobox settlement\n| official_name          =
+        Bila Tserkva\n| native_name            = \u0411i\u043b\u0430 \u0426\u0435\u0440\u043a\u0432\u0430\n|
+        image_skyline          = Bila Tserkva Montage.png\n| imagesize              =
+        \n| image_caption          = Collage of the views of Bila Tserkva, ''''''Top
+        left'''''':A view of [[Ros River]] and Tsentralnyy Bridge (''''\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0438\u0439
+        \u043c\u0456\u0441\u0442''''), ''''''Top middle'''''':Belotserkovsky National
+        Agrarian University (''''\u0411\u0456\u043b\u043e\u0446\u0435\u0440\u043a\u0456\u0432\u0441\u044c\u043a\u0438\u0439
+        \u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u0433\u0440\u0430\u0440\u043d\u0438\u0439
+        \u0443\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442''''), ''''''Top
+        right'''''':The Heroes Hundreds of Heaven Street (''''\u0412\u0443\u043b\u0438\u0446\u044f
+        \u0413\u0435\u0440\u043e\u0457\u0432 \u041d\u0435\u0431\u0435\u0441\u043d\u043e\u0457
+        \u0421\u043e\u0442\u043d\u0456''''), ''''''Bottom upper left'''''':Kurbas
+        Market Mall, ''''''Bottom lower left'''''':Colonnade Echo (''''\u041a\u043e\u043b\u043e\u043d\u0430\u0434\u0430
+        \u00ab\u041b\u0443\u043d\u0430\u00bb''''), ''''''Bottom right'''''':Panoramic
+        view of Bila Tserkva with Torhova Square\n| image_flag             = Flag
+        of Bila Cerkva.svg\n| image_shield           = Bila Cerkva polk.svg\n| nickname               =
+        \n| motto                  = \n| image_map              = Bila-Zerkwa-Ukraine-Map.png\n|
+        mapsize                = 250px\n| map_caption            = \n| pushpin_map            =
+        Ukraine Kiev Oblast\n| pushpin_label_position = <!-- the position of the pushpin
+        label: left, right, top, bottom, none -->\n| pushpin_map_caption    = Location
+        of Bila Tserkva\n| subdivision_type       = Country\n| subdivision_name       =
+        [[Ukraine]]\n| subdivision_type1      = [[Subdivisions of Ukraine|Oblast]]\n|
+        subdivision_name1      = [[Kiev Oblast]]\n| subdivision_type2      = [[Raion]]\n|
+        subdivision_name2      = Bila Tserkva City Municipality\n| established_title      =
+        Founded\n| established_date       = 1032\n| established_title1     = [[Magdeburg
+        Rights]]\n| established_date1      = 1589\n| leader_title           = [[Mayor|Head
+        of City <br/> Council]]\n| leader_name            = Vasyl Savchuk\n| area_magnitude         =
+        \n| area_total_km2         = 34.77\n| population_as_of       = 2015\n| population_note        =
+        \n| population_total       = 211100\n| population_footnotes   =\n| population_density_km2
+        = auto\n| coordinates            = {{coord|49|47|56|N|30|06|55|E|region:UA|display=inline,title}}\n|
+        elevation_m            = 148\n| postal_code_type       = [[Postal code]]\n|
+        postal_code            = 09100-09117\n| area_code              = (+380) 4563\n|
+        registration_plate     = AI/10\n| blank1_name            = [[Town twinning|Sister
+        cities]]\n| blank1_info            = [[Barysaw]], [[Jingzhou]], [[Kaunas]],
+        [[Ostrowiec \u015awi\u0119tokrzyski]], [[Noginsk]], [[Kremenchuk]]\n| website                =
+        http://www.bilatserkva.info/\n| footnotes              = \n}}\n''''''Bila
+        Tserkva'''''' ({{lang-uk|\u0411\u0456\u0301\u043b\u0430 \u0426\u0435\u0301\u0440\u043a\u0432\u0430}}
+        ({{IPA-uk|\u02c8b\u02b2i\u026b\u0251 \u02c8ts\u025brkw\u0251}}), {{lang-pl|Bia\u0142a
+        Cerkiew}}, {{lang-ru|\u0411\u0435\u043b\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c,
+        ''''Belaya Tserkov''''}}, literally ''''White Church'''') is a city in central
+        [[Ukraine]], the largest city in [[Kiev Oblast]].<ref>(after [[Kiev]] which
+        is the administrative center, but not part of the oblast)</ref> Bila Tserkva
+        is located on the [[Ros River]] approximately {{convert|80|km|mi|abbr=on}}
+        south of Kiev. The area is {{convert|34|km\u00b2|0|abbr=on}}.<ref>[http://www.bilatserkva.info/modules.php?name=Content&pa=showpage&pid=16
+        General information about the city], at [http://www.bilatserkva.info/ Bila
+        Tserkva official web-site]</ref> Population: {{Ua-pop-est2013|210,919}}.\n\nAdministratively,
+        Bila Tserkva is incorporated as a [[city of regional significance (Ukraine)|town
+        of oblast significance]]. It also serves as the [[Capital city|administrative
+        center]] of [[Bila Tserkva Raion]] ([[Raion|district]]), though administratively
+        it does not belong to the raion.\n\n==History==\nThe town was founded in 1032
+        as ''''''Yuriev'''''' by [[Yaroslav I the Wise|Yaroslav the Wise]], whose
+        Christian name was Yuri. The present name of the city, literally translated,
+        is  \"White Church\" and may refer to the (no longer existing) white-painted
+        cathedral of medieval Yuriev. Since 1363 it belonged to the [[Grand Duchy
+        of Lithuania]], and since 1569 to the [[Polish-Lithuanian Commonwealth]].
+        Was granted [[Magdeburg rights|Magdeburg Rights]] in 1620 by [[Sigismund III
+        Vasa]].\n\nThe [[Treaty of Bila Tserkva]] between the [[Polish-Lithuanian
+        Commonwealth]] and Ukrainian [[Cossack]] rebels under [[Bohdan Khmelnytsky]]
+        was signed here in 1651.<ref>Paul Robert Magocsi, ''''A history of Ukraine'''',
+        University of Toronto Press, 1996, p. 205</ref>\n\nBeginning in the second
+        half of the 18th century, Bila Tserkva (Bia\u0142a Cerkiew), then the seat
+        of the sub-prefecture ([[starostwo]]), was the property of the [[Branicki
+        (Korczak) family|Branicki family]]. [[Franciszek Ksawery Branicki]], [[Hetmans
+        of the Polish\u2013Lithuanian Commonwealth|Poland''s Grand Hetman]], built
+        there his urban residence&nbsp;\u2013 the Winter Palace complex and a country
+        residence with the park \"Alexandria\" (named after his wife). He founded
+        a Catholic church of John the Baptist and started construction of the Orthodox
+        church which was completed by his successor&nbsp;\u2013 count [[W\u0142adys\u0142aw
+        Grzegorz Branicki]]. The latter one built also the gymnasium-school complex
+        in Bila Tserkva. Aleksander Branicki, the grandson of the hetman,  renovated
+        and finished the Mazepa''s Orthodox church. Under the rule of count W\u0142adys\u0142aw
+        Micha\u0142 Branicki, Bila Tserkva developed into a regional commercial and
+        manufacturing centre.<ref>E. A. Chernecki, L. P. Mordatenko, ''''Bila Tserkva.
+        Branicki family. Alexandria, Ogrody rezydencji magnackich XVIII-XIX wieku
+        w Europie \u015arodkowej i Wschodniej oraz problemy ich ochrony'''', O\u015brodek
+        Ochrony Zabytkowego Krajobrazu\u2014Narodowa Instytucja Kultury, 2001, p.114</ref><ref>Marek
+        Ruszczyc, ''''Dzieje rodu i fortuny Branickich'''', Delikon, 1991, p. 148</ref>\n\nBila
+        Tserkva was annexed into [[Russian Empire]] as a result of the [[Second Partition
+        of Poland]] in 1793.\n\nAfter 1861,  the Tzarist authorities converted the
+        Roman Catholic church into an Orthodox Church.<ref>Lucjan Blit, The origins
+        of Polish socialism: the history and ideas of the first Polish Socialist Party
+        1878\u20131886, Cambridge University Press, 1971, p. 21</ref> During the Soviet
+        times Bila Tserkva became a large industrial hub (machine building and construction
+        industry).\n\nDuring [[World War II]], Bila Tserkva was occupied by the [[Wehrmacht|German
+        Army]] from 16 July 1941 to 4 January 1944.<ref name=liberation>[http://www.onwar.com/chrono/1944/jan44/f04jan44.htm
+        ''''Onwar.com'''', ''''Allies support resistance in Europe'''']</ref> In August
+        1941 it was the site of the [[1941 Bila Tserkva massacre]].\n\nDuring the
+        [[Cold War]], the town was host to the [[72nd Guards Motor Rifle Division|72nd
+        Guards Krasnograd Motor Rifle Division]]<ref>Carey Schofield, Inside the Soviet
+        Army, Headline Book Publishing, 2001, 132.</ref> and the 251st Instructor
+        Heavy Bomber Aviation Regiment of [[Long Range Aviation]].<ref>Michael Holm,
+        [http://www.ww2.dk/new/air%20force/regiment/bap/251gvtbap.htm 251st Instructor
+        Heavy Bomber Aviation Regiment], accessed December 2012.</ref>\n\n==Sights==\n[[File:Organ
+        Hall in city of Bila Tserkva.jpg|thumb|Church of John the Baptist, Bila Tserkva]]\nNotable
+        buildings include the merchant court (1809\u20131814) and the complex of post
+        buildings (1825\u201331). There are also [[Palladian]] wooden buildings of
+        the Branickis'' \"Winter Palace\" and the district nobility assembly. The
+        church of St. Nicholas was started in 1706 but was not completed until 1852.
+        The Orthodox cathedral of the Saviour''s Transfiguration was constructed in
+        1833\u20131839, while the Catholic [[Church of John the Baptist, Bila Tserkva|Church
+        of John the Baptist]] dates to 1812.\n\nA historical [[Landscape Park (protected
+        area)|landscape park]] \"Alexandria\" of {{convert|2|km2|sqmi|abbr=on}} is
+        situated in Bila Tserkva. It was founded in 1793 by the wife of the Polish
+        [[hetman]] [[Franciszek Ksawery Branicki]].\n\n==Activities==\n\nThe city
+        is home to football team [[FC Ros Bila Tserkva|FC Ros'' Bila Tserkva]]. Ros
+        is a team in the lower levels of the Ukrainian Football League.\n\nIndustry
+        in the city includes [[Railway]] [[Brake]] product manufacturers \"Tribo Rail\",
+        \"Bilotserkivsky Zavod Tribo Ltd\" and the major [[automobile]] [[tire]] [[manufacturer]]
+        \"Rosava\".\n\n==Famous people==\n* [[Lyudmila Pavlichenko]]&nbsp;\u2013 World
+        War II [[Soviet sniper]]. Credited with 309 kills, she is regarded as one
+        of the top military snipers of all time and the most successful female sniper
+        in history.\n* [[David Bronstein]]&nbsp;\u2013 leading [[International Grandmaster|chess
+        grandmaster]] and writer\n* [[Volodymyr Dyudya]]&nbsp;\u2013 Ukrainian cyclist\n*
+        David Goodman, father of [[Benny Goodman]]&nbsp;\u2013 an American jazz and
+        swing musician, clarinetist and bandleader; widely known as the \"King of
+        Swing\"\n* Andrzej Klimowicz&nbsp;\u2013 [[Zegota]] underground activist,
+        Righteous Among the Nations\n* Vadim Lazarkevich&nbsp;\u2013 Russian\u2013Bulgarian
+        illustrator\n* [[Yuri Linnik]]&nbsp;\u2013 Soviet mathematician\n* [[Alexander
+        Medved|Olexandr Medvid'']]&nbsp;\u2013 famous [[Soviet Union|Soviet]]/[[Belarus]]ian
+        [[sport wrestling|wrestler]].\n* [[Yossele Rosenblatt]]&nbsp;\u2013 renowned
+        American cantor\n* [[Shaye Shkarovsky]] - Yiddish author\n* Anna Ulitko&nbsp;\u2013
+        Danish natural scientist\n* [[Lyudmila Usherovitz]] (Ayzenberg Married);\u2013
+        [[Jewish gymnast]]\n* Shmuel Yerushalmi&nbsp;\u2013 Israeli protest poet\n*
+        Yuriy Zagorodniy&nbsp;\u2013 [[Football (soccer)|footballer]]\n* Yaroslav
+        Koposov \u2013 Ukrainian musician\n\n==Twin towns \u2013 sister cities==\n*{{flagicon|POL}}
+        [[Tarn\u00f3w]], Poland<ref>{{cite web|title=Miasta Partnerskie|url=http://www.tarnow.pl/Miasto/Urzad-Miasta-Tarnowa/Miasta-Partnerskie|accessdate=1
+        May 2014}}</ref>\n\n==Gallery==\n<gallery>\nFile:\u0422\u043e\u0440\u0433\u043e\u0432\u0456
+        \u0440\u044f\u0434\u0438 (\u0411\u0420\u0423\u041c).jpg|Merchant court in
+        Bila Tserkva\nFile:\u0421\u0442\u0430\u0440\u0430 \u043f\u043e\u0448\u0442\u0430
+        (\u0411\u0456\u043b\u0430 \u0426\u0435\u0440\u043a\u0432\u0430) 3.jpg|Former
+        post office\nFile:Bila Tserkva Mykilska church DSC 0651 32-103-0003.JPG|St.
+        Nicholas church\nFile:Bila Tserkva Gagarina 10 Spaso-Preobrazhens''kiy Sobor
+        04 (YDS 6118).JPG|Church of Transfiguration\nFile:Agricultural University.jpg|Bila
+        Tserkva National Agrarian University\n\nFile:Bia\u0141a Cerkiew 1889.jpg|Bila
+        Tserkva, Oleksandriia, and surrounding villages in 1889\nFile:Oleksandriia
+        Park in Bila Tserkva.jpg|View of the so-called ''''Ruins'''' and the ''''Laznevogo
+        lake'''' of the historical [[Landscape Park (protected area)|landscape park]]
+        \"Alexandria\".<ref>For more images of the park \"Alexandria\", see [http://klymenko.data-tec.net/Other_World/Ukraine.Aleksandriya.htm
+        klymenko.data-tec.net]</ref>\nFile:Zymovyi palac branyckich.jpg|Branicki Winter
+        Palace\nFile:Water tower, Bila Tserkva.jpg|Water tower\nFile:Organ hall, Bila
+        Tserkva.jpg|Organ Hall\nFile:Square, Bila Tserkva.jpg|Square before the fall
+        of Lenin monument in 2014\nFile:\u041f\u0430\u0440\u043a \u0456\u043c\u0435\u043d\u0456
+        \u0422\u0430\u0440\u0430\u0441\u0430 \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u0430
+        (\u0411\u0456\u043b\u0430 \u0426\u0435\u0440\u043a\u0432\u0430). \u0412\u0445\u0456\u0434.jpg|Gates
+        of Taras Shevchenko Park\nFile:\u0411\u0456\u043b\u043e\u0446\u0435\u0440\u043a\u0456\u0432\u0441\u044c\u043a\u0438\u0439
+        \u0437\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b.jpg|Railway
+        station\nFile:Bila Tserkva MariiMagdalyny church DSC 0800 32-103-0069.JPG|St.
+        Mary Magdalene church\n</gallery>\n\n==See also==\n* [[Bela Crkva, Banat]]\n*
+        [[Bila Tserkva Regiment]]\n\n==References==\n{{Reflist|colwidth=30em}}\n\n==External
+        links==\n{{EB1911 poster|Byelaya Tserkov}}\n{{Commonscat|Bila Tserkva}}\n*
+        [http://www.hotelkiev.co.ua/ Fine and cheap hotel Kiev in the center of our
+        city]\n* [http://www.hotelcentral.com.ua/ Four stars hotel Kiev in the center
+        of our city]\n* [http://www.streetangels.com.ua/ Street Angels (UKRAINE)&nbsp;\u2013
+        Website of StreetRacers in Bila Tserkva]\n* [http://www.bp.streetangels.com.ua/
+        Website of Bila Tserkva''s patriots]\n* [http://www.bila-tserkva.in.ua/ Informative
+        Website of Bila Tserkva]\n* [http://www.bila-tserkva.in.ua/city-bila-tserkva/retro-photo-of-city-of-bila-tserkva
+        Old photos of Bila Tserkva]\n* [http://www.bila-tserkva.in.ua/city-bila-tserkva/park-alexandria/retro-photo-of-park-alexandria
+        Old photos of Alexandria park]\n* [http://www.bilatserkva.info/ Official Bila
+        Tserkva city webportal in Ukrainian]\n* [http://www.bila.com.ua/ Enterprise
+        catalogue of Bila Tserkva]{{dead link|date=December 2017 |bot=InternetArchiveBot
+        |fix-attempted=yes }}\n* [https://web.archive.org/web/20090906050210/http://news.blitz.com.ua/
+        Latest news in our city]\n* [http://ukrainetrek.com/bila_tserkva-city Sightseeings
+        of Bila Tserkva]\n* [http://jewua.org/belaya_tserkov/ History of Jewish Community
+        in Belaya Tserkov]\n\n{{Kiev Oblast}}\n{{Cities in Ukraine}}\n\n{{Authority
+        control}}\n\n[[Category:Bila Tserkva|*]]\n[[Category:Cities in Kiev Oblast]]\n[[Category:Populated
+        places established in the 11th century]]\n[[Category:1032 establishments in
+        Europe]]\n[[Category:Kiev Governorate]]\n[[Category:Kiev Voivodeship]]\n[[Category:Cossack
+        Hetmanate]]\n[[Category:Shtetls]]\n[[Category:Cities of regional significance
+        in Ukraine]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T19:35:04Z","lastrevid":813100530,"length":12755,"fullurl":"https://en.wikipedia.org/wiki/Bila_Tserkva","editurl":"https://en.wikipedia.org/w/index.php?title=Bila_Tserkva&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bila_Tserkva","coordinates":[{"lat":49.79888889,"lon":30.11527778,"primary":"","globe":"earth"}]},"1491496":{"pageid":1491496,"ns":0,"title":"Byala
+        Cherkva","revisions":[{"timestamp":"2017-11-02T19:35:47Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Infobox
+        settlement <!--more fields are available for this Infobox--See Template:Infobox
+        Settlement-->\n|official_name = \u0411\u044f\u043b\u0430 \u0447\u0435\u0440\u043a\u0432\u0430\n|subdivision_type
+        = [[Countries of the world|Country]]\n|subdivision_name       = [[Bulgaria]]\n|subdivision_type1      =
+        [[Provinces of Bulgaria|Provinces]]<br><small>(Oblast)</small>\n|timezone=[[Eastern
+        European Time|EET]]\n|utc_offset=+2\n|timezone_DST=[[Eastern European Summer
+        Time|EEST]]\n|utc_offset_DST=+3\n|map_caption = Location of Byala Cherkva|\n|pushpin_map            =Bulgaria
+        <!-- the name of a location map as per http://en.wikipedia.org/wiki/Template:Location_map
+        -->\n|pushpin_label_position = <!-- the position of the pushpin label: left,
+        right, top, bottom, none -->\n|pushpin_map_caption    =Location of Byala Cherkva\n|pushpin_mapsize        =\n|leader_title           =Mayor\n|postal_code_type       =[[List
+        of postal codes in Bulgaria|Postal Code]]\n|\n|\nsubdivision_name1=Veliko
+        Turnovo|\npopulation_total=2,612|population_footnotes   =<ref name=\"statistika\"/><ref
+        name=\"Settlements 1000-5000\"/>|\npopulation_as_of=31.12.2009|\nelevation_m=\t104|\npostal_code=\t5220|\narea_code=\t06134\n|coordinates            =
+        {{coord|43|12|N|25|18|E|region:BG|display=inline,title}}\n|leader_name=Ivan
+        Petkov|\n}}\n\n''''''Byala Cherkva'''''' ({{lang-bg|\u0411\u044f\u043b\u0430
+        \u0447\u0435\u0440\u043a\u0432\u0430}}) is a town in [[Pavlikeni Municipality]]
+        part of [[Veliko Turnovo Province]], Central-North [[Bulgaria]]. The settlement
+        is located close to the town of [[Pavlikeni]] about 28&nbsp;km away from the
+        city of Veliko Tarnovo. Its name in Bulgarian means ''''white church'''',
+        a popular placename around the world, equivalent to [[Bela Crkva (disambiguation)|Bela
+        Crkva]], [[Weisskirchen (disambiguation)|Weisskirchen]], [[Whitechurch (disambiguation)|Whitechurch]],
+        etc.\nAs of December 2009, the town has a population of 2,612 inhabitants.<ref
+        name=\"statistika\">{{en icon}} [http://www.nsi.bg/otrasalen.php?otr=53&a1=1583&a2=1584&a3=1588#cont
+        Bulgarian National Statistical Institute - Bulgarian towns in 2009] {{webarchive
+        |url=https://web.archive.org/web/20101113165731/http://www.nsi.bg/otrasalen.php?otr=53&a1=1583&a2=1584&a3=1588#cont
+        |date=November 13, 2010 }}</ref><ref name=\"Settlements 1000-5000\">{{en icon}}
+        [http://www.nsi.bg/nrnm/index.php?ezik=en&f=8&s=1&date=29.12.2010&e=1&s1=4&c1=3&a1=1000&c=1&s2=4&c2=2&a2=5000
+        Bulgarian National Statistical Institute - Bulgarian Settlements 1000-5000
+        inhabitants - December 2009]</ref>\n\nNotable natives include the revolutionary
+        [[Bacho Kiro]] (1835\u20131876), the poet and minister of culture [[Tsanko
+        Tserkovski]], and politician [[Rayko Daskalov]]. [[Ivan Vazov]]''s novel ''''[[Under
+        the Yoke]]'''' features Byala Cherkva.\n\n==Schools==\n*OU \"Bacho Kiro\"\n[[File:Factory
+        in Byala Cherkva.jpg|thumb|Factory in Byala Cherkva]]\n==Church==\n*Church
+        \"Saint Dimitar\"\n\n==Tourism==\nThe town area spots churches, monuments
+        and river bridges.\n\n==References==\n<references />\n\n{{Cities of Bulgaria}}\n{{Pavlikeni}}\n\n[[Category:Towns
+        in Bulgaria]]\n[[Category:Populated places in Veliko Tarnovo Province]]\n\n{{VelikoTarnovo-geo-stub}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-25T19:45:56Z","lastrevid":808421497,"length":3057,"fullurl":"https://en.wikipedia.org/wiki/Byala_Cherkva","editurl":"https://en.wikipedia.org/w/index.php?title=Byala_Cherkva&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Byala_Cherkva","coordinates":[{"lat":43.2,"lon":25.3,"primary":"","globe":"earth"}]},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija","revisions":[{"timestamp":"2017-11-03T04:31:36Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Use
+        dmy dates|date=December 2013}}\n{{Infobox settlement\n| native_name       =
+        \u041a\u0443\u0440\u0448\u0443\u043c\u043b\u0438\u0458\u0430\n| native_name_lang  =
+        sr\n| official_name     = Kur\u0161umlija\n| other_name        = \n| settlement_type   =
+        [[List of cities in Serbia|Town]] and [[Municipalities and cities of Serbia|municipality]]\n|
+        image_shield      = Blason de Kur\u0161umlija.jpg\n| image_flag        = \n|
+        image_skyline     = Kursumlija-panorama.jpg\n| image_caption     = Panoramic
+        view on Kur\u0161umlija\n| image_map         = Municipalities of Serbia Kur\u0161umlija.png\n|
+        map_caption       = Location of the municipality of Kur\u0161umlija within
+        Serbia\n| mapsize           = \n| coordinates       = {{coord|43|09|N|21|16|E|region:RS|display=inline,title}}\n|
+        subdivision_type        = [[List of sovereign states|Country]]\n| subdivision_name        =
+        {{flag|Serbia}}\n| subdivision_type1       = [[Subdivisions of Serbia|Region]]\n|
+        subdivision_name1       = [[Southern and Eastern Serbia]]\n| subdivision_type2       =
+        [[Districts of Serbia|District]]\n| subdivision_name2       = [[Toplica District|Toplica]]\n|
+        parts_type        = Settlements\n| parts_style       = para\n| p1                =
+        90\n| leader_title      = Mayor\n| leader_name       = Goran Bojovi\u0107\n|
+        area_blank1_title = Municipality\n| area_blank1_km2   = 952\n| area_footnotes    =
+        <ref>{{Serbian municipalities 2006}}</ref>\n| elevation_m       = 366\n| population_footnotes
+        =<ref>{{Serbian census 2011}}</ref>\n| population_as_of  = 2011 census\n|
+        population_blank1_title = Town\n| population_blank1 = 13306\n| population_blank2_title
+        = Municipality\n| population_blank2 = 19213\n| timezone          = [[Central
+        European Time|CET]]\n| utc_offset        = +1\n| timezone_DST      = [[Central
+        European Summer Time|CEST]]\n| utc_offset_DST    = +2\n| postal_code_type  =
+        [[Postal codes in Serbia|Postal code]]\n| postal_code       = 18430\n| area_code_type    =
+        [[Telephone numbers in Serbia|Area code]]\n| area_code         = +381(0)27\n|
+        blank_name        = [[Vehicle registration plates of Serbia|Car plates]]\n|
+        blank_info        = PK\n| website           = {{url|www.kursumlija.org}}\n}}\n''''''Kur\u0161umlija''''''
+        ({{lang-sr-Cyrl|\u041a\u0443\u0440\u0448\u0443\u043c\u043b\u0438\u0458\u0430,
+        {{IPA-sh|kur\u0283\u01d4mlija|pron}}}}) is a town and municipality located
+        in the [[Toplica District]] of the [[Southern and Eastern Serbia|southern
+        Serbia]]. It is situated near the rivers [[Toplica River|Toplica]], [[Kosanica]]
+        and Banjska, on the southeast of mount [[Kopaonik]], and northwest of [[Radan
+        (mountain)|Mount Radan]]. As of 2011, the town has 13,306 inhabitants, while
+        municipality has 19,213.\n\n==History==\nThe [[Ancient Rome|Romans]] established
+        the ''''''Ad Fines'''''' military outpost in the 3rd century AD. There are
+        also remains of churches from the [[Byzantine Empire|Byzantine]] period. The
+        Serbian principality of [[Rascia]] expanded from this region. [[Stefan Nemanja]],
+        a Serbian lord ([[\u017eupa]]n), and the founder of [[House of Nemanji\u0107|Nemanji\u0107
+        dynasty]], built his residence here, as well as the two monasteries of St
+        Nicolas and the Holy Mother of God (before 1168).{{citation needed|date=November
+        2016}}\n[[File:\u0426\u0440\u043a\u0432\u0430 \u0443 \u0420\u0443\u0434\u0430\u0440\u0443
+        - Church in Rudare.JPG|thumb|left|160px|Stone church in ''''Rudare'''']]\nThere
+        are many historical sights in Kur\u0161umlija from that era: Mara Tower, Ivan
+        Tower, and many medieval churches. The name in that period was ''''''Bele
+        Crkve'''''' (White Churches) and ''''''Toplica''''''. After the invasion by
+        the [[Ottoman Empire]] in the 14th century, the Ottomans gave the town its
+        current name, simply by translating the old name, Bele Crkve (White Churches).
+        During Ottoman rule Kur\u0161umlija was part of the [[Sanjak of Ni\u0161]].<ref>{{cite
+        book|title=Godi\u0161njak grada Beograda|year=1977|publisher=Museum of the
+        Belgrade|url=https://books.google.com/books?id=OE_jAAAAMAAJ&q=%22%D0%9D%D0%B8%D1%88%D0%BA%D0%B8+%D1%81%D0%B0%D0%BD%D1%9F%D0%B0%D0%BA%22&dq=%22%D0%9D%D0%B8%D1%88%D0%BA%D0%B8+%D1%81%D0%B0%D0%BD%D1%9F%D0%B0%D0%BA%22&hl=en&ei=6MgaTq6QF8_2sgbnv_S4Dw&sa=X&oi=book_result&ct=result&resnum=1&ved=0CCcQ6AEwADgK|accessdate=11
+        July 2011|page=116}}</ref> [[File:Oslobo\u0111ena Kur\u0161umlija 1917.jpg|thumb|left|160px|Kur\u0161umlija
+        liberated from Bulgarian occupation, 1917]]\n\nToponyms such as ''''Arbana\u0161ka''''
+        and ''''\u0110jake'''' shows an Albanian presence in the Toplica and Southern
+        Morava regions (located north-east of contemporary Kosovo) before [[The Expulsion
+        of Albanians 1877\u20131878|the expulsion of Albanians during 1877\u201378
+        period]].<ref>Uka, Sabit (2004). ''''Jeta dhe veprimtaria e shqiptar\u00ebve
+        t\u00eb Sanxhakut t\u00eb Nishit deri m\u00eb 1912 [Life and activity of Albanians
+        in the Sanjak of Nish up to 1912]''''. Verana. pp. 244\u201345; {{ISBN|9789951864527}}.
+        \"Esht\u00eb, po ashtu, me pesh\u00eb historike nj\u00eb sh\u00ebnim i M.
+        Gj Mili\u00e7eviqit, i cili b\u00ebn fjal\u00eb p\u00ebrkitazi me Ivan Begun.
+        ''''Ivan Begu'''', sipas tij ishte pjes\u00ebmarr\u00ebs n\u00eb Luft\u00ebn
+        e Kosov\u00ebs 1389. N\u00eb mb\u00ebshtetje t\u00eb vendbanimit t\u00eb tij,
+        ''''Ivan'''' Kull\u00ebs, fshati em\u00ebrtohet ''''Ivan Kulla'''' (Kulla
+        e Ivanit), q\u00eb gjendet n\u00eb mes t\u00eb Kurshumlis\u00eb dhe Prokupl\u00ebs.
+        M. Gj. Mili\u00e7eviqi thot\u00eb: \"Shqiptar\u00ebt e ruajten fshatin Ivan
+        Kull\u00eb (1877\u20131878) dhe nuk lejuan q\u00eb t\u00eb shkat\u00ebrrohet
+        ajo\". Ata, shqiptaret e Ivan Kull\u00ebs (1877\u20131878) i than\u00eb M.
+        Gj. Mili\u00e7eviqit se jan\u00eb aty q\u00eb nga para Luft\u00ebs se Kosov\u00ebs
+        (1389). [12] Dhe treguan q\u00eb trupat e arrave, q\u00eb ndodhen aty, ata
+        i pat mbjell\u00eb Ivan beu. Atypari, n\u00eb malin Gjak\u00eb, nodhet k\u00ebshtjella
+        q\u00eb i sh\u00ebrbeu Ivanit (Gjonit) dhe shqiptar\u00ebve p\u00ebr t\u2019u
+        mbrojtur. Aty ka pasur gjurma jo vet\u00ebm nga shekulli XIII dhe XIV, por
+        edhe t\u00eb shekullit XV ku v\u00ebrehen gjurmat mjaft t\u00eb shumta toponimike
+        si fshati ''''Arbanashka'''', lumi ''''Arbanashka'''', mali ''''Arbanashka'''',
+        fshati ''''Gjak\u00eb'''', mali ''''Gjak\u00eb'''' e tjer\u00eb. [13] N\u00eb
+        shekullin XVI p\u00ebrmendet lagja shqiptare Pllan\u00eb jo larg Prokupl\u00ebs.
+        [14] Ne k\u00ebt\u00eb shekull p\u00ebrmenden edhe shqiptar\u00ebt katolike
+        n\u00eb qytetin Prokupl\u00eb, n\u00eb Nish, n\u00eb Prishtin\u00eb dhe n\u00eb
+        Bulgari.[15].... [12] M. \u0110j. Mili\u010devi\u0107. ''''Kralevina Srbije,
+        Novi Krajevi''''. Beograd, 1884: 354. \"Kur flet mbi fshatin Ivankull\u00eb
+        cek\u00eb se banor\u00ebt shqiptar\u00eb ndodheshin aty prej Betej\u00ebs
+        s\u00eb Kosov\u00ebs 1389. Banor\u00ebt e Ivankull\u00ebs n\u00eb krye me
+        Ivan Begun jetojn\u00eb aty prej shek. XIV dhe jan\u00eb me origjin\u00eb
+        shqiptare. Shqiptar\u00ebt u takojn\u00eb t\u00eb tri konfesioneve, por shumica
+        e tyre i takojn\u00eb atij musliman, mandej ortodoks dhe nj\u00eb pakic\u00eb
+        i p\u00ebrket konfesionit katolik.\" [13] ''''Oblast Brankovi\u0107a, Op\u0161irni
+        katastarski popis iz 1455 godine'''', p\u00ebrgatitur nga M. Hand\u017eic,
+        H. Had\u017eibegi\u0107 i E. Kova\u010devi\u0107, Sarajevo, 1972: 216. [14]
+        Sk\u00ebnder Rizaj, T,K \"Perparimi\" i vitit XIX, Prishtin\u00eb 1973: 57.[15]
+        Jovan M. Tomi\u0107, ''''O Arnautima u Srbiji, Beograd'''', 1913: 13. [It
+        is, as such, of historic weight in a footnote of M. \u0110j. Mili\u010devi\u0107,
+        who says a few words regarding Ivan Beg. Ivan Beg, according to him participated
+        in the Battle of Kosovo in 1389. In support of his residence, Ivan Kula, the
+        village was named Ivan Kula (Tower of Ivan), located in the middle of Kur\u0161umlija
+        and Prokuple. M. \u0110j. Mili\u010devi\u0107 says: \"Albanians safeguarded
+        the village Ivan Kula (1877\u20131878) and did not permit its destruction.\"
+        Those Albanians of Ivan Kulla (1877\u20131878) told M.\u0110j. Mili\u010devi\u0107
+        that they have been there since before the Kosovo War (1389). And they showed
+        where the bodies of the walnut trees were, that Ivan Bey had planted. Then
+        there to Mount \u0110jake, is the castle that served Ivan (John) and Albanians
+        used to defend themselves. There were traces not only from the XIII and XIV
+        centuries, but the XV century where we see fairly multiple toponymic traces
+        like the village Arbana\u0161ka, river Arbana\u0161ka, mountain Arbana\u0161ka,
+        village \u0110jake, mountain \u0110jake and others. In the sixteenth century
+        mentioned is the Albanian neighborhood Plana not far from Prokuple. [14] In
+        this century is mentioned also Catholic Albanians in the town of Prokuplje,
+        Ni\u0161, Pri\u0161tina and in Bulgaria.[15].... [12] M. \u0110j. Mili\u010devi\u0107.
+        Kralevina Srbije, Novi Krajevi. Beograd, 1884: 354. When speaking about the
+        village Ivankula, its residents state that Albanians were there from the Battle
+        of Kosovo in 1389. Residents of Ivankula headed by Ivan Beg are living there
+        since the XIV century and they are of Albanian origin. Albanians belong to
+        three religions, but most of them belong to the Muslim one, after Orthodoxy
+        and then a minority belongs to the Catholic confession. [13] Oblast Brankovi\u0107a,
+        Op\u0161irni katastarski popis iz 1455 godine, p\u00ebrgatitur nga M. Hand\u017eic,
+        H. Had\u017eibegi\u0107 i E. Kova\u010devi\u0107, Sarajevo, 1972: 216. [14]
+        Sk\u00ebnder Rizaj, T,K \"Perparimi\" i vitit XIX, Prishtin\u00eb 1973: 57.
+        [15] Jovan M. Tomi\u0107, O Arnautima u Srbiji, Beograd, 1913: 13.]\"</ref><ref>{{cite
+        journal|url=http://www.tandfonline.com/doi/abs/10.1080/00263200903009619|title=Formation
+        of a Diasporic Community: The History of Migration and Resettlement of Muslim
+        Albanians in the Black Sea Region of Turkey: Middle Eastern Studies: Vol 45,
+        No 4|pages=556\u201357|quote=Using secondary sources, we establish that there
+        have been Albanians living in the area of Nish for at least 500 years, that
+        the Ottoman Empire controlled the area from the fourteenth to nineteenth centuries
+        which led to many Albanians converting to Islam, that the Muslim Albanians
+        of Nish were forced to leave in 1878, and that at that time most of these
+        Nishan Albanians migrated south into Kosovo, although some went to Skopje
+        in Macedonia.; pg. 557. It is generally believed that the Albanians in Samsun
+        Province are the descendants of the migrants and refugees from Kosovo who
+        arrived in Turkey during the wars of 1912\u201313. Based on our research in
+        Samsun Province, we argue that this information is partial and misleading.
+        The interviews we conducted with the Albanian families and community leaders
+        in the region and the review of Ottoman history show that part of the Albanian
+        community in Samsun was founded through three stages of successive migrations.
+        The first migration involved the forced removal of Muslim Albanians from the
+        Sancak of Nish in 1878; the second migration occurred when these migrants\u2019
+        children fled from the massacres in Kosovo in 1912\u201313 to Anatolia; and
+        the third migration took place between 1913 and 1924 from the scattered villages
+        in Central Anatolia where they were originally placed to the Samsun area in
+        the Black Sea Region. Thus, the Albanian community founded in the 1920s in
+        Samsun was in many ways a reassembling of the demolished Muslim Albanian community
+        of Nish\u2026. Our interviews indicate that Samsun Albanians descend from
+        Albanians who had been living in the villages around the city of Nish\u2026
+        pp. 557\u201358. In 1690 much of the population of the city and surrounding
+        area was killed or fled, and there was an emigration of Albanians from the
+        Mal\u00ebsia e Madhe (North Central Albania/Eastern Montenegro) and Dukagjin
+        Plateau (Western Kosovo) into Nish.|doi=10.1080/00263200903009619|volume=45|journal=Middle
+        Eastern Studies}}</ref>\n\nThe rural parts of [[Toplica (river)|Toplica]]
+        valley and adjoining semi-mountainous interior was inhabited by compact Muslim
+        Albanian population while Serbs in those areas lived near the river mouths
+        and mountain slopes and both peoples inhabited other regions of the South
+        Morava river basin.{{sfn|Jagodi\u0107|1998|loc=para. 4, 9, 32\u201342, 45\u201361}}<ref
+        name=Lukovic2011>Lukovi\u0107, Milo\u0161 (2011) [http://www.jstor.org/stable/42640413?seq=1#page_scan_tab_contents
+        \"Development of the Modern Serbian state and abolishment of Ottoman Agrarian
+        relations in the 19th century\"], ''''\u010cesk\u00fd lid''''. ''''''98''''''.
+        (3): 298. \"During the second war (December 1877\u2014January 1878) the Muslim
+        population fled towns (Vranya (Vranje), Leskovac, \u00dcrg\u00fcp (Prokuplje),
+        Ni\u015f (Ni\u0161), \u015eehirk\u00f6y (Pirot), etc.) as well as rural settlements
+        where they comprised ethnically compact communities (certain parts of Toplica,
+        Jablanica, Pusta Reka, Masurica and other regions in the South Morava River
+        basin). At the end of the war these Muslim refugees ended up in the region
+        of Kosovo and Metohija, in the territory of the Ottoman Empire, following
+        the demarcation of the new border with the Principality of Serbia. [38] [38]
+        On Muslim refugees (''''muhaciri'''') from the regions of southeast Serbia,
+        who relocated in Macedonia and Kosovo, see Trifunovski 1978, Radovanovi\u010d
+        2000.\"</ref>\n\nAs the wider Toplica region,<ref>Batakovi\u0107, Du\u0161an
+        T. (2007). ''''Kosovo and Metohija: living in the enclave'''', Serbian Academy
+        of Sciences and Arts, Institute for Balkan Studies. p. 35; retrieved 22 June
+        2011; \"Prior to the Second Serbo-Ottoman War (1877-78), Albanians were the
+        majority population in some areas of Sanjak of Nis (Toplica region), while
+        from the Serb majority district of Vranje Albanian-inhabited villages were
+        emptied after the 1877-1878 war\"</ref> Kur\u0161umlija also had an Albanian
+        majority.<ref>Batakovi\u0107, Du\u0161an T. (2007). Kosovo and Metohija: living
+        in the enclave. Serbian Academy of Sciences and Arts, Institute for Balkan
+        Studies. p. 35; retrieved 22 June 2011. \"Prior to the Second Serbo-Ottoman
+        War (1877-78), Albanians were the majority population in some areas of Sanjak
+        of Nis (Toplica region), while from the Serb majority district of Vranje Albanian-inhabited
+        villages were emptied after the 1877-1878 war\"</ref>{{sfn|Jagodi\u0107|1998|loc=
+        para. 4, 5, 6}}  These Albanians were expelled by Serbian forces<ref name=Turovic2002>{{cite
+        book|last=Turovi\u0107|first=Dobrosav|title=Gornja Jablanica, Kroz istoriju|year=2002|publisher=Beograd
+        Zavi\u010dajno udru\u017eenje|pages=87\u201389}}</ref><ref name=Uka2004gjur>Uka,
+        Sabit (2004). ''''Gjurm\u00eb mbi shqiptar\u00ebt e Sanxhakut t\u00eb Nishit
+        deri m\u00eb 1912 [Traces on Albanians of the Sanjak of Nish up to 1912]''''.
+        Verana. p. 155; {{ISBN|9789951864527}}; \"N\u00eb koh\u00ebt e sotme fshatra
+        t\u00eb Jabllanic\u00ebs, t\u00eb banuara kryesisht me shqiptare, jan\u00eb
+        k\u00ebto: Tupalla, Kapiti, G\u00ebrbavci, Sfirca, Llapashtica e Ep\u00ebrrne.
+        Nd\u00ebrkaq, fshatra me popullsi te p\u00ebrzier me shqiptar, malazez\u00eb
+        dhe serb\u00eb, jane k\u00ebto: Stara Banja, Ramabanja, Banja e Sjarin\u00ebs,
+        Gjylekreshta (Gjylekari), Sijarina dhe qendra komunale Medvegja. Dy familje
+        shqiptare ndeshen edhe n\u00eb Iagjen e Marovic\u00ebs, e quajtur Sinanov\u00eb,
+        si dhe disa familje n\u00eb vet\u00eb qendr\u00ebn e Leskovcit. Vllasa \u00ebsht\u00eb
+        zyrtarisht lagje e fshatit G\u00ebrbavc, Dediqi, \u00ebsht\u00eb lagje e Medvegjes
+        dhe Dukati, lagje e Sijarin\u00ebs. N\u00eb popull konsiderohen edhe si vendbanime
+        t\u00eb ve\u00e7anta. K\u00ebshtu qendron gjendja demografike e trev\u00ebs
+        n\u00eb fjal\u00eb, p\u00ebrndryshe para Luft\u00ebs se Dyt\u00eb Bot\u00ebrore
+        Sijarina dhe Gjylekari ishin fshatra me populisi t\u00eb perzier, bile n\u00eb
+        k\u00ebt\u00eb te fundit ishin shum\u00eb familje serbe, kurse tani shumic\u00ebn
+        e p\u00ebrb\u00ebjn\u00eb shqiptar\u00ebt. [In contemporary times, villages
+        in the Jablanica area, inhabited mainly by Albanians, are these: Tupale, Kapiti,
+        Grbavce, Svirca, Gornje Lapa\u0161tica. Meanwhile, the mixed villages populated
+        by Albanians, Montenegrins and Serbs, are these: Stara Banja, Ravna Banja,
+        Sjarinska Banja, \u0110ulekre\u0161ta (\u0110ulekari) Sijarina and the municipal
+        center Medve\u0111a. Two Albanian families are also encountered in the neighborhood
+        of Marovica called Sinanovo, and some families in the center of Leskovac.
+        Vllasa is formally a neighborhood of the village Grbavce, Dedi\u0107i is a
+        neighborhood of Medve\u0111a and Dukati, a neighborhood of Sijarina. So this
+        is the demographic situation in question that remains, somewhat different
+        before World War II as Sijarina and \u0110ulekari were villages with mixed
+        populations, even in this latter settlement were many Serb families, and now
+        the majority is made up of Albanians.]\"</ref><ref name=Blumi2013>Blumi, Isa
+        (2013). [https://books.google.com/books/about/Ottoman_Refugees_1878_1939.html?id=nTKaAAAAQBAJ&redir_esc=y
+        ''''Ottoman refugees, 1878\u20131939: migration in a post-imperial world''''].
+        A&C Black, pg. 50; {{ISBN|9781472515384}}; \"As these Ni\u0161 refugees waited
+        for acknowledgment from locals, they took measures to ensure that they were
+        properly accommodated by often confiscating food stored in towns. They also
+        simply appropriated lands and began to build shelter on them. A number of
+        cases also point to banditry in the form of livestock raiding and \"illegal\"
+        hunting in communal forests, all parts of refugees\u2019 repertoire... At
+        this early stage of the crisis, such actions overwhelmed the Ottoman state,
+        with the institution least capable of addressing these issues being the newly
+        created Muhacirin M\u00fcd\u00fcriyeti... Ignored in the scholarship, these
+        acts of survival by desperate refugees constituted a serious threat to the
+        established Kosovar communities. The leaders of these communities thus spent
+        considerable efforts lobbying the Sultan to do something about the refugees.
+        While these Ni\u0161 muhacir would in some ways integrate into the larger
+        regional context, as evidenced later, they, and a number of other Albanian-speaking
+        refugees streaming in for the next 20 years from Montenegro and Serbia, constituted
+        a strong opposition block to the Sultan\u2019s rule.\"; pg. 53; \"One can
+        observe that in strategically important areas, the new Serbian state purposefully
+        left the old Ottoman laws intact. More important, when the state wished to
+        enforce its authority, officials felt it necessary to seek the assistance
+        of those with some experience, using the old Ottoman administrative codes
+        to assist judges make rulings. There still remained, however, the problem
+        of the region being largely depopulated as a consequence of the wars... Belgrade
+        needed these people, mostly the landowners of the productive farmlands surrounding
+        these towns, back. In subsequent attempts to lure these economically vital
+        people back, while paying lip-service to the nationalist calls for \"purification\",
+        Belgrade officials adopted a compromise position that satisfied both economic
+        rationalists who argued that Serbia needed these people and those who wanted
+        to separate \"Albanians\" from \"Serbs\". Instead of returning back to their
+        \"mixed\" villages and towns of the previous Ottoman era, these \"Albanians,\"
+        \"Pomoks,\" and \"Turks\" were encouraged to move into concentrated clusters
+        of villages in Masurica, and Gornja Jablanica that the Serbian state set up
+        for them. For this \"repatriation\" to work, however, authorities needed the
+        cooperation of local leaders to help persuade members of their community who
+        were refugees in Ottoman territories to \"return.\" In this regard, the collaboration
+        between Shahid Pasha and the Serbian regime stands out. An Albanian who commanded
+        the Sofia barracks during the war, Shahid Pasha negotiated directly with the
+        future king of Serbia, Prince Milan Obrenovi\u0107, to secure the safety of
+        those returnees who would settle in the many villages of Gornja Jablanica.
+        To help facilitate such collaborative ventures, laws were needed that would
+        guarantee the safety of these communities likely to be targeted by the rising
+        nationalist elements infiltrating the Serbian army at the time. Indeed, throughout
+        the 1880s, efforts were made to regulate the interaction between exiled Muslim
+        landowners and those local and newly immigrant farmers working their lands.
+        Furthermore, laws passed in early 1880 began a process of managing the resettlement
+        of the region that accommodated those refugees who came from Austrian-controlled
+        Herzegovina and from Bulgaria. Cooperation, in other words, was the preferred
+        form of exchange within the borderland, not violent confrontation.\"</ref>
+        in a way that today would be characterized as [[ethnic cleansing]].<ref name=Muller>M\u00fcller,
+        Dietmar (2009). [http://booksandjournals.brillonline.com/content/journals/10.1163/187633009x411485
+        \"Orientalism and Nation: Jews and Muslims as Alterity in Southeastern Europe
+        in the Age of Nation-States, 1878\u20131941\"], ''''East Central Europe''''.
+        ''''''36''''''. (1): 70; \"For Serbia the war of 1878, where the Serbians
+        fought side by side with Russian and Romanian troops against the Ottoman Empire,
+        and the Berlin Congress were of central importance, as in the Romanian case.
+        The beginning of a new quality of the Serbian-Albanian history of conflict
+        was marked by the expulsion of Albanian Muslims from Ni\u0161 Sand\u017eak
+        which was part and parcel of the fighting (Clewing 2000 : 45ff.; Jagodi\u0107
+        1998; Pllana 1985); Driving out the Albanians from the annexed territory,
+        now called \"New Serbia,\" was a result of collaboration between regular troops
+        and guerrilla forces, and it was done in a manner which can be characterized
+        as ethnic cleansing, since the victims were not only the combatants, but also
+        virtually any civilian regardless of their attitude towards the Serbians (M\u00fcller,
+        2005). The majority of the refugees settled in neighboring Kosovo where they
+        shed their bitter feelings on the local Serbs and ousted some of them from
+        merchant positions, thereby enlarging the area of Serbian-Albanian conflict
+        and intensifying it.\"</ref>\n\nIn 1878, Kur\u0161umlija became a part of
+        the [[Principality of Serbia]], which in 1882 became the [[Kingdom of Serbia]].
+        From 1929-41, Kur\u0161umlija was part of the [[Morava Banovina]] of the [[Kingdom
+        of Yugoslavia]].\n\n===1999 NATO bombing===\nKur\u0161umlija was bombed on
+        multiple occasions during the [[1999 NATO bombing of Yugoslavia]]. The ''''Toplica
+        Rebellion'''' army barracks were struck by NATO bombs on March 24, 1999, after
+        which nine officers and two soldiers were killed.<ref name=\"Toplicki\">{{cite
+        web|url=http://www.blic.rs/vesti/srbija/jos-sanjam-pogled-nastradalog-druga/s6xwrsc|author=Ljiljana
+        Danilovi\u0107|title=Blic: ''''Jo\u0161 sanjam pogled nastradalog druga''''|language=Serbian|date=March
+        25, 2010|accessdate=June 20, 2017}}</ref> A total of 41 soldiers were injured
+        in the same bombing that night.<ref name=\"Toplicki\"/> On April 12, 1999,
+        six civilians were killed in [[Merdare]] from NATO airstrikes on the border
+        of Kur\u0161umlija and Podujevo.<ref name=\"Slovo1\">{{cite web|url=http://slovojuga.org.rs/da-se-ne-zaboravi-18-godina-od-nato-bombardovanja/|author=Dragan
+        Ili\u0107|title=: \u0421\u043b\u043e\u0432\u043e \u0408\u0443\u0433\u0430:
+        ''''\u0414\u0430 \u0441\u0435 \u043d\u0435 \u0437\u0430\u0431\u043e\u0440\u0430\u0432\u0438:
+        18 \u0433\u043e\u0434\u0438\u043d\u0430 \u043e\u0434 \u041d\u0410\u0422\u041e
+        \u0431\u043e\u043c\u0431\u0430\u0440\u0434\u043e\u0432\u0430\u045a\u0430''''|language=Serbian|date=March
+        24, 2017|accessdate=July 15, 2017}}</ref>\n\n==Geography and tourism==\nKur\u0161umlija
+        sits on the area of {{convert|952|km\u00b2|2|abbr=on}} and administratively
+        is in [[Toplica District]]. Its borders the municipalities of [[Brus]], [[Blace]],
+        [[Prokuplje]], [[Medve\u0111a]], [[Podujevo]], and [[Leposavi\u0107]]. Its
+        southwest border (105&nbsp;km) is within the disputed territory of [[Kosovo]].\n\nKur\u0161umlija
+        is known for a natural monument of [[Hoodoo (geology)|hoodoos]] near Mount
+        Radan known as ''''[[\u0110avolja Varo\u0161]]'''' (''Devil''s Town''). There
+        are three spas (''''banjas''''): the [[Prolom Banja]], [[Kur\u0161umlijska
+        Banja]], and [[Lukovska Banja]]. Prolom water is bottled at the Prolom Spa.\n\n<gallery
+        mode=\"packed\">\nFile:\u0110avolja Varo\u0161.jpg|''''Devil''s Town''''\nFile:Devil''s
+        Town 1 - \u0402\u0430\u0432\u043e\u0459\u0430 \u0412\u0430\u0440\u043e\u0448.jpg|''''Devil''s
+        Town''''\nFile:Djavolja varos - Miodrag 3.jpg|''''Devil''s Town''''\nFile:Djavolja
+        varos - Miodrag 2.jpg|''''Devil''s Town''''\nFile:Prolom Banja Freska2.jpg|''''Prolom
+        Spa Center''''\nFile:\u041a\u0443\u0440\u0448\u0443\u043c\u043b\u0438\u0441\u043a\u0430
+        \u0411\u0430\u045a\u0430 - Kur\u0161umliska banja.jpg|''''Kur\u0161umlija
+        Spa Center Hotel''''\n</gallery>\n\n==Demographics==\n{{Historical populations\n|
+        type = \n|1948|37284 |1953|39772 |1961|36896 |1971|31672 |1981|27629 |1991|23590
+        |2002|21608 |2011|19213\n| source = <ref>{{cite web|title=2011 Census of Population,
+        Households and Dwellings in the Republic of Serbia |url=http://pod2.stat.gov.rs/ObjavljenePublikacije/Popis2011/Knjiga20.pdf
+        |website=stat.gov.rs |publisher=Statistical Office of the Republic of Serbia
+        |accessdate=12 January 2017 |deadurl=yes |archiveurl=https://web.archive.org/web/20140714191241/http://pod2.stat.gov.rs/ObjavljenePublikacije/Popis2011/Knjiga20.pdf
+        |archivedate=14 July 2014 |df= }}</ref>\n}}\nThe municipality of Kur\u0161umlija
+        includes one urban and 89 rural settlements. According to the 2011 census
+        there are 19,213 inhabitants in the municipality.\n\n===Ethnic groups===\nEthnic
+        groups in the municipality:\n{|class=\"wikitable\"\n|-\n! Ethnic group\n!
+        Population\n|-\n|style=\"background:#F5F5DC;\"|[[Serbs]]||align=\"right\"|18,528\n|-\n|style=\"background:#F5F5DC;\"|[[Romani
+        people in Serbia|Roma]]||align=\"right\"|339\n|-\n|style=\"background:#F5F5DC;\"|[[Montenegrins
+        of Serbia|Montenegrins]]||align=\"right\"|47\n|-\n|style=\"background:#F5F5DC;\"|Others||align=\"right\"|299\n|-\n|style=\"background:#F0F0F0;\"|''''''Total''''''||align=\"right\"|19,213\n|}\n\n==Gallery==\n<gallery
+        mode=\"packed\">\nFile:\u041d\u0435\u043c\u0430\u045a\u0438\u043d\u0430 \u043f\u0440\u0435\u0441\u0442\u043e\u043d\u0438\u0446\u0430.jpg|''''St.
+        Nicholas Monastery''''\nFile:Sveti Nikola Kursumlija11.jpg|''''St. Nicholas
+        Monastery''''\nFile:Manastir Svetog Nikole u Kur\u0161umliji.JPG|''''St. Nicholas
+        Monastery''''\nFile:Orthodox Church Irinej.jpg|''''Orthodox Chruch Irinej''''\nFile:28.09.13
+        Kur\u0161umlija 711.013 (10101106915).jpg|''''Kur\u0161umlija Railway station''''\n</gallery>\n<gallery
+        mode=\"packed\">\nFile:Pan Kursumlija.jpg|''''Panorama of Kur\u0161umlija''''\n</gallery>\n\n==Notable
+        natives or residents==\n[[File:Mara Brankovi\u0107, Esphigmenou charter (1429).jpg|thumb|right|150px|[[Mara
+        Brankovi\u0107]], of Serbian royal family Brankovi\u0107, died in Kur\u0161umlija]]\n*The
+        most notable [[\u017dupa|Grand Prince of Serbia]], [[Stefan Nemanja]], established
+        his first capital, Bele Crkve, near the location of today''s Kur\u0161umlija
+        in 1166\u20131172. His wife, Grand Princess [[Anastasia of Serbia|Anastasia
+        (Ana)]], died and was buried here as a [[nun]], St. Anastasia Nemanjic.\n*[[Mara
+        Brankovi\u0107|Sultania Mara]], daughter of [[Despotes|Despot]] [[George,
+        Prince of Rascia|\u0110ura\u0111 Brankovi\u0107]], later wife of the [[Ottoman
+        Empire|Ottoman Emperor]] [[Murad II]], and step mother of Emperor [[Mehmed
+        II]] also at the end of her life came to live here as a nun in monastery of
+        Holy Mother of God, where she made a fortress called Mara Tower. She died
+        in around 1487.\n*[[Kosta Pe\u0107anac]], a notable Serbian soldier in the
+        [[First World War|First]] and [[Second World War]]. His house is protected
+        of by the municipality.\n*[[Dragoljub Mi\u0107unovi\u0107]] (born in 1930.
+        in Merdare, Kur\u0161umlija), professor of at the [[University of Belgrade
+        Faculty of Philosophy]]. He was a dissident during the [[Socialist Federal
+        Republic of Yugoslavia|Communist period]], and the first president of the
+        [[Democratic Party (Serbia)|Democratic Party]]. He was the first president
+        of parliament of [[Serbia and Montenegro|State Union of Serbia & Montenegro]].\n*
+        [[Mom\u010dilo \u0110oki\u0107]], He played a total of 13 matches for the
+        Yugoslavia national football team. His debut was on April 13, 1930 against
+        Bulgaria, in Belgrade, a 6-1 win, and his fairway match was on December 13,
+        1936, in Paris against France, a 0-1 loss. He played all the matches at the
+        1930 FIFA World Cup in Uruguay.\n* [[\u017darko Dragojevi\u0107]], director,
+        born in Kur\u0161umlija, professor at the Faculty of Drama at the [[University
+        of Belgrade]]. He is director of several notable films: Ku\u0107a pored pruge
+        (House by the tracks), No\u0107 u ku\u0107i moje majke (Night in my mother''s
+        house).  He also directed many documentaries, among them series on [[Serbian
+        monasteries]] for the Serbian national broadcaster ([[Radio Television of
+        Serbia|RTS]]).\n* [[Vojin \u0160ulovi\u0107]], academician, humanist, doctor
+        of gynaecology. 7 July and October awards of city of Belgrade winner. Also
+        Serbian medical society award winner and Serbian warrior medallist. Smederevo
+        and Kur\u0161umlija municipality freeman.<ref>[http://archonline.bio.bg.ac.rs/VOL60/SVESKA%202/IM%203%20Sulovic.pdf
+        in memoriam academician Vojin \u0160uloVi\u0106(1923-2008)]</ref>\n\n==See
+        also==\n* [[Toplica District]]\n* [[Administrative divisions of Serbia]]\n\n==References==\n{{Reflist|2}}\n\n==External
+        links==\n{{Commons category}}\n* [http://kursumlija.org/ Kur\u0161umlija website]\n*
+        [http://kursumlija.pondi.hr/ Kur\u0161umlija website unofficial]\n* [http://www.dailymotion.com/video/x7u3tn_kursumlija-e_travel
+        Movie about Kur\u0161umlija \u2013 English]\n\n{{Municipalities of Serbia}}\n\n{{DEFAULTSORT:Kursumlija}}\n[[Category:Kur\u0161umlija|
+        ]]\n[[Category:Populated places in Toplica District]]\n[[Category:Municipalities
+        and cities of Southern and Eastern Serbia]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-26T16:16:42Z","lastrevid":808488726,"length":27881,"fullurl":"https://en.wikipedia.org/wiki/Kur%C5%A1umlija","editurl":"https://en.wikipedia.org/w/index.php?title=Kur%C5%A1umlija&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Kur%C5%A1umlija","coordinates":[{"lat":43.15,"lon":21.26666667,"primary":"","globe":"earth"}]}}}}'
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 08:54:17 GMT
+recorded_with: VCR 3.0.3
