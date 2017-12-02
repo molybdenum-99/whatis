@@ -53,6 +53,8 @@ class WhatIs
 
     EXTRACTORS.each_key { |title| define_method(title) { @data[title] } }
 
+    alias to_s title
+
     def inspect # rubocop:disable Metrics/AbcSize
       [
         'ThisIs ',

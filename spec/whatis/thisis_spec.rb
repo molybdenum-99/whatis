@@ -20,6 +20,12 @@ RSpec.describe WhatIs::ThisIs, :vcr do
     }
   end
 
+  describe '#to_s' do
+    subject { ->(*args) { WhatIs.this(*args).to_s } }
+
+    its_call('Paris, France') { is_expected.to ret 'Paris' }
+  end
+
   describe '#what' do
     subject { this.what(languages: :be) }
 

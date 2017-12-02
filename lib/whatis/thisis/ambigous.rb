@@ -17,11 +17,15 @@ class WhatIs
         "#<ThisIs::Ambigous #{title} (#{variants.count} options)>"
       end
 
-      def describe
+      def to_s
+        "#{title}: ambigous (#{variants.count} options)"
+      end
+
+      def describe(help: true)
         Description.new(
           "#{inspect}\n" +
             variants.map { |link| "  #{link.inspect}: #{link.description}" }.join("\n") +
-            "\n\n  Usage: .variants[0].resolve, .resolve_all"
+            describe_help(help)
         )
       end
 
@@ -30,6 +34,11 @@ class WhatIs
       end
 
       private
+
+      def describe_help(render = true)
+        return '' unless render
+        "\n\n  Usage: .variants[0].resolve, .resolve_all"
+      end
 
       def extract_variants
         page.wikipath('//ListItem')

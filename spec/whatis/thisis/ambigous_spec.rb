@@ -35,6 +35,22 @@ RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
         .and include('#<ThisIs::Link Bela Crkva, Banat>: Bela Crkva, Banat, a town in Vojvodina, Serbia')
         .and end_with('Usage: .variants[0].resolve, .resolve_all')
     }
+
+    context 'without help' do
+      subject { ->(*args) { WhatIs.this(*args).describe(help: false) } }
+
+      its_call('Bela Crkva') {
+        is_expected.to ret start_with('#<ThisIs::Ambigous Bela Crkva (6 options)>')
+          .and include('#<ThisIs::Link Bela Crkva, Banat>: Bela Crkva, Banat, a town in Vojvodina, Serbia')
+          .and dont.include('Usage: .variants[0].resolve, .resolve_all')
+      }
+    end
+  end
+
+  describe '#to_s' do
+    subject { ->(*args) { WhatIs.this(*args).to_s } }
+
+    its_call('Bela Crkva') { is_expected.to ret 'Bela Crkva: ambigous (6 options)' }
   end
 
   describe '#resolve_all' do

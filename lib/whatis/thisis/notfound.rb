@@ -16,8 +16,19 @@ class WhatIs
         "#<ThisIs::NotFound #{title}>"
       end
 
-      def describe
-        Description.new("#{inspect}\n  Usage: .search(limit, **options)")
+      def to_s
+        "#{title}: not found"
+      end
+
+      def describe(help: true)
+        Description.new("#{inspect}#{describe_help(help)}")
+      end
+
+      private
+
+      def describe_help(render = true)
+        return '' unless render
+        "\n  Usage: .search(limit, **options)"
       end
     end
   end
