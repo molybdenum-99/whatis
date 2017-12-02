@@ -5,6 +5,10 @@ class WhatIs
         "#{self}#{after}"
       end
 
+      def prepend(before)
+        "#{before}#{self}"
+      end
+
       def surround(before, after = before)
         "#{before}#{self}#{after}"
       end

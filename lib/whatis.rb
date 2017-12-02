@@ -1,6 +1,5 @@
 require 'infoboxer'
 require 'geo/coord'
-require 'intem'
 
 class WhatIs
   AMBIGOUS_CATEGORY = 'Category:All disambiguation pages'.freeze
