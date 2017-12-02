@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'rspec', '>= 3'
-  s.add_development_dependency 'rubocop-rspec', '= 1.15.1' # 1.16+ is broken on JRuby
+  s.add_development_dependency 'rubocop-rspec'
   s.add_development_dependency 'rspec-its', '~> 1'
   s.add_development_dependency 'saharspec', '0.0.4'
   s.add_development_dependency 'simplecov', '~> 0.9'

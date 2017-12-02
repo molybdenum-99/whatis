@@ -34,14 +34,16 @@ class WhatIs
       def extract_variants
         page.wikipath('//ListItem')
           .reject { |item| item.wikilinks.empty? }
-          .map { |item|
-            Link.new(
-              item.wikilinks.first.link,
-              owner: @owner,
-              section: item.in_sections.map(&:heading).map(&:text_).reverse.reject(&:empty?).join('/'),
-              description: item.children.map(&:text).join
-            )
-          }
+          .map(&method(:item_to_link))
+      end
+
+      def item_to_link(item)
+        Link.new(
+          item.wikilinks.first.link,
+          owner: @owner,
+          section: item.in_sections.map(&:heading).map(&:text_).reverse.reject(&:empty?).join('/'),
+          description: item.children.map(&:text).join
+        )
       end
     end
   end

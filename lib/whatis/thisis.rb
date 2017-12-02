@@ -51,11 +51,11 @@ class WhatIs
       @data = EXTRACTORS.map { |sym, proc| [sym, proc.call(page)] }.to_h
     end
 
-    def inspect
+    def inspect # rubocop:disable Metrics/AbcSize
       [
         'ThisIs ',
         title,
-        languages.iff { |l| l.count == 1 }&.yield_self { |l| l.values.first.title.prepend("/") },
+        languages.iff { |l| l.count == 1 }&.yield_self { |l| l.values.first.title.prepend('/') },
         languages.iff { |l| l.count > 1 }&.yield_self { |l| " +#{l.count} translations" },
         categories.iff(&:any?)&.yield_self { |c| ", #{c.count} categories" },
         image&.yield_self { ' [img]' },
@@ -67,14 +67,18 @@ class WhatIs
       maxlength = @data.keys.map(&:length).max
       Description.new(
         "#{inspect}\n" +
-          @data
-            .reject { |_, v| v.nil? || v.respond_to?(:empty?) && v.empty? }
+          clean_data
             .map { |k, v| "  #{k.to_s.rjust(maxlength)}: #{v.inspect}" }.join("\n")
       )
     end
 
-    EXTRACTORS.keys.each { |title| define_method(title) { @data[title] } }
+    EXTRACTORS.each_key { |title| define_method(title) { @data[title] } }
 
+    private
+
+    def clean_data
+      @data.reject { |_, v| v.nil? || v.respond_to?(:empty?) && v.empty? }
+    end
   end
 end
 

@@ -12,7 +12,7 @@ RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
     it { is_expected.to all be_a WhatIs::ThisIs::Link }
     its_map(:title) { is_expected.to eq ['Bela Crkva, Banat', 'Bela Crkva, Krivogaštani', 'Bela Crkva (Krupanj)', 'Toplička Bela Crkva', 'Bila Tserkva', 'Byala Cherkva'] }
 
-    context 'not all variants have links' do
+    context 'when not all variants have links' do
       let(:title) { 'Split' }
 
       its(:count) { is_expected.to eq 46 }

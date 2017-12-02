@@ -1,0 +1,52 @@
+inherit_from: .rubocop_todo.yml
+require: rubocop-rspec
+
+AllCops:
+  Include:
+    - 'lib/**'
+    - 'spec/**'
+  Exclude:
+    - Gemfile
+    - Rakefile
+    - '*.gemspec'
+  DisplayCopNames: true
+  TargetRubyVersion: '2.3'
+
+Style/Documentation:
+  Enabled: false
+
+Style/AndOr:
+  EnforcedStyle: conditionals
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Description: Use `%`-literal delimiters consistently
+  StyleGuide: "#percent-literal-braces"
+  Enabled: true
+  PreferredDelimiters:
+    default: "{}"
+    "%i": "[]"
+    "%I": "[]"
+    "%r": "{}"
+    "%w": "[]"
+    "%W": "[]"
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented

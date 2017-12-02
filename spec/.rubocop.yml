@@ -1,0 +1,11 @@
+inherit_from: ../.rubocop.yml
+
+RSpec/EmptyExampleGroup:
+  CustomIncludeMethods: [its_map, its_block, its_call]
+
+Metrics/BlockLength:
+  Enabled: false
+
+RSpec/FilePath:
+  Enabled: false
+
