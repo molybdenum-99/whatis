@@ -23,5 +23,11 @@ class WhatIs
         yield(self) ? self : nil
       end
     end
+
+    refine Hash do
+      def transform_keys
+        map { |key, val| [yield(key), val] }.to_h
+      end
+    end
   end
 end

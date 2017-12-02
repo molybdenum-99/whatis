@@ -76,6 +76,20 @@ class WhatIs
       )
     end
 
+    def to_h
+      {'type' => 'ThisIs'} # To be at the beginning of a hash
+        .merge(@data)
+        .transform_keys(&:to_s)
+        .merge(
+          'coordinates' => coordinates&.to_s,
+          'languages' => languages.transform_values(&:to_s)
+        ).reject { |_, v| v.nil? || v.respond_to?(:empty?) && v.empty? }
+    end
+
+    def to_json(opts)
+      to_h.to_json(opts)
+    end
+
     def what(**options)
       @owner.this(title, **options)
     end

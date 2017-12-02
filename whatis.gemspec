@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
 
   #s.add_dependency 'infoboxer' # TODO!
   s.add_dependency 'geo_coord'
+  s.add_dependency 'backports'
 
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'rspec', '>= 3'

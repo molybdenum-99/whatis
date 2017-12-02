@@ -1,5 +1,6 @@
 require 'infoboxer'
 require 'geo/coord'
+require 'backports/2.4.0/hash/transform_values'
 
 class WhatIs
   AMBIGOUS_CATEGORIES = {
@@ -63,7 +64,7 @@ class WhatIs
   end
 
   def ambigous_categories
-    AMBIGOUS_CATEGORIES[language.to_sym]
+    @ambigous_categories = AMBIGOUS_CATEGORIES.fetch(language.to_sym, [])
   end
 
   private

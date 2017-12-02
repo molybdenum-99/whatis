@@ -17,6 +17,8 @@ class WhatIs
         "#<ThisIs::Link #{language&.append(':')}#{section&.append('/')}#{title}>"
       end
 
+      alias to_s title
+
       def resolve(**options)
         engine = @owner || language && WhatIs[language] or
           fail "Can't resolve #{inspect}"
