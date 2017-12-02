@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 11:00:03 GMT
+      - Sat, 02 Dec 2017 12:44:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1313.eqiad.wmnet
+      - mw1290.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=93641 t=1512212403370673
+      - D=86662 t=1512218677430868
       X-Varnish:
-      - 29419552, 667076313, 539741198
+      - 52825831, 673804535, 606264245
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1065 pass, cp3040 pass, cp3031 pass
+      - cp1068 pass, cp3040 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -62,9 +62,9 @@ http_interactions:
       Set-Cookie:
       - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
       - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 00:00:00 GMT
+        03 Jan 2018 12:00:00 GMT
       - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
-        00:00:00 GMT
+        12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
@@ -2752,5 +2752,5 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]},"langlinks":[{"lang":"ru","*":"\u041f\u0430\u0440\u0438\u0436"}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 11:00:03 GMT
+  recorded_at: Sat, 02 Dec 2017 12:44:37 GMT
 recorded_with: VCR 3.0.3

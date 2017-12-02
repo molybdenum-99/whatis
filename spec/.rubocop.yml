@@ -9,3 +9,5 @@ Metrics/BlockLength:
 RSpec/FilePath:
   Enabled: false
 
+RSpec/NestedGroups:
+  Enabled: false

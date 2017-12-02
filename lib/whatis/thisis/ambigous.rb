@@ -21,7 +21,7 @@ class WhatIs
         Description.new(
           "#{inspect}\n" +
             variants.map { |link| "  #{link.inspect}: #{link.description}" }.join("\n") +
-            "\n  Usage: .variants[1].resolve, .resolve_all"
+            "\n\n  Usage: .variants[0].resolve, .resolve_all"
         )
       end
 

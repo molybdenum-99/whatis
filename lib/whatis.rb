@@ -17,6 +17,10 @@ class WhatIs
       self[:en].this(*titles, **options)
     end
 
+    def this_one(title, **options)
+      self[:en].this_one(title, **options)
+    end
+
     private
 
     def all
@@ -37,6 +41,10 @@ class WhatIs
     @infoboxer
       .get_h(*titles) { |req| setup_request(req, **options) }
       .map { |title, page| [title, ThisIs.create(self, title, page)] }.to_h
+  end
+
+  def this_one(title, **options)
+    this(title, **options).values.first
   end
 
   def search(title, limit = 5)

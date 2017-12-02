@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 11:00:02 GMT
+      - Sat, 02 Dec 2017 12:44:36 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=65102 t=1512212402357352
+      - D=52978 t=1512218676555915
       X-Varnish:
-      - 444015499, 670509379, 540897758
+      - 474493288, 912685057, 616477352
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1066 pass, cp3040 pass, cp3031 pass
+      - cp1066 pass, cp3033 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -62,9 +62,9 @@ http_interactions:
       Set-Cookie:
       - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
       - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 00:00:00 GMT
+        03 Jan 2018 12:00:00 GMT
       - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
-        00:00:00 GMT
+        12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
@@ -1206,5 +1206,5 @@ http_interactions:
         are carnivoran mammals of the family <b>Ursidae</b>.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/7/79/2010-brown-bear.jpg","width":664,"height":1000},"terms":{"description":["family
         of mammals"],"label":["Ursidae"],"alias":["bears","bear family"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 11:00:02 GMT
+  recorded_at: Sat, 02 Dec 2017 12:44:36 GMT
 recorded_with: VCR 3.0.3

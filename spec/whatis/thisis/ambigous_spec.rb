@@ -31,15 +31,9 @@ RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
     subject { ->(*args) { WhatIs.this(*args).values.first.describe } }
 
     its_call('Bela Crkva') {
-      is_expected.to ret eq_multiline(%{
-        |#<ThisIs::Ambigous Bela Crkva (6 options)>
-        |  #<ThisIs::Link Bela Crkva, Banat>: Bela Crkva, Banat, a town in Vojvodina, Serbia
-        |  #<ThisIs::Link Bela Crkva, Krivogaštani>: Bela Crkva, Krivogaštani, a village in the Municipality of Krivogaštani, Macedonia
-        |  #<ThisIs::Link Bela Crkva (Krupanj)>: Bela Crkva, Krivogaštani, a village in the Mačva District of Serbia
-        |  #<ThisIs::Link Toplička Bela Crkva>: Toplička Bela Crkva, original name of the city of Kuršumlija, Serbia
-        |  #<ThisIs::Link See also/Bila Tserkva>: Bila Tserkva (Біла Церква), a city in the Kiev Oblast of Ukraine
-        |  #<ThisIs::Link See also/Byala Cherkva>: Byala Cherkva, a town in the Veliko Turnovo oblast of Bulgaria
-      })
+      is_expected.to ret start_with('#<ThisIs::Ambigous Bela Crkva (6 options)>')
+        .and include('#<ThisIs::Link Bela Crkva, Banat>: Bela Crkva, Banat, a town in Vojvodina, Serbia')
+        .and end_with('Usage: .variants[0].resolve, .resolve_all')
     }
   end
 

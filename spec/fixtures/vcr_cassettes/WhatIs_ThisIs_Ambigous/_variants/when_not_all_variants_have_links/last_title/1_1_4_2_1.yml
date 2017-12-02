@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Split
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Dec 2017 12:44:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1997'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1314.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=47596 t=1512218658438660
+      X-Varnish:
+      - 433201866, 1057199432, 622171129
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3031 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.124
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
+        large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"1582200":{"pageid":1582200,"ns":0,"title":"Split","revisions":[{"timestamp":"2017-11-21T20:41:00Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{selfref|For
+        the splitting of Wikipedia articles, see [[WP:SPLIT]]}}\n{{wiktionary|Split|split}}\n''''''Split''''''(''''''s'''''')
+        or ''''''The Split'''''' may refer to:\n{{TOC right}}\n\n==Places==\n* [[Split,
+        Croatia]], the largest coastal city in Croatia\n* [[Split Island]], an island
+        in the Hudson Bay, Canada\n* [[Split Island, Falkland Islands]]\n* [[H\u1ea1f\u2019liua]]
+        or Split Island, an island in the Rotuma Group of Fiji\n\n==Games==\n* [[Split
+        (poker)]], the division of winnings in the card game\n* [[Split (bowling)]]\n*
+        Split, a possible player decision in [[Blackjack#Player decisions|blackjack]]\n*
+        Split Dynasty, an alien species of the ''''[[X (game series)|X]]'''' game
+        series\n\n==Sport and dance==\n* [[Split (gymnastics)]], a body position\n*
+        [[Split leap]] or jumping, a class of dance leaps\n* [[Split jump]], a type
+        of jump in figure skating\n* [[Split decision]], combat sports term when a
+        fight is scored non-unanimously for one fighter by all judges\n\n==Science
+        and computing==\n* [[Split (mathematics)]], a property of an exact sequence\n*
+        [[Split (phylogenetics)]], a bipartition of a set of taxa in phylogenetics\n*
+        [[Split (Unix)]], a Unix software utility (command) for dividing input into
+        multiple files\n\n==Arts and media==\n===Film===\n* [[The Split (1959 film)|''''The
+        Split'''' (1959 film)]] or ''''The Manster'''', a U.S.-Japanese horror film\n*
+        [[The Split (film)|''''The Split'''' (film)]], a 1968 heist film\n* [[Split
+        (1989 film)|''''Split'''' (1989 film)]], a science fiction film\n* [[Split
+        (2016 South Korean film)|''''Split'''' (2016 South Korean film)]], a sports
+        drama film\n* [[Split (2016 American film)|''''Split'''' (2016 American film)]],
+        a psychological horror thriller film\n\n===Television===\n* [[Split (TV series)|''''Split''''
+        (TV series)]], an Israeli TV series\n* ''''[[Split: A Divided America]]'''',
+        a 2008 documentary on American politics\n* \"Split\", an [[List of Coupling
+        episodes#Series three: 2002|episode of ''''Coupling'''']]\n* [[The Split (TV
+        series)|''''The Split'''' (TV series)]], an upcoming British TV series\n\n===Music===\n*
+        [[Split album]], an album by two or more artists\n* [[Split (composition)|''''Split''''
+        (composition)]], a 2015 orchestral composition by Andrew Norman\n\n====Albums====\n*
+        [[Split (The Groundhogs album)|''''Split'''' (The Groundhogs album)]], 1971\n*
+        [[Split (The Huntingtons and Darlington album)|''''Split'''' (The Huntingtons
+        and Darlington album)]], 2000 \n* [[Split (Lush album)|''''Split'''' (Lush
+        album)]], 1994\n* [[Split (Zeke/Peter Pan Speedrock album)|''''Split'''' (Zeke/Peter
+        Pan Speedrock album)]], 2005\n* ''''[[The Split CD]]'''', a 1998 EP by Queens
+        of the Stone Age and Beaver\n* ''''Split'''', an album by [[Patricia Barber]]\n\n====Songs====\n*
+        [[Split (KMFDM song)|\"Split\" (KMFDM song)]], 1991\n* \"Split\"  a song from
+        the Tesla Boy album ''''[[The Universe Made of Darkness]]''''\n\n==Naval vessels==\n*
+        [[Yugoslav destroyer Split|Yugoslav destroyer ''''Split'''']], decommissioned
+        in 1980\n* [[Yugoslav frigate Split|Yugoslav frigate ''''Split'''']], ''''Koni''''-class\n\n==Other
+        uses==\n* Split, a [[wine bottle size]]\n* Split, a type of [[air conditioning]]
+        system consisting of both indoor and outdoor units\n* [[Australian Labor Party
+        split of 1955]], or the Split\n\n==See also==\n* [[Stock split]], a corporation
+        dividing or consolidating its shares\n* [[Banana split]], a dessert\n* [[Phonemic
+        split]], an evolutionary change of a language in which one phoneme evolves
+        into two discrete phonemes\n* [[Division (disambiguation)]]\n* [[Segmentation
+        (disambiguation)]]\n* [[Separation (disambiguation)]]\n* [[Splitter (disambiguation)]]\n*
+        {{lookfrom|Split}}\n\n{{disambiguation}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-21T20:41:00Z","lastrevid":811469274,"length":3530,"fullurl":"https://en.wikipedia.org/wiki/Split","editurl":"https://en.wikipedia.org/w/index.php?title=Split&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Split","categories":[{"ns":14,"title":"Category:All
+        disambiguation pages","hidden":""}],"extract":"<p><b>Split</b>(<b>s</b>) or
+        <b>The Split</b> may refer to:</p>","terms":{"label":["Split"],"description":["Wikimedia
+        disambiguation page"]}}}}}'
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 12:44:18 GMT
+recorded_with: VCR 3.0.3

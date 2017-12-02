@@ -15,11 +15,8 @@ RSpec.describe WhatIs::ThisIs, :vcr do
     subject { ->(*args) { WhatIs.this(*args).values.first.describe } }
 
     its_call('Paris') {
-      is_expected.to ret eq_multiline(%{
-        |ThisIs Paris
-        |        title: "Paris"
-        |  coordinates: #<Geo::Coord 48.856700,2.350800>
-      })
+      is_expected.to ret start_with('#<ThisIs Paris [img] {48.856700,2.350800}>')
+        .and include('coordinates: #<Geo::Coord 48.856700,2.350800>')
     }
   end
 end
