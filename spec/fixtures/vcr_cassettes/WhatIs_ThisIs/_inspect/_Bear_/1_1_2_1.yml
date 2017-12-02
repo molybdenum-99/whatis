@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bear
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bear
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 01 Dec 2017 23:26:58 GMT
+      - Sat, 02 Dec 2017 11:00:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1287.eqiad.wmnet
+      - mw1317.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=60689 t=1512170818509026
+      - D=65102 t=1512212402357352
       X-Varnish:
-      - 962041142, 356091244, 321296450
+      - 444015499, 670509379, 540897758
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,24 +54,25 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3030 pass, cp3043 pass
+      - cp1066 pass, cp3040 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=01-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
-        02 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=01-Dec-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 Jan 2018
-        12:00:00 GMT
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.63.32
+      - 94.179.21.124
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"4400":{"pageid":4400,"ns":0,"title":"Bear","revisions":[{"timestamp":"2017-11-16T08:44:00Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{about|the
+      string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
+        large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"4400":{"pageid":4400,"ns":0,"title":"Bear","revisions":[{"timestamp":"2017-11-16T08:44:00Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{about|the
         carnivoran mammals}}\n{{pp-move-indef}}\n{{pp-semi|small=yes}}\n{{good article}}\n{{Automatic
         taxobox\n| taxon=Ursidae\n| name=Bears\n| fossil_range={{Geological range|38|0}}Late
         [[Eocene]] \u2013 Recent\n| image=2010-brown-bear.jpg \n| image_upright=0.9\n|
@@ -1201,7 +1202,9 @@ http_interactions:
         eight species of bears worldwide, including STEM lessons rooted in bear research,
         ecology, and conservation]\n\n{{Carnivora|C.}}\n{{Living things in culture}}\n{{Heraldic
         creatures}}\n\n{{taxonbar}}\n{{Authority control}}\n\n[[Category:Bears|*]]\n[[Category:Predators]]\n[[Category:Articles
-        containing video clips]]\n[[Category:Extant Eocene first appearances]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T14:08:43Z","lastrevid":810604776,"length":94995,"fullurl":"https://en.wikipedia.org/wiki/Bear","editurl":"https://en.wikipedia.org/w/index.php?title=Bear&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bear"}}}}'
+        containing video clips]]\n[[Category:Extant Eocene first appearances]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T14:08:43Z","lastrevid":810604776,"length":94995,"fullurl":"https://en.wikipedia.org/wiki/Bear","editurl":"https://en.wikipedia.org/w/index.php?title=Bear&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bear","extract":"<p><b>Bears</b>
+        are carnivoran mammals of the family <b>Ursidae</b>.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/7/79/2010-brown-bear.jpg","width":664,"height":1000},"terms":{"description":["family
+        of mammals"],"label":["Ursidae"],"alias":["bears","bear family"]}}}}}'
     http_version: 
-  recorded_at: Fri, 01 Dec 2017 23:26:58 GMT
+  recorded_at: Sat, 02 Dec 2017 11:00:02 GMT
 recorded_with: VCR 3.0.3

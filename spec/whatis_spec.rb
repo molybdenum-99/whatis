@@ -1,7 +1,7 @@
 RSpec.describe WhatIs, :vcr do
   before { VCR.use_cassette('en.wikipedia') { described_class[:en] } }
 
-  describe '#this', vcr: true do
+  describe '#this' do
     context 'simplest' do
       subject { described_class.this('Paris, France').values.first }
 
@@ -9,6 +9,9 @@ RSpec.describe WhatIs, :vcr do
       its(:title) { is_expected.to eq 'Paris' }
       its(:page) { is_expected.to be_a Infoboxer::MediaWiki::Page }
       its(:coordinates) { is_expected.to eq Geo::Coord.new(48.856700, 2.350800) }
+      its(:extract) { is_expected.to start_with('Paris (French pronunciation') }
+      its(:description) { is_expected.to eq 'capital city of France' }
+      its(:image) { is_expected.to start_with 'https://upload.wikimedia.org' }
     end
 
     context 'with categories' do

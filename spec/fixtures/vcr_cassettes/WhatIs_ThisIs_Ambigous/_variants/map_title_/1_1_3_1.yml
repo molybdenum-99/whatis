@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva
     body:
       encoding: US-ASCII
       string: ''
@@ -19,15 +19,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 08:18:22 GMT
+      - Sat, 02 Dec 2017 10:59:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '779'
+      - '985'
       Connection:
       - keep-alive
       Server:
-      - mw1201.eqiad.wmnet
+      - mw1207.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=31758 t=1512202702914726
+      - D=66078 t=1512212382436186
       X-Varnish:
-      - 671265647, 33555170, 436391518
+      - 7576424, 673028685, 550345211
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 pass, cp3043 pass, cp3031 pass
+      - cp1068 pass, cp3040 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -71,7 +71,8 @@ http_interactions:
       - 94.179.21.124
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"3459893":{"pageid":3459893,"ns":0,"title":"Bela
+      string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
+        large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"3459893":{"pageid":3459893,"ns":0,"title":"Bela
         Crkva","revisions":[{"timestamp":"2017-05-09T23:51:34Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"''''''Bela
         Crkva'''''' (Cyrillic: \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430,
         {{IPA-sh|b\u025b\u0302\u02d0la\u02d0 tsr\u0329\u0302\u02d0kv\u031ea|pron}})
@@ -84,7 +85,12 @@ http_interactions:
         same origin-->\n* [[Bila Tserkva]] (''''\u0411\u0456\u043b\u0430 \u0426\u0435\u0440\u043a\u0432\u0430''''),
         a city in the Kiev Oblast of Ukraine\n* [[Byala Cherkva]], a town in the Veliko
         Turnovo oblast of Bulgaria\n\n{{geodis}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-09-17T01:44:36Z","lastrevid":779619273,"length":706,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva","categories":[{"ns":14,"title":"Category:All
-        disambiguation pages","hidden":""}]}}}}'
+        disambiguation pages","hidden":""}],"extract":"<p><b>Bela Crkva</b> (Cyrillic:
+        \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430, <small>pronounced\u00a0</small><span
+        title=\"Representation in the International Phonetic Alphabet (IPA)\">[b\u025b\u0302\u02d0la\u02d0
+        tsr\u0329\u0302\u02d0kv\u031ea]</span>) translates to \"White Church\" in
+        the south Slavic languages in the Ekavian-accent regions.","terms":{"label":["Bela
+        Crkva"],"description":["Wikimedia disambiguation page"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 08:18:23 GMT
+  recorded_at: Sat, 02 Dec 2017 10:59:42 GMT
 recorded_with: VCR 3.0.3

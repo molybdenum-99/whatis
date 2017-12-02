@@ -40,7 +40,11 @@ class WhatIs
   private
 
   def setup_request(request, categories: false, languages: false, **options)
-    request = request.prop(:coordinates, :categories).prop(:hidden)
+    request = request
+      .prop(:coordinates, :categories).prop(:hidden) # hidden categories
+      .prop(:extracts).sentences(1)
+      .prop(:pageimages).prop(:original)
+      .prop(:pageterms)
     # We fetch just "disambig" category if not requested otherwise
     request = request.categories(AMBIGOUS_CATEGORY) unless categories
     if languages

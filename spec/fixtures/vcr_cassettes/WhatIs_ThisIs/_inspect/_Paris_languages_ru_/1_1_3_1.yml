@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&lllang=ru&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&exsentences=1&format=json&inprop=url&lllang=ru&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 01 Dec 2017 23:26:59 GMT
+      - Sat, 02 Dec 2017 11:00:03 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1233.eqiad.wmnet
+      - mw1313.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=51958 t=1512170819271633
+      - D=93641 t=1512212403370673
       X-Varnish:
-      - 20405408, 352435254, 319465674
+      - 29419552, 667076313, 539741198
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,24 +54,25 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3030 pass, cp3043 pass
+      - cp1065 pass, cp3040 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=01-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
-        02 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=01-Dec-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 Jan 2018
-        12:00:00 GMT
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.63.32
+      - 94.179.21.124
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","revisions":[{"timestamp":"2017-12-01T20:07:38Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
+      string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
+        large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","revisions":[{"timestamp":"2017-12-01T20:07:38Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
         capital of France}}\n{{pp-pc1}}\n{{Good article}}\n{{Use dmy dates|date=February
         2015}}\n{{EngvarB|date=November 2016}}\n{{Infobox French commune\n|name =
         Paris\n|commune status = [[Communes of France|Commune]] and [[Departments
@@ -2744,7 +2745,12 @@ http_interactions:
         places established in the 3rd century BC]]\n[[Category:Capitals in Europe]]\n[[Category:Cities
         in France]]\n[[Category:Companions of the Liberation]]\n[[Category:European
         culture]]\n[[Category:French culture]]\n[[Category:Prefectures in France]]\n[[Category:Departments
-        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T20:07:38Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"langlinks":[{"lang":"ru","*":"\u041f\u0430\u0440\u0438\u0436"}]}}}}'
+        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T20:07:38Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"extract":"<p><b>Paris</b>
+        (<small>French pronunciation:\u00a0\u200b</small><span title=\"Representation
+        in the International Phonetic Alphabet (IPA)\">[pa\u0281i]</span><small class=\"nowrap\">\u00a0(<span><span><span>\u00a0</span>listen</span></span>)</small>)
+        is the capital and most populous city of France, with an administrative-limits
+        area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
+        city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]},"langlinks":[{"lang":"ru","*":"\u041f\u0430\u0440\u0438\u0436"}]}}}}'
     http_version: 
-  recorded_at: Fri, 01 Dec 2017 23:26:59 GMT
+  recorded_at: Sat, 02 Dec 2017 11:00:03 GMT
 recorded_with: VCR 3.0.3

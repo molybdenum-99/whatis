@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Split
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Split
     body:
       encoding: US-ASCII
       string: ''
@@ -19,15 +19,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 08:45:00 GMT
+      - Sat, 02 Dec 2017 10:59:43 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '1866'
+      - '1997'
       Connection:
       - keep-alive
       Server:
-      - mw1202.eqiad.wmnet
+      - mw1235.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=40793 t=1512204300890030
+      - D=55729 t=1512212383836040
       X-Varnish:
-      - 357272005, 444807396, 458270520
+      - 385623041, 32045560, 540368580
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3030 pass, cp3031 pass
+      - cp1067 pass, cp3043 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -71,7 +71,8 @@ http_interactions:
       - 94.179.21.124
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"1582200":{"pageid":1582200,"ns":0,"title":"Split","revisions":[{"timestamp":"2017-11-21T20:41:00Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{selfref|For
+      string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
+        large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"1582200":{"pageid":1582200,"ns":0,"title":"Split","revisions":[{"timestamp":"2017-11-21T20:41:00Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{selfref|For
         the splitting of Wikipedia articles, see [[WP:SPLIT]]}}\n{{wiktionary|Split|split}}\n''''''Split''''''(''''''s'''''')
         or ''''''The Split'''''' may refer to:\n{{TOC right}}\n\n==Places==\n* [[Split,
         Croatia]], the largest coastal city in Croatia\n* [[Split Island]], an island
@@ -118,7 +119,9 @@ http_interactions:
         into two discrete phonemes\n* [[Division (disambiguation)]]\n* [[Segmentation
         (disambiguation)]]\n* [[Separation (disambiguation)]]\n* [[Splitter (disambiguation)]]\n*
         {{lookfrom|Split}}\n\n{{disambiguation}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-21T20:41:00Z","lastrevid":811469274,"length":3530,"fullurl":"https://en.wikipedia.org/wiki/Split","editurl":"https://en.wikipedia.org/w/index.php?title=Split&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Split","categories":[{"ns":14,"title":"Category:All
-        disambiguation pages","hidden":""}]}}}}'
+        disambiguation pages","hidden":""}],"extract":"<p><b>Split</b>(<b>s</b>) or
+        <b>The Split</b> may refer to:</p>","terms":{"label":["Split"],"description":["Wikimedia
+        disambiguation page"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 08:45:01 GMT
+  recorded_at: Sat, 02 Dec 2017 10:59:43 GMT
 recorded_with: VCR 3.0.3

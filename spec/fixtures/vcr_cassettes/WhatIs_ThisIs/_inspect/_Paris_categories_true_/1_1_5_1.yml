@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&lllang=%5B:ru,%20:fr,%20:de%5D&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
+    uri: https://en.wikipedia.org/w/api.php?action=query&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 10:00:49 GMT
+      - Sat, 02 Dec 2017 11:05:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1203.eqiad.wmnet
+      - mw1282.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=57839 t=1512208849497425
+      - D=73847 t=1512212749258793
       X-Varnish:
-      - 373333680, 455172428, 503773210
+      - 688119230, 1041141602, 547014752
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3030 pass, cp3031 pass
+      - cp1052 pass, cp3031 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -71,7 +71,8 @@ http_interactions:
       - 94.179.21.124
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"redirects":[{"from":"Paris, France","to":"Paris"}],"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","revisions":[{"timestamp":"2017-12-01T20:07:38Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
+      string: '{"continue":{"clcontinue":"22989|Articles_with_dead_external_links_from_August_2017","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+        was too large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","revisions":[{"timestamp":"2017-12-01T20:07:38Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
         capital of France}}\n{{pp-pc1}}\n{{Good article}}\n{{Use dmy dates|date=February
         2015}}\n{{EngvarB|date=November 2016}}\n{{Infobox French commune\n|name =
         Paris\n|commune status = [[Communes of France|Commune]] and [[Departments
@@ -2744,7 +2745,265 @@ http_interactions:
         places established in the 3rd century BC]]\n[[Category:Capitals in Europe]]\n[[Category:Cities
         in France]]\n[[Category:Companions of the Liberation]]\n[[Category:European
         culture]]\n[[Category:French culture]]\n[[Category:Prefectures in France]]\n[[Category:Departments
-        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T20:07:38Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}]}}}}'
+        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T20:07:38Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"categories":[{"ns":14,"title":"Category:3rd-century
+        BC establishments"},{"ns":14,"title":"Category:All articles containing potentially
+        dated statements","hidden":""},{"ns":14,"title":"Category:All articles with
+        broken links to citations","hidden":""},{"ns":14,"title":"Category:All articles
+        with dead external links","hidden":""},{"ns":14,"title":"Category:Articles
+        containing French-language text","hidden":""},{"ns":14,"title":"Category:Articles
+        containing potentially dated statements from 2012","hidden":""},{"ns":14,"title":"Category:Articles
+        containing potentially dated statements from 2013","hidden":""},{"ns":14,"title":"Category:Articles
+        with DMOZ links","hidden":""},{"ns":14,"title":"Category:Articles with French-language
+        external links","hidden":""},{"ns":14,"title":"Category:Articles with Italian-language
+        external links","hidden":""}],"extract":"<p><b>Paris</b> (<small>French pronunciation:\u00a0\u200b</small><span
+        title=\"Representation in the International Phonetic Alphabet (IPA)\">[pa\u0281i]</span><small
+        class=\"nowrap\">\u00a0(<span><span><span>\u00a0</span>listen</span></span>)</small>)
+        is the capital and most populous city of France, with an administrative-limits
+        area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
+        city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 10:00:50 GMT
+  recorded_at: Sat, 02 Dec 2017 11:05:49 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CArticles_with_dead_external_links_from_August_2017&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Dec 2017 11:05:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '370'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1282.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=34509 t=1512212750073977
+      X-Varnish:
+      - 68100462, 472093085, 547315020
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3030 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.124
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"clcontinue":"22989|Coordinates_on_Wikidata","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","categories":[{"ns":14,"title":"Category:Articles
+        with dead external links from August 2017","hidden":""},{"ns":14,"title":"Category:Articles
+        with dead external links from February 2016","hidden":""},{"ns":14,"title":"Category:Articles
+        with hAudio microformats","hidden":""},{"ns":14,"title":"Category:Articles
+        with permanently dead external links","hidden":""},{"ns":14,"title":"Category:CS1
+        French-language sources (fr)","hidden":""},{"ns":14,"title":"Category:Capitals
+        in Europe"},{"ns":14,"title":"Category:Catholic pilgrimage sites"},{"ns":14,"title":"Category:Cities
+        in France"},{"ns":14,"title":"Category:Cities in \u00cele-de-France"},{"ns":14,"title":"Category:Companions
+        of the Liberation"}]}}}}'
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 11:05:50 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CCoordinates_on_Wikidata&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Dec 2017 11:05:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '365'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1193.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=28504 t=1512212750590608
+      X-Varnish:
+      - 64463311, 659651372, 551461266
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.124
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"clcontinue":"22989|Webarchive_template_wayback_links","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","categories":[{"ns":14,"title":"Category:Coordinates
+        on Wikidata","hidden":""},{"ns":14,"title":"Category:Departments of \u00cele-de-France"},{"ns":14,"title":"Category:EngvarB
+        from November 2016","hidden":""},{"ns":14,"title":"Category:European culture"},{"ns":14,"title":"Category:French
+        culture"},{"ns":14,"title":"Category:Good articles","hidden":""},{"ns":14,"title":"Category:Paris"},{"ns":14,"title":"Category:Populated
+        places established in the 3rd century BC"},{"ns":14,"title":"Category:Prefectures
+        in France"},{"ns":14,"title":"Category:Use dmy dates from February 2015","hidden":""}]}}}}'
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 11:05:50 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CWebarchive_template_wayback_links&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Dec 2017 11:05:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '278'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1289.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=44085 t=1512212751140010
+      X-Varnish:
+      - 9727328, 861444602, 552346259
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.124
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","categories":[{"ns":14,"title":"Category:Webarchive
+        template wayback links","hidden":""},{"ns":14,"title":"Category:Wikipedia
+        articles needing page number citations from November 2015","hidden":""},{"ns":14,"title":"Category:Wikipedia
+        articles with BNF identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
+        articles with GND identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
+        articles with ISNI identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
+        articles with LCCN identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
+        articles with VIAF identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
+        pending changes protected pages (level 1)","hidden":""}]}}}}'
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 11:05:51 GMT
 recorded_with: VCR 3.0.3

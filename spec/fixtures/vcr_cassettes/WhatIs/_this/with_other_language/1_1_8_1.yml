@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 09:28:18 GMT
+      - Sat, 02 Dec 2017 11:09:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1199.eqiad.wmnet
+      - mw1290.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=51234 t=1512206898801760
+      - D=53404 t=1512212977342621
       X-Varnish:
-      - 677137755, 43388406, 481967763
+      - 702411069, 60559643, 549212220
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -150,10 +150,10 @@ http_interactions:
         bokm\u00e5l","url":"https://no.wikipedia.org/wiki/$1"},{"prefix":"zh-cfr","local":"","url":"https://zh-min-nan.wikipedia.org/wiki/$1"},{"prefix":"zh-cn","local":"","language":"\u4e2d\u6587\uff08\u4e2d\u56fd\u5927\u9646\uff09\u200e","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"zh-tw","local":"","language":"\u4e2d\u6587\uff08\u53f0\u7063\uff09\u200e","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"nan","local":"","language":"B\u00e2n-l\u00e2m-g\u00fa","url":"https://zh-min-nan.wikipedia.org/wiki/$1"},{"prefix":"vro","local":"","language":"V\u00f5ro","url":"https://fiu-vro.wikipedia.org/wiki/$1"},{"prefix":"cmn","local":"","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"lzh","local":"","language":"\u6587\u8a00","url":"https://zh-classical.wikipedia.org/wiki/$1"},{"prefix":"yue","local":"","language":"\u7cb5\u8a9e","url":"https://zh-yue.wikipedia.org/wiki/$1"},{"prefix":"rup","local":"","language":"arm\u00e3neashti","url":"https://roa-rup.wikipedia.org/wiki/$1"},{"prefix":"gsw","local":"","language":"Alemannisch","url":"https://als.wikipedia.org/wiki/$1"},{"prefix":"be-tarask","local":"","language":"\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f
         (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430)\u200e","url":"https://be-x-old.wikipedia.org/wiki/$1"},{"prefix":"sgs","local":"","language":"\u017eemait\u0117\u0161ka","url":"https://bat-smg.wikipedia.org/wiki/$1"},{"prefix":"egl","local":"","language":"Emili\u00e0n","url":"https://eml.wikipedia.org/wiki/$1"},{"prefix":"w","local":"","url":"https://en.wikipedia.org/wiki/$1"},{"prefix":"wikt","local":"","url":"https://ru.wiktionary.org/wiki/$1"},{"prefix":"q","local":"","url":"https://ru.wikiquote.org/wiki/$1"},{"prefix":"b","local":"","url":"https://ru.wikibooks.org/wiki/$1"},{"prefix":"n","local":"","url":"https://ru.wikinews.org/wiki/$1"},{"prefix":"s","local":"","url":"https://ru.wikisource.org/wiki/$1"},{"prefix":"chapter","local":"","url":"https://ru.wikimedia.org/wiki/$1"},{"prefix":"v","local":"","url":"https://ru.wikiversity.org/wiki/$1"},{"prefix":"voy","local":"","url":"https://ru.wikivoyage.org/wiki/$1"}]}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 09:28:19 GMT
+  recorded_at: Sat, 02 Dec 2017 11:09:37 GMT
 - request:
     method: get
-    uri: https://ru.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=%D0%9F%D0%B0%D1%80%D0%B8%D0%B6
+    uri: https://ru.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=%D0%9F%D0%B0%D1%80%D0%B8%D0%B6
     body:
       encoding: US-ASCII
       string: ''
@@ -170,7 +170,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 09:28:19 GMT
+      - Sat, 02 Dec 2017 11:09:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -178,7 +178,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1290.eqiad.wmnet
+      - mw1278.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -195,9 +195,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=82973 t=1512206899444555
+      - D=74756 t=1512212977837374
       X-Varnish:
-      - 192595944, 1019081333, 474146847
+      - 242387123, 864172589, 544896287
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -205,7 +205,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3031 pass, cp3031 pass
+      - cp1053 pass, cp3032 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -222,7 +222,8 @@ http_interactions:
       - 94.179.21.124
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"6214":{"pageid":6214,"ns":0,"title":"\u041f\u0430\u0440\u0438\u0436","revisions":[{"timestamp":"2017-11-06T21:27:03Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{\u041d\u041f\n
+      string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
+        large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"6214":{"pageid":6214,"ns":0,"title":"\u041f\u0430\u0440\u0438\u0436","revisions":[{"timestamp":"2017-11-06T21:27:03Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{\u041d\u041f\n
         |\u0441\u0442\u0430\u0442\u0443\u0441                  = \u0413\u043e\u0440\u043e\u0434\n
         |\u0440\u0443\u0441\u0441\u043a\u043e\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435        =
         \u041f\u0430\u0440\u0438\u0436\n |\u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u043e\u0435
@@ -3070,7 +3071,17 @@ http_interactions:
         \u043d\u0430 \u0421\u0435\u043d\u0435]]\n[[\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f:\u0421\u0442\u043e\u043b\u0438\u0446\u044b
         \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0445 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432]]\n[[\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f:\u0413\u043e\u0440\u043e\u0434\u0430-\u043c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u044b
         \u0424\u0440\u0430\u043d\u0446\u0438\u0438]]\n[[\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f:\u0426\u0435\u043d\u0442\u0440\u044b
-        \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u0432 \u0424\u0440\u0430\u043d\u0446\u0438\u0438]]"}],"contentmodel":"wikitext","pagelanguage":"ru","pagelanguagehtmlcode":"ru","pagelanguagedir":"ltr","touched":"2017-11-30T12:15:18Z","lastrevid":88840503,"length":121762,"fullurl":"https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B8%D0%B6","editurl":"https://ru.wikipedia.org/w/index.php?title=%D0%9F%D0%B0%D1%80%D0%B8%D0%B6&action=edit","canonicalurl":"https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B8%D0%B6","coordinates":[{"lat":48.83333333,"lon":2.33333333,"primary":"","globe":"earth"}]}}}}'
+        \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u0432 \u0424\u0440\u0430\u043d\u0446\u0438\u0438]]"}],"contentmodel":"wikitext","pagelanguage":"ru","pagelanguagehtmlcode":"ru","pagelanguagedir":"ltr","touched":"2017-11-30T12:15:18Z","lastrevid":88840503,"length":121762,"fullurl":"https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B8%D0%B6","editurl":"https://ru.wikipedia.org/w/index.php?title=%D0%9F%D0%B0%D1%80%D0%B8%D0%B6&action=edit","canonicalurl":"https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B8%D0%B6","coordinates":[{"lat":48.83333333,"lon":2.33333333,"primary":"","globe":"earth"}],"extract":"<p><b>\u041f\u0430\u0440\u0438\u0301\u0436</b>
+        (\u0444\u0440.\u00a0<i><span lang=\"fr\" xml:lang=\"fr\">Paris</span></i>
+        <span>[pa\u02c8\u0281i]</span> <span><sup> \u0441\u043b\u0443\u0448\u0430\u0442\u044c</sup></span>)\u00a0\u2014
+        \u0433\u043e\u0440\u043e\u0434, \u0441\u0442\u043e\u043b\u0438\u0446\u0430
+        \u0424\u0440\u0430\u043d\u0446\u0438\u0438, \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439
+        \u0446\u0435\u043d\u0442\u0440 \u0440\u0435\u0433\u0438\u043e\u043d\u0430
+        \u0418\u043b\u044c-\u0434\u0435-\u0424\u0440\u0430\u043d\u0441.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/b/be/Paris_Montage_2017.png","width":1000,"height":1400},"terms":{"description":["\u0441\u0442\u043e\u043b\u0438\u0446\u0430
+        \u0424\u0440\u0430\u043d\u0446\u0438\u0438"],"label":["\u041f\u0430\u0440\u0438\u0436"],"alias":["\u041f\u0430\u0440\u0438\u0436
+        (\u0424\u0440\u0430\u043d\u0446\u0438\u044f)","\u041f\u0430\u0440\u0438\u0436,
+        \u0424\u0440\u0430\u043d\u0446\u0438\u044f","\u041f\u0430\u0440\u0438\u0436
+        (\u0441\u0442\u043e\u043b\u0438\u0446\u0430)"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 09:28:19 GMT
+  recorded_at: Sat, 02 Dec 2017 11:09:38 GMT
 recorded_with: VCR 3.0.3
