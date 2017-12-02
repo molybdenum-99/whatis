@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:33 GMT
+      - Sat, 02 Dec 2017 18:23:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1222.eqiad.wmnet
+      - mw1287.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=224425 t=1512218673671654
+      - D=247797 t=1512239027540142
       X-Varnish:
-      - 290658865, 485541740, 622989647
+      - 4686297, 151038114, 927431824
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3030 pass, cp3031 pass
+      - cp1054 pass, cp3043 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -4633,5 +4633,5 @@ http_interactions:
         of the Galaxy Vol. 2"],"description":["2017 superhero film produced by Marvel
         Studios"],"alias":["Guardians of the Galaxy 2"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:34 GMT
+  recorded_at: Sat, 02 Dec 2017 18:23:48 GMT
 recorded_with: VCR 3.0.3

@@ -1,5 +1,6 @@
 require 'rspec/its'
 require 'saharspec'
+require 'saharspec/matchers/dont' # highly experimental
 require 'vcr'
 
 VCR.configure do |config|

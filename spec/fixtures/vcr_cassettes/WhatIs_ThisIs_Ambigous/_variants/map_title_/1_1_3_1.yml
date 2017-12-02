@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:17 GMT
+      - Sat, 02 Dec 2017 18:23:22 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1315.eqiad.wmnet
+      - mw1282.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=55578 t=1512218657202079
+      - D=51173 t=1512239002851563
       X-Varnish:
-      - 273008598, 487067100, 610914061
+      - 581536104, 918378611, 948143605
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3030 pass, cp3031 pass
+      - cp1053 pass, cp3032 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -92,5 +92,5 @@ http_interactions:
         the south Slavic languages in the Ekavian-accent regions.","terms":{"label":["Bela
         Crkva"],"description":["Wikimedia disambiguation page"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:17 GMT
+  recorded_at: Sat, 02 Dec 2017 18:23:22 GMT
 recorded_with: VCR 3.0.3

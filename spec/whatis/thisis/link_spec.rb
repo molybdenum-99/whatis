@@ -8,6 +8,12 @@ RSpec.describe WhatIs::ThisIs::Link, :vcr do
       let(:link) { described_class.new('Харьков', owner: WhatIs[:ru]) }
 
       it { is_expected.to be_a(WhatIs::ThisIs).and have_attributes(title: 'Харьков') }
+
+      context 'with additional args' do
+        subject { link.resolve(categories: true) }
+
+        its(:categories) { are_expected.not_to be_empty }
+      end
     end
 
     context 'with language' do

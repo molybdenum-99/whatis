@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:36 GMT
+      - Sat, 02 Dec 2017 18:23:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1317.eqiad.wmnet
+      - mw1316.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=52978 t=1512218676555915
+      - D=68903 t=1512239032734941
       X-Varnish:
-      - 474493288, 912685057, 616477352
+      - 734825410, 758393068, 945265223
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1066 pass, cp3033 pass, cp3031 pass
+      - cp1066 pass, cp3040 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -1202,9 +1202,9 @@ http_interactions:
         eight species of bears worldwide, including STEM lessons rooted in bear research,
         ecology, and conservation]\n\n{{Carnivora|C.}}\n{{Living things in culture}}\n{{Heraldic
         creatures}}\n\n{{taxonbar}}\n{{Authority control}}\n\n[[Category:Bears|*]]\n[[Category:Predators]]\n[[Category:Articles
-        containing video clips]]\n[[Category:Extant Eocene first appearances]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T14:08:43Z","lastrevid":810604776,"length":94995,"fullurl":"https://en.wikipedia.org/wiki/Bear","editurl":"https://en.wikipedia.org/w/index.php?title=Bear&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bear","extract":"<p><b>Bears</b>
+        containing video clips]]\n[[Category:Extant Eocene first appearances]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-02T12:48:19Z","lastrevid":810604776,"length":94995,"fullurl":"https://en.wikipedia.org/wiki/Bear","editurl":"https://en.wikipedia.org/w/index.php?title=Bear&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bear","extract":"<p><b>Bears</b>
         are carnivoran mammals of the family <b>Ursidae</b>.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/7/79/2010-brown-bear.jpg","width":664,"height":1000},"terms":{"description":["family
         of mammals"],"label":["Ursidae"],"alias":["bears","bear family"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:36 GMT
+  recorded_at: Sat, 02 Dec 2017 18:23:53 GMT
 recorded_with: VCR 3.0.3

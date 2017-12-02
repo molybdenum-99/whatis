@@ -17,7 +17,7 @@ class WhatIs
       end
 
       def describe
-        Description.new("#{inspect}\n  Usage: .search(limit)")
+        Description.new("#{inspect}\n  Usage: .search(limit, **options)")
       end
     end
   end

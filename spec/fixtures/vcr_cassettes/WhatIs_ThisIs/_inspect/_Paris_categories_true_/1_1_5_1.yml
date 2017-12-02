@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:52 GMT
+      - Sat, 02 Dec 2017 18:24:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1276.eqiad.wmnet
+      - mw1193.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=80413 t=1512218692500993
+      - D=87628 t=1512239048449232
       X-Varnish:
-      - 723769535, 1046605186, 624100440
+      - 938681388, 33806762, 948242594
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2745,7 +2745,7 @@ http_interactions:
         places established in the 3rd century BC]]\n[[Category:Capitals in Europe]]\n[[Category:Cities
         in France]]\n[[Category:Companions of the Liberation]]\n[[Category:European
         culture]]\n[[Category:French culture]]\n[[Category:Prefectures in France]]\n[[Category:Departments
-        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T20:07:38Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"categories":[{"ns":14,"title":"Category:3rd-century
+        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-02T17:09:07Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"categories":[{"ns":14,"title":"Category:3rd-century
         BC establishments"},{"ns":14,"title":"Category:All articles containing potentially
         dated statements","hidden":""},{"ns":14,"title":"Category:All articles with
         broken links to citations","hidden":""},{"ns":14,"title":"Category:All articles
@@ -2762,7 +2762,7 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:53 GMT
+  recorded_at: Sat, 02 Dec 2017 18:24:08 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CArticles_with_dead_external_links_from_August_2017&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2782,7 +2782,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:53 GMT
+      - Sat, 02 Dec 2017 18:24:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2790,7 +2790,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1228.eqiad.wmnet
+      - mw1225.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2807,9 +2807,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=42073 t=1512218693316944
+      - D=33044 t=1512239049174239
       X-Varnish:
-      - 746554185, 874829688, 610233574
+      - 933504534, 562566294, 932865104
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2817,7 +2817,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 pass, cp3032 pass, cp3031 pass
+      - cp1052 pass, cp3030 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2844,7 +2844,7 @@ http_interactions:
         in France"},{"ns":14,"title":"Category:Cities in \u00cele-de-France"},{"ns":14,"title":"Category:Companions
         of the Liberation"}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:53 GMT
+  recorded_at: Sat, 02 Dec 2017 18:24:09 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CCoordinates_on_Wikidata&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2864,7 +2864,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:53 GMT
+      - Sat, 02 Dec 2017 18:24:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2872,7 +2872,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1315.eqiad.wmnet
+      - mw1195.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2889,9 +2889,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=36180 t=1512218693825740
+      - D=29378 t=1512239049803352
       X-Varnish:
-      - 103889418, 666793027, 617264568
+      - 433327217, 762272845, 940227001
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2923,7 +2923,7 @@ http_interactions:
         places established in the 3rd century BC"},{"ns":14,"title":"Category:Prefectures
         in France"},{"ns":14,"title":"Category:Use dmy dates from February 2015","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:54 GMT
+  recorded_at: Sat, 02 Dec 2017 18:24:09 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CWebarchive_template_wayback_links&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2943,7 +2943,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:54 GMT
+      - Sat, 02 Dec 2017 18:24:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2951,7 +2951,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1204.eqiad.wmnet
+      - mw1277.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2968,9 +2968,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=31538 t=1512218694385088
+      - D=42123 t=1512239050426100
       X-Varnish:
-      - 31867672, 876797716, 613702178
+      - 307397452, 952370697, 940786399
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -3005,5 +3005,5 @@ http_interactions:
         articles with VIAF identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
         pending changes protected pages (level 1)","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:54 GMT
+  recorded_at: Sat, 02 Dec 2017 18:24:10 GMT
 recorded_with: VCR 3.0.3

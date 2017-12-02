@@ -13,12 +13,12 @@ class WhatIs
       all[lang]
     end
 
-    def this(*titles, **options)
-      self[:en].this(*titles, **options)
+    def these(*titles, **options)
+      self[:en].these(*titles, **options)
     end
 
-    def this_one(title, **options)
-      self[:en].this_one(title, **options)
+    def this(title, **options)
+      self[:en].this(title, **options)
     end
 
     private
@@ -37,7 +37,7 @@ class WhatIs
 
   def these(*titles, **options)
     titles.any? or
-      fail(ArgumentError, "Usage: `this('Title 1', 'Title 2', ..., **options). At least one title is required.")
+      fail(ArgumentError, "Usage: `these('Title 1', 'Title 2', ..., **options). At least one title is required.")
     @infoboxer
       .get_h(*titles) { |req| setup_request(req, **options) }
       .map { |title, page| [title, ThisIs.create(self, title, page)] }.to_h

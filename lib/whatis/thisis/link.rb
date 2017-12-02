@@ -17,11 +17,11 @@ class WhatIs
         "#<ThisIs::Link #{language&.append(':')}#{section&.append('/')}#{title}>"
       end
 
-      def resolve
+      def resolve(**options)
         engine = @owner || language && WhatIs[language] or
           fail "Can't resolve #{inspect}"
 
-        engine.this(title).values.first
+        engine.this(title, **options)
       end
 
       def ==(other)

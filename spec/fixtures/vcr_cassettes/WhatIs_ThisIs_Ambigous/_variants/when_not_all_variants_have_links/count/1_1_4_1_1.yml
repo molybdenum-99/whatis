@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 12:44:17 GMT
+      - Sat, 02 Dec 2017 18:23:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1280.eqiad.wmnet
+      - mw1279.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=51685 t=1512218657886705
+      - D=52903 t=1512239003435483
       X-Varnish:
-      - 445940142, 671377912, 618863945
+      - 708444867, 761439655, 934304940
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -123,5 +123,5 @@ http_interactions:
         <b>The Split</b> may refer to:</p>","terms":{"label":["Split"],"description":["Wikimedia
         disambiguation page"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 12:44:18 GMT
+  recorded_at: Sat, 02 Dec 2017 18:23:23 GMT
 recorded_with: VCR 3.0.3

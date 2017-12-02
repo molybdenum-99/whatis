@@ -1,5 +1,5 @@
 RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
-  subject(:ambigous) { WhatIs.this(title).values.first }
+  subject(:ambigous) { WhatIs.this(title) }
 
   before { VCR.use_cassette('en.wikipedia') { WhatIs[:en] } } # caching metainfo request to VCR
 
@@ -22,13 +22,13 @@ RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
   end
 
   describe '#inspect' do
-    subject { ->(*args) { WhatIs.this(*args).values.first.inspect } }
+    subject { ->(*args) { WhatIs.this(*args).inspect } }
 
     its_call('Bela Crkva') { is_expected.to ret '#<ThisIs::Ambigous Bela Crkva (6 options)>' }
   end
 
   describe '#describe' do
-    subject { ->(*args) { WhatIs.this(*args).values.first.describe } }
+    subject { ->(*args) { WhatIs.this(*args).describe } }
 
     its_call('Bela Crkva') {
       is_expected.to ret start_with('#<ThisIs::Ambigous Bela Crkva (6 options)>')
@@ -42,5 +42,11 @@ RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
 
     it { is_expected.to be_a(Hash).and have_attributes(count: 6) }
     its(:values) { are_expected.to all be_a WhatIs::ThisIs }
+
+    context 'with additional attributes' do
+      subject { ambigous.resolve_all(languages: :ru).values }
+
+      its(:'first.languages') { is_expected.not_to be_empty }
+    end
   end
 end

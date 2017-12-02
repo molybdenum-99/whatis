@@ -8,14 +8,19 @@ RSpec.describe WhatIs::ThisIs::NotFound, :vcr do
   end
 
   describe '#describe' do
-    its(:describe) { is_expected.to eq "#<ThisIs::NotFound Guardians Of The Galaxy>\n  Usage: .search(limit)" }
+    its(:describe) { is_expected.to eq "#<ThisIs::NotFound Guardians Of The Galaxy>\n  Usage: .search(limit, **options)" }
   end
 
   describe '#search' do
     subject { notfound.search(3) }
 
-    its_block { is_expected.to send_message(WhatIs[:en], :search).with('Guardians Of The Galaxy', 3) }
+    its_block { is_expected.to send_message(WhatIs[:en], :search).with('Guardians Of The Galaxy', 3, {}) }
     it { is_expected.to all be_a(WhatIs::ThisIs) }
     its_map(:title) { is_expected.to eq ['Guardians of the Galaxy', 'Guardians of the Galaxy (film)', 'Guardians of the Galaxy Vol. 2'] }
+
+    context 'with arguments' do
+      subject { notfound.search(3, languages: :ru) }
+      its(:'first.languages') { are_expected.to include('ru') }
+    end
   end
 end
