@@ -2,9 +2,10 @@ RSpec.describe WhatIs::ThisIs, :vcr do
   describe '#inspect' do
     subject { ->(*args) { WhatIs.this(*args).values.first.inspect } }
 
-    its_call('Paris') { is_expected.to ret '#<ThisIs Paris (48.856700,2.350800)>' }
+    its_call('Paris') { is_expected.to ret '#<ThisIs Paris {48.856700,2.350800}>' }
     its_call('Bear') { is_expected.to ret '#<ThisIs Bear>' }
-    its_call('Paris', languages: :ru) { is_expected.to ret '#<ThisIs Paris/ru:Париж (48.856700,2.350800)>' }
+    its_call('Paris', languages: :ru) { is_expected.to ret '#<ThisIs Paris/Париж {48.856700,2.350800}>' }
+    its_call('Paris', languages: true) { is_expected.to ret match /Paris \+\d+ translations/ }
   end
 
   describe '#describe' do

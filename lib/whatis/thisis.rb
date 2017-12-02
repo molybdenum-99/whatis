@@ -14,7 +14,10 @@ class WhatIs
           .map { |c| c['title'].split(':', 2).last }
       },
       languages: ->(page) {
-        Array(page.source['langlinks']).map { |l| [l['lang'], l['*']] }.to_h
+        Array(page.source['langlinks'])
+          .map { |l| [l['lang'], l['*']] }
+          .map { |code, title| [code, Link.new(title, language: code)] }.to_h
+          .to_h
       }
     }.freeze
 
@@ -37,10 +40,14 @@ class WhatIs
       @data = EXTRACTORS.map { |sym, proc| [sym, proc.call(page)] }.to_h
     end
 
-    INSPECT = InTem.parse('#<{class_name} {title}{languages | ifcount 1 | first | join ":" | prepend "/"}{coordinates | not nil? | surround " (", ")"}>').freeze
-
     def inspect
-      INSPECT.render(@data.merge(class_name: self.class.name.sub('WhatIs::', '')))
+      [
+        'ThisIs ',
+        title,
+        languages.iff { |l| l.count == 1 }&.yield_self { |l| l.values.first.title.prepend("/") },
+        languages.iff { |l| l.count > 1 }&.yield_self { |l| " +#{l.count} translations" },
+        coordinates&.to_s&.surround(' {', '}')
+      ].compact.join.surround('#<', '>')
     end
 
     def describe
@@ -53,22 +60,9 @@ class WhatIs
 
     EXTRACTORS.keys.each { |title| define_method(title) { @data[title] } }
 
-    class Link
-      attr_reader :title, :section, :description
-
-      def initialize(owner, title, section: nil, description: nil)
-        @owner = owner
-        @title = title
-        @section = section unless section == ''
-        @description = description
-      end
-
-      def inspect
-        "#<ThisIs::Link #{section&.append('/')}#{title}>"
-      end
-    end
   end
 end
 
 require_relative 'thisis/ambigous'
 require_relative 'thisis/notfound'
+require_relative 'thisis/link'

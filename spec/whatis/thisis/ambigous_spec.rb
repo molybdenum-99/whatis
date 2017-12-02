@@ -28,7 +28,7 @@ RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
   end
 
   describe '#describe' do
-    subject { ->(*args) { WhatIs.this(*args).values.first.describe.tap(&method(:puts)) } }
+    subject { ->(*args) { WhatIs.this(*args).values.first.describe } }
 
     its_call('Bela Crkva') {
       is_expected.to ret eq_multiline(%{

@@ -33,8 +33,8 @@ class WhatIs
           .reject { |item| item.wikilinks.empty? }
           .map { |item|
             Link.new(
-              @owner,
               item.wikilinks.first.link,
+              owner: @owner,
               section: item.in_sections.map(&:heading).map(&:text_).reverse.reject(&:empty?).join('/'),
               description: item.children.map(&:text).join
             )

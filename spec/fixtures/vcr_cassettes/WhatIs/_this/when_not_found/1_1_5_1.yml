@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&format=json&inprop=url&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=definitely%20not%20found
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Dec 2017 09:29:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '244'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1279.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29822 t=1512206978778723
+      X-Varnish:
+      - 359875555, 655268771, 484591517
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        03 Jan 2018 00:00:00 GMT
+      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.124
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"normalized":[{"from":"definitely not
+        found","to":"Definitely not found"}],"pages":{"-1":{"ns":0,"title":"Definitely
+        not found","missing":"","contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","fullurl":"https://en.wikipedia.org/wiki/Definitely_not_found","editurl":"https://en.wikipedia.org/w/index.php?title=Definitely_not_found&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Definitely_not_found"}}}}'
+    http_version: 
+  recorded_at: Sat, 02 Dec 2017 09:29:38 GMT
+recorded_with: VCR 3.0.3
