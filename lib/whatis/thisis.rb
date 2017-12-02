@@ -65,10 +65,12 @@ class WhatIs
 
     def describe
       maxlength = @data.keys.map(&:length).max
-      "ThisIs #{title}\n" +
-        @data
-          .reject { |_, v| v.nil? || v.respond_to?(:empty?) && v.empty? }
-          .map { |k, v| "  #{k.to_s.rjust(maxlength)}: #{v.inspect}" }.join("\n")
+      Description.new(
+        "#{inspect}\n" +
+          @data
+            .reject { |_, v| v.nil? || v.respond_to?(:empty?) && v.empty? }
+            .map { |k, v| "  #{k.to_s.rjust(maxlength)}: #{v.inspect}" }.join("\n")
+      )
     end
 
     EXTRACTORS.keys.each { |title| define_method(title) { @data[title] } }

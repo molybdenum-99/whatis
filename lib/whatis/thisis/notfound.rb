@@ -15,6 +15,10 @@ class WhatIs
       def inspect
         "#<ThisIs::NotFound #{title}>"
       end
+
+      def describe
+        Description.new("#{inspect}\n  Usage: .search(limit)")
+      end
     end
   end
 end

@@ -18,8 +18,11 @@ class WhatIs
       end
 
       def describe
-        "#{inspect}\n" +
-          variants.map { |link| "  #{link.inspect}: #{link.description}" }.join("\n")
+        Description.new(
+          "#{inspect}\n" +
+            variants.map { |link| "  #{link.inspect}: #{link.description}" }.join("\n") +
+            "\n  Usage: .variants[1].resolve, .resolve_all"
+        )
       end
 
       def resolve_all

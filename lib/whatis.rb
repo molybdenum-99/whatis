@@ -4,6 +4,10 @@ require 'geo/coord'
 class WhatIs
   AMBIGOUS_CATEGORY = 'Category:All disambiguation pages'.freeze
 
+  class Description < String
+    alias inspect to_s # Allows pretty inspect of multi-line descriptions
+  end
+
   class << self
     def [](lang)
       all[lang]
@@ -16,13 +20,14 @@ class WhatIs
     private
 
     def all
-      @all = Hash.new { |h, lang| h[lang] = WhatIs.new(lang) }
+      @all ||= Hash.new { |h, lang| h[lang] = WhatIs.new(lang) }
     end
   end
 
-  attr_reader :infoboxer
+  attr_reader :language
 
   def initialize(language = :en)
+    @language = language
     @infoboxer = Infoboxer.wikipedia(language)
   end
 
@@ -33,8 +38,12 @@ class WhatIs
   end
 
   def search(title, limit = 5)
-    infoboxer.search(title, limit: limit, &method(:setup_request))
-          .map { |page| ThisIs.create(@owner, page.title, page) }
+    @infoboxer.search(title, limit: limit, &method(:setup_request))
+          .map { |page| ThisIs.create(self, page.title, page) }
+  end
+
+  def inspect
+    "#<WhatIs(#{language}). Usage: .this(*pages, **options)>"
   end
 
   private
