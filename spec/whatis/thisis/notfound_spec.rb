@@ -20,6 +20,7 @@ RSpec.describe WhatIs::ThisIs::NotFound, :vcr do
 
     context 'with arguments' do
       subject { notfound.search(3, languages: :ru) }
+
       its(:'first.languages') { are_expected.to include('ru') }
     end
   end

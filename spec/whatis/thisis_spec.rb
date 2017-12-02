@@ -22,6 +22,7 @@ RSpec.describe WhatIs::ThisIs, :vcr do
 
   describe '#what' do
     subject { this.what(languages: :be) }
+
     let(:this) { WhatIs.this('Paris') }
 
     it { is_expected.not_to be_equal this }

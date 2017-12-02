@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages&clprop=hidden&exsentences=1&format=json&generator=search&gsrlimit=3&gsrsearch=Guardians%20Of%20The%20Galaxy&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&generator=search&gsrlimit=3&gsrsearch=Guardians%20Of%20The%20Galaxy&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 18:23:46 GMT
+      - Sat, 02 Dec 2017 22:22:51 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1316.eqiad.wmnet
+      - mw1314.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=264091 t=1512239025759955
+      - D=244345 t=1512253370804338
       X-Varnish:
-      - 1070274429, 552545939, 948212319
+      - 49398797, 1049453745, 101405793
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3030 pass, cp3031 pass
+      - cp1052 pass, cp3033 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -93,16 +93,17 @@ http_interactions:
         of the Galaxy (Epcot Attraction)]]\n\n==See also==\n*[[List of Guardians of
         the Galaxy members]]\n*[[Guardians of the Universe]], an unrelated race from
         DC Comics\n\n{{Guardians of the Galaxy}}\n\n{{Set index article|comics}}\n\n[[Category:Guardians
-        of the Galaxy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-19T13:36:19Z","lastrevid":811090717,"length":1463,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","extract":"<p>The
-        <b>Guardians of the Galaxy</b> is a fictional superhero team appearing in
-        American comic books published by Marvel Comics.</p>\n<p></p>\n\n<p></p>\n<h2><span
-        id=\"Marvel_Comics_teams\">Marvel Comics teams</span></h2>\n<ul><li>Guardians
-        of the Galaxy (1969 team), the original 31st-century team from an alternative
-        timeline of the Marvel Universe (Earth-691)</li>\n<li>Guardians of the Galaxy
-        (2008 team), the modern version of the team formed in the aftermath of <i>Annihilation:
-        Conquest</i></li>\n</ul><h2><span id=\"Media\">Media</span></h2>\n<ul><li><i>Guardians
-        of the Galaxy</i> (film), the 2014 film based on the 2008 comic book version\n<ul><li><i>Guardians
-        of the Galaxy</i> (soundtrack), the soundtrack for the film</li>\n<li><i>Guardians
+        of the Galaxy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-19T13:36:19Z","lastrevid":811090717,"length":1463,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","categories":[{"ns":14,"title":"Category:All
+        set index articles","hidden":""}],"extract":"<p>The <b>Guardians of the Galaxy</b>
+        is a fictional superhero team appearing in American comic books published
+        by Marvel Comics.</p>\n<p></p>\n\n<p></p>\n<h2><span id=\"Marvel_Comics_teams\">Marvel
+        Comics teams</span></h2>\n<ul><li>Guardians of the Galaxy (1969 team), the
+        original 31st-century team from an alternative timeline of the Marvel Universe
+        (Earth-691)</li>\n<li>Guardians of the Galaxy (2008 team), the modern version
+        of the team formed in the aftermath of <i>Annihilation: Conquest</i></li>\n</ul><h2><span
+        id=\"Media\">Media</span></h2>\n<ul><li><i>Guardians of the Galaxy</i> (film),
+        the 2014 film based on the 2008 comic book version\n<ul><li><i>Guardians of
+        the Galaxy</i> (soundtrack), the soundtrack for the film</li>\n<li><i>Guardians
         of the Galaxy</i> (TV series), an animated series inspired by the 2014 film</li>\n<li><i>Guardians
         of the Galaxy</i> (video game), an episodic video game series developed by
         Telltale Games inspired by the 2014 film</li>\n</ul></li>\n<li><i>Guardians
@@ -2484,7 +2485,7 @@ http_interactions:
         films]]\n[[Category:Screenplays by James Gunn]]\n[[Category:Superhero comedy
         films]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-02T04:04:18Z","lastrevid":813160345,"length":221456,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy_(film)&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)","terms":{"description":["2014
         superhero film produced by Marvel Studios"],"label":["Guardians of the Galaxy"]}},"43402974":{"pageid":43402974,"ns":0,"title":"Guardians
-        of the Galaxy Vol. 2","index":2,"revisions":[{"timestamp":"2017-11-27T23:41:37Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
+        of the Galaxy Vol. 2","index":2,"revisions":[{"timestamp":"2017-12-02T21:55:26Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
         2017 film|the second volume of the comic book series|Guardians of the Galaxy
         (2008 team)}}\n{{Use mdy dates|date=September 2017}}\n{{Infobox film\n| name
         = Guardians of the Galaxy Vol. 2\n| image = GotG Vol2 poster.jpg\n| alt =\n|
@@ -2572,7 +2573,7 @@ http_interactions:
         never delivered and Ego has been searching for him ever since. He teaches
         Quill to manipulate Celestial power. Nebula arrives at Ego''s planet and tries
         to kill Gamora, but the pair reach an uneasy alliance when they discover caverns
-        filled with skeletal remains. Ego reveals to Quill that in his travels he
+        filled with skeletal remains. Ego reveals to Quill that in his travels, he
         planted seedlings on thousands of worlds which can [[terraform]] them into
         new extensions of himself, but they can only be activated by the power of
         two Celestials. To that end, he impregnated countless women and hired Yondu
@@ -2596,7 +2597,7 @@ http_interactions:
         him as a Ravager again.\n\nIn a series of mid- and [[post-credit scene]]s,
         Kraglin takes up Yondu''s telekinetic arrow and control-fin; Ravager leader
         [[Starhawk (comics)|Stakar Ogord]] reunites with his ex-teammates; Groot starts
-        growing back to normal size, exhibiting typical teenage behavior in the process;{{refn|name=AdolescentGroot|group=N|Gunn
+        growing back to normal size, acting like a teenager in the process;{{refn|name=AdolescentGroot|group=N|Gunn
         said this sequence with an adolescent Groot is set \"years after\" the ending
         of the film, with the character appearing in the same state in ''''[[Avengers:
         Infinity War]]''''.<ref name=\"GrootAgePostCredit\" />}} Ayesha creates a
@@ -2634,33 +2635,34 @@ http_interactions:
         individual.\"<ref name=\"ColliderFeb2017\" /> Regarding Gamora''s relationship
         with Nebula, Saldana described it as \"volatile\" and added, \"we''re starting
         somewhere very crazy but appropriate given where we had ended things off in
-        the first\" film.<ref name=\"NebulaGuardian\" />}}\n* [[Dave Bautista]] as
-        [[Drax the Destroyer]]: {{Cast list break|A member of the Guardians and highly
-        skilled warrior in search for vengeance against Thanos for his family''s slaughter.<ref
-        name=\"ScreenRantJune2015\" /> Bautista waited for the final version of the
-        script to not take \"away from the magic\", which he felt happened when he
-        read early drafts of for the first film.<ref name=\"BautistaScript\" /> He
-        added that \"wasn''t crazy about my part [in ''''Vol. 2'''', initially]. It
-        went a different direction than what I thought they were going to go with
+        the first installment\".<ref name=\"NebulaGuardian\" />}}\n* [[Dave Bautista]]
+        as [[Drax the Destroyer]]: {{Cast list break|A member of the Guardians and
+        highly skilled warrior in search for vengeance against Thanos for his family''s
+        slaughter.<ref name=\"ScreenRantJune2015\" /> Bautista waited for the final
+        version of the script to not take \"away from the magic\", which he felt happened
+        when he read early drafts of for the first film.<ref name=\"BautistaScript\"
+        /> He added that \"wasn''t crazy about my part [in ''''Vol. 2'''', initially].
+        It went a different direction than what I thought they were going to go with
         Drax,\" noting he did not \"think Drax was that significant in the film\".
         The part \"clicked\" for Bautista after the [[Read-through|table read]] with
         the other cast.<ref name=\"BautistaCBR\" /> Bautista called Drax \"more funny,
-        driven\" than in the first film, and having \"a sense of innocence and heartbreak
-        about him\",<ref name=\"USATodayFeb2017\" /> despite \"most people''s first
-        perception of Drax [that] he''s just a big, muscly brute\".<ref name=\"BautistaColliderJan2017\"
-        /> Bautista''s makeup took only 90 minutes to apply, down from four hours
-        for the first film. He would have to sit in a sauna at the end of the day
-        to get the makeup off, after his makeup test found it too \"abrasive\".<ref
-        name=\"ColliderFeb2017\" />}}\n* [[Vin Diesel]] as [[Groot|Baby Groot]]: {{Cast
-        list break|A member of the Guardians who is a tree-like humanoid and the accomplice
-        of Rocket.<ref name=\"DieselReturn\" /> The character began growing from a
-        [[wikt:sapling|sapling]] at the end of the first film with the intention of
-        being fully grown by the sequel, but writer/director [[James Gunn]] eventually
-        decided to keep him as \"Baby Groot\"; this contributed to Gunn''s setting
-        of the film only a few months after the first.<ref name=\"GunnSet\" /> Baby
-        Groot does not have any of his previous memories,<ref name=\"GunnGrootNoMemories\"
-        /> having to \"start all over, so to speak. So we''re going to see this goofy,
-        adorable, baby Groot [just] kinda learning as he goes.\"<ref name=\"DieselNov2016\"
+        driven\" than in the first film,<ref name=\"BautistaColliderJan2017\" /> and
+        having \"a sense of innocence and heartbreak about him\",<ref name=\"USATodayFeb2017\"
+        /> despite \"most people''s first perception of Drax [that] he''s just a big,
+        muscly brute\".<ref name=\"BautistaColliderJan2017\" /> Bautista''s makeup
+        took only 90 minutes to apply, down from four hours for the first film. He
+        would have to sit in a sauna at the end of the day to get the makeup off,
+        after his makeup test found it too \"abrasive\".<ref name=\"ColliderFeb2017\"
+        />}}\n* [[Vin Diesel]] as [[Groot|Baby Groot]]: {{Cast list break|A member
+        of the Guardians who is a tree-like humanoid and the accomplice of Rocket.<ref
+        name=\"DieselReturn\" /> The character began growing from a [[wikt:sapling|sapling]]
+        at the end of the first film with the intention of being fully grown by the
+        sequel, but writer/director [[James Gunn]] eventually decided to keep him
+        as \"Baby Groot\"; this contributed to Gunn''s setting of the film only a
+        few months after the first.<ref name=\"GunnSet\" /> Baby Groot does not have
+        any of his previous memories,<ref name=\"GunnGrootNoMemories\" /> having to
+        \"start all over, so to speak. So we''re going to see this goofy, adorable,
+        baby Groot [just] kinda learning as he goes.\"<ref name=\"DieselNov2016\"
         /> [[Property master|Prop master]] Russell Bobbitt created a 1:1 scale model
         of the {{convert|10|in|cm|adj=on}} Baby Groot for filming, to use as a lighting
         reference and sometimes as a puppet for the actors to interact with.<ref name=\"SlashFilmFeb2017Pg3\"
@@ -4629,9 +4631,9 @@ http_interactions:
         scored by Tyler Bates]]\n[[Category:Guardians of the Galaxy films]]\n[[Category:IMAX
         films]]\n[[Category:Marvel Cinematic Universe films]]\n[[Category:Performance
         capture in film]]\n[[Category:Screenplays by James Gunn]]\n[[Category:Superhero
-        comedy films]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-30T20:08:57Z","lastrevid":812461044,"length":204191,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy_Vol._2&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2","terms":{"label":["Guardians
+        comedy films]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-02T21:55:26Z","lastrevid":813284826,"length":204224,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy_Vol._2&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2","terms":{"label":["Guardians
         of the Galaxy Vol. 2"],"description":["2017 superhero film produced by Marvel
         Studios"],"alias":["Guardians of the Galaxy 2"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 18:23:46 GMT
+  recorded_at: Sat, 02 Dec 2017 22:22:51 GMT
 recorded_with: VCR 3.0.3

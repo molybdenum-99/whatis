@@ -36,7 +36,7 @@ class WhatIs
       case
       when page.nil?
         NotFound.new(owner, title)
-      when Array(page.source['categories']).any? { |c| c['title'] == AMBIGOUS_CATEGORY }
+      when Array(page.source['categories']).any? { |c| owner.ambigous_categories.include?(c['title'])  }
         Ambigous.new(owner, page)
       else
         new(owner, page)

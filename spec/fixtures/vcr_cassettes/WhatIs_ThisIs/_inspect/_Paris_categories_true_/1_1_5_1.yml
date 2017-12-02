@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 18:24:08 GMT
+      - Sat, 02 Dec 2017 22:23:11 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1193.eqiad.wmnet
+      - mw1276.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=87628 t=1512239048449232
+      - D=70555 t=1512253391746367
       X-Varnish:
-      - 938681388, 33806762, 948242594
+      - 58696672, 106661196, 98729220
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2762,7 +2762,7 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 18:24:08 GMT
+  recorded_at: Sat, 02 Dec 2017 22:23:12 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CArticles_with_dead_external_links_from_August_2017&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2782,7 +2782,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 18:24:09 GMT
+      - Sat, 02 Dec 2017 22:23:12 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2790,7 +2790,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1225.eqiad.wmnet
+      - mw1207.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2807,9 +2807,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=33044 t=1512239049174239
+      - D=31596 t=1512253392443072
       X-Varnish:
-      - 933504534, 562566294, 932865104
+      - 61641195, 10406113, 109254525
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2817,7 +2817,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 pass, cp3030 pass, cp3031 pass
+      - cp1052 pass, cp3032 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2844,7 +2844,7 @@ http_interactions:
         in France"},{"ns":14,"title":"Category:Cities in \u00cele-de-France"},{"ns":14,"title":"Category:Companions
         of the Liberation"}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 18:24:09 GMT
+  recorded_at: Sat, 02 Dec 2017 22:23:12 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CCoordinates_on_Wikidata&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2864,7 +2864,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 18:24:09 GMT
+      - Sat, 02 Dec 2017 22:23:12 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2872,7 +2872,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1195.eqiad.wmnet
+      - mw1234.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2889,9 +2889,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=29378 t=1512239049803352
+      - D=30856 t=1512253392892732
       X-Varnish:
-      - 433327217, 762272845, 940227001
+      - 673791116, 844800803, 103012121
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2923,7 +2923,7 @@ http_interactions:
         places established in the 3rd century BC"},{"ns":14,"title":"Category:Prefectures
         in France"},{"ns":14,"title":"Category:Use dmy dates from February 2015","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 18:24:09 GMT
+  recorded_at: Sat, 02 Dec 2017 22:23:13 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CWebarchive_template_wayback_links&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2943,7 +2943,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 18:24:10 GMT
+      - Sat, 02 Dec 2017 22:23:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2951,7 +2951,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1277.eqiad.wmnet
+      - mw1227.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2968,9 +2968,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=42123 t=1512239050426100
+      - D=34018 t=1512253393348035
       X-Varnish:
-      - 307397452, 952370697, 940786399
+      - 470971394, 93472229, 98955585
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2978,7 +2978,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1068 pass, cp3032 pass, cp3031 pass
+      - cp1068 pass, cp3031 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -3005,5 +3005,5 @@ http_interactions:
         articles with VIAF identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
         pending changes protected pages (level 1)","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 18:24:10 GMT
+  recorded_at: Sat, 02 Dec 2017 22:23:13 GMT
 recorded_with: VCR 3.0.3

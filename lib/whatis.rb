@@ -2,7 +2,12 @@ require 'infoboxer'
 require 'geo/coord'
 
 class WhatIs
-  AMBIGOUS_CATEGORY = 'Category:All disambiguation pages'.freeze
+  AMBIGOUS_CATEGORIES = {
+    be: ['Катэгорыя:Неадназначнасці'],
+    en: ['Category:All disambiguation pages', 'Category:All set index articles'],
+    ru: ['Категория:Страницы значений по алфавиту'],
+    uk: ['Категорія:Всі статті визначеного індексу', 'Категорія:Всі сторінки неоднозначності статей']
+  }.freeze
 
   class Description < String
     alias inspect to_s # Allows pretty inspect of multi-line descriptions
@@ -57,6 +62,10 @@ class WhatIs
     "#<WhatIs(#{language}). Usage: .this(*pages, **options)>"
   end
 
+  def ambigous_categories
+    AMBIGOUS_CATEGORIES[language.to_sym]
+  end
+
   private
 
   def setup_request(request, categories: false, languages: false, **) # rubocop:disable Metrics/MethodLength
@@ -66,7 +75,7 @@ class WhatIs
       .prop(:pageimages).prop(:original)
       .prop(:pageterms)
     # We fetch just "disambig" category if not requested otherwise
-    request = request.categories(AMBIGOUS_CATEGORY) unless categories
+    request = request.categories(*ambigous_categories) unless categories
     if languages
       request = request.prop(:langlinks)
       request = request.lang(languages) unless languages == true
