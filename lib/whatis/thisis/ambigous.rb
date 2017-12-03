@@ -1,26 +1,34 @@
 class WhatIs
   class ThisIs
     class Ambigous
-      attr_reader :page, :variants
+      # @return [Infoboxer::MediaWiki::Page]
+      attr_reader :page
+      # @return [Array<ThisIs::Link>]
+      attr_reader :variants
 
+      # @private
       def initialize(owner, page)
         @owner = owner
         @page = page
         @variants = extract_variants
       end
 
+      # @return [String]
       def title
         page.title
       end
 
+      # @return [String]
       def inspect
         "#<ThisIs::Ambigous #{title} (#{variants.count} options)>"
       end
 
+      # @return [String]
       def to_s
         "#{title}: ambigous (#{variants.count} options)"
       end
 
+      # @return [Hash]
       def to_h
         {
           type: 'ThisIs::Ambigous',
@@ -29,6 +37,7 @@ class WhatIs
         }
       end
 
+      # @return [Description]
       def describe(help: true)
         Description.new(
           "#{self}\n" +
@@ -37,6 +46,7 @@ class WhatIs
         )
       end
 
+      # @return [Hash{String => ThisIs}]
       def resolve_all(**options)
         @owner.these(*variants.map(&:title), **options)
       end

@@ -1,4 +1,5 @@
 class WhatIs
+  # @private
   class CLI
     def initialize(titles, options)
       @whatis = WhatIs[options.language]

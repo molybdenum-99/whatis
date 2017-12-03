@@ -2,6 +2,7 @@ class WhatIs
   using Refinements
 
   class ThisIs
+    # @private
     EXTRACTORS = {
       title: ->(page) { page.title },
       description: ->(page) { page.source.dig('terms', 'description', 0) },
@@ -32,6 +33,7 @@ class WhatIs
       image: ->(page) { page.source.dig('original', 'source') }
     }.freeze
 
+    # @private
     def self.create(owner, title, page)
       case
       when page.nil?
@@ -43,8 +45,10 @@ class WhatIs
       end
     end
 
+    # @return [Infoboxer::MediaWiki::Page]
     attr_reader :page
 
+    # @private
     def initialize(owner, page)
       @owner = owner
       @page = page
@@ -55,6 +59,7 @@ class WhatIs
 
     alias to_s title
 
+    # @return [String]
     def inspect # rubocop:disable Metrics/AbcSize
       [
         'ThisIs ',
@@ -67,6 +72,7 @@ class WhatIs
       ].compact.join.surround('#<', '>')
     end
 
+    # @return [Description]
     def describe(*)
       maxlength = @data.keys.map(&:length).max
       Description.new(
@@ -76,6 +82,7 @@ class WhatIs
       )
     end
 
+    # @return [Hash]
     def to_h
       {type: 'ThisIs'} # To be at the beginning of a hash
         .merge(@data)
@@ -85,10 +92,12 @@ class WhatIs
         ).reject { |_, v| v.nil? || v.respond_to?(:empty?) && v.empty? }
     end
 
+    # @return [String]
     def to_json(opts)
       to_h.to_json(opts)
     end
 
+    # @return [ThisIs]
     def what(**options)
       @owner.this(title, **options)
     end

@@ -1,4 +1,5 @@
 class WhatIs
+  # @private
   module Refinements
     refine String do
       def append(after)
