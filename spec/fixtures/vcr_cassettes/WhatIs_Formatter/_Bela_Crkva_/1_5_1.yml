@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 17:17:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '979'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1313.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=53966 t=1512321462263638
+      X-Varnish:
+      - 364845295, 35163538, 495300206
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3040 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
+        large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"3459893":{"pageid":3459893,"ns":0,"title":"Bela
+        Crkva","revisions":[{"timestamp":"2017-05-09T23:51:34Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"''''''Bela
+        Crkva'''''' (Cyrillic: \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430,
+        {{IPA-sh|b\u025b\u0302\u02d0la\u02d0 tsr\u0329\u0302\u02d0kv\u031ea|pron}})
+        translates to \"White Church\" in the south Slavic languages in the [[Ekavian]]-accent
+        regions. It may refer to:\n\n* [[Bela Crkva, Banat]], a town in Vojvodina,
+        Serbia\n* [[Bela Crkva, Krivoga\u0161tani]], a village in the Municipality
+        of Krivoga\u0161tani, Macedonia\n* [[Bela Crkva (Krupanj)]], a village in
+        the Ma\u010dva District of Serbia\n* [[Topli\u010dka Bela Crkva]], original
+        name of the city of Kur\u0161umlija, Serbia\n\n==See also==<!--Also of the
+        same origin-->\n* [[Bila Tserkva]] (''''\u0411\u0456\u043b\u0430 \u0426\u0435\u0440\u043a\u0432\u0430''''),
+        a city in the Kiev Oblast of Ukraine\n* [[Byala Cherkva]], a town in the Veliko
+        Turnovo oblast of Bulgaria\n\n{{geodis}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-09-17T01:44:36Z","lastrevid":779619273,"length":706,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva","extract":"<p><b>Bela
+        Crkva</b> (Cyrillic: \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430,
+        <small>pronounced\u00a0</small><span title=\"Representation in the International
+        Phonetic Alphabet (IPA)\">[b\u025b\u0302\u02d0la\u02d0 tsr\u0329\u0302\u02d0kv\u031ea]</span>)
+        translates to \"White Church\" in the south Slavic languages in the Ekavian-accent
+        regions.","terms":{"label":["Bela Crkva"],"description":["Wikimedia disambiguation
+        page"]},"categories":[{"ns":14,"title":"Category:All disambiguation pages"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 17:17:42 GMT
+recorded_with: VCR 3.0.3

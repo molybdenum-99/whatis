@@ -99,3 +99,4 @@ end
 
 require_relative 'whatis/refinements'
 require_relative 'whatis/thisis'
+require_relative 'whatis/formatter'
