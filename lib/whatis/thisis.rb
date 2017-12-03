@@ -1,6 +1,41 @@
 class WhatIs
   using Refinements
 
+  # Represents one resolved entity, provides introspection and access to individual properties.
+  # You should never create instances of this class directly, but rather obtain it from {WhatIs#this}
+  # and {WhatIs#these}.
+  #
+  # @example
+  #   paris = WhatIs.this('Paris')
+  #   # => #<ThisIs Paris [img] {48.856700,2.350800}>
+  #   paris.describe
+  #   # => Paris
+  #   #        title: "Paris"
+  #   #  description: "capital city of France"
+  #   #  coordinates: #<Geo::Coord 48.856700,2.350800>
+  #   #      extract: "Paris (French pronunciation: ​[paʁi] ( listen)) is the capital and most populous city of France, with an administrative-limits area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621."
+  #   #        image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG"
+  #   #
+  #   paris.coordinates
+  #   # => #<Geo::Coord 48.856700,2.350800>
+  #   paris2 = paris.what(languages: :ru, categories: true) # fetch more details
+  #   # => #<ThisIs Paris/Париж, 12 categories [img] {48.856700,2.350800}>
+  #   paris2.describe
+  #   # => Paris
+  #   #        title: "Paris"
+  #   #  description: "capital city of France"
+  #   #  coordinates: #<Geo::Coord 48.856700,2.350800>
+  #   #   categories: ["3rd-century BC establishments", "Capitals in Europe", "Catholic pilgrimage sites", "Cities in France", "Cities in Île-de-France", "Companions of the Liberation", "Departments of Île-de-France", "European culture", "French culture", "Paris", "Populated places established in the 3rd century BC", "Prefectures in France"]
+  #   #    languages: {"ru"=>#<ThisIs::Link ru:Париж>}
+  #   #      extract: "Paris (French pronunciation: ​[paʁi] ( listen)) is the capital and most populous city of France, with an administrative-limits area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621."
+  #   #        image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG"
+  #   paris2.languages['ru'].resolve(categories: true)
+  #   # => #<ThisIs Париж, 10 categories [img] {48.833333,2.333333}>
+  #
+  # See also:
+  #
+  # * {ThisIs::Ambigous} Representing disambiguation page, allows fetching variants.
+  # * {ThisIs::NotFound} Representing not found entity, allows searching for possible options.
   class ThisIs
     # @private
     EXTRACTORS = {
@@ -45,6 +80,7 @@ class WhatIs
       end
     end
 
+    # Original [Infoboxer page](http://www.rubydoc.info/gems/infoboxer/Infoboxer/MediaWiki/Page) data.
     # @return [Infoboxer::MediaWiki::Page]
     attr_reader :page
 
@@ -54,6 +90,31 @@ class WhatIs
       @page = page
       @data = EXTRACTORS.map { |sym, proc| [sym, proc.call(page)] }.to_h
     end
+
+    # @!method title
+    #   Title of Wikipedia page
+    #   @return [String]
+    # @!method description
+    #   Short entity description phrase from Wikidata. Not always present.
+    #   @return [String]
+    # @!method extract
+    #   First sentence of Wikipedia page
+    #   @return [String]
+    # @!method coordinates
+    #   Geographical coordinates, associated with the page, if known, wrapped in
+    #   [Geo::Coord](https://github.com/zverok/geo_coord) type.
+    #   @return [Geo::Coord]
+    # @!method image
+    #   URL of page's main image, if known.
+    #   @return [Geo::Coord]
+    # @!method categories
+    #   List of page's categories, present only if page was fetched with `categories: true` option.
+    #   @return [Array<String>]
+    # @!method languages
+    #   Hash of other language version of page. Present only if the page wath fetched with `:languages`
+    #   option. Keys are language codes, values are {ThisIs::Link} objects, allowing to fetch corresponding
+    #   entities with {ThisIs::Link#resolve}.
+    #   @return [Hash{String => ThisIs::Link}]
 
     EXTRACTORS.each_key { |title| define_method(title) { @data[title] } }
 
@@ -97,6 +158,11 @@ class WhatIs
       to_h.to_json(opts)
     end
 
+    # Refetch page with more data, see {WhatIs#this} for options explanation. Returns new object.
+    #
+    # @param options [Hash]
+    # @option options [true, String, Symbol] :languages
+    # @option options [true, false] :categories
     # @return [ThisIs]
     def what(**options)
       @owner.this(title, **options)

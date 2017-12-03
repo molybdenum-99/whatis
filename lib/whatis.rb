@@ -60,11 +60,27 @@ class WhatIs
     end
 
     # Shortcut for `WhatIs[:en].these`, see {#these} for details.
+    # @param titles [Array<String>] Titles of entities to resolve.
+    # @option options [true, String, Symbol] :languages If `true`, fetches all titles of languages versions
+    #   of entity resolved; if some language code (like "ru" or "zh-classical") is passed, fetches only
+    #   this language's title, the latter is faster.
+    # @option options [true, false] :categories Fetch entity's categories. Due to how Wikipedia's API
+    #   work, this may lead to additional API calls, so use with caution.
+    # @return [Hash{String => ThisIs, ThisIs::Ambigous, ThisIs::NotFound}] Hash keys are original
+    #   title requested, so it is easy to find how particular title was resolved.
     def these(*titles, **options)
       self[:en].these(*titles, **options)
     end
 
     # Shortcut for `WhatIs[:en].this`, see {#this} for details.
+    # @param title [String] Title of the entity to resolve.
+    # @param options [Hash]
+    # @option options [true, String, Symbol] :languages If `true`, fetches all titles of languages versions
+    #   of entity resolved; if some language code (like "ru" or "zh-classical") is passed, fetches only
+    #   this language's title, the latter is faster.
+    # @option options [true, false] :categories Fetch entity's categories. Due to how Wikipedia's API
+    #   work, this may lead to additional API calls, so use with caution.
+    # @return [ThisIs, ThisIs::Ambigous, ThisIs::NotFound]
     def this(title, **options)
       self[:en].this(title, **options)
     end
@@ -85,9 +101,29 @@ class WhatIs
     @infoboxer = Infoboxer.wikipedia(language)
   end
 
-  # @param titles [Array<String>]
-  # @param options [Hash]
-  # @return [Hash{String => ThisIs, ThisIs::Ambigous, ThisIs::NotFound}]
+  # Batch resolving of several entities. Wikipedia API allows batch fetching of pages, so there would
+  # be roughly 1 API call for each 50 entities. Number of API calls could be larger if additional
+  # information (languages, categories) is requested.
+  #
+  # @param titles [Array<String>] Titles of entities to resolve.
+  # @option options [true, String, Symbol] :languages If `true`, fetches all titles of languages versions
+  #   of entity resolved; if some language code (like "ru" or "zh-classical") is passed, fetches only
+  #   this language's title, the latter is faster.
+  # @option options [true, false] :categories Fetch entity's categories. Due to how Wikipedia's API
+  #   work, this may lead to additional API calls, so use with caution.
+  # @return [Hash{String => ThisIs, ThisIs::Ambigous, ThisIs::NotFound}] Hash keys are original
+  #   title requested, so it is easy to find how particular title was resolved.
+  # @see #this #this: singular entity resolution.
+  # @example
+  #   WhatIs.these('Warszawa', 'Warsaw', 'Berlin', 'Kharkov', languages: :fr)
+  #   # => {
+  #   #  "Warszawa" => #<ThisIs Warsaw/Varsovie [img] {52.233333,21.016667}>,
+  #   #  "Warsaw" => #<ThisIs Warsaw/Varsovie [img] {52.233333,21.016667}>,
+  #   #  "Berlin" => #<ThisIs Berlin/Berlin [img] {52.516667,13.388889}>,
+  #   #  "Kharkov" => #<ThisIs Kharkiv/Kharkiv [img] {50.004444,36.231389}>,
+  #   #  "Bela Crkva" => #<ThisIs::Ambigous Bela Crkva (6 options)>,
+  #   #  "Hrmpf" => #<ThisIs::NotFound Hrmpf>
+  #   # }
   def these(*titles, **options)
     titles.any? or
       fail(ArgumentError, "Usage: `these('Title 1', 'Title 2', ..., **options). At least one title is required.")
@@ -96,9 +132,26 @@ class WhatIs
       .map { |title, page| [title, ThisIs.create(self, title, page)] }.to_h
   end
 
-  # @param title [String]
+  # Resolves one entity through Wikipedia API.
+  #
+  # @param title [String] Title of the entity to resolve.
   # @param options [Hash]
+  # @option options [true, String, Symbol] :languages If `true`, fetches all titles of languages versions
+  #   of entity resolved; if some language code (like "ru" or "zh-classical") is passed, fetches only
+  #   this language's title, the latter is faster.
+  # @option options [true, false] :categories Fetch entity's categories. Due to how Wikipedia's API
+  #   work, this may lead to additional API calls, so use with caution.
   # @return [ThisIs, ThisIs::Ambigous, ThisIs::NotFound]
+  # @note Special {ThisIs::Ambigous} wrapper for disambiguation pages can be created only for those
+  #   language Wikipedias which `WhatIs` knows "disambiguation" category name, see {AMBIGOUS_CATEGORIES}.
+  # @see #these #these: batch fetching several entities.
+  # @example
+  #   WhatIs.this('Warszawa', languages: :fr)
+  #   # => #<ThisIs Warsaw/Varsovie [img] {52.233333,21.016667}>
+  #   WhatIs.this('Bela Crkva', languages: :fr)
+  #   # => #<ThisIs::Ambigous Bela Crkva (6 options)>
+  #   WhatIs.this('Hrmpf', languages: :fr)
+  #   # => #<ThisIs::NotFound Hrmpf>
   def this(title, **options)
     these(title, **options).values.first
   end
