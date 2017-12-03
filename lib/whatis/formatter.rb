@@ -27,10 +27,10 @@ class WhatIs
 
     def short_description(obj) # rubocop:disable Metrics/AbcSize
       case
-      when obj.languages.count == 1
-        obj.languages.values.first
       when obj.categories.any?
         obj.categories.sort.join('; ')
+      when obj.languages.count == 1
+        obj.languages.values.first
       when !obj.description.to_s.empty?
         obj.description
       else
