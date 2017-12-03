@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&generator=search&gsrlimit=3&gsrsearch=Guardians%20Of%20The%20Galaxy&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&generator=search&gsrlimit=3&gsrsearch=Guardians%20Of%20The%20Galaxy&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:22 GMT
+      - Sun, 03 Dec 2017 14:40:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1315.eqiad.wmnet
+      - mw1234.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=278996 t=1512309262307535
+      - D=243667 t=1512312009320795
       X-Varnish:
-      - 771916437, 990052247, 219480864
+      - 163619891, 569426726, 262724503
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1068 pass, cp3040 pass, cp3033 pass
+      - cp1053 pass, cp3041 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -71,7 +71,7 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+      string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
         was too large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"18509815":{"pageid":18509815,"ns":0,"title":"Guardians
         of the Galaxy","index":1,"revisions":[{"timestamp":"2017-11-19T13:36:19Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"The
         ''''''Guardians of the Galaxy'''''' is a fictional [[superhero team]] appearing
@@ -93,22 +93,21 @@ http_interactions:
         of the Galaxy (Epcot Attraction)]]\n\n==See also==\n*[[List of Guardians of
         the Galaxy members]]\n*[[Guardians of the Universe]], an unrelated race from
         DC Comics\n\n{{Guardians of the Galaxy}}\n\n{{Set index article|comics}}\n\n[[Category:Guardians
-        of the Galaxy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-19T13:36:19Z","lastrevid":811090717,"length":1463,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","categories":[{"ns":14,"title":"Category:All
-        set index articles","hidden":""}],"extract":"<p>The <b>Guardians of the Galaxy</b>
-        is a fictional superhero team appearing in American comic books published
-        by Marvel Comics.</p>\n<p></p>\n\n<p></p>\n<h2><span id=\"Marvel_Comics_teams\">Marvel
-        Comics teams</span></h2>\n<ul><li>Guardians of the Galaxy (1969 team), the
-        original 31st-century team from an alternative timeline of the Marvel Universe
-        (Earth-691)</li>\n<li>Guardians of the Galaxy (2008 team), the modern version
-        of the team formed in the aftermath of <i>Annihilation: Conquest</i></li>\n</ul><h2><span
-        id=\"Media\">Media</span></h2>\n<ul><li><i>Guardians of the Galaxy</i> (film),
-        the 2014 film based on the 2008 comic book version\n<ul><li><i>Guardians of
-        the Galaxy</i> (soundtrack), the soundtrack for the film</li>\n<li><i>Guardians
+        of the Galaxy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-11-19T13:36:19Z","lastrevid":811090717,"length":1463,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy","extract":"<p>The
+        <b>Guardians of the Galaxy</b> is a fictional superhero team appearing in
+        American comic books published by Marvel Comics.</p>\n<p></p>\n\n<p></p>\n<h2><span
+        id=\"Marvel_Comics_teams\">Marvel Comics teams</span></h2>\n<ul><li>Guardians
+        of the Galaxy (1969 team), the original 31st-century team from an alternative
+        timeline of the Marvel Universe (Earth-691)</li>\n<li>Guardians of the Galaxy
+        (2008 team), the modern version of the team formed in the aftermath of <i>Annihilation:
+        Conquest</i></li>\n</ul><h2><span id=\"Media\">Media</span></h2>\n<ul><li><i>Guardians
+        of the Galaxy</i> (film), the 2014 film based on the 2008 comic book version\n<ul><li><i>Guardians
+        of the Galaxy</i> (soundtrack), the soundtrack for the film</li>\n<li><i>Guardians
         of the Galaxy</i> (TV series), an animated series inspired by the 2014 film</li>\n<li><i>Guardians
         of the Galaxy</i> (video game), an episodic video game series developed by
         Telltale Games inspired by the 2014 film</li>\n</ul></li>\n<li><i>Guardians
         of the Galaxy Vol.","terms":{"description":["Wikipedia disambiguation page"],"label":["Guardians
-        of the Galaxy"]}},"36450985":{"pageid":36450985,"ns":0,"title":"Guardians
+        of the Galaxy"]},"categories":[{"ns":14,"title":"Category:All set index articles"}]},"36450985":{"pageid":36450985,"ns":0,"title":"Guardians
         of the Galaxy (film)","index":3,"revisions":[{"timestamp":"2017-12-03T05:14:08Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{pp-pc1|small=yes}}\n{{redirect|Guardians
         of the Galaxy Vol. 1|the first volume of the comic book series|Guardians of
         the Galaxy (1969 team)}}\n{{Good article}}\n{{Use mdy dates|date=July 2015}}\n{{Infobox
@@ -4635,5 +4634,5 @@ http_interactions:
         of the Galaxy Vol. 2"],"description":["2017 superhero film produced by Marvel
         Studios"],"alias":["Guardians of the Galaxy 2"]}}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:22 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:09 GMT
 recorded_with: VCR 3.0.3

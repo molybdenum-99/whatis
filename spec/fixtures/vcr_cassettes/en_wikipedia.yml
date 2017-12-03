@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:53:57 GMT
+      - Sun, 03 Dec 2017 14:38:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1197.eqiad.wmnet
+      - mw1223.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=39837 t=1512309237410366
+      - D=33169 t=1512311901283421
       X-Varnish:
-      - 298278548, 376779177, 213329278
+      - 367657108, 404785205, 271033051
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -140,5 +140,5 @@ http_interactions:
         bokm\u00e5l","url":"https://no.wikipedia.org/wiki/$1"},{"prefix":"zh-cfr","local":"","url":"https://zh-min-nan.wikipedia.org/wiki/$1"},{"prefix":"zh-cn","local":"","language":"\u4e2d\u6587\uff08\u4e2d\u56fd\u5927\u9646\uff09\u200e","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"zh-tw","local":"","language":"\u4e2d\u6587\uff08\u53f0\u7063\uff09\u200e","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"nan","local":"","language":"B\u00e2n-l\u00e2m-g\u00fa","url":"https://zh-min-nan.wikipedia.org/wiki/$1"},{"prefix":"vro","local":"","language":"V\u00f5ro","url":"https://fiu-vro.wikipedia.org/wiki/$1"},{"prefix":"cmn","local":"","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"lzh","local":"","language":"\u6587\u8a00","url":"https://zh-classical.wikipedia.org/wiki/$1"},{"prefix":"yue","local":"","language":"\u7cb5\u8a9e","url":"https://zh-yue.wikipedia.org/wiki/$1"},{"prefix":"rup","local":"","language":"arm\u00e3neashti","url":"https://roa-rup.wikipedia.org/wiki/$1"},{"prefix":"gsw","local":"","language":"Alemannisch","url":"https://als.wikipedia.org/wiki/$1"},{"prefix":"be-tarask","local":"","language":"\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f
         (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430)\u200e","url":"https://be-x-old.wikipedia.org/wiki/$1"},{"prefix":"sgs","local":"","language":"\u017eemait\u0117\u0161ka","url":"https://bat-smg.wikipedia.org/wiki/$1"},{"prefix":"egl","local":"","language":"Emili\u00e0n","url":"https://eml.wikipedia.org/wiki/$1"},{"prefix":"w","local":"","localinterwiki":"","url":"https://en.wikipedia.org/wiki/$1"},{"prefix":"wikt","local":"","url":"https://en.wiktionary.org/wiki/$1"},{"prefix":"q","local":"","url":"https://en.wikiquote.org/wiki/$1"},{"prefix":"b","local":"","url":"https://en.wikibooks.org/wiki/$1"},{"prefix":"n","local":"","url":"https://en.wikinews.org/wiki/$1"},{"prefix":"s","local":"","url":"https://en.wikisource.org/wiki/$1"},{"prefix":"chapter","local":"","url":"https://en.wikimedia.org/wiki/$1"},{"prefix":"v","local":"","url":"https://en.wikiversity.org/wiki/$1"},{"prefix":"voy","local":"","url":"https://en.wikivoyage.org/wiki/$1"}]}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:53:57 GMT
+  recorded_at: Sun, 03 Dec 2017 14:38:21 GMT
 recorded_with: VCR 3.0.3

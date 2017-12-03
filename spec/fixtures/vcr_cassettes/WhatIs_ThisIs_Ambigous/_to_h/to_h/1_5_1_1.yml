@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 14:39:38 GMT
+      - Sun, 03 Dec 2017 14:39:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1232.eqiad.wmnet
+      - mw1233.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=42613 t=1512311978270278
+      - D=44248 t=1512311985349930
       X-Varnish:
-      - 169196060, 558485548, 270902469
+      - 343154437, 1023710022, 265997150
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1066 pass, cp3041 pass, cp3033 pass
+      - cp1055 pass, cp3040 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -92,5 +92,5 @@ http_interactions:
         regions.","terms":{"label":["Bela Crkva"],"description":["Wikimedia disambiguation
         page"]},"categories":[{"ns":14,"title":"Category:All disambiguation pages"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 14:39:38 GMT
+  recorded_at: Sun, 03 Dec 2017 14:39:45 GMT
 recorded_with: VCR 3.0.3

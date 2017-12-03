@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
+    uri: https://en.wikipedia.org/w/api.php?action=query&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:55:10 GMT
+      - Sun, 03 Dec 2017 14:41:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1283.eqiad.wmnet
+      - mw1314.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=83642 t=1512309310502101
+      - D=100474 t=1512312073507538
       X-Varnish:
-      - 144550401, 386992452, 218465868
+      - 579175948, 444689548, 269566852
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3043 pass, cp3033 pass
+      - cp1054 pass, cp3030 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2746,7 +2746,12 @@ http_interactions:
         places established in the 3rd century BC]]\n[[Category:Capitals in Europe]]\n[[Category:Cities
         in France]]\n[[Category:Companions of the Liberation]]\n[[Category:European
         culture]]\n[[Category:French culture]]\n[[Category:Prefectures in France]]\n[[Category:Departments
-        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-02T17:09:07Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"categories":[{"ns":14,"title":"Category:3rd-century
+        of \u00cele-de-France]]\n[[Category:Catholic pilgrimage sites]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-02T17:09:07Z","lastrevid":813104519,"length":230349,"fullurl":"https://en.wikipedia.org/wiki/Paris","editurl":"https://en.wikipedia.org/w/index.php?title=Paris&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Paris","coordinates":[{"lat":48.8567,"lon":2.3508,"primary":"","globe":"earth"}],"extract":"<p><b>Paris</b>
+        (<small>French pronunciation:\u00a0\u200b</small><span title=\"Representation
+        in the International Phonetic Alphabet (IPA)\">[pa\u0281i]</span><small class=\"nowrap\">\u00a0(<span><span><span>\u00a0</span>listen</span></span>)</small>)
+        is the capital and most populous city of France, with an administrative-limits
+        area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
+        city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]},"categories":[{"ns":14,"title":"Category:3rd-century
         BC establishments"},{"ns":14,"title":"Category:All articles containing potentially
         dated statements","hidden":""},{"ns":14,"title":"Category:All articles with
         broken links to citations","hidden":""},{"ns":14,"title":"Category:All articles
@@ -2756,17 +2761,12 @@ http_interactions:
         containing potentially dated statements from 2013","hidden":""},{"ns":14,"title":"Category:Articles
         with DMOZ links","hidden":""},{"ns":14,"title":"Category:Articles with French-language
         external links","hidden":""},{"ns":14,"title":"Category:Articles with Italian-language
-        external links","hidden":""}],"extract":"<p><b>Paris</b> (<small>French pronunciation:\u00a0\u200b</small><span
-        title=\"Representation in the International Phonetic Alphabet (IPA)\">[pa\u0281i]</span><small
-        class=\"nowrap\">\u00a0(<span><span><span>\u00a0</span>listen</span></span>)</small>)
-        is the capital and most populous city of France, with an administrative-limits
-        area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
-        city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]}}}}}'
+        external links","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:55:10 GMT
+  recorded_at: Sun, 03 Dec 2017 14:41:14 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CArticles_with_dead_external_links_from_August_2017&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CArticles_with_dead_external_links_from_August_2017&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
     body:
       encoding: US-ASCII
       string: ''
@@ -2783,15 +2783,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:55:11 GMT
+      - Sun, 03 Dec 2017 14:41:14 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '394'
+      - '393'
       Connection:
       - keep-alive
       Server:
-      - mw1280.eqiad.wmnet
+      - mw1195.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2808,9 +2808,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=31342 t=1512309311211250
+      - D=38899 t=1512312074443992
       X-Varnish:
-      - 537921475, 556410867, 210254762
+      - 352264398, 364787344, 257818450
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2818,7 +2818,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3041 pass, cp3033 pass
+      - cp1055 pass, cp3031 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2841,15 +2841,14 @@ http_interactions:
         with dead external links from February 2016","hidden":""},{"ns":14,"title":"Category:Articles
         with hAudio microformats","hidden":""},{"ns":14,"title":"Category:Articles
         with permanently dead external links","hidden":""},{"ns":14,"title":"Category:CS1
-        French-language sources (fr)","hidden":""},{"ns":14,"title":"Category:Capitals
-        in Europe"},{"ns":14,"title":"Category:Catholic pilgrimage sites"},{"ns":14,"title":"Category:Cities
-        in France"},{"ns":14,"title":"Category:Cities in \u00cele-de-France"},{"ns":14,"title":"Category:Companions
-        of the Liberation"}]}}}}'
+        French-language sources (fr)"},{"ns":14,"title":"Category:Capitals in Europe"},{"ns":14,"title":"Category:Catholic
+        pilgrimage sites"},{"ns":14,"title":"Category:Cities in France"},{"ns":14,"title":"Category:Cities
+        in \u00cele-de-France"},{"ns":14,"title":"Category:Companions of the Liberation"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:55:11 GMT
+  recorded_at: Sun, 03 Dec 2017 14:41:14 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CCoordinates_on_Wikidata&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CCoordinates_on_Wikidata&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
     body:
       encoding: US-ASCII
       string: ''
@@ -2866,7 +2865,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:55:11 GMT
+      - Sun, 03 Dec 2017 14:41:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2874,7 +2873,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1204.eqiad.wmnet
+      - mw1206.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2891,9 +2890,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=42135 t=1512309311715958
+      - D=50424 t=1512312075196206
       X-Varnish:
-      - 540608436, 158014816, 217061107
+      - 178138655, 180781729, 275616122
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2901,7 +2900,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3032 pass, cp3033 pass
+      - cp1066 pass, cp3032 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2926,10 +2925,10 @@ http_interactions:
         places established in the 3rd century BC"},{"ns":14,"title":"Category:Prefectures
         in France"},{"ns":14,"title":"Category:Use dmy dates from February 2015","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:55:11 GMT
+  recorded_at: Sun, 03 Dec 2017 14:41:15 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CWebarchive_template_wayback_links&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CWebarchive_template_wayback_links&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris,%20France
     body:
       encoding: US-ASCII
       string: ''
@@ -2946,7 +2945,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:55:12 GMT
+      - Sun, 03 Dec 2017 14:41:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2954,7 +2953,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1193.eqiad.wmnet
+      - mw1289.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2971,9 +2970,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=32595 t=1512309312207486
+      - D=29307 t=1512312075712404
       X-Varnish:
-      - 515296263, 995019377, 218272853
+      - 337050855, 553079335, 274733637
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2981,7 +2980,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3040 pass, cp3033 pass
+      - cp1052 pass, cp3041 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -3008,5 +3007,5 @@ http_interactions:
         articles with VIAF identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
         pending changes protected pages (level 1)","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:55:12 GMT
+  recorded_at: Sun, 03 Dec 2017 14:41:15 GMT
 recorded_with: VCR 3.0.3

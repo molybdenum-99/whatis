@@ -67,5 +67,17 @@ RSpec.describe WhatIs, :vcr do
       its(:page) { is_expected.to be_a Infoboxer::MediaWiki::Page }
       its(:coordinates) { is_expected.to be_a Geo::Coord }
     end
+
+    context 'when language has empty "ambigous categories" list' do
+      subject { described_class[:fr].this('Paris') }
+
+      its(:categories) { are_expected.to be_empty }
+
+      context 'with categories' do
+        subject { described_class[:fr].this('Paris', categories: true) }
+
+        its(:categories) { are_expected.to include('Aire urbaine de Paris') }
+      end
+    end
   end
 end

@@ -36,7 +36,7 @@ class WhatIs
       case
       when page.nil?
         NotFound.new(owner, title)
-      when Array(page.source['categories']).any? { |c| owner.ambigous_categories.include?(c['title'])  }
+      when Array(page.source['categories']).any? { |c| owner.ambigous_categories.include?(c['title']) }
         Ambigous.new(owner, page)
       else
         new(owner, page)
@@ -70,19 +70,18 @@ class WhatIs
     def describe(*)
       maxlength = @data.keys.map(&:length).max
       Description.new(
-        "#{to_s}\n" +
+        "#{self}\n" +
           clean_data
             .map { |k, v| "  #{k.to_s.rjust(maxlength)}: #{v.inspect}" }.join("\n")
       )
     end
 
     def to_h
-      {'type' => 'ThisIs'} # To be at the beginning of a hash
+      {type: 'ThisIs'} # To be at the beginning of a hash
         .merge(@data)
-        .transform_keys(&:to_s)
         .merge(
-          'coordinates' => coordinates&.to_s,
-          'languages' => languages.transform_values(&:to_s)
+          coordinates: coordinates&.to_s,
+          languages: languages.transform_values(&:to_s)
         ).reject { |_, v| v.nil? || v.respond_to?(:empty?) && v.empty? }
     end
 

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:49 GMT
+      - Sun, 03 Dec 2017 14:40:48 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1316.eqiad.wmnet
+      - mw1284.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=75330 t=1512309289216783
+      - D=82065 t=1512312048247344
       X-Varnish:
-      - 148481103, 666274912, 202720328
+      - 853641261, 314656720, 259516549
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1066 pass, cp3042 pass, cp3033 pass
+      - cp1065 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2752,10 +2752,10 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]}}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:49 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:48 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&inprop=url&lllang=be&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&inprop=url&lllang=be&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -2772,7 +2772,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:50 GMT
+      - Sun, 03 Dec 2017 14:40:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2780,7 +2780,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1315.eqiad.wmnet
+      - mw1313.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2797,9 +2797,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=64642 t=1512309290277187
+      - D=88802 t=1512312049621680
       X-Varnish:
-      - 783135949, 1005525445, 198109070
+      - 572590935, 325675518, 278888783
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2807,7 +2807,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1065 pass, cp3040 pass, cp3033 pass
+      - cp1054 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -5505,5 +5505,5 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]},"langlinks":[{"lang":"be","*":"\u041f\u0430\u0440\u044b\u0436"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:50 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:50 GMT
 recorded_with: VCR 3.0.3

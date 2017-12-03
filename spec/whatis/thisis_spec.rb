@@ -31,11 +31,11 @@ RSpec.describe WhatIs::ThisIs, :vcr do
 
     its(:to_h) {
       is_expected.to match hash_including(
-        'type' => 'ThisIs',
-        'title' => 'Paris',
-        'languages' => {'uk' => 'Париж'},
-        'categories' => include('Cities in France'),
-        'coordinates' => '48.856700,2.350800'
+        type: 'ThisIs',
+        title: 'Paris',
+        languages: {'uk' => 'Париж'},
+        categories: include('Cities in France'),
+        coordinates: '48.856700,2.350800'
       )
     }
   end

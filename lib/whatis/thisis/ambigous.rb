@@ -21,9 +21,17 @@ class WhatIs
         "#{title}: ambigous (#{variants.count} options)"
       end
 
+      def to_h
+        {
+          type: 'ThisIs::Ambigous',
+          title: title,
+          variants: variants.map(&:to_s)
+        }
+      end
+
       def describe(help: true)
         Description.new(
-          "#{to_s}\n" +
+          "#{self}\n" +
             variants.map { |link| "  #{link.inspect}: #{link.description}" }.join("\n") +
             describe_help(help)
         )

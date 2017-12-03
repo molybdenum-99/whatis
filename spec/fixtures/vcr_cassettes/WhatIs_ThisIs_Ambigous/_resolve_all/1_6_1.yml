@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva
     body:
       encoding: US-ASCII
       string: ''
@@ -19,15 +19,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:08 GMT
+      - Sun, 03 Dec 2017 14:39:46 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '985'
+      - '979'
       Connection:
       - keep-alive
       Server:
-      - mw1280.eqiad.wmnet
+      - mw1192.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=39336 t=1512309248251902
+      - D=58963 t=1512311986222970
       X-Varnish:
-      - 297410543, 1004034265, 209828877
+      - 581173923, 320744178, 274961240
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3040 pass, cp3033 pass
+      - cp1054 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -84,18 +84,18 @@ http_interactions:
         name of the city of Kur\u0161umlija, Serbia\n\n==See also==<!--Also of the
         same origin-->\n* [[Bila Tserkva]] (''''\u0411\u0456\u043b\u0430 \u0426\u0435\u0440\u043a\u0432\u0430''''),
         a city in the Kiev Oblast of Ukraine\n* [[Byala Cherkva]], a town in the Veliko
-        Turnovo oblast of Bulgaria\n\n{{geodis}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-09-17T01:44:36Z","lastrevid":779619273,"length":706,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva","categories":[{"ns":14,"title":"Category:All
-        disambiguation pages","hidden":""}],"extract":"<p><b>Bela Crkva</b> (Cyrillic:
-        \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430, <small>pronounced\u00a0</small><span
-        title=\"Representation in the International Phonetic Alphabet (IPA)\">[b\u025b\u0302\u02d0la\u02d0
-        tsr\u0329\u0302\u02d0kv\u031ea]</span>) translates to \"White Church\" in
-        the south Slavic languages in the Ekavian-accent regions.","terms":{"label":["Bela
-        Crkva"],"description":["Wikimedia disambiguation page"]}}}}}'
+        Turnovo oblast of Bulgaria\n\n{{geodis}}"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-09-17T01:44:36Z","lastrevid":779619273,"length":706,"fullurl":"https://en.wikipedia.org/wiki/Bela_Crkva","editurl":"https://en.wikipedia.org/w/index.php?title=Bela_Crkva&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Bela_Crkva","extract":"<p><b>Bela
+        Crkva</b> (Cyrillic: \u0411\u0435\u043b\u0430 \u0426\u0440\u043a\u0432\u0430,
+        <small>pronounced\u00a0</small><span title=\"Representation in the International
+        Phonetic Alphabet (IPA)\">[b\u025b\u0302\u02d0la\u02d0 tsr\u0329\u0302\u02d0kv\u031ea]</span>)
+        translates to \"White Church\" in the south Slavic languages in the Ekavian-accent
+        regions.","terms":{"label":["Bela Crkva"],"description":["Wikimedia disambiguation
+        page"]},"categories":[{"ns":14,"title":"Category:All disambiguation pages"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:08 GMT
+  recorded_at: Sun, 03 Dec 2017 14:39:46 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
     body:
       encoding: US-ASCII
       string: ''
@@ -112,7 +112,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:08 GMT
+      - Sun, 03 Dec 2017 14:39:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -120,7 +120,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1285.eqiad.wmnet
+      - mw1287.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -137,9 +137,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=112799 t=1512309248727629
+      - D=60860 t=1512311986933395
       X-Varnish:
-      - 158045257, 650798537, 200140045
+      - 345513079, 401510745, 253686930
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -147,7 +147,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1066 pass, cp3042 pass, cp3033 pass
+      - cp1055 pass, cp3043 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -164,7 +164,7 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+      string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
         was too large for a whole article extracts request, lowered to 1."}},"query":{"redirects":[{"from":"Topli\u010dka
         Bela Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
         Crkva, Banat","revisions":[{"timestamp":"2017-11-08T04:07:25Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Infobox
@@ -923,10 +923,10 @@ http_interactions:
         and cities of Southern and Eastern Serbia]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-03T09:11:42Z","lastrevid":808488726,"length":27881,"fullurl":"https://en.wikipedia.org/wiki/Kur%C5%A1umlija","editurl":"https://en.wikipedia.org/w/index.php?title=Kur%C5%A1umlija&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Kur%C5%A1umlija","coordinates":[{"lat":43.15,"lon":21.26666667,"primary":"","globe":"earth"}],"original":{"source":"https://upload.wikimedia.org/wikipedia/commons/4/43/Kursumlija-panorama.jpg","width":2269,"height":1163},"terms":{"label":["Kur\u0161umlija"],"description":["Town
         and municipality in Serbia"],"alias":["Kursumlija"]}}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:08 GMT
+  recorded_at: Sun, 03 Dec 2017 14:39:47 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=1&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cpageimages%7Cpageterms%7Ccategories&excontinue=1&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
     body:
       encoding: US-ASCII
       string: ''
@@ -943,15 +943,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:09 GMT
+      - Sun, 03 Dec 2017 14:39:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '495'
+      - '496'
       Connection:
       - keep-alive
       Server:
-      - mw1205.eqiad.wmnet
+      - mw1316.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -968,9 +968,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=48404 t=1512309249384469
+      - D=29411 t=1512311987789221
       X-Varnish:
-      - 135660559, 151897627, 219938986
+      - 848072307, 326841524, 263507211
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -978,7 +978,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3032 pass, cp3033 pass
+      - cp1065 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -995,7 +995,7 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":2,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+      string: '{"continue":{"excontinue":2,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
         was too large for a whole article extracts request, lowered to 1."}},"query":{"redirects":[{"from":"Topli\u010dka
         Bela Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
         Crkva, Banat"},"47100534":{"pageid":47100534,"ns":0,"title":"Bela Crkva, Krivoga\u0161tani","extract":"<p><b>Bela
@@ -1005,10 +1005,10 @@ http_interactions:
         Crkva (Krupanj)"},"1091514":{"pageid":1091514,"ns":0,"title":"Bila Tserkva"},"1491496":{"pageid":1491496,"ns":0,"title":"Byala
         Cherkva"},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija"}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:09 GMT
+  recorded_at: Sun, 03 Dec 2017 14:39:47 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=2&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cpageimages%7Cpageterms%7Ccategories&excontinue=2&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
     body:
       encoding: US-ASCII
       string: ''
@@ -1025,15 +1025,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:09 GMT
+      - Sun, 03 Dec 2017 14:39:48 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '530'
+      - '531'
       Connection:
       - keep-alive
       Server:
-      - mw1315.eqiad.wmnet
+      - mw1280.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -1050,177 +1050,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=39637 t=1512309249862433
+      - D=30916 t=1512311988511052
       X-Varnish:
-      - 516433938, 328720921, 213002290
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1054 pass, cp3031 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":3,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
-        was too large for a whole article extracts request, lowered to 1."}},"query":{"redirects":[{"from":"Topli\u010dka
-        Bela Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
-        Crkva, Banat"},"47100534":{"pageid":47100534,"ns":0,"title":"Bela Crkva, Krivoga\u0161tani"},"19854784":{"pageid":19854784,"ns":0,"title":"Bela
-        Crkva (Krupanj)","extract":"<p><b>Bela Crkva</b> (\u0411\u0435\u043b\u0430
-        \u0426\u0440\u043a\u0432\u0430, <small>pronounced\u00a0</small><span title=\"Representation
-        in the International Phonetic Alphabet (IPA)\">[b\u025b\u0302\u02d0la\u02d0
-        tsr\u0329\u0302\u02d0kv\u031ea]</span>) is a village in Serbia."},"1091514":{"pageid":1091514,"ns":0,"title":"Bila
-        Tserkva"},"1491496":{"pageid":1491496,"ns":0,"title":"Byala Cherkva"},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija"}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:09 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=3&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:10 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '678'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1226.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=37639 t=1512309250338074
-      X-Varnish:
-      - 534252831, 662062374, 218662036
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1054 pass, cp3042 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":4,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
-        was too large for a whole article extracts request, lowered to 1."}},"query":{"redirects":[{"from":"Topli\u010dka
-        Bela Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
-        Crkva, Banat"},"47100534":{"pageid":47100534,"ns":0,"title":"Bela Crkva, Krivoga\u0161tani"},"19854784":{"pageid":19854784,"ns":0,"title":"Bela
-        Crkva (Krupanj)"},"1091514":{"pageid":1091514,"ns":0,"title":"Bila Tserkva","extract":"<p><b>Bila
-        Tserkva</b> (Ukrainian: <span lang=\"uk\" xml:lang=\"uk\">\u0411\u0456\u0301\u043b\u0430
-        \u0426\u0435\u0301\u0440\u043a\u0432\u0430</span> (<small>Ukrainian pronunciation:\u00a0</small><span
-        title=\"Representation in the International Phonetic Alphabet (IPA)\">[\u02c8b\u02b2i\u026b\u0251
-        \u02c8ts\u025brkw\u0251]</span>), Polish: <span lang=\"pl\" xml:lang=\"pl\"><i>Bia\u0142a
-        Cerkiew</i></span>, Russian: <span lang=\"ru\" xml:lang=\"ru\">\u0411\u0435\u043b\u0430\u044f
-        \u0426\u0435\u0440\u043a\u043e\u0432\u044c, <i>Belaya Tserkov</i></span>,
-        literally <i>White Church</i>) is a city in central Ukraine, the largest city
-        in Kiev Oblast."},"1491496":{"pageid":1491496,"ns":0,"title":"Byala Cherkva"},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija"}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:10 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=4&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:10 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '499'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1315.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=30494 t=1512309250813406
-      X-Varnish:
-      - 760189048, 666243526, 211072574
+      - 793875955, 661250695, 261767472
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -1245,19 +1077,20 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":5,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+      string: '{"continue":{"excontinue":3,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
         was too large for a whole article extracts request, lowered to 1."}},"query":{"redirects":[{"from":"Topli\u010dka
         Bela Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
         Crkva, Banat"},"47100534":{"pageid":47100534,"ns":0,"title":"Bela Crkva, Krivoga\u0161tani"},"19854784":{"pageid":19854784,"ns":0,"title":"Bela
-        Crkva (Krupanj)"},"1091514":{"pageid":1091514,"ns":0,"title":"Bila Tserkva"},"1491496":{"pageid":1491496,"ns":0,"title":"Byala
-        Cherkva","extract":"<p><b>Byala Cherkva</b> (Bulgarian: <span lang=\"bg\">\u0411\u044f\u043b\u0430
-        \u0447\u0435\u0440\u043a\u0432\u0430</span>) is a town in Pavlikeni Municipality
-        part of Veliko Turnovo Province, Central-North Bulgaria."},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija"}}}}'
+        Crkva (Krupanj)","extract":"<p><b>Bela Crkva</b> (\u0411\u0435\u043b\u0430
+        \u0426\u0440\u043a\u0432\u0430, <small>pronounced\u00a0</small><span title=\"Representation
+        in the International Phonetic Alphabet (IPA)\">[b\u025b\u0302\u02d0la\u02d0
+        tsr\u0329\u0302\u02d0kv\u031ea]</span>) is a village in Serbia."},"1091514":{"pageid":1091514,"ns":0,"title":"Bila
+        Tserkva"},"1491496":{"pageid":1491496,"ns":0,"title":"Byala Cherkva"},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija"}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:10 GMT
+  recorded_at: Sun, 03 Dec 2017 14:39:48 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=5&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cpageimages%7Cpageterms%7Ccategories&excontinue=3&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
     body:
       encoding: US-ASCII
       string: ''
@@ -1274,11 +1107,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:11 GMT
+      - Sun, 03 Dec 2017 14:39:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '532'
+      - '679'
       Connection:
       - keep-alive
       Server:
@@ -1299,9 +1132,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=35141 t=1512309251276986
+      - D=37302 t=1512311989363829
       X-Varnish:
-      - 330434598, 385095541, 211464545
+      - 809305147, 328604497, 255872249
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -1309,7 +1142,174 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 pass, cp3043 pass, cp3033 pass
+      - cp1068 pass, cp3033 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"excontinue":4,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
+        was too large for a whole article extracts request, lowered to 1."}},"query":{"redirects":[{"from":"Topli\u010dka
+        Bela Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
+        Crkva, Banat"},"47100534":{"pageid":47100534,"ns":0,"title":"Bela Crkva, Krivoga\u0161tani"},"19854784":{"pageid":19854784,"ns":0,"title":"Bela
+        Crkva (Krupanj)"},"1091514":{"pageid":1091514,"ns":0,"title":"Bila Tserkva","extract":"<p><b>Bila
+        Tserkva</b> (Ukrainian: <span lang=\"uk\" xml:lang=\"uk\">\u0411\u0456\u0301\u043b\u0430
+        \u0426\u0435\u0301\u0440\u043a\u0432\u0430</span> (<small>Ukrainian pronunciation:\u00a0</small><span
+        title=\"Representation in the International Phonetic Alphabet (IPA)\">[\u02c8b\u02b2i\u026b\u0251
+        \u02c8ts\u025brkw\u0251]</span>), Polish: <span lang=\"pl\" xml:lang=\"pl\"><i>Bia\u0142a
+        Cerkiew</i></span>, Russian: <span lang=\"ru\" xml:lang=\"ru\">\u0411\u0435\u043b\u0430\u044f
+        \u0426\u0435\u0440\u043a\u043e\u0432\u044c, <i>Belaya Tserkov</i></span>,
+        literally <i>White Church</i>) is a city in central Ukraine, the largest city
+        in Kiev Oblast."},"1491496":{"pageid":1491496,"ns":0,"title":"Byala Cherkva"},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija"}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:39:49 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cpageimages%7Cpageterms%7Ccategories&excontinue=4&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:39:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '500'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1221.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=33806 t=1512311990298292
+      X-Varnish:
+      - 845056650, 565957942, 257026675
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3041 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"excontinue":5,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
+        was too large for a whole article extracts request, lowered to 1."}},"query":{"redirects":[{"from":"Topli\u010dka
+        Bela Crkva","to":"Kur\u0161umlija"}],"pages":{"2358299":{"pageid":2358299,"ns":0,"title":"Bela
+        Crkva, Banat"},"47100534":{"pageid":47100534,"ns":0,"title":"Bela Crkva, Krivoga\u0161tani"},"19854784":{"pageid":19854784,"ns":0,"title":"Bela
+        Crkva (Krupanj)"},"1091514":{"pageid":1091514,"ns":0,"title":"Bila Tserkva"},"1491496":{"pageid":1491496,"ns":0,"title":"Byala
+        Cherkva","extract":"<p><b>Byala Cherkva</b> (Bulgarian: <span lang=\"bg\">\u0411\u044f\u043b\u0430
+        \u0447\u0435\u0440\u043a\u0432\u0430</span>) is a town in Pavlikeni Municipality
+        part of Veliko Turnovo Province, Central-North Bulgaria."},"2891130":{"pageid":2891130,"ns":0,"title":"Kur\u0161umlija"}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:39:50 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cpageimages%7Cpageterms%7Ccategories&excontinue=5&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Bela%20Crkva,%20Banat%7CBela%20Crkva,%20Krivoga%C5%A1tani%7CBela%20Crkva%20(Krupanj)%7CTopli%C4%8Dka%20Bela%20Crkva%7CBila%20Tserkva%7CByala%20Cherkva
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:39:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '532'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1221.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29815 t=1512311991023863
+      X-Varnish:
+      - 190064726, 331083632, 264392266
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3031 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -1337,5 +1337,5 @@ http_interactions:
         Phonetic Alphabet (IPA)\">[kur\u0283\u01d4mlija]</span></span></span>) is
         a town and municipality located in the Toplica District of the southern Serbia."}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:11 GMT
+  recorded_at: Sun, 03 Dec 2017 14:39:51 GMT
 recorded_with: VCR 3.0.3

@@ -71,17 +71,29 @@ class WhatIs
 
   def setup_request(request, categories: false, languages: false, **) # rubocop:disable Metrics/MethodLength
     request = request
-      .prop(:coordinates, :categories).prop(:hidden) # "hidden" category field to filter them out
+      .prop(:coordinates)
       .prop(:extracts).sentences(1)
       .prop(:pageimages).prop(:original)
       .prop(:pageterms)
-    # We fetch just "disambig" category if not requested otherwise
-    request = request.categories(*ambigous_categories) unless categories
+
+    request = setup_categories(request, categories)
     if languages
       request = request.prop(:langlinks)
       request = request.lang(languages) unless languages == true
     end
     request
+  end
+
+  def setup_categories(request, categories_requested)
+    if categories_requested
+      # Fetch all categories, include "hidden" flag to filter out internal
+      request.prop(:categories).prop(:hidden)
+    elsif !ambigous_categories.empty?
+      # Fetch only "ambigous" categories, to tell ambigous pages out
+      request.prop(:categories).categories(*ambigous_categories)
+    else
+      request
+    end
   end
 end
 

@@ -12,12 +12,17 @@ RSpec.describe WhatIs::ThisIs::NotFound, :vcr do
 
     context 'without help' do
       subject { notfound.describe(help: false) }
+
       it { is_expected.to eq 'Guardians Of The Galaxy: not found' }
     end
   end
 
   describe '#to_s' do
     its(:to_s) { is_expected.to eq 'Guardians Of The Galaxy: not found' }
+  end
+
+  describe '#to_h' do
+    its(:to_h) { is_expected.to eq(type: 'ThisIs::NotFound', title: 'Guardians Of The Galaxy') }
   end
 
   describe '#search' do

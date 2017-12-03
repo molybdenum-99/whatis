@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:56 GMT
+      - Sun, 03 Dec 2017 14:40:58 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1230.eqiad.wmnet
+      - mw1281.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=111183 t=1512309296581053
+      - D=126113 t=1512312058037776
       X-Varnish:
-      - 736936662, 450628525, 200764929
+      - 170003968, 387234788, 279250563
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1068 pass, cp3030 pass, cp3033 pass
+      - cp1053 pass, cp3043 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -71,7 +71,7 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+      string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
         was too large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"3354":{"pageid":3354,"ns":0,"title":"Berlin","revisions":[{"timestamp":"2017-12-02T15:26:26Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
         capital of Germany}}\n{{pp-move-indef}}\n{{Use dmy dates|date=January 2017}}\n{{Infobox
         German state\n|Name=Berlin\n|German_name=\n|image_photo={{Photomontage|position=center\n|
@@ -6482,10 +6482,10 @@ http_interactions:
         Heritage Sites in Italy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T14:16:40Z","lastrevid":813058271,"length":162514,"fullurl":"https://en.wikipedia.org/wiki/Rome","editurl":"https://en.wikipedia.org/w/index.php?title=Rome&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Rome","coordinates":[{"lat":41.9,"lon":12.5,"primary":"","globe":"earth"}],"original":{"source":"https://upload.wikimedia.org/wikipedia/commons/c/c0/Rome_Montage_2017.png","width":1000,"height":1400},"terms":{"description":["capital
         city of Italy"],"label":["Rome"],"alias":["The Eternal City","Roma"]}}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:57 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:58 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=1&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cpageimages%7Cpageterms%7Ccategories&excontinue=1&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
     body:
       encoding: US-ASCII
       string: ''
@@ -6502,15 +6502,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:57 GMT
+      - Sun, 03 Dec 2017 14:40:58 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '484'
+      - '485'
       Connection:
       - keep-alive
       Server:
-      - mw1277.eqiad.wmnet
+      - mw1227.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -6527,9 +6527,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=54184 t=1512309297419903
+      - D=38830 t=1512312058912544
       X-Varnish:
-      - 326402386, 451347763, 221185454
+      - 174688807, 304407412, 260925661
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -6537,7 +6537,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3030 pass, cp3033 pass
+      - cp1053 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -6554,17 +6554,17 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"excontinue":2,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+      string: '{"continue":{"excontinue":2,"continue":"||revisions|info|coordinates|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
         was too large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"3354":{"pageid":3354,"ns":0,"title":"Berlin"},"22989":{"pageid":22989,"ns":0,"title":"Paris","extract":"<p><b>Paris</b>
         (<small>French pronunciation:\u00a0\u200b</small><span title=\"Representation
         in the International Phonetic Alphabet (IPA)\">[pa\u0281i]</span><small class=\"nowrap\">\u00a0(<span><span><span>\u00a0</span>listen</span></span>)</small>)
         is the capital and most populous city of France, with an administrative-limits
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621."},"25458":{"pageid":25458,"ns":0,"title":"Rome"}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:57 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:59 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=2&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cpageimages%7Cpageterms%7Ccategories&excontinue=2&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
     body:
       encoding: US-ASCII
       string: ''
@@ -6581,7 +6581,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:57 GMT
+      - Sun, 03 Dec 2017 14:40:59 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -6589,7 +6589,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1279.eqiad.wmnet
+      - mw1231.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -6606,9 +6606,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=40635 t=1512309297894471
+      - D=32218 t=1512312059446625
       X-Varnish:
-      - 770966425, 663599903, 220301405
+      - 359503700, 561890474, 265999618
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -6616,7 +6616,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1068 pass, cp3042 pass, cp3033 pass
+      - cp1052 pass, cp3041 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -6642,5 +6642,5 @@ http_interactions:
         Latin: <span lang=\"la\" xml:lang=\"la\"><i>R\u014dma</i></span>) is the capital
         of Italy and a special comune (named <i>Comune di Roma Capitale</i>)."}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:57 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:59 GMT
 recorded_with: VCR 3.0.3

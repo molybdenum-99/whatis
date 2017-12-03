@@ -53,6 +53,16 @@ RSpec.describe WhatIs::ThisIs::Ambigous, :vcr do
     its_call('Bela Crkva') { is_expected.to ret 'Bela Crkva: ambigous (6 options)' }
   end
 
+  describe '#to_h' do
+    its(:to_h) {
+      is_expected.to eq(
+        type: 'ThisIs::Ambigous',
+        title: 'Bela Crkva',
+        variants: ['Bela Crkva, Banat', 'Bela Crkva, Krivogaštani', 'Bela Crkva (Krupanj)', 'Toplička Bela Crkva', 'Bila Tserkva', 'Byala Cherkva']
+      )
+    }
+  end
+
   describe '#resolve_all' do
     subject { ambigous.resolve_all }
 

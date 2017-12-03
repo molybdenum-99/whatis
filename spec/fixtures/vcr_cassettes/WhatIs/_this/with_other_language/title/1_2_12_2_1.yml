@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://ru.wikipedia.org/w/api.php?action=query&clcategories=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%BE%20%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=%D0%9F%D0%B0%D1%80%D0%B8%D0%B6
+    uri: https://ru.wikipedia.org/w/api.php?action=query&clcategories=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%BE%20%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&redirects=true&rvprop=content%7Ctimestamp&titles=%D0%9F%D0%B0%D1%80%D0%B8%D0%B6
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:55:29 GMT
+      - Sun, 03 Dec 2017 14:41:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1233.eqiad.wmnet
+      - mw1286.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=78453 t=1512309329808143
+      - D=104237 t=1512312097370959
       X-Varnish:
-      - 537563568, 156849073, 199224100
+      - 846565659, 366309754, 266000874
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3032 pass, cp3033 pass
+      - cp1065 pass, cp3031 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2932,5 +2932,5 @@ http_interactions:
         \u0424\u0440\u0430\u043d\u0446\u0438\u044f","\u041f\u0430\u0440\u0438\u0436
         (\u0441\u0442\u043e\u043b\u0438\u0446\u0430)"]}}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:55:30 GMT
+  recorded_at: Sun, 03 Dec 2017 14:41:37 GMT
 recorded_with: VCR 3.0.3

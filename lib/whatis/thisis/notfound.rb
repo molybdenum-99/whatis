@@ -20,8 +20,12 @@ class WhatIs
         "#{title}: not found"
       end
 
+      def to_h
+        {type: 'ThisIs::NotFound', title: title}
+      end
+
       def describe(help: true)
-        Description.new("#{to_s}#{describe_help(help)}")
+        Description.new("#{self}#{describe_help(help)}")
       end
 
       private

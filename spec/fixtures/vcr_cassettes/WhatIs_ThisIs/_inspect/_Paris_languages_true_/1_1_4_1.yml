@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:28 GMT
+      - Sun, 03 Dec 2017 14:40:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1312.eqiad.wmnet
+      - mw1283.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=86913 t=1512309268268114
+      - D=80185 t=1512312018638243
       X-Varnish:
-      - 542672099, 150653565, 211759423
+      - 525692255, 1026753276, 276533569
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,7 +54,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3032 pass, cp3033 pass
+      - cp1054 pass, cp3040 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -71,7 +71,7 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|ast","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
+      string: '{"continue":{"llcontinue":"22989|ast","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"warnings":{"extracts":{"*":"\"exlimit\"
         was too large for a whole article extracts request, lowered to 1."}},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","revisions":[{"timestamp":"2017-12-01T20:07:38Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
         capital of France}}\n{{pp-pc1}}\n{{Good article}}\n{{Use dmy dates|date=February
         2015}}\n{{EngvarB|date=November 2016}}\n{{Infobox French commune\n|name =
@@ -2752,10 +2752,10 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]},"langlinks":[{"lang":"ace","*":"Paris"},{"lang":"ady","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"af","*":"Parys"},{"lang":"als","*":"Paris"},{"lang":"am","*":"\u1353\u122a\u1235"},{"lang":"an","*":"Par\u00eds"},{"lang":"ang","*":"Paris"},{"lang":"ar","*":"\u0628\u0627\u0631\u064a\u0633"},{"lang":"arc","*":"\u0726\u0710\u072a\u071d\u0723"},{"lang":"arz","*":"\u0628\u0627\u0631\u064a\u0633"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:28 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:19 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cast&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cast&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -2772,7 +2772,155 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:29 GMT
+      - Sun, 03 Dec 2017 14:40:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '266'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1281.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=31139 t=1512312019599413
+      X-Varnish:
+      - 150185972, 401054987, 277546525
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3043 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|be-x-old","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ast","*":"Par\u00eds"},{"lang":"av","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ay","*":"Paris"},{"lang":"az","*":"Paris"},{"lang":"azb","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"ba","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"bar","*":"Paris"},{"lang":"bat-smg","*":"Par\u012b\u017eios"},{"lang":"bcl","*":"Paris"},{"lang":"be","*":"\u041f\u0430\u0440\u044b\u0436"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:19 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cbe-x-old&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '282'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=39483 t=1512312020167573
+      X-Varnish:
+      - 842600118, 676273890, 255224401
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3042 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|ca","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"be-x-old","*":"\u041f\u0430\u0440\u044b\u0436"},{"lang":"bg","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"bh","*":"\u092a\u0948\u0930\u093f\u0938"},{"lang":"bi","*":"Paris"},{"lang":"bm","*":"Paris"},{"lang":"bn","*":"\u09aa\u09cd\u09af\u09be\u09b0\u09bf\u09b8"},{"lang":"bo","*":"\u0f55\u0f0b\u0f62\u0f72\u0f0d"},{"lang":"br","*":"Pariz"},{"lang":"bs","*":"Pariz"},{"lang":"bxr","*":"\u041f\u0430\u0440\u0438\u0441"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:20 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cca&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2780,7 +2928,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1230.eqiad.wmnet
+      - mw1193.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2797,9 +2945,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=39648 t=1512309268977195
+      - D=28701 t=1512312020696294
       X-Varnish:
-      - 166236865, 450763867, 202135940
+      - 852068243, 674041436, 276308613
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2807,7 +2955,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3030 pass, cp3033 pass
+      - cp1065 pass, cp3042 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2824,12 +2972,12 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|be-x-old","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ast","*":"Par\u00eds"},{"lang":"av","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ay","*":"Paris"},{"lang":"az","*":"Paris"},{"lang":"azb","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"ba","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"bar","*":"Paris"},{"lang":"bat-smg","*":"Par\u012b\u017eios"},{"lang":"bcl","*":"Paris"},{"lang":"be","*":"\u041f\u0430\u0440\u044b\u0436"}]}}}}'
+      string: '{"continue":{"llcontinue":"22989|cs","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ca","*":"Par\u00eds"},{"lang":"cbk-zam","*":"Paris"},{"lang":"cdo","*":"B\u0103-l\u00e0\u0324"},{"lang":"ce","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ceb","*":"Paris"},{"lang":"ch","*":"Paris"},{"lang":"chy","*":"Paris"},{"lang":"ckb","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"co","*":"Parighji"},{"lang":"crh","*":"Paris"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:29 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:20 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cbe-x-old&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Ccs&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -2846,155 +2994,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:29 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '281'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1287.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=35103 t=1512309269467345
-      X-Varnish:
-      - 331547707, 1002350280, 220758829
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1052 pass, cp3040 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|ca","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"be-x-old","*":"\u041f\u0430\u0440\u044b\u0436"},{"lang":"bg","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"bh","*":"\u092a\u0948\u0930\u093f\u0938"},{"lang":"bi","*":"Paris"},{"lang":"bm","*":"Paris"},{"lang":"bn","*":"\u09aa\u09cd\u09af\u09be\u09b0\u09bf\u09b8"},{"lang":"bo","*":"\u0f55\u0f0b\u0f62\u0f72\u0f0d"},{"lang":"br","*":"Pariz"},{"lang":"bs","*":"Pariz"},{"lang":"bxr","*":"\u041f\u0430\u0440\u0438\u0441"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:29 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cca&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:30 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '264'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1313.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=37169 t=1512309269933338
-      X-Varnish:
-      - 507391280, 1006808585, 208982726
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1054 pass, cp3040 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|cs","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ca","*":"Par\u00eds"},{"lang":"cbk-zam","*":"Paris"},{"lang":"cdo","*":"B\u0103-l\u00e0\u0324"},{"lang":"ce","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ceb","*":"Paris"},{"lang":"ch","*":"Paris"},{"lang":"chy","*":"Paris"},{"lang":"ckb","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"co","*":"Parighji"},{"lang":"crh","*":"Paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:30 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Ccs&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:30 GMT
+      - Sun, 03 Dec 2017 14:40:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -3002,7 +3002,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1195.eqiad.wmnet
+      - mw1317.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -3019,9 +3019,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=31047 t=1512309270412816
+      - D=33173 t=1512312021319840
       X-Varnish:
-      - 125368205, 385095675, 204977446
+      - 191012564, 1026399772, 263049702
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -3029,7 +3029,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3043 pass, cp3033 pass
+      - cp1066 pass, cp3040 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -3046,12 +3046,12 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|ee","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"cs","*":"Pa\u0159\u00ed\u017e"},{"lang":"csb","*":"Pariz"},{"lang":"cu","*":"\u041f\u0430\u0440\u0438\u0436\u044c"},{"lang":"cv","*":"\u041f\u0430\u0440\u0438\u0441"},{"lang":"cy","*":"Paris"},{"lang":"da","*":"Paris"},{"lang":"de","*":"Paris"},{"lang":"diq","*":"Paris"},{"lang":"dsb","*":"Paris"},{"lang":"dty","*":"\u092a\u0947\u0930\u093f\u0938"}]}}}}'
+      string: '{"continue":{"llcontinue":"22989|ee","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"cs","*":"Pa\u0159\u00ed\u017e"},{"lang":"csb","*":"Pariz"},{"lang":"cu","*":"\u041f\u0430\u0440\u0438\u0436\u044c"},{"lang":"cv","*":"\u041f\u0430\u0440\u0438\u0441"},{"lang":"cy","*":"Paris"},{"lang":"da","*":"Paris"},{"lang":"de","*":"Paris"},{"lang":"diq","*":"Paris"},{"lang":"dsb","*":"Paris"},{"lang":"dty","*":"\u092a\u0947\u0930\u093f\u0938"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:30 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:21 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cee&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cee&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -3068,15 +3068,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:30 GMT
+      - Sun, 03 Dec 2017 14:40:22 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '251'
+      - '253'
       Connection:
       - keep-alive
       Server:
-      - mw1277.eqiad.wmnet
+      - mw1281.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -3093,9 +3093,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=29005 t=1512309270897708
+      - D=36484 t=1512312022118432
       X-Varnish:
-      - 297938214, 1010763600, 221249801
+      - 365693039, 175738057, 261768798
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -3103,7 +3103,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3040 pass, cp3033 pass
+      - cp1052 pass, cp3032 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -3120,12 +3120,12 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|fi","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ee","*":"Paris"},{"lang":"el","*":"\u03a0\u03b1\u03c1\u03af\u03c3\u03b9"},{"lang":"eml","*":"Par\u00ec"},{"lang":"eo","*":"Parizo"},{"lang":"es","*":"Par\u00eds"},{"lang":"et","*":"Pariis"},{"lang":"eu","*":"Paris"},{"lang":"ext","*":"Par\u00eds"},{"lang":"fa","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"ff","*":"Pari"}]}}}}'
+      string: '{"continue":{"llcontinue":"22989|fi","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ee","*":"Paris"},{"lang":"el","*":"\u03a0\u03b1\u03c1\u03af\u03c3\u03b9"},{"lang":"eml","*":"Par\u00ec"},{"lang":"eo","*":"Parizo"},{"lang":"es","*":"Par\u00eds"},{"lang":"et","*":"Pariis"},{"lang":"eu","*":"Paris"},{"lang":"ext","*":"Par\u00eds"},{"lang":"fa","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"ff","*":"Pari"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:30 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:22 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cfi&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cfi&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -3142,15 +3142,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:31 GMT
+      - Sun, 03 Dec 2017 14:40:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '214'
+      - '216'
       Connection:
       - keep-alive
       Server:
-      - mw1192.eqiad.wmnet
+      - mw1278.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -3167,9 +3167,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=39530 t=1512309271366263
+      - D=33470 t=1512312022939117
       X-Varnish:
-      - 122798671, 666176222, 210780483
+      - 359337738, 562553561, 268387382
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -3177,7 +3177,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3042 pass, cp3033 pass
+      - cp1052 pass, cp3041 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -3194,12 +3194,12 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|gan","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"fi","*":"Pariisi"},{"lang":"fiu-vro","*":"Pariis"},{"lang":"fo","*":"Paris"},{"lang":"fr","*":"Paris"},{"lang":"frp","*":"Paris"},{"lang":"frr","*":"Paris"},{"lang":"fur","*":"Par\u00ees"},{"lang":"fy","*":"Parys"},{"lang":"ga","*":"P\u00e1ras"},{"lang":"gag","*":"Paris"}]}}}}'
+      string: '{"continue":{"llcontinue":"22989|gan","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"fi","*":"Pariisi"},{"lang":"fiu-vro","*":"Pariis"},{"lang":"fo","*":"Paris"},{"lang":"fr","*":"Paris"},{"lang":"frp","*":"Paris"},{"lang":"frr","*":"Paris"},{"lang":"fur","*":"Par\u00ees"},{"lang":"fy","*":"Parys"},{"lang":"ga","*":"P\u00e1ras"},{"lang":"gag","*":"Paris"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:31 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:23 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cgan&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cgan&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -3216,15 +3216,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:31 GMT
+      - Sun, 03 Dec 2017 14:40:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '278'
+      - '279'
       Connection:
       - keep-alive
       Server:
-      - mw1197.eqiad.wmnet
+      - mw1234.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -3241,9 +3241,157 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=52789 t=1512309271834626
+      - D=25676 t=1512312023922690
       X-Varnish:
-      - 311997846, 321200563, 204732974
+      - 848597190, 154991051, 277905839
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3032 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|hak","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"gan","*":"\u5df4\u9ece"},{"lang":"gd","*":"Paris"},{"lang":"gl","*":"Par\u00eds"},{"lang":"glk","*":"\u067e\u0627\u0631\u064a\u0633"},{"lang":"gn","*":"Par\u0129"},{"lang":"gom","*":"Paris"},{"lang":"got","*":"\ud800\udf40\ud800\udf30\ud800\udf42\ud800\udf39\ud800\udf43"},{"lang":"gu","*":"\u0aaa\u0ac7\u0ab0\u0abf\u0ab8"},{"lang":"gv","*":"Paarys"},{"lang":"ha","*":"Paris"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:24 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Chak&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1285.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29670 t=1512312024683481
+      X-Varnish:
+      - 356298548, 389701727, 273950886
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3043 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|ia","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"hak","*":"P\u00e2-l\u00ec"},{"lang":"haw","*":"Palika"},{"lang":"he","*":"\u05e4\u05e8\u05d9\u05d6"},{"lang":"hi","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"hif","*":"Paris"},{"lang":"hr","*":"Pariz"},{"lang":"hsb","*":"Paris"},{"lang":"ht","*":"Pari"},{"lang":"hu","*":"P\u00e1rizs"},{"lang":"hy","*":"\u0553\u0561\u0580\u056b\u0566"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:24 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cia&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '217'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1283.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=38862 t=1512312025263606
+      X-Varnish:
+      - 320460876, 326941311, 266358158
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -3268,12 +3416,12 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|hak","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"gan","*":"\u5df4\u9ece"},{"lang":"gd","*":"Paris"},{"lang":"gl","*":"Par\u00eds"},{"lang":"glk","*":"\u067e\u0627\u0631\u064a\u0633"},{"lang":"gn","*":"Par\u0129"},{"lang":"gom","*":"Paris"},{"lang":"got","*":"\ud800\udf40\ud800\udf30\ud800\udf42\ud800\udf39\ud800\udf43"},{"lang":"gu","*":"\u0aaa\u0ac7\u0ab0\u0abf\u0ab8"},{"lang":"gv","*":"Paarys"},{"lang":"ha","*":"Paris"}]}}}}'
+      string: '{"continue":{"llcontinue":"22989|jv","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ia","*":"Paris"},{"lang":"id","*":"Paris"},{"lang":"ie","*":"Paris"},{"lang":"ilo","*":"Paris"},{"lang":"io","*":"Paris"},{"lang":"is","*":"Par\u00eds"},{"lang":"it","*":"Parigi"},{"lang":"ja","*":"\u30d1\u30ea"},{"lang":"jam","*":"Paris"},{"lang":"jbo","*":"paris"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:31 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:25 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Chak&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cjv&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -3290,15 +3438,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:32 GMT
+      - Sun, 03 Dec 2017 14:40:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '266'
+      - '272'
       Connection:
       - keep-alive
       Server:
-      - mw1195.eqiad.wmnet
+      - mw1278.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -3315,307 +3463,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=35825 t=1512309272320204
+      - D=27784 t=1512312026028512
       X-Varnish:
-      - 812877152, 313105642, 210581491
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1065 pass, cp3033 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|ia","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"hak","*":"P\u00e2-l\u00ec"},{"lang":"haw","*":"Palika"},{"lang":"he","*":"\u05e4\u05e8\u05d9\u05d6"},{"lang":"hi","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"hif","*":"Paris"},{"lang":"hr","*":"Pariz"},{"lang":"hsb","*":"Paris"},{"lang":"ht","*":"Pari"},{"lang":"hu","*":"P\u00e1rizs"},{"lang":"hy","*":"\u0553\u0561\u0580\u056b\u0566"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:32 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cia&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:32 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '217'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1314.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=35340 t=1512309272800572
-      X-Varnish:
-      - 788276441, 432922756, 219579826
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1065 pass, cp3030 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|jv","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ia","*":"Paris"},{"lang":"id","*":"Paris"},{"lang":"ie","*":"Paris"},{"lang":"ilo","*":"Paris"},{"lang":"io","*":"Paris"},{"lang":"is","*":"Par\u00eds"},{"lang":"it","*":"Parigi"},{"lang":"ja","*":"\u30d1\u30ea"},{"lang":"jam","*":"Paris"},{"lang":"jbo","*":"paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:32 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cjv&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:33 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '271'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1229.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=52798 t=1512309273273660
-      X-Varnish:
-      - 326671851, 450922462, 212518425
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1052 pass, cp3030 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|kn","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"jv","*":"Paris"},{"lang":"ka","*":"\u10de\u10d0\u10e0\u10d8\u10d6\u10d8"},{"lang":"kaa","*":"Parij"},{"lang":"kab","*":"Paris
-        (Fransa)"},{"lang":"kbd","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"kbp","*":"Paarii"},{"lang":"kg","*":"Paris"},{"lang":"kk","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"kl","*":"Paris"},{"lang":"km","*":"\u1794\u17c9\u17b6\u179a\u17b8\u179f"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:33 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Ckn&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:33 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '280'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1284.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=36742 t=1512309273762573
-      X-Varnish:
-      - 755537080, 556980402, 195782570
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1068 pass, cp3041 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|lb","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"kn","*":"\u0caa\u0ccd\u0caf\u0cbe\u0cb0\u0cbf\u0cb8\u0ccd"},{"lang":"ko","*":"\ud30c\ub9ac
-        (\ud504\ub791\uc2a4)"},{"lang":"koi","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"krc","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ku","*":"Par\u00ees"},{"lang":"kv","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"kw","*":"Paris"},{"lang":"ky","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"la","*":"Lutetia"},{"lang":"lad","*":"Paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:33 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Clb&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:34 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '273'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1206.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=38017 t=1512309274235961
-      X-Varnish:
-      - 540640815, 561450175, 219775993
+      - 579273717, 562416007, 275779930
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -3640,13 +3490,13 @@ http_interactions:
       - 94.179.45.40
     body:
       encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|lv","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"lb","*":"Par\u00e4is"},{"lang":"lez","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"lg","*":"Paris"},{"lang":"li","*":"Paries"},{"lang":"lij","*":"Pariggi"},{"lang":"lmo","*":"Paris"},{"lang":"ln","*":"Pari"},{"lang":"lo","*":"\u0e9b\u0eb2\u0ea5\u0eb5"},{"lang":"lrc","*":"\u0634\u0623\u0631
-        \u067e\u0627\u0631\u06cc\u0633"},{"lang":"lt","*":"Pary\u017eius"}]}}}}'
+      string: '{"continue":{"llcontinue":"22989|kn","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"jv","*":"Paris"},{"lang":"ka","*":"\u10de\u10d0\u10e0\u10d8\u10d6\u10d8"},{"lang":"kaa","*":"Parij"},{"lang":"kab","*":"Paris
+        (Fransa)"},{"lang":"kbd","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"kbp","*":"Paarii"},{"lang":"kg","*":"Paris"},{"lang":"kk","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"kl","*":"Paris"},{"lang":"km","*":"\u1794\u17c9\u17b6\u179a\u17b8\u179f"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:34 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:26 GMT
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Clv&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Ckn&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
     body:
       encoding: US-ASCII
       string: ''
@@ -3663,827 +3513,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 03 Dec 2017 13:54:34 GMT
+      - Sun, 03 Dec 2017 14:40:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '272'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1312.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=36892 t=1512309274710073
-      X-Varnish:
-      - 119246994, 160634909, 196181959
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1053 pass, cp3032 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|mrj","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"lv","*":"Par\u012bze"},{"lang":"mai","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"mg","*":"Paris"},{"lang":"mhr","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"mi","*":"Par\u012b"},{"lang":"min","*":"Paris"},{"lang":"mk","*":"\u041f\u0430\u0440\u0438\u0437"},{"lang":"ml","*":"\u0d2a\u0d3e\u0d30\u0d3f\u0d38\u0d4d"},{"lang":"mn","*":"\u041f\u0430\u0440\u0438\u0441"},{"lang":"mr","*":"\u092a\u0945\u0930\u093f\u0938"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:34 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cmrj&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:35 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '280'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1208.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=40718 t=1512309275170901
-      X-Varnish:
-      - 320080787, 662908037, 218434488
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1055 pass, cp3042 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|nds","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"mrj","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ms","*":"Paris"},{"lang":"mt","*":"Pari\u0121i"},{"lang":"mwl","*":"Paris"},{"lang":"my","*":"\u1015\u102b\u101b\u102e\u1019\u103c\u102d\u102f\u1037"},{"lang":"myv","*":"\u041f\u0430\u0440\u0438\u0436
-        \u043e\u0448"},{"lang":"mzn","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"na","*":"Paris"},{"lang":"nah","*":"Paris"},{"lang":"nap","*":"Parigge"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:35 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cnds&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:35 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '224'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1279.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=38889 t=1512309275647699
-      X-Varnish:
-      - 329912995, 994798889, 208982919
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1052 pass, cp3040 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|oc","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"nds","*":"Paris"},{"lang":"nds-nl","*":"Paries"},{"lang":"ne","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"new","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"nl","*":"Parijs"},{"lang":"nn","*":"Paris"},{"lang":"no","*":"Paris"},{"lang":"nov","*":"Paris"},{"lang":"nrm","*":"Paris"},{"lang":"ny","*":"Paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:35 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Coc&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:36 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '266'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1316.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=26709 t=1512309276109356
-      X-Varnish:
-      - 280937825, 560337062, 218858381
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1055 pass, cp3041 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|pih","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"oc","*":"Par\u00eds"},{"lang":"olo","*":"Parii\u017eu"},{"lang":"om","*":"Paaris"},{"lang":"or","*":"\u0b2a\u0b4d\u0b5f\u0b3e\u0b30\u0b3f\u0b38"},{"lang":"os","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"pa","*":"\u0a2a\u0a48\u0a30\u0a3f\u0a38"},{"lang":"pam","*":"Paris"},{"lang":"pap","*":"Paris"},{"lang":"pcd","*":"Paris"},{"lang":"pdc","*":"Paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:36 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cpih&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:36 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '247'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1316.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=50906 t=1512309276564317
-      X-Varnish:
-      - 817103084, 324337873, 217092750
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1065 pass, cp3033 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|rn","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"pih","*":"Paris"},{"lang":"pl","*":"Pary\u017c"},{"lang":"pms","*":"Paris"},{"lang":"pnb","*":"\u067e\u06cc\u0631\u0633"},{"lang":"pnt","*":"\u03a0\u03b1\u03c1\u03af\u03c3\u03b9"},{"lang":"ps","*":"\u067e\u0627\u0631\u064a\u0633"},{"lang":"pt","*":"Paris"},{"lang":"qu","*":"Paris"},{"lang":"rm","*":"Paris"},{"lang":"rmy","*":"Paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:36 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Crn&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:37 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '241'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1197.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=52803 t=1512309277066215
-      X-Varnish:
-      - 800329715, 296451551, 217746106
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1065 pass, cp3033 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|sco","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"rn","*":"Paris"},{"lang":"ro","*":"Paris"},{"lang":"roa-rup","*":"Parij"},{"lang":"roa-tara","*":"Parigge"},{"lang":"ru","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"rue","*":"\u041f\u0430\u0440\u0456\u0436"},{"lang":"rw","*":"Paris"},{"lang":"sah","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"sc","*":"Parigi"},{"lang":"scn","*":"Pariggi"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:37 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Csco&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:37 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '239'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1285.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=27703 t=1512309277562407
-      X-Varnish:
-      - 179634462, 153105035, 202853959
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1067 pass, cp3032 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|sq","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"sco","*":"Paris"},{"lang":"se","*":"Paris"},{"lang":"sh","*":"Pariz"},{"lang":"si","*":"\u0db4\u0dd0\u0dbb\u0dd2\u0dc3\u0dca"},{"lang":"simple","*":"Paris"},{"lang":"sk","*":"Par\u00ed\u017e"},{"lang":"sl","*":"Pariz"},{"lang":"sm","*":"Pale"},{"lang":"sn","*":"Paris"},{"lang":"so","*":"Baariis"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:37 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Csq&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:38 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '256'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1286.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=47551 t=1512309278029626
-      X-Varnish:
-      - 727731132, 316248750, 206616539
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1068 pass, cp3033 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|te","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"sq","*":"Parisi"},{"lang":"sr","*":"\u041f\u0430\u0440\u0438\u0437"},{"lang":"srn","*":"Paris"},{"lang":"st","*":"Paris"},{"lang":"stq","*":"Paris
-        (St\u00e4\u00e4d)"},{"lang":"su","*":"Paris"},{"lang":"sv","*":"Paris"},{"lang":"sw","*":"Paris"},{"lang":"szl","*":"Pary\u017c"},{"lang":"ta","*":"\u0baa\u0bbe\u0bb0\u0bbf\u0bb8\u0bcd"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:38 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cte&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:38 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '266'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1283.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=31581 t=1512309278516273
-      X-Varnish:
-      - 132921676, 162468132, 212122899
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1067 pass, cp3032 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|ty","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"te","*":"\u0c2a\u0c3e\u0c30\u0c3f\u0c38\u0c4d"},{"lang":"tet","*":"Par\u00eds"},{"lang":"tg","*":"\u041f\u043e\u0440\u0438\u0441"},{"lang":"th","*":"\u0e1b\u0e32\u0e23\u0e35\u0e2a"},{"lang":"tk","*":"Pari\u017e"},{"lang":"tl","*":"Paris"},{"lang":"tpi","*":"Paris"},{"lang":"tr","*":"Paris"},{"lang":"tt","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"tw","*":"Paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:38 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cty&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:39 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '254'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1195.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=74243 t=1512309278969040
-      X-Varnish:
-      - 163156525, 157205530, 211826535
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1066 pass, cp3032 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|vls","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ty","*":"Paris"},{"lang":"tyv","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"udm","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ug","*":"\u067e\u0627\u0631\u0649\u0698"},{"lang":"uk","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ur","*":"\u067e\u06cc\u0631\u0633"},{"lang":"uz","*":"Parij"},{"lang":"vec","*":"Parixe"},{"lang":"vep","*":"Pari\u017e"},{"lang":"vi","*":"Paris"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:39 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cvls&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:39 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '257'
-      Connection:
-      - keep-alive
-      Server:
-      - mw1317.eqiad.wmnet
-      X-Powered-By:
-      - HHVM/3.18.6-dev
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      P3p:
-      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
-        for more info."
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Disposition:
-      - inline; filename="api-result.json"
-      Vary:
-      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=37919 t=1512309279495619
-      X-Varnish:
-      - 295248486, 373435868, 212319812
-      Via:
-      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1055 pass, cp3043 pass, cp3033 pass
-      X-Cache-Status:
-      - pass
-      Strict-Transport-Security:
-      - max-age=106384710; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        04 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
-        12:00:00 GMT
-      X-Analytics:
-      - ns=-1;special=Badtitle;https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.45.40
-    body:
-      encoding: ASCII-8BIT
-      string: '{"continue":{"llcontinue":"22989|zea","continue":"||revisions|info|coordinates|categories|extracts|pageimages|pageterms"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"vls","*":"Parys"},{"lang":"vo","*":"Paris"},{"lang":"wa","*":"Paris"},{"lang":"war","*":"Paris"},{"lang":"wo","*":"Pari"},{"lang":"wuu","*":"\u5df4\u9ece"},{"lang":"xmf","*":"\u10de\u10d0\u10e0\u10d8\u10d6\u10d8"},{"lang":"yi","*":"\u05e4\u05d0\u05e8\u05d9\u05d6"},{"lang":"yo","*":"Parisi"},{"lang":"za","*":"Bahliz"}]}}}}'
-    http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:39 GMT
-- request:
-    method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&exsentences=1&format=json&inprop=url&llcontinue=22989%7Czea&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sun, 03 Dec 2017 13:54:40 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '177'
+      - '283'
       Connection:
       - keep-alive
       Server:
@@ -4504,9 +3538,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=104736 t=1512309279994884
+      - D=30774 t=1512312026770439
       X-Varnish:
-      - 332500287, 666081888, 220595522
+      - 213488599, 1021586348, 271296582
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -4514,7 +3548,973 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 pass, cp3042 pass, cp3033 pass
+      - cp1067 pass, cp3040 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|lb","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"kn","*":"\u0caa\u0ccd\u0caf\u0cbe\u0cb0\u0cbf\u0cb8\u0ccd"},{"lang":"ko","*":"\ud30c\ub9ac
+        (\ud504\ub791\uc2a4)"},{"lang":"koi","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"krc","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ku","*":"Par\u00ees"},{"lang":"kv","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"kw","*":"Paris"},{"lang":"ky","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"la","*":"Lutetia"},{"lang":"lad","*":"Paris"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:26 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Clb&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '274'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1288.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=37314 t=1512312027338798
+      X-Varnish:
+      - 210666269, 1023284603, 260170205
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3040 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|lv","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"lb","*":"Par\u00e4is"},{"lang":"lez","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"lg","*":"Paris"},{"lang":"li","*":"Paries"},{"lang":"lij","*":"Pariggi"},{"lang":"lmo","*":"Paris"},{"lang":"ln","*":"Pari"},{"lang":"lo","*":"\u0e9b\u0eb2\u0ea5\u0eb5"},{"lang":"lrc","*":"\u0634\u0623\u0631
+        \u067e\u0627\u0631\u06cc\u0633"},{"lang":"lt","*":"Pary\u017eius"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:27 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Clv&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '273'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1313.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=31308 t=1512312028188755
+      X-Varnish:
+      - 201264042, 374345447, 263049964
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3031 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|mrj","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"lv","*":"Par\u012bze"},{"lang":"mai","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"mg","*":"Paris"},{"lang":"mhr","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"mi","*":"Par\u012b"},{"lang":"min","*":"Paris"},{"lang":"mk","*":"\u041f\u0430\u0440\u0438\u0437"},{"lang":"ml","*":"\u0d2a\u0d3e\u0d30\u0d3f\u0d38\u0d4d"},{"lang":"mn","*":"\u041f\u0430\u0440\u0438\u0441"},{"lang":"mr","*":"\u092a\u0945\u0930\u093f\u0938"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:28 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cmrj&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '282'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1313.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=38388 t=1512312028851982
+      X-Varnish:
+      - 177767440, 405081506, 263508014
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3043 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|nds","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"mrj","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ms","*":"Paris"},{"lang":"mt","*":"Pari\u0121i"},{"lang":"mwl","*":"Paris"},{"lang":"my","*":"\u1015\u102b\u101b\u102e\u1019\u103c\u102d\u102f\u1037"},{"lang":"myv","*":"\u041f\u0430\u0440\u0438\u0436
+        \u043e\u0448"},{"lang":"mzn","*":"\u067e\u0627\u0631\u06cc\u0633"},{"lang":"na","*":"Paris"},{"lang":"nah","*":"Paris"},{"lang":"nap","*":"Parigge"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:28 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cnds&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '225'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1199.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=38427 t=1512312029607998
+      X-Varnish:
+      - 186229474, 675023145, 268122609
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3042 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|oc","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"nds","*":"Paris"},{"lang":"nds-nl","*":"Paries"},{"lang":"ne","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"new","*":"\u092a\u0947\u0930\u093f\u0938"},{"lang":"nl","*":"Parijs"},{"lang":"nn","*":"Paris"},{"lang":"no","*":"Paris"},{"lang":"nov","*":"Paris"},{"lang":"nrm","*":"Paris"},{"lang":"ny","*":"Paris"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:29 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Coc&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1190.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29169 t=1512312030237132
+      X-Varnish:
+      - 350597800, 462605129, 267144662
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3030 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|pih","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"oc","*":"Par\u00eds"},{"lang":"olo","*":"Parii\u017eu"},{"lang":"om","*":"Paaris"},{"lang":"or","*":"\u0b2a\u0b4d\u0b5f\u0b3e\u0b30\u0b3f\u0b38"},{"lang":"os","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"pa","*":"\u0a2a\u0a48\u0a30\u0a3f\u0a38"},{"lang":"pam","*":"Paris"},{"lang":"pap","*":"Paris"},{"lang":"pcd","*":"Paris"},{"lang":"pdc","*":"Paris"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:30 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cpih&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '248'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1282.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=26709 t=1512312031428920
+      X-Varnish:
+      - 361141971, 467043009, 265213305
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3030 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|rn","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"pih","*":"Paris"},{"lang":"pl","*":"Pary\u017c"},{"lang":"pms","*":"Paris"},{"lang":"pnb","*":"\u067e\u06cc\u0631\u0633"},{"lang":"pnt","*":"\u03a0\u03b1\u03c1\u03af\u03c3\u03b9"},{"lang":"ps","*":"\u067e\u0627\u0631\u064a\u0633"},{"lang":"pt","*":"Paris"},{"lang":"qu","*":"Paris"},{"lang":"rm","*":"Paris"},{"lang":"rmy","*":"Paris"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:31 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Crn&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '242'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1234.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=24667 t=1512312032091945
+      X-Varnish:
+      - 796663424, 1018174133, 255982025
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp3040 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|sco","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"rn","*":"Paris"},{"lang":"ro","*":"Paris"},{"lang":"roa-rup","*":"Parij"},{"lang":"roa-tara","*":"Parigge"},{"lang":"ru","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"rue","*":"\u041f\u0430\u0440\u0456\u0436"},{"lang":"rw","*":"Paris"},{"lang":"sah","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"sc","*":"Parigi"},{"lang":"scn","*":"Pariggi"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:32 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Csco&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '240'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1206.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=32702 t=1512312032943018
+      X-Varnish:
+      - 180610324, 388376289, 265213372
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3043 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|sq","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"sco","*":"Paris"},{"lang":"se","*":"Paris"},{"lang":"sh","*":"Pariz"},{"lang":"si","*":"\u0db4\u0dd0\u0dbb\u0dd2\u0dc3\u0dca"},{"lang":"simple","*":"Paris"},{"lang":"sk","*":"Par\u00ed\u017e"},{"lang":"sl","*":"Pariz"},{"lang":"sm","*":"Pale"},{"lang":"sn","*":"Paris"},{"lang":"so","*":"Baariis"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:33 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Csq&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '258'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1200.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=34917 t=1512312033588965
+      X-Varnish:
+      - 363925077, 1019286109, 275584292
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3040 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|te","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"sq","*":"Parisi"},{"lang":"sr","*":"\u041f\u0430\u0440\u0438\u0437"},{"lang":"srn","*":"Paris"},{"lang":"st","*":"Paris"},{"lang":"stq","*":"Paris
+        (St\u00e4\u00e4d)"},{"lang":"su","*":"Paris"},{"lang":"sv","*":"Paris"},{"lang":"sw","*":"Paris"},{"lang":"szl","*":"Pary\u017c"},{"lang":"ta","*":"\u0baa\u0bbe\u0bb0\u0bbf\u0bb8\u0bcd"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:33 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cte&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '268'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1290.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=34584 t=1512312034393618
+      X-Varnish:
+      - 560246045, 562117511, 260566343
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3041 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|ty","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"te","*":"\u0c2a\u0c3e\u0c30\u0c3f\u0c38\u0c4d"},{"lang":"tet","*":"Par\u00eds"},{"lang":"tg","*":"\u041f\u043e\u0440\u0438\u0441"},{"lang":"th","*":"\u0e1b\u0e32\u0e23\u0e35\u0e2a"},{"lang":"tk","*":"Pari\u017e"},{"lang":"tl","*":"Paris"},{"lang":"tpi","*":"Paris"},{"lang":"tr","*":"Paris"},{"lang":"tt","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"tw","*":"Paris"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:34 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cty&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '255'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1285.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30822 t=1512312035195564
+      X-Varnish:
+      - 361074926, 175419086, 263607170
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3032 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|vls","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"ty","*":"Paris"},{"lang":"tyv","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"udm","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ug","*":"\u067e\u0627\u0631\u0649\u0698"},{"lang":"uk","*":"\u041f\u0430\u0440\u0438\u0436"},{"lang":"ur","*":"\u067e\u06cc\u0631\u0633"},{"lang":"uz","*":"Parij"},{"lang":"vec","*":"Parixe"},{"lang":"vep","*":"Pari\u017e"},{"lang":"vi","*":"Paris"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:35 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Cvls&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '258'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1189.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29715 t=1512312036064492
+      X-Varnish:
+      - 363464172, 305782888, 263084701
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3033 pass, cp3033 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.45.40
+    body:
+      encoding: ASCII-8BIT
+      string: '{"continue":{"llcontinue":"22989|zea","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|categories"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"vls","*":"Parys"},{"lang":"vo","*":"Paris"},{"lang":"wa","*":"Paris"},{"lang":"war","*":"Paris"},{"lang":"wo","*":"Pari"},{"lang":"wuu","*":"\u5df4\u9ece"},{"lang":"xmf","*":"\u10de\u10d0\u10e0\u10d8\u10d6\u10d8"},{"lang":"yi","*":"\u05e4\u05d0\u05e8\u05d9\u05d6"},{"lang":"yo","*":"Parisi"},{"lang":"za","*":"Bahliz"}]}}}}'
+    http_version: 
+  recorded_at: Sun, 03 Dec 2017 14:40:36 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories&exsentences=1&format=json&inprop=url&llcontinue=22989%7Czea&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Ccategories%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.3.1.pre (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 03 Dec 2017 14:40:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '177'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1285.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename="api-result.json"
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=41988 t=1512312036789630
+      X-Varnish:
+      - 804917147, 570461701, 267633870
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp3041 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -4533,5 +4533,5 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","langlinks":[{"lang":"zea","*":"Paries"},{"lang":"zh","*":"\u5df4\u9ece"},{"lang":"zh-classical","*":"\u5df4\u9ece"},{"lang":"zh-min-nan","*":"Pa-l\u00ed"},{"lang":"zh-yue","*":"\u5df4\u9ece"},{"lang":"zu","*":"IParisi"}]}}}}'
     http_version: 
-  recorded_at: Sun, 03 Dec 2017 13:54:40 GMT
+  recorded_at: Sun, 03 Dec 2017 14:40:36 GMT
 recorded_with: VCR 3.0.3

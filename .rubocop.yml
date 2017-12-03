@@ -50,3 +50,6 @@ Metrics/LineLength:
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
