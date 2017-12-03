@@ -1,5 +1,8 @@
 # WhatIs.this
 
+[![Gem Version](https://badge.fury.io/rb/whatis.svg)](http://badge.fury.io/rb/whatis)
+[![Build Status](https://travis-ci.org/molybdenum-99/whatis.svg?branch=master)](https://travis-ci.org/molybdenum-99/whatis)
+
 **WhatIs.this** is a quick probe for the meaning and metadata of concepts through Wikipedia.
 
 ## Showcase
@@ -114,10 +117,27 @@ Options:
     -h, --help                       Show this message
 ```
 
+### Note on disambiguation pages
+
+Unfortunately, Wikipedia does not provide consistent way to tell disambiguation pages from others,
+the only way is to know is to see the page's categories (different for different languages). Therefore,
+currently disambiguation works currently for English, Ukrainian, Russian and Belorussian. Feel free
+to contribute disambiguation categories for your language versions!
+
+## Usage
+
+`gem install whatis` or add `gem "whatis"` to your `Gemfile`.
+
+Then use it as library (see docs for [WhatIs](www.rubydoc.info/gems/whatis/WhatIs) and its methods)
+or command-line tool (try `$ whatis --help`).
+
 ## How it works
 
 `WhatIs.this` is a small brother of large [reality](https://github.com/molybdenum-99/reality). Under
 the hood, it uses [infoboxer](https://github.com/molybdenum-99/infoboxer) semantic Wikipedia client.
+
+Most of the information is taken from API response metadata, but for some features (ambiguities
+resolution), Wikipedia page is actually parsed.
 
 Unlike `reality` (which tries to be _comprehensive_), `WhatIs.this` tries to be as simple yet useful,
 as possible.

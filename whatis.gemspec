@@ -30,6 +30,8 @@ Gem::Specification.new do |s|
   s.bindir = 'exe'
   s.executables << 'whatis'
 
+  s.required_ruby_version = '>= 2.3.0'
+
   #s.add_dependency 'infoboxer' # TODO!
   s.add_dependency 'geo_coord'
   s.add_dependency 'backports'
