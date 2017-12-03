@@ -52,7 +52,7 @@ WhatIs.these('Paris', 'Berlin', 'Rome', 'Athens')
 ```
 ## Applications
 
-The gem is intended to be a simpel tool for entities resolution/normalization. Possible usages:
+The gem is intended to be a simple tool for entities resolution/normalization. Possible usages:
 
 * You have a lot of user-entered answers to "What city are you from". Through `WhatIs.these` it is
   pretty easy to resolve them to "canonical" city name (e.g. "Warsaw", "Warszawa", "Warsaw, Poland" =>
@@ -64,8 +64,8 @@ The gem is intended to be a simpel tool for entities resolution/normalization. P
 ## Features/problems
 
 * Fetches Wikipedia data by entity names: canonical title, geographical coordinates, main page image,
-  first phrase, short entity description from Wikidata;
-* Optionally fetches links to other Wikipedia languages, and list of page categories;
+  the first phrase, short entity description from Wikidata;
+* Optionally fetches links to other Wikipedia languages and list of page categories;
 * Fetches any number of Wikipedia pages in minimal number of API requests (50-page batches);
   * Note that despite this optimization, Wikipedia API responses are not very small, so resolving,
     say, 1000 entities, will errrm _take some time_;
@@ -84,8 +84,6 @@ g.search(3)
 * Handles disambiguation pages:
 ```ruby
 g = WhatIs.this('Guardians of the Galaxy')
-g.describe
-g.variants[1].resolve
 # => #<ThisIs::Ambigous Guardians of the Galaxy (11 options)>
 g.describe
 # => Guardians of the Galaxy: ambigous (11 options)
@@ -119,9 +117,9 @@ Options:
 
 ### Note on disambiguation pages
 
-Unfortunately, Wikipedia does not provide consistent way to tell disambiguation pages from others,
+Unfortunately, Wikipedia does not provide a consistent way to tell disambiguation pages from others,
 the only way is to know is to see the page's categories (different for different languages). Therefore,
-currently disambiguation works currently for English, Ukrainian, Russian and Belorussian. Feel free
+currently, disambiguation works currently for English, Ukrainian, Russian and Belorussian. Feel free
 to contribute disambiguation categories for your language versions!
 
 ## Usage
