@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:35:45 GMT
+      - Sun, 03 Dec 2017 13:54:24 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1289.eqiad.wmnet
+      - mw1278.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=247028 t=1512254145178063
+      - D=193608 t=1512309263872141
       X-Varnish:
-      - 818066477, 644514034, 112748472
+      - 135496042, 442295897, 208519096
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,21 +54,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3030 pass, cp3031 pass
+      - cp1053 pass, cp3030 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms|langlinks"},"warnings":{"extracts":{"*":"\"exlimit\"
@@ -110,7 +110,7 @@ http_interactions:
         of the Galaxy Vol.","terms":{"description":["Wikipedia disambiguation page"],"label":["Guardians
         of the Galaxy"]},"langlinks":[{"lang":"ru","*":"\u0421\u0442\u0440\u0430\u0436\u0438
         \u0413\u0430\u043b\u0430\u043a\u0442\u0438\u043a\u0438"}]},"36450985":{"pageid":36450985,"ns":0,"title":"Guardians
-        of the Galaxy (film)","index":3,"revisions":[{"timestamp":"2017-12-02T04:04:18Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{pp-pc1|small=yes}}\n{{redirect|Guardians
+        of the Galaxy (film)","index":3,"revisions":[{"timestamp":"2017-12-03T05:14:08Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{pp-pc1|small=yes}}\n{{redirect|Guardians
         of the Galaxy Vol. 1|the first volume of the comic book series|Guardians of
         the Galaxy (1969 team)}}\n{{Good article}}\n{{Use mdy dates|date=July 2015}}\n{{Infobox
         film\n|name = Guardians of the Galaxy\n|image = GOTG-poster.jpg\n|caption
@@ -2484,7 +2484,7 @@ http_interactions:
         Long Form winning works]]\n[[Category:IMAX films]]\n[[Category:Marvel Cinematic
         Universe films]]\n[[Category:Performance capture in film]]\n[[Category:Rotoscoped
         films]]\n[[Category:Screenplays by James Gunn]]\n[[Category:Superhero comedy
-        films]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-02T04:04:18Z","lastrevid":813160345,"length":221456,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy_(film)&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)","terms":{"description":["2014
+        films]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-03T05:14:08Z","lastrevid":813343695,"length":221456,"fullurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)","editurl":"https://en.wikipedia.org/w/index.php?title=Guardians_of_the_Galaxy_(film)&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)","terms":{"description":["2014
         superhero film produced by Marvel Studios"],"label":["Guardians of the Galaxy"]},"langlinks":[{"lang":"ru","*":"\u0421\u0442\u0440\u0430\u0436\u0438
         \u0413\u0430\u043b\u0430\u043a\u0442\u0438\u043a\u0438 (\u0444\u0438\u043b\u044c\u043c)"}]},"43402974":{"pageid":43402974,"ns":0,"title":"Guardians
         of the Galaxy Vol. 2","index":2,"revisions":[{"timestamp":"2017-12-02T21:55:26Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{About|the
@@ -4639,5 +4639,5 @@ http_interactions:
         \u0413\u0430\u043b\u0430\u043a\u0442\u0438\u043a\u0438. \u0427\u0430\u0441\u0442\u044c
         2"}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:35:45 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:24 GMT
 recorded_with: VCR 3.0.3

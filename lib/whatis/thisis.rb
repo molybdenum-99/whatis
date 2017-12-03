@@ -67,10 +67,10 @@ class WhatIs
       ].compact.join.surround('#<', '>')
     end
 
-    def describe
+    def describe(*)
       maxlength = @data.keys.map(&:length).max
       Description.new(
-        "#{inspect}\n" +
+        "#{to_s}\n" +
           clean_data
             .map { |k, v| "  #{k.to_s.rjust(maxlength)}: #{v.inspect}" }.join("\n")
       )

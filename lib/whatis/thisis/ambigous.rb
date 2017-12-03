@@ -23,7 +23,7 @@ class WhatIs
 
       def describe(help: true)
         Description.new(
-          "#{inspect}\n" +
+          "#{to_s}\n" +
             variants.map { |link| "  #{link.inspect}: #{link.description}" }.join("\n") +
             describe_help(help)
         )

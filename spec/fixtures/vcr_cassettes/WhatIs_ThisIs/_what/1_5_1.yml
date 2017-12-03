@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:41:05 GMT
+      - Sun, 03 Dec 2017 13:54:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1228.eqiad.wmnet
+      - mw1316.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=83908 t=1512254465032059
+      - D=75330 t=1512309289216783
       X-Varnish:
-      - 919386400, 634041658, 113427755
+      - 148481103, 666274912, 202720328
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,21 +54,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3030 pass, cp3031 pass
+      - cp1066 pass, cp3042 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
@@ -2752,7 +2752,7 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:41:05 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:49 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&exsentences=1&format=json&inprop=url&lllang=be&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2772,7 +2772,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:41:06 GMT
+      - Sun, 03 Dec 2017 13:54:50 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2780,7 +2780,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1281.eqiad.wmnet
+      - mw1315.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2797,9 +2797,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=97792 t=1512254466132949
+      - D=64642 t=1512309290277187
       X-Varnish:
-      - 921676312, 847169456, 108002363
+      - 783135949, 1005525445, 198109070
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2807,21 +2807,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3040 pass, cp3031 pass
+      - cp1065 pass, cp3040 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
@@ -5505,5 +5505,5 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]},"langlinks":[{"lang":"be","*":"\u041f\u0430\u0440\u044b\u0436"}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:41:06 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:50 GMT
 recorded_with: VCR 3.0.3

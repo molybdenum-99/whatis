@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:22:56 GMT
+      - Sun, 03 Dec 2017 13:54:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1283.eqiad.wmnet
+      - mw1195.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=87026 t=1512253375960220
+      - D=71312 t=1512309265316943
       X-Varnish:
-      - 895510133, 629207895, 105167668
+      - 168988410, 450870438, 212451020
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,21 +54,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3030 pass, cp3031 pass
+      - cp1067 pass, cp3030 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
@@ -2752,5 +2752,5 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:22:56 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:25 GMT
 recorded_with: VCR 3.0.3

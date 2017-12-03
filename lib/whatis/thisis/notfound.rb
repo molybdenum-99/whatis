@@ -21,7 +21,7 @@ class WhatIs
       end
 
       def describe(help: true)
-        Description.new("#{inspect}#{describe_help(help)}")
+        Description.new("#{to_s}#{describe_help(help)}")
       end
 
       private

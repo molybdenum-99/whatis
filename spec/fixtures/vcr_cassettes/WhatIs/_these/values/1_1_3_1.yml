@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:23:25 GMT
+      - Sun, 03 Dec 2017 13:54:59 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1235.eqiad.wmnet
+      - mw1202.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=102194 t=1512253405364946
+      - D=203537 t=1512309299412589
       X-Varnish:
-      - 646499612, 421678146, 103926914
+      - 773914913, 323749001, 203803783
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,21 +54,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3041 pass, cp3031 pass
+      - cp1068 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"continue":{"excontinue":1,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
@@ -6482,7 +6482,7 @@ http_interactions:
         Heritage Sites in Italy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-12-01T14:16:40Z","lastrevid":813058271,"length":162514,"fullurl":"https://en.wikipedia.org/wiki/Rome","editurl":"https://en.wikipedia.org/w/index.php?title=Rome&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Rome","coordinates":[{"lat":41.9,"lon":12.5,"primary":"","globe":"earth"}],"original":{"source":"https://upload.wikimedia.org/wikipedia/commons/c/c0/Rome_Montage_2017.png","width":1000,"height":1400},"terms":{"description":["capital
         city of Italy"],"label":["Rome"],"alias":["The Eternal City","Roma"]}}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:23:26 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:59 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=1&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
@@ -6502,7 +6502,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:23:26 GMT
+      - Sun, 03 Dec 2017 13:55:00 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -6510,7 +6510,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1283.eqiad.wmnet
+      - mw1221.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -6527,9 +6527,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=37658 t=1512253406194232
+      - D=54495 t=1512309300337407
       X-Varnish:
-      - 672932060, 203054298, 109781532
+      - 318149695, 301847607, 201577983
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -6537,21 +6537,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3043 pass, cp3031 pass
+      - cp1055 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"continue":{"excontinue":2,"continue":"||revisions|info|coordinates|categories|pageimages|pageterms"},"warnings":{"extracts":{"*":"\"exlimit\"
@@ -6561,7 +6561,7 @@ http_interactions:
         is the capital and most populous city of France, with an administrative-limits
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621."},"25458":{"pageid":25458,"ns":0,"title":"Rome"}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:23:26 GMT
+  recorded_at: Sun, 03 Dec 2017 13:55:00 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcategories=Category:All%20disambiguation%20pages%7CCategory:All%20set%20index%20articles&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Ccategories%7Cpageimages%7Cpageterms&excontinue=2&exsentences=1&format=json&inprop=url&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms&redirects=true&rvprop=content%7Ctimestamp&titles=Paris%7CBerlin%7CRome
@@ -6581,7 +6581,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:23:26 GMT
+      - Sun, 03 Dec 2017 13:55:00 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -6589,7 +6589,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1287.eqiad.wmnet
+      - mw1224.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -6606,9 +6606,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=41344 t=1512253406653335
+      - D=32671 t=1512309300845902
       X-Varnish:
-      - 910933048, 1061267626, 111511347
+      - 168667769, 324796685, 206617223
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -6616,21 +6616,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1067 pass, cp3033 pass, cp3031 pass
+      - cp1067 pass, cp3033 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","warnings":{"extracts":{"*":"\"exlimit\" was too
@@ -6642,5 +6642,5 @@ http_interactions:
         Latin: <span lang=\"la\" xml:lang=\"la\"><i>R\u014dma</i></span>) is the capital
         of Italy and a special comune (named <i>Comune di Roma Capitale</i>)."}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:23:26 GMT
+  recorded_at: Sun, 03 Dec 2017 13:55:00 GMT
 recorded_with: VCR 3.0.3

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:22:45 GMT
+      - Sun, 03 Dec 2017 13:54:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1279.eqiad.wmnet
+      - mw1193.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=44210 t=1512253365419274
+      - D=44745 t=1512309255653667
       X-Varnish:
-      - 54600665, 227223100, 99896592
+      - 323359977, 362281064, 218924187
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,21 +54,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 pass, cp3043 pass, cp3031 pass
+      - cp1052 pass, cp3043 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"\u041c\u0435\u0434\u0438\u0430"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"\u0421\u043b\u0443\u0436\u0435\u0431\u043d\u0430\u044f"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
@@ -150,5 +150,5 @@ http_interactions:
         bokm\u00e5l","url":"https://no.wikipedia.org/wiki/$1"},{"prefix":"zh-cfr","local":"","url":"https://zh-min-nan.wikipedia.org/wiki/$1"},{"prefix":"zh-cn","local":"","language":"\u4e2d\u6587\uff08\u4e2d\u56fd\u5927\u9646\uff09\u200e","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"zh-tw","local":"","language":"\u4e2d\u6587\uff08\u53f0\u7063\uff09\u200e","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"nan","local":"","language":"B\u00e2n-l\u00e2m-g\u00fa","url":"https://zh-min-nan.wikipedia.org/wiki/$1"},{"prefix":"vro","local":"","language":"V\u00f5ro","url":"https://fiu-vro.wikipedia.org/wiki/$1"},{"prefix":"cmn","local":"","url":"https://zh.wikipedia.org/wiki/$1"},{"prefix":"lzh","local":"","language":"\u6587\u8a00","url":"https://zh-classical.wikipedia.org/wiki/$1"},{"prefix":"yue","local":"","language":"\u7cb5\u8a9e","url":"https://zh-yue.wikipedia.org/wiki/$1"},{"prefix":"rup","local":"","language":"arm\u00e3neashti","url":"https://roa-rup.wikipedia.org/wiki/$1"},{"prefix":"gsw","local":"","language":"Alemannisch","url":"https://als.wikipedia.org/wiki/$1"},{"prefix":"be-tarask","local":"","language":"\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f
         (\u0442\u0430\u0440\u0430\u0448\u043a\u0435\u0432\u0456\u0446\u0430)\u200e","url":"https://be-x-old.wikipedia.org/wiki/$1"},{"prefix":"sgs","local":"","language":"\u017eemait\u0117\u0161ka","url":"https://bat-smg.wikipedia.org/wiki/$1"},{"prefix":"egl","local":"","language":"Emili\u00e0n","url":"https://eml.wikipedia.org/wiki/$1"},{"prefix":"w","local":"","url":"https://en.wikipedia.org/wiki/$1"},{"prefix":"wikt","local":"","url":"https://ru.wiktionary.org/wiki/$1"},{"prefix":"q","local":"","url":"https://ru.wikiquote.org/wiki/$1"},{"prefix":"b","local":"","url":"https://ru.wikibooks.org/wiki/$1"},{"prefix":"n","local":"","url":"https://ru.wikinews.org/wiki/$1"},{"prefix":"s","local":"","url":"https://ru.wikisource.org/wiki/$1"},{"prefix":"chapter","local":"","url":"https://ru.wikimedia.org/wiki/$1"},{"prefix":"v","local":"","url":"https://ru.wikiversity.org/wiki/$1"},{"prefix":"voy","local":"","url":"https://ru.wikivoyage.org/wiki/$1"}]}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:22:45 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:15 GMT
 recorded_with: VCR 3.0.3

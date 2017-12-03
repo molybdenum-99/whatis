@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:41:02 GMT
+      - Sun, 03 Dec 2017 13:54:46 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1228.eqiad.wmnet
+      - mw1276.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -44,9 +44,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=79102 t=1512254462466050
+      - D=91230 t=1512309286622530
       X-Varnish:
-      - 688065420, 1058219949, 119579433
+      - 310188978, 450600121, 199487688
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -54,21 +54,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3033 pass, cp3031 pass
+      - cp1055 pass, cp3030 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"continue":{"clcontinue":"22989|Articles_with_dead_external_links_from_August_2017","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|langlinks"},"warnings":{"extracts":{"*":"\"exlimit\"
@@ -2762,7 +2762,7 @@ http_interactions:
         area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621.","original":{"source":"https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG","width":3375,"height":2242},"terms":{"description":["capital
         city of France"],"label":["Paris"],"alias":["Paris, France","City of Light"]},"langlinks":[{"lang":"uk","*":"\u041f\u0430\u0440\u0438\u0436"}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:41:02 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:46 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CArticles_with_dead_external_links_from_August_2017&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&exsentences=1&format=json&inprop=url&lllang=uk&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2782,7 +2782,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:41:03 GMT
+      - Sun, 03 Dec 2017 13:54:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2790,7 +2790,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1317.eqiad.wmnet
+      - mw1201.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2807,9 +2807,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=28962 t=1512254463199155
+      - D=36890 t=1512309287356793
       X-Varnish:
-      - 953057722, 105276703, 115429518
+      - 295224940, 997258517, 208955017
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2817,21 +2817,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1066 pass, cp3031 pass, cp3031 pass
+      - cp1055 pass, cp3040 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"continue":{"clcontinue":"22989|Coordinates_on_Wikidata","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|langlinks"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","categories":[{"ns":14,"title":"Category:Articles
@@ -2844,7 +2844,7 @@ http_interactions:
         in France"},{"ns":14,"title":"Category:Cities in \u00cele-de-France"},{"ns":14,"title":"Category:Companions
         of the Liberation"}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:41:03 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:47 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CCoordinates_on_Wikidata&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&exsentences=1&format=json&inprop=url&lllang=uk&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2864,7 +2864,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:41:03 GMT
+      - Sun, 03 Dec 2017 13:54:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2872,7 +2872,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1289.eqiad.wmnet
+      - mw1284.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2889,9 +2889,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=39979 t=1512254463662121
+      - D=25375 t=1512309287840783
       X-Varnish:
-      - 213391822, 224160453, 119521572
+      - 506717360, 387355038, 205804189
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2899,21 +2899,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3043 pass, cp3031 pass
+      - cp1054 pass, cp3043 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"continue":{"clcontinue":"22989|Webarchive_template_wayback_links","continue":"||revisions|info|coordinates|extracts|pageimages|pageterms|langlinks"},"query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","categories":[{"ns":14,"title":"Category:Coordinates
@@ -2923,7 +2923,7 @@ http_interactions:
         places established in the 3rd century BC"},{"ns":14,"title":"Category:Prefectures
         in France"},{"ns":14,"title":"Category:Use dmy dates from February 2015","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:41:03 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:47 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&clcontinue=22989%7CWebarchive_template_wayback_links&clprop=hidden&continue=%7C%7Crevisions%7Cinfo%7Ccoordinates%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&exsentences=1&format=json&inprop=url&lllang=uk&piprop=original&prop=revisions%7Cinfo%7Ccoordinates%7Ccategories%7Cextracts%7Cpageimages%7Cpageterms%7Clanglinks&redirects=true&rvprop=content%7Ctimestamp&titles=Paris
@@ -2943,7 +2943,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Dec 2017 22:41:04 GMT
+      - Sun, 03 Dec 2017 13:54:48 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -2951,7 +2951,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1227.eqiad.wmnet
+      - mw1226.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.18.6-dev
       X-Content-Type-Options:
@@ -2968,9 +2968,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=29156 t=1512254464128811
+      - D=25901 t=1512309288314222
       X-Varnish:
-      - 198518616, 422126366, 114638921
+      - 528523024, 556150015, 200304616
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -2978,21 +2978,21 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3041 pass, cp3031 pass
+      - cp1054 pass, cp3041 pass, cp3033 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=106384710; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=02-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        03 Jan 2018 12:00:00 GMT
-      - WMF-Last-Access=02-Dec-2017;Path=/;HttpOnly;secure;Expires=Wed, 03 Jan 2018
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Dec-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        04 Jan 2018 12:00:00 GMT
+      - WMF-Last-Access=03-Dec-2017;Path=/;HttpOnly;secure;Expires=Thu, 04 Jan 2018
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.21.124
+      - 94.179.45.40
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"pages":{"22989":{"pageid":22989,"ns":0,"title":"Paris","categories":[{"ns":14,"title":"Category:Webarchive
@@ -3005,5 +3005,5 @@ http_interactions:
         articles with VIAF identifiers","hidden":""},{"ns":14,"title":"Category:Wikipedia
         pending changes protected pages (level 1)","hidden":""}]}}}}'
     http_version: 
-  recorded_at: Sat, 02 Dec 2017 22:41:04 GMT
+  recorded_at: Sun, 03 Dec 2017 13:54:48 GMT
 recorded_with: VCR 3.0.3

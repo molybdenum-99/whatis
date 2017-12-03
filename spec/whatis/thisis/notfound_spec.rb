@@ -8,11 +8,11 @@ RSpec.describe WhatIs::ThisIs::NotFound, :vcr do
   end
 
   describe '#describe' do
-    its(:describe) { is_expected.to eq "#<ThisIs::NotFound Guardians Of The Galaxy>\n  Usage: .search(limit, **options)" }
+    its(:describe) { is_expected.to eq "Guardians Of The Galaxy: not found\n  Usage: .search(limit, **options)" }
 
     context 'without help' do
       subject { notfound.describe(help: false) }
-      it { is_expected.to eq '#<ThisIs::NotFound Guardians Of The Galaxy>' }
+      it { is_expected.to eq 'Guardians Of The Galaxy: not found' }
     end
   end
 
