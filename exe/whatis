@@ -26,7 +26,7 @@ parser = OptionParser.new do |opts|
     options.categories = true
   end
 
-  opts.on('-f', '--format FORMAT', %w[shot long json], 'Output format: one line per entity ("short"), several lines per entity ("long"), "json". Default is "short"') do |format|
+  opts.on('-f', '--format FORMAT', %w[short long json], 'Output format: one line per entity ("short"), several lines per entity ("long"), "json". Default is "short"') do |format|
     options.format = format
   end
 

@@ -97,9 +97,9 @@ g.variants[1].resolve(categories: true)
 * Provides command-line tool:
 ```
 $ whatis Paris Berlin Rome
-Paris {48.856700,2.350800}: capital city of France
-Berlin {52.516667,13.388889}: capital city of Germany
-Rome {41.900000,12.500000}: capital city of Italy
+Paris: Paris {48.856700,2.350800} - capital city of France
+Berlin: Berlin {52.516667,13.388889} - capital city of Germany
+Rome: Rome {41.900000,12.500000} - capital city of Italy
 
 $ whatis --help
 Usage: `whatis [options] title1, title2, title3
