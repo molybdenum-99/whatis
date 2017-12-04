@@ -9,23 +9,30 @@ class WhatIs
     end
 
     def run
-      __send__("#{@format}_format", @whatis.these(*@titles, **@options).values)
+      __send__("#{@format}_format", @whatis.these(*@titles, **@options))
     end
 
     private
 
     def short_format(objects)
       formatter = Formatter.new
-      objects.map(&formatter.method(:call)).join("\n")
+      objects.map { |title, o| formatter.call(title, o) }.join("\n")
     end
 
     def long_format(objects)
-      objects.map { |o| o.describe(help: false) }.join("\n")
+      objects.flat_map { |title, o|
+        [
+          '',
+          title,
+          '-' * title.length,
+          o.describe(help: false)
+        ]
+      }.join("\n")
     end
 
     def json_format(objects)
       require 'json'
-      JSON.pretty_generate(objects.map(&:to_h))
+      JSON.pretty_generate(objects)
     end
   end
 end

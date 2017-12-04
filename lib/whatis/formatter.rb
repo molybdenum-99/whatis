@@ -3,15 +3,17 @@ class WhatIs
 
   # @private
   class Formatter
-    def call(object)
-      case object
-      when ThisIs
-        format_thisis(object)
-      when ThisIs::Ambigous
-        format_ambigous(object)
-      when ThisIs::NotFound
-        format_notfound(object)
-      end
+    def call(title, object)
+      str =
+        case object
+        when ThisIs
+          format_thisis(object)
+        when ThisIs::Ambigous
+          format_ambigous(object)
+        when ThisIs::NotFound
+          format_notfound(object)
+        end
+      "#{title}: #{str}"
     end
 
     private
@@ -20,7 +22,7 @@ class WhatIs
       [
         object.title,
         object.coordinates&.to_s&.surround(' {', '}'),
-        ': ',
+        ' - ',
         short_description(object)
       ].join
     end
@@ -39,11 +41,11 @@ class WhatIs
     end
 
     def format_ambigous(object)
-      "#{object.title}, #{object.variants.count} options: #{object.variants.join('; ')}"
+      "#{object.title}, #{object.variants.count} options - #{object.variants.join('; ')}"
     end
 
-    def format_notfound(object)
-      "#{object.title}: not found"
+    def format_notfound(*)
+      'not found'
     end
   end
 end
