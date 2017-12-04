@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.3.0'
 
-  #s.add_dependency 'infoboxer' # TODO!
+  s.add_dependency 'infoboxer', '= 0.3.1'
   s.add_dependency 'geo_coord'
   s.add_dependency 'backports'
 
