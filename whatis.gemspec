@@ -3,10 +3,13 @@ Gem::Specification.new do |s|
   s.version  = '0.0.1'
   s.authors  = ['Victor Shepelev']
   s.email    = 'zverok.offline@gmail.com'
-  s.homepage = 'https://github.com/molybdenum-99/wtfer'
+  s.homepage = 'https://github.com/molybdenum-99/whatis'
 
   s.summary = 'WhatIs.this: Small entity resolver through Wikipedia'
   s.description = <<-EOF
+    WhatIs.this fetches any entity metadata from Wikipedia by title and renders it concisely and
+    informatively. Think `WhatIs.these(list, of, user, entered, toponyms).map(&:coordinates)` for
+    example.
   EOF
   s.licenses = ['MIT']
 
